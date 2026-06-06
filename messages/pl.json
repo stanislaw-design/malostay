@@ -1,0 +1,72 @@
+{
+  "property": {
+    "checkIn": "Zameldowanie",
+    "checkOut": "Wymeldowanie",
+    "maxGuests": "Maks. gości",
+    "minNights": "Min. noc",
+    "minNightsValue": "{count} {count, plural, one {noc} few {noce} other {nocy}}",
+    "priceFrom": "od {price} zł / noc"
+  },
+  "booking": {
+    "title": "Rezerwacja",
+    "selectDates": "Wybierz daty pobytu",
+    "nights": "{count} {count, plural, one {noc} few {noce} other {nocy}}",
+    "totalPrice": "Łączna cena",
+    "depositAmount": "Zadatek ({percent}%)",
+    "fullPayment": "Pełna płatność",
+    "continue": "Dalej",
+    "back": "Wstecz",
+    "minNightsHint": "Minimalny pobyt: {min} {min, plural, one {noc} few {noce} other {nocy}}",
+    "selectCheckIn": "Wybierz datę przyjazdu",
+    "selectCheckOut": "Wybierz datę wyjazdu",
+    "priceBreakdown": "Szczegóły ceny",
+    "nightPrice": "{date}: {price} zł",
+    "summary": "Podsumowanie",
+    "checkInLabel": "Przyjazd",
+    "checkOutLabel": "Wyjazd",
+    "nightsLabel": "Liczba nocy",
+    "toPay": "Do zapłaty"
+  },
+  "guest": {
+    "formTitle": "Dane gościa",
+    "name": "Imię i nazwisko",
+    "namePlaceholder": "Jan Kowalski",
+    "email": "Adres e-mail",
+    "emailPlaceholder": "jan@example.com",
+    "phone": "Telefon",
+    "phonePlaceholder": "+48 123 456 789",
+    "guestCount": "Liczba gości",
+    "notes": "Uwagi (opcjonalnie)",
+    "notesPlaceholder": "Dodatkowe informacje dla właściciela",
+    "submitLabel": "Przejdź do płatności",
+    "nameError": "Imię i nazwisko jest wymagane (min. 2 znaki)",
+    "emailError": "Podaj prawidłowy adres e-mail",
+    "phoneError": "Numer telefonu jest wymagany (min. 9 cyfr)",
+    "guestCountError": "Liczba gości musi być między 1 a {max}"
+  },
+  "payment": {
+    "title": "Płatność",
+    "submitLabel": "Zapłać {amount} zł",
+    "secureInfo": "Płatność obsługiwana przez Stripe. Twoje dane są bezpieczne.",
+    "processing": "Przetwarzanie...",
+    "error": "Błąd płatności",
+    "depositInfo": "Teraz płacisz zadatek ({percent}% = {amount} zł). Resztę ({rest} zł) ureglujesz na miejscu.",
+    "fullPaymentInfo": "Opłacasz pełną kwotę pobytu."
+  },
+  "confirmation": {
+    "title": "Rezerwacja potwierdzona!",
+    "subtitle": "Dziękujemy za rezerwację. Na podany adres e-mail wysłaliśmy potwierdzenie.",
+    "reservationId": "Numer rezerwacji",
+    "checkIn": "Przyjazd",
+    "checkOut": "Wyjazd",
+    "nights": "Liczba nocy",
+    "paid": "Zapłacono",
+    "backToHome": "Powrót do strony domku"
+  },
+  "errors": {
+    "unavailable": "Wybrane daty są już zajęte. Proszę wybrać inne terminy.",
+    "invalidDates": "Nieprawidłowe daty rezerwacji.",
+    "paymentFailed": "Płatność nie powiodła się. Spróbuj ponownie.",
+    "generic": "Wystąpił błąd. Spróbuj ponownie."
+  }
+}

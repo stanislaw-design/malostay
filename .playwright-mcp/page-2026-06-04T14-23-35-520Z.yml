@@ -1,0 +1,190 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: Podgląd testowy — dane mockowe
+      - generic [ref=e5]:
+        - heading "Domek Łąckorońska" [level=1] [ref=e6]
+        - paragraph [ref=e7]: Maks. 6 osób · check-in 15:00 · check-out 11:00 · min. 2 noce
+        - paragraph [ref=e8]: od 350 zł / noc
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - heading "Wybierz termin" [level=2] [ref=e11]
+          - generic [ref=e203]:
+            - navigation "Navigation bar" [ref=e204]:
+              - button "Go to the Previous Month" [disabled] [ref=e205]:
+                - img [ref=e206]
+              - button "Go to the Next Month" [ref=e208] [cursor=pointer]:
+                - img [ref=e209]
+            - generic [ref=e211]:
+              - status [ref=e213]: czerwiec 2026
+              - grid "czerwiec 2026" [ref=e214]:
+                - rowgroup [ref=e215]:
+                  - row [ref=e216]:
+                    - columnheader [ref=e217]: pon
+                    - columnheader [ref=e218]: wto
+                    - columnheader [ref=e219]: śro
+                    - columnheader [ref=e220]: czw
+                    - columnheader [ref=e221]: pią
+                    - columnheader [ref=e222]: sob
+                    - columnheader [ref=e223]: nie
+                - rowgroup [ref=e224]:
+                  - row "poniedziałek, 1 czerwca 2026 wtorek, 2 czerwca 2026 środa, 3 czerwca 2026 Today, czwartek, 4 czerwca 2026 piątek, 5 czerwca 2026 sobota, 6 czerwca 2026 niedziela, 7 czerwca 2026" [ref=e225]:
+                    - gridcell "poniedziałek, 1 czerwca 2026" [ref=e226]:
+                      - button "poniedziałek, 1 czerwca 2026" [disabled] [ref=e227]: "1"
+                    - gridcell "wtorek, 2 czerwca 2026" [ref=e228]:
+                      - button "wtorek, 2 czerwca 2026" [disabled] [ref=e229]: "2"
+                    - gridcell "środa, 3 czerwca 2026" [ref=e230]:
+                      - button "środa, 3 czerwca 2026" [disabled] [ref=e231]: "3"
+                    - gridcell "Today, czwartek, 4 czerwca 2026" [ref=e232]:
+                      - button "Today, czwartek, 4 czerwca 2026" [ref=e233] [cursor=pointer]: "4"
+                    - gridcell "piątek, 5 czerwca 2026" [ref=e234]:
+                      - button "piątek, 5 czerwca 2026" [ref=e235] [cursor=pointer]: "5"
+                    - gridcell "sobota, 6 czerwca 2026" [ref=e236]:
+                      - button "sobota, 6 czerwca 2026" [ref=e237] [cursor=pointer]: "6"
+                    - gridcell "niedziela, 7 czerwca 2026" [ref=e238]:
+                      - button "niedziela, 7 czerwca 2026" [ref=e239] [cursor=pointer]: "7"
+                  - row "poniedziałek, 8 czerwca 2026 wtorek, 9 czerwca 2026 środa, 10 czerwca 2026 czwartek, 11 czerwca 2026 piątek, 12 czerwca 2026 sobota, 13 czerwca 2026 niedziela, 14 czerwca 2026" [ref=e240]:
+                    - gridcell "poniedziałek, 8 czerwca 2026" [ref=e241]:
+                      - button "poniedziałek, 8 czerwca 2026" [ref=e242] [cursor=pointer]: "8"
+                    - gridcell "wtorek, 9 czerwca 2026" [ref=e243]:
+                      - button "wtorek, 9 czerwca 2026" [ref=e244] [cursor=pointer]: "9"
+                    - gridcell "środa, 10 czerwca 2026" [ref=e245]:
+                      - button "środa, 10 czerwca 2026" [disabled] [ref=e246]: "10"
+                    - gridcell "czwartek, 11 czerwca 2026" [ref=e247]:
+                      - button "czwartek, 11 czerwca 2026" [disabled] [ref=e248]: "11"
+                    - gridcell "piątek, 12 czerwca 2026" [ref=e249]:
+                      - button "piątek, 12 czerwca 2026" [disabled] [ref=e250]: "12"
+                    - gridcell "sobota, 13 czerwca 2026" [ref=e251]:
+                      - button "sobota, 13 czerwca 2026" [disabled] [ref=e252]: "13"
+                    - gridcell "niedziela, 14 czerwca 2026" [ref=e253]:
+                      - button "niedziela, 14 czerwca 2026" [disabled] [ref=e254]: "14"
+                  - row "poniedziałek, 15 czerwca 2026 wtorek, 16 czerwca 2026 środa, 17 czerwca 2026 czwartek, 18 czerwca 2026 piątek, 19 czerwca 2026 sobota, 20 czerwca 2026 niedziela, 21 czerwca 2026" [ref=e255]:
+                    - gridcell "poniedziałek, 15 czerwca 2026" [ref=e256]:
+                      - button "poniedziałek, 15 czerwca 2026" [disabled] [ref=e257]: "15"
+                    - gridcell "wtorek, 16 czerwca 2026" [ref=e258]:
+                      - button "wtorek, 16 czerwca 2026" [ref=e259] [cursor=pointer]: "16"
+                    - gridcell "środa, 17 czerwca 2026" [ref=e260]:
+                      - button "środa, 17 czerwca 2026" [ref=e261] [cursor=pointer]: "17"
+                    - gridcell "czwartek, 18 czerwca 2026" [ref=e262]:
+                      - button "czwartek, 18 czerwca 2026" [ref=e263] [cursor=pointer]: "18"
+                    - gridcell "piątek, 19 czerwca 2026" [ref=e264]:
+                      - button "piątek, 19 czerwca 2026" [ref=e265] [cursor=pointer]: "19"
+                    - gridcell "sobota, 20 czerwca 2026" [ref=e266]:
+                      - button "sobota, 20 czerwca 2026" [ref=e267] [cursor=pointer]: "20"
+                    - gridcell "niedziela, 21 czerwca 2026" [ref=e268]:
+                      - button "niedziela, 21 czerwca 2026" [ref=e269] [cursor=pointer]: "21"
+                  - row "poniedziałek, 22 czerwca 2026 wtorek, 23 czerwca 2026 środa, 24 czerwca 2026 czwartek, 25 czerwca 2026 piątek, 26 czerwca 2026 sobota, 27 czerwca 2026 niedziela, 28 czerwca 2026" [ref=e270]:
+                    - gridcell "poniedziałek, 22 czerwca 2026" [ref=e271]:
+                      - button "poniedziałek, 22 czerwca 2026" [disabled] [ref=e272]: "22"
+                    - gridcell "wtorek, 23 czerwca 2026" [ref=e273]:
+                      - button "wtorek, 23 czerwca 2026" [disabled] [ref=e274]: "23"
+                    - gridcell "środa, 24 czerwca 2026" [ref=e275]:
+                      - button "środa, 24 czerwca 2026" [disabled] [ref=e276]: "24"
+                    - gridcell "czwartek, 25 czerwca 2026" [ref=e277]:
+                      - button "czwartek, 25 czerwca 2026" [disabled] [ref=e278]: "25"
+                    - gridcell "piątek, 26 czerwca 2026" [ref=e279]:
+                      - button "piątek, 26 czerwca 2026" [disabled] [ref=e280]: "26"
+                    - gridcell "sobota, 27 czerwca 2026" [ref=e281]:
+                      - button "sobota, 27 czerwca 2026" [disabled] [ref=e282]: "27"
+                    - gridcell "niedziela, 28 czerwca 2026" [ref=e283]:
+                      - button "niedziela, 28 czerwca 2026" [disabled] [ref=e284]: "28"
+                  - row "poniedziałek, 29 czerwca 2026 wtorek, 30 czerwca 2026" [ref=e285]:
+                    - gridcell "poniedziałek, 29 czerwca 2026" [ref=e286]:
+                      - button "poniedziałek, 29 czerwca 2026" [ref=e287] [cursor=pointer]: "29"
+                    - gridcell "wtorek, 30 czerwca 2026" [ref=e288]:
+                      - button "wtorek, 30 czerwca 2026" [ref=e289] [cursor=pointer]: "30"
+            - generic [ref=e290]:
+              - status [ref=e292]: lipiec 2026
+              - grid "lipiec 2026" [ref=e293]:
+                - rowgroup [ref=e294]:
+                  - row [ref=e295]:
+                    - columnheader [ref=e296]: pon
+                    - columnheader [ref=e297]: wto
+                    - columnheader [ref=e298]: śro
+                    - columnheader [ref=e299]: czw
+                    - columnheader [ref=e300]: pią
+                    - columnheader [ref=e301]: sob
+                    - columnheader [ref=e302]: nie
+                - rowgroup [ref=e303]:
+                  - row "środa, 1 lipca 2026 czwartek, 2 lipca 2026 piątek, 3 lipca 2026 sobota, 4 lipca 2026 niedziela, 5 lipca 2026" [ref=e304]:
+                    - gridcell "środa, 1 lipca 2026" [ref=e305]:
+                      - button "środa, 1 lipca 2026" [ref=e306] [cursor=pointer]: "1"
+                    - gridcell "czwartek, 2 lipca 2026" [ref=e307]:
+                      - button "czwartek, 2 lipca 2026" [ref=e308] [cursor=pointer]: "2"
+                    - gridcell "piątek, 3 lipca 2026" [ref=e309]:
+                      - button "piątek, 3 lipca 2026" [ref=e310] [cursor=pointer]: "3"
+                    - gridcell "sobota, 4 lipca 2026" [ref=e311]:
+                      - button "sobota, 4 lipca 2026" [ref=e312] [cursor=pointer]: "4"
+                    - gridcell "niedziela, 5 lipca 2026" [ref=e313]:
+                      - button "niedziela, 5 lipca 2026" [disabled] [ref=e314]: "5"
+                  - row "poniedziałek, 6 lipca 2026 wtorek, 7 lipca 2026 środa, 8 lipca 2026 czwartek, 9 lipca 2026 piątek, 10 lipca 2026 sobota, 11 lipca 2026 niedziela, 12 lipca 2026" [ref=e315]:
+                    - gridcell "poniedziałek, 6 lipca 2026" [ref=e316]:
+                      - button "poniedziałek, 6 lipca 2026" [disabled] [ref=e317]: "6"
+                    - gridcell "wtorek, 7 lipca 2026" [ref=e318]:
+                      - button "wtorek, 7 lipca 2026" [disabled] [ref=e319]: "7"
+                    - gridcell "środa, 8 lipca 2026" [ref=e320]:
+                      - button "środa, 8 lipca 2026" [disabled] [ref=e321]: "8"
+                    - gridcell "czwartek, 9 lipca 2026" [ref=e322]:
+                      - button "czwartek, 9 lipca 2026" [disabled] [ref=e323]: "9"
+                    - gridcell "piątek, 10 lipca 2026" [ref=e324]:
+                      - button "piątek, 10 lipca 2026" [disabled] [ref=e325]: "10"
+                    - gridcell "sobota, 11 lipca 2026" [ref=e326]:
+                      - button "sobota, 11 lipca 2026" [disabled] [ref=e327]: "11"
+                    - gridcell "niedziela, 12 lipca 2026" [ref=e328]:
+                      - button "niedziela, 12 lipca 2026" [disabled] [ref=e329]: "12"
+                  - row "poniedziałek, 13 lipca 2026 wtorek, 14 lipca 2026 środa, 15 lipca 2026 czwartek, 16 lipca 2026 piątek, 17 lipca 2026 sobota, 18 lipca 2026 niedziela, 19 lipca 2026" [ref=e330]:
+                    - gridcell "poniedziałek, 13 lipca 2026" [ref=e331]:
+                      - button "poniedziałek, 13 lipca 2026" [ref=e332] [cursor=pointer]: "13"
+                    - gridcell "wtorek, 14 lipca 2026" [ref=e333]:
+                      - button "wtorek, 14 lipca 2026" [ref=e334] [cursor=pointer]: "14"
+                    - gridcell "środa, 15 lipca 2026" [ref=e335]:
+                      - button "środa, 15 lipca 2026" [ref=e336] [cursor=pointer]: "15"
+                    - gridcell "czwartek, 16 lipca 2026" [ref=e337]:
+                      - button "czwartek, 16 lipca 2026" [ref=e338] [cursor=pointer]: "16"
+                    - gridcell "piątek, 17 lipca 2026" [ref=e339]:
+                      - button "piątek, 17 lipca 2026" [ref=e340] [cursor=pointer]: "17"
+                    - gridcell "sobota, 18 lipca 2026" [ref=e341]:
+                      - button "sobota, 18 lipca 2026" [disabled] [ref=e342]: "18"
+                    - gridcell "niedziela, 19 lipca 2026" [ref=e343]:
+                      - button "niedziela, 19 lipca 2026" [disabled] [ref=e344]: "19"
+                  - row "poniedziałek, 20 lipca 2026 wtorek, 21 lipca 2026 środa, 22 lipca 2026 czwartek, 23 lipca 2026 piątek, 24 lipca 2026 sobota, 25 lipca 2026 niedziela, 26 lipca 2026" [ref=e345]:
+                    - gridcell "poniedziałek, 20 lipca 2026" [ref=e346]:
+                      - button "poniedziałek, 20 lipca 2026" [disabled] [ref=e347]: "20"
+                    - gridcell "wtorek, 21 lipca 2026" [ref=e348]:
+                      - button "wtorek, 21 lipca 2026" [disabled] [ref=e349]: "21"
+                    - gridcell "środa, 22 lipca 2026" [ref=e350]:
+                      - button "środa, 22 lipca 2026" [disabled] [ref=e351]: "22"
+                    - gridcell "czwartek, 23 lipca 2026" [ref=e352]:
+                      - button "czwartek, 23 lipca 2026" [disabled] [ref=e353]: "23"
+                    - gridcell "piątek, 24 lipca 2026" [ref=e354]:
+                      - button "piątek, 24 lipca 2026" [disabled] [ref=e355]: "24"
+                    - gridcell "sobota, 25 lipca 2026" [ref=e356]:
+                      - button "sobota, 25 lipca 2026" [disabled] [ref=e357]: "25"
+                    - gridcell "niedziela, 26 lipca 2026" [ref=e358]:
+                      - button "niedziela, 26 lipca 2026" [ref=e359] [cursor=pointer]: "26"
+                  - row "poniedziałek, 27 lipca 2026 wtorek, 28 lipca 2026 środa, 29 lipca 2026 czwartek, 30 lipca 2026 piątek, 31 lipca 2026" [ref=e360]:
+                    - gridcell "poniedziałek, 27 lipca 2026" [ref=e361]:
+                      - button "poniedziałek, 27 lipca 2026" [ref=e362] [cursor=pointer]: "27"
+                    - gridcell "wtorek, 28 lipca 2026" [ref=e363]:
+                      - button "wtorek, 28 lipca 2026" [ref=e364] [cursor=pointer]: "28"
+                    - gridcell "środa, 29 lipca 2026" [ref=e365]:
+                      - button "środa, 29 lipca 2026" [ref=e366] [cursor=pointer]: "29"
+                    - gridcell "czwartek, 30 lipca 2026" [ref=e367]:
+                      - button "czwartek, 30 lipca 2026" [ref=e368] [cursor=pointer]: "30"
+                    - gridcell "piątek, 31 lipca 2026" [ref=e369]:
+                      - button "piątek, 31 lipca 2026" [ref=e370] [cursor=pointer]: "31"
+        - generic [ref=e182]:
+          - generic [ref=e183]: Wybierz daty w kalendarzu, aby zobaczyć podsumowanie i cenę
+          - generic [ref=e184]:
+            - paragraph [ref=e185]: Reguły cenowe (mock)
+            - generic [ref=e186]:
+              - generic [ref=e187]:
+                - text: Sezon letni
+                - generic [ref=e188]: (2026-06-01 – 2026-08-31)
+              - generic [ref=e189]: 450 zł/noc
+            - generic [ref=e190]:
+              - generic [ref=e191]: Cena bazowa
+              - generic [ref=e192]: 350 zł/noc
+  - button "Open Next.js Dev Tools" [ref=e198] [cursor=pointer]:
+    - img [ref=e199]
+  - alert [ref=e371]

@@ -1,0 +1,72 @@
+{
+  "property": {
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "maxGuests": "Max guests",
+    "minNights": "Min nights",
+    "minNightsValue": "{count} {count, plural, one {night} other {nights}}",
+    "priceFrom": "from {price} PLN / night"
+  },
+  "booking": {
+    "title": "Booking",
+    "selectDates": "Select your stay dates",
+    "nights": "{count} {count, plural, one {night} other {nights}}",
+    "totalPrice": "Total price",
+    "depositAmount": "Deposit ({percent}%)",
+    "fullPayment": "Full payment",
+    "continue": "Continue",
+    "back": "Back",
+    "minNightsHint": "Minimum stay: {min} {min, plural, one {night} other {nights}}",
+    "selectCheckIn": "Select arrival date",
+    "selectCheckOut": "Select departure date",
+    "priceBreakdown": "Price breakdown",
+    "nightPrice": "{date}: {price} PLN",
+    "summary": "Summary",
+    "checkInLabel": "Check-in",
+    "checkOutLabel": "Check-out",
+    "nightsLabel": "Nights",
+    "toPay": "To pay"
+  },
+  "guest": {
+    "formTitle": "Guest details",
+    "name": "Full name",
+    "namePlaceholder": "John Smith",
+    "email": "Email address",
+    "emailPlaceholder": "john@example.com",
+    "phone": "Phone number",
+    "phonePlaceholder": "+48 123 456 789",
+    "guestCount": "Number of guests",
+    "notes": "Notes (optional)",
+    "notesPlaceholder": "Additional information for the host",
+    "submitLabel": "Proceed to payment",
+    "nameError": "Full name is required (min. 2 characters)",
+    "emailError": "Please enter a valid email address",
+    "phoneError": "Phone number is required (min. 9 digits)",
+    "guestCountError": "Number of guests must be between 1 and {max}"
+  },
+  "payment": {
+    "title": "Payment",
+    "submitLabel": "Pay {amount} PLN",
+    "secureInfo": "Payments powered by Stripe. Your data is secure.",
+    "processing": "Processing...",
+    "error": "Payment error",
+    "depositInfo": "You are paying a deposit ({percent}% = {amount} PLN). The remainder ({rest} PLN) is due on arrival.",
+    "fullPaymentInfo": "You are paying the full amount for your stay."
+  },
+  "confirmation": {
+    "title": "Booking confirmed!",
+    "subtitle": "Thank you for your booking. A confirmation has been sent to your email address.",
+    "reservationId": "Booking reference",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "nights": "Nights",
+    "paid": "Amount paid",
+    "backToHome": "Back to property page"
+  },
+  "errors": {
+    "unavailable": "The selected dates are no longer available. Please choose different dates.",
+    "invalidDates": "Invalid booking dates.",
+    "paymentFailed": "Payment failed. Please try again.",
+    "generic": "An error occurred. Please try again."
+  }
+}

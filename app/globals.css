@@ -24,3 +24,86 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Base: all clickable day buttons are green */
+.rdp-booking .rdp-day_button {
+  background-color: #22c55e !important;
+  color: #fff !important;
+}
+
+/* Disabled (past/unavailable) — transparent, inherit color */
+.rdp-booking .rdp-disabled .rdp-day_button {
+  background-color: transparent !important;
+  color: unset !important;
+}
+
+/* Fully booked day — solid red, reset disabled opacity on the td */
+.rdp-booking .day-booked {
+  opacity: 1 !important;
+  position: relative;
+}
+.rdp-booking .day-booked::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: #ef4444;
+}
+.rdp-booking .day-booked .rdp-day_button {
+  background: transparent !important;
+  color: #fff !important;
+  position: relative;
+  cursor: not-allowed !important;
+}
+
+/* Check-in: green left half, red right half — gradient on td pseudo-element to avoid gaps */
+.rdp-booking .day-check-in:not(.rdp-range_start):not(.rdp-range_end):not(.rdp-range_middle) {
+  position: relative;
+}
+.rdp-booking .day-check-in:not(.rdp-range_start):not(.rdp-range_end):not(.rdp-range_middle)::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: linear-gradient(to right, #22c55e 50%, #ef4444 50%);
+}
+.rdp-booking .day-check-in:not(.rdp-range_start):not(.rdp-range_end):not(.rdp-range_middle) .rdp-day_button {
+  background: transparent !important;
+  color: #fff !important;
+  position: relative;
+}
+
+/* Check-out: red left half, green right half */
+.rdp-booking .day-check-out:not(.rdp-range_start):not(.rdp-range_end):not(.rdp-range_middle) {
+  position: relative;
+}
+.rdp-booking .day-check-out:not(.rdp-range_start):not(.rdp-range_end):not(.rdp-range_middle)::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: linear-gradient(to left, #22c55e 50%, #ef4444 50%);
+}
+.rdp-booking .day-check-out:not(.rdp-range_start):not(.rdp-range_end):not(.rdp-range_middle) .rdp-day_button {
+  background: transparent !important;
+  color: #fff !important;
+  position: relative;
+}
+
+/* Turnaround day: check-out + check-in on the same day — fully occupied, solid red */
+.rdp-booking .day-check-in.day-check-out:not(.rdp-range_start):not(.rdp-range_end):not(.rdp-range_middle)::before {
+  background: #ef4444;
+}
+
+/* Selected range start/end — keep library's accent blue */
+.rdp-booking .rdp-range_start .rdp-day_button,
+.rdp-booking .rdp-range_end .rdp-day_button {
+  background-color: var(--rdp-accent-color) !important;
+  color: #fff !important;
+}
+
+/* Selected range middle — transparent button, td carries the background */
+.rdp-booking .rdp-range_middle .rdp-day_button {
+  background-color: transparent !important;
+  color: inherit !important;
+}
