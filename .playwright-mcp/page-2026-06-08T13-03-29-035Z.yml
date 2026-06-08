@@ -1,0 +1,543 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Malo Stay" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Malo Stay" [ref=e5]
+      - navigation [ref=e6]:
+        - link "Domki" [ref=e8] [cursor=pointer]:
+          - /url: "#domki"
+          - text: Domki
+          - img [ref=e9]
+        - link "Galeria" [ref=e11] [cursor=pointer]:
+          - /url: "#galeria"
+        - link "Kontakt" [ref=e12] [cursor=pointer]:
+          - /url: "#kontakt"
+        - link "Zarezerwuj" [ref=e13] [cursor=pointer]:
+          - /url: "#rezerwacja"
+          - text: Zarezerwuj
+  - main [ref=e15]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - paragraph [ref=e23]: Dolina Dunajca · Małopolska
+        - heading "Twoja dolina. Twoje tempo." [level=1] [ref=e24]:
+          - generic [ref=e25]: Twoja
+          - generic [ref=e26]: dolina.
+          - emphasis [ref=e27]:
+            - generic [ref=e28]: Twoje
+            - generic [ref=e29]: tempo.
+        - paragraph [ref=e30]: Pięć domków nad Doliną Dunajca — każdy z charakterem, każdy z widokiem.
+        - link "Poznaj domki ↓" [ref=e32] [cursor=pointer]:
+          - /url: "#domki"
+          - generic [ref=e34]: Poznaj domki ↓
+      - generic [ref=e36]:
+        - paragraph [ref=e37]: Zarezerwuj pobyt
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - generic [ref=e40]: Przyjazd
+            - textbox [ref=e41]
+          - generic [ref=e42]:
+            - generic [ref=e43]: Wyjazd
+            - textbox [ref=e44]
+        - generic [ref=e45]:
+          - generic [ref=e46]: Goście
+          - generic [ref=e47]:
+            - button "Mniej gości" [ref=e48]: −
+            - generic [ref=e49]: "2"
+            - button "Więcej gości" [ref=e50]: +
+        - generic [ref=e51]:
+          - generic [ref=e52]: Domek(opcjonalnie)
+          - generic [ref=e53]:
+            - combobox [ref=e54] [cursor=pointer]:
+              - option "Dowolny domek" [selected]
+              - option "Domek nad Doliną Dunajca"
+              - option "Drewniany Domek nad Doliną"
+              - option "Dom na Borówkowym Wzgórzu"
+            - generic: ▾
+        - button "Sprawdź dostępność" [ref=e55] [cursor=pointer]: Sprawdź dostępność
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - img [ref=e60]
+        - generic [ref=e63]: 5 domków
+      - generic [ref=e64]:
+        - img [ref=e65]
+        - generic [ref=e70]: do 8 osób
+      - generic [ref=e71]:
+        - img [ref=e72]
+        - generic [ref=e76]: Dolina Dunajca
+      - generic [ref=e77]:
+        - img [ref=e78]
+        - generic [ref=e81]: Sauna & Jacuzzi
+      - generic [ref=e82]:
+        - img [ref=e83]
+        - generic [ref=e87]: Bezpłatny parking
+      - generic [ref=e88]:
+        - img [ref=e89]
+        - generic [ref=e91]: 9.8 · 274 opinii
+    - generic [ref=e92]:
+      - generic [ref=e93]:
+        - heading "Nasze domki" [level=2] [ref=e94]
+        - paragraph [ref=e95]: Każdy z charakterem. Każdy z widokiem.
+      - generic [ref=e97]:
+        - generic [ref=e99]:
+          - paragraph [ref=e100]: 70 m² · 6 os. · 1 sypialnia
+          - heading "Domek nad Doliną Dunajca" [level=3] [ref=e101]
+          - paragraph [ref=e102]: Panoramiczne okna wychodzą prosto na dolinę. Budzisz się z kawą i widokiem na rzekę, wieczorem — jacuzzi i cisza przerywana wiatrem.
+          - list [ref=e103]:
+            - listitem [ref=e104]:
+              - img [ref=e105]
+              - text: Sauna & Jacuzzi
+            - listitem [ref=e107]:
+              - img [ref=e108]
+              - text: Balkon z widokiem na rzekę
+            - listitem [ref=e110]:
+              - img [ref=e111]
+              - text: Prywatny taras
+          - paragraph [ref=e113]:
+            - img [ref=e114]
+            - text: Dolina Dunajca, Małopolska
+          - generic [ref=e116]:
+            - link "Sprawdź termin" [ref=e117] [cursor=pointer]:
+              - /url: /pl/domki/domek-nad-dolina
+              - text: Sprawdź termin
+              - img [ref=e118]
+            - generic [ref=e120]:
+              - generic [ref=e121]: Booking.com
+              - generic [ref=e122]:
+                - text: "9.8"
+                - generic [ref=e123]: · 129 opinii
+        - generic [ref=e132]:
+          - img "Domek nad Doliną Dunajca" [ref=e133]
+          - img "Drewniany Domek nad Doliną Dunajca" [ref=e134]
+          - img "Dom w Zawadzie Lanckorońskiej" [ref=e135]
+          - img "Dom w Zawadzie Lanckorońskiej" [ref=e136]
+          - img "Dom na Borówkowym Wzgórzu" [ref=e137]
+    - generic [ref=e139]:
+      - generic:
+        - paragraph: Wspomnienia gości
+        - heading "Wspomnienie które zostaje" [level=2]:
+          - text: Wspomnienie
+          - text: które zostaje
+      - img "Domek nad Doliną Dunajca nocą" [ref=e141]
+      - img "Jacuzzi o zachodzie słońca nad doliną" [ref=e143]
+      - generic [ref=e146]:
+        - generic [ref=e147]: “
+        - paragraph [ref=e148]: Dokładnie tego potrzebowaliśmy.
+        - paragraph [ref=e149]: Marta W. · Kraków
+      - generic [ref=e152]:
+        - generic [ref=e153]: “
+        - paragraph [ref=e154]: Cisza była najlepszą częścią wyjazdu.
+        - paragraph [ref=e155]: Tomek i Ola · Wrocław
+      - generic [ref=e158]:
+        - generic [ref=e159]: “
+        - paragraph [ref=e160]: Tu czas płynął zupełnie inaczej.
+        - paragraph [ref=e161]: Marek R. · Warszawa
+      - generic [ref=e164]:
+        - generic [ref=e165]: “
+        - paragraph [ref=e166]: Obudzić się z tym widokiem — bezcenne.
+        - paragraph [ref=e167]: Rodzina Nowak · Gdańsk
+    - generic [ref=e169]:
+      - paragraph [ref=e170]: Opinie gości
+      - blockquote [ref=e171]:
+        - generic [ref=e172]:
+          - generic [ref=e173]: ★
+          - generic [ref=e174]: ★
+          - generic [ref=e175]: ★
+          - generic [ref=e176]: ★
+          - generic [ref=e177]: ★
+        - paragraph [ref=e178]: “Magiczne miejsce. Widok z okna salonu sprawia, że nie chce się wychodzić. Wrócimy na pewno — może już zimą.”
+        - paragraph [ref=e181]: Katarzyna M. · Kraków · Booking.com ✓
+      - generic [ref=e182]:
+        - generic [ref=e183]:
+          - generic [ref=e184]:
+            - generic [ref=e185]: ★
+            - generic [ref=e186]: ★
+            - generic [ref=e187]: ★
+            - generic [ref=e188]: ★
+            - generic [ref=e189]: ★
+          - paragraph [ref=e190]: “Domek w 100% taki jak na zdjęciach — czysty, dobrze wyposażony, z cudownym widokiem. Idealny reset po intensywnym roku.”
+          - paragraph [ref=e191]: Paweł i Ania · Warszawa · grudzień 2025 · Booking.com ✓
+        - generic [ref=e192]:
+          - generic [ref=e193]:
+            - generic [ref=e194]: ★
+            - generic [ref=e195]: ★
+            - generic [ref=e196]: ★
+            - generic [ref=e197]: ★
+            - generic [ref=e198]: ★
+          - paragraph [ref=e199]: “Przyjechaliśmy z całą rodziną — 6 osób, wszyscy zachwyceni. Dzieci bawiły się na tarasie, my odpoczywaliśmy. Nic więcej nie potrzeba.”
+          - paragraph [ref=e200]: Rodzina Kowalskich · Wrocław · sierpień 2025 · Booking.com ✓
+      - paragraph [ref=e201]:
+        - text: Średnia ocena
+        - strong [ref=e202]: 4.9 / 5
+        - text: na podstawie 47 opinii
+    - generic [ref=e203]:
+      - generic [ref=e204]:
+        - paragraph [ref=e205]: Zajrzyj do środka
+        - heading "Galeria." [level=2] [ref=e206]
+        - paragraph [ref=e207]: Cztery domki, jeden rytm doliny — poranne światło na ścianach, wieczorne cienie na tarasach, detale, które zostają w pamięci dłużej niż sam pobyt.
+      - generic [ref=e208]:
+        - generic [ref=e209]:
+          - generic [ref=e210]:
+            - generic [ref=e211]:
+              - paragraph [ref=e212]: Domek
+              - heading "Domek nad Doliną Dunajca" [level=3] [ref=e213]
+            - link "Zobacz domek" [ref=e214] [cursor=pointer]:
+              - /url: /pl/domki/domek-nad-dolina
+              - text: Zobacz domek
+              - img [ref=e215]
+          - generic [ref=e217]:
+            - 'button "Otwórz zdjęcie: Panorama Doliny Dunajca z tarasu" [ref=e218]':
+              - img "Panorama Doliny Dunajca z tarasu" [ref=e219]
+            - 'button "Otwórz zdjęcie: Jacuzzi o zachodzie słońca" [ref=e220]':
+              - img "Jacuzzi o zachodzie słońca" [ref=e221]
+            - 'button "Otwórz zdjęcie: Salon w świetle dnia" [ref=e222]':
+              - img "Salon w świetle dnia" [ref=e223]
+            - 'button "Otwórz zdjęcie: Jadalnia z widokiem na dolinę" [ref=e224]':
+              - img "Jadalnia z widokiem na dolinę" [ref=e225]
+            - 'button "Otwórz zdjęcie: Sypialnia z widokiem na rzekę" [ref=e226]':
+              - img "Sypialnia z widokiem na rzekę" [ref=e227]
+            - 'button "Otwórz zdjęcie: Taras i jacuzzi w ciągu dnia" [ref=e228]':
+              - img "Taras i jacuzzi w ciągu dnia" [ref=e229]
+            - 'button "Otwórz zdjęcie: Domek z bliska, drewniana elewacja" [ref=e230]':
+              - img "Domek z bliska, drewniana elewacja" [ref=e231]
+            - 'button "Otwórz zdjęcie: Domek oświetlony nocą" [ref=e232]':
+              - img "Domek oświetlony nocą" [ref=e233]
+            - 'button "Otwórz zdjęcie: Jacuzzi tuż przy domku" [ref=e234]':
+              - img "Jacuzzi tuż przy domku" [ref=e235]
+            - 'button "Otwórz zdjęcie: Domek na tle wzgórz" [ref=e236]':
+              - img "Domek na tle wzgórz" [ref=e237]
+        - generic [ref=e238]:
+          - generic [ref=e239]:
+            - generic [ref=e240]:
+              - paragraph [ref=e241]: Domek
+              - heading "Drewniany Domek nad Doliną Dunajca" [level=3] [ref=e242]
+            - link "Zobacz domek" [ref=e243] [cursor=pointer]:
+              - /url: /pl/domki/drewniany-domek
+              - text: Zobacz domek
+              - img [ref=e244]
+          - generic [ref=e246]:
+            - 'button "Otwórz zdjęcie: Drewniany domek z zewnątrz" [ref=e247]':
+              - img "Drewniany domek z zewnątrz" [ref=e248]
+            - 'button "Otwórz zdjęcie: Jacuzzi przy drewnianej elewacji" [ref=e249]':
+              - img "Jacuzzi przy drewnianej elewacji" [ref=e250]
+            - 'button "Otwórz zdjęcie: Salon z surowym drewnem i kominkiem" [ref=e251]':
+              - img "Salon z surowym drewnem i kominkiem" [ref=e252]
+            - 'button "Otwórz zdjęcie: Sauna fińska" [ref=e253]':
+              - img "Sauna fińska" [ref=e254]
+            - 'button "Otwórz zdjęcie: Jedna z dwóch sypialni" [ref=e255]':
+              - img "Jedna z dwóch sypialni" [ref=e256]
+            - 'button "Otwórz zdjęcie: Wnętrze sauny" [ref=e257]':
+              - img "Wnętrze sauny" [ref=e258]
+            - 'button "Otwórz zdjęcie: Aneks kuchenny" [ref=e259]':
+              - img "Aneks kuchenny" [ref=e260]
+            - 'button "Otwórz zdjęcie: Domek o zmierzchu" [ref=e261]':
+              - img "Domek o zmierzchu" [ref=e262]
+        - generic [ref=e263]:
+          - generic [ref=e264]:
+            - generic [ref=e265]:
+              - paragraph [ref=e266]: Domek
+              - heading "Dom w Zawadzie Lanckorońskiej" [level=3] [ref=e267]
+            - link "Zobacz domek" [ref=e268] [cursor=pointer]:
+              - /url: /pl/domki/dom-w-zawadzie-a
+              - text: Zobacz domek
+              - img [ref=e269]
+          - generic [ref=e271]:
+            - 'button "Otwórz zdjęcie: Dom w Zawadzie z zewnątrz" [ref=e272]':
+              - img "Dom w Zawadzie z zewnątrz" [ref=e273]
+            - 'button "Otwórz zdjęcie: Sypialnia główna" [ref=e274]':
+              - img "Sypialnia główna" [ref=e275]
+            - 'button "Otwórz zdjęcie: Pełna kuchnia" [ref=e276]':
+              - img "Pełna kuchnia" [ref=e277]
+            - 'button "Otwórz zdjęcie: Jadalnia" [ref=e278]':
+              - img "Jadalnia" [ref=e279]
+            - 'button "Otwórz zdjęcie: Łazienka" [ref=e280]':
+              - img "Łazienka" [ref=e281]
+            - 'button "Otwórz zdjęcie: Druga sypialnia" [ref=e282]':
+              - img "Druga sypialnia" [ref=e283]
+            - 'button "Otwórz zdjęcie: Jadalnia z innej strony" [ref=e284]':
+              - img "Jadalnia z innej strony" [ref=e285]
+            - 'button "Otwórz zdjęcie: Ogród przy domu" [ref=e286]':
+              - img "Ogród przy domu" [ref=e287]
+            - 'button "Otwórz zdjęcie: Główna sypialnia" [ref=e288]':
+              - img "Główna sypialnia" [ref=e289]
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]:
+              - paragraph [ref=e293]: Domek
+              - heading "Dom na Borówkowym Wzgórzu" [level=3] [ref=e294]
+            - link "Zobacz domek" [ref=e295] [cursor=pointer]:
+              - /url: /pl/domki/dom-na-wzgorzu
+              - text: Zobacz domek
+              - img [ref=e296]
+          - generic [ref=e298]:
+            - 'button "Otwórz zdjęcie: Dom na wzgórzu w otoczeniu zieleni" [ref=e299]':
+              - img "Dom na wzgórzu w otoczeniu zieleni" [ref=e300]
+            - 'button "Otwórz zdjęcie: Aneks kuchenny" [ref=e301]':
+              - img "Aneks kuchenny" [ref=e302]
+            - 'button "Otwórz zdjęcie: Przestronna sypialnia z dwoma łóżkami" [ref=e303]':
+              - img "Przestronna sypialnia z dwoma łóżkami" [ref=e304]
+            - 'button "Otwórz zdjęcie: Sypialnia z dużym łóżkiem" [ref=e305]':
+              - img "Sypialnia z dużym łóżkiem" [ref=e306]
+            - 'button "Otwórz zdjęcie: Altana z miejscem do wypoczynku" [ref=e307]':
+              - img "Altana z miejscem do wypoczynku" [ref=e308]
+    - generic [ref=e310]:
+      - generic [ref=e312]:
+        - paragraph [ref=e313]: Gdzie jesteśmy
+        - heading "Dolina Dunajca, Małopolska." [level=2] [ref=e314]:
+          - text: Dolina Dunajca,
+          - emphasis [ref=e315]: Małopolska.
+        - paragraph [ref=e316]: Nasze domki leżą na wzgórzach nad Doliną Dunajca — między Zakliczyniem a Paleśnicą. Cisza, zieleń, widoki na rzekę. Daleko od tras turystycznych, blisko wszystkiego, co warto zobaczyć w Małopolsce.
+        - paragraph [ref=e317]: Kliknij pinezkę na mapie, żeby zobaczyć dostępne domki w danej lokalizacji.
+      - generic [ref=e320]:
+        - paragraph [ref=e321]: Odległości
+        - list [ref=e322]:
+          - listitem [ref=e323]:
+            - generic [ref=e324]: Zakliczyn
+            - generic [ref=e325]: 8 km
+          - listitem [ref=e326]:
+            - generic [ref=e327]: Zamek Wiśnicz
+            - generic [ref=e328]: 30 km
+          - listitem [ref=e329]:
+            - generic [ref=e330]: Kopalnia Soli Bochnia
+            - generic [ref=e331]: 39 km
+          - listitem [ref=e332]:
+            - generic [ref=e333]: Tarnów
+            - generic [ref=e334]: 40 km
+          - listitem [ref=e335]:
+            - generic [ref=e336]: Kraków
+            - generic [ref=e337]: 90 km
+          - listitem [ref=e338]:
+            - generic [ref=e339]: Lotnisko KRK
+            - generic [ref=e340]: 93 km
+    - generic [ref=e342]:
+      - paragraph [ref=e343]: Zarezerwuj pobyt
+      - heading "Znajdź swój termin." [level=2] [ref=e344]:
+        - text: Znajdź swój
+        - emphasis [ref=e345]: termin.
+      - generic [ref=e346]:
+        - generic [ref=e347]:
+          - paragraph [ref=e348]: Twoje kryteria
+          - generic [ref=e349]:
+            - generic [ref=e350]:
+              - paragraph [ref=e351]: Przyjazd
+              - paragraph [ref=e352]: Wybierz datę →
+            - generic [ref=e353]:
+              - paragraph [ref=e354]: Wyjazd
+              - paragraph [ref=e355]: Wybierz datę →
+          - generic [ref=e356]:
+            - paragraph [ref=e357]: Goście
+            - generic [ref=e358]:
+              - button "Mniej gości" [ref=e359]: −
+              - generic [ref=e360]: "2"
+              - button "Więcej gości" [ref=e361]: +
+          - generic [ref=e362]:
+            - generic [ref=e363]: Domek(opcjonalnie)
+            - generic [ref=e364]:
+              - combobox [ref=e365] [cursor=pointer]:
+                - option "Dowolny domek" [selected]
+                - option "Domek nad Doliną Dunajca"
+                - option "Drewniany Domek nad Doliną"
+                - option "Dom na Borówkowym Wzgórzu"
+              - generic: ▾
+          - button "Szukaj domków" [disabled] [ref=e366]: Szukaj domków
+          - paragraph [ref=e368]: Wybierz termin w kalendarzu, aby wyszukać dostępne domki.
+        - generic [ref=e372]:
+          - navigation "Navigation bar" [ref=e373]:
+            - button "Go to the Previous Month" [disabled] [ref=e374]:
+              - img [ref=e375]
+            - button "Go to the Next Month" [ref=e377] [cursor=pointer]:
+              - img [ref=e378]
+          - generic [ref=e380]:
+            - status [ref=e382]: czerwiec 2026
+            - grid "czerwiec 2026" [ref=e383]:
+              - rowgroup [ref=e384]:
+                - row [ref=e385]:
+                  - columnheader [ref=e386]: pon
+                  - columnheader [ref=e387]: wto
+                  - columnheader [ref=e388]: śro
+                  - columnheader [ref=e389]: czw
+                  - columnheader [ref=e390]: pią
+                  - columnheader [ref=e391]: sob
+                  - columnheader [ref=e392]: nie
+              - rowgroup [ref=e393]:
+                - row "poniedziałek, 1 czerwca 2026 wtorek, 2 czerwca 2026 środa, 3 czerwca 2026 czwartek, 4 czerwca 2026 piątek, 5 czerwca 2026 sobota, 6 czerwca 2026 niedziela, 7 czerwca 2026" [ref=e394]:
+                  - gridcell "poniedziałek, 1 czerwca 2026" [ref=e395]:
+                    - button "poniedziałek, 1 czerwca 2026" [disabled] [ref=e396]: "1"
+                  - gridcell "wtorek, 2 czerwca 2026" [ref=e397]:
+                    - button "wtorek, 2 czerwca 2026" [disabled] [ref=e398]: "2"
+                  - gridcell "środa, 3 czerwca 2026" [ref=e399]:
+                    - button "środa, 3 czerwca 2026" [disabled] [ref=e400]: "3"
+                  - gridcell "czwartek, 4 czerwca 2026" [ref=e401]:
+                    - button "czwartek, 4 czerwca 2026" [disabled] [ref=e402]: "4"
+                  - gridcell "piątek, 5 czerwca 2026" [ref=e403]:
+                    - button "piątek, 5 czerwca 2026" [disabled] [ref=e404]: "5"
+                  - gridcell "sobota, 6 czerwca 2026" [ref=e405]:
+                    - button "sobota, 6 czerwca 2026" [disabled] [ref=e406]: "6"
+                  - gridcell "niedziela, 7 czerwca 2026" [ref=e407]:
+                    - button "niedziela, 7 czerwca 2026" [disabled] [ref=e408]: "7"
+                - row "Today, poniedziałek, 8 czerwca 2026 wtorek, 9 czerwca 2026 środa, 10 czerwca 2026 czwartek, 11 czerwca 2026 piątek, 12 czerwca 2026 sobota, 13 czerwca 2026 niedziela, 14 czerwca 2026" [ref=e409]:
+                  - gridcell "Today, poniedziałek, 8 czerwca 2026" [ref=e410]:
+                    - button "Today, poniedziałek, 8 czerwca 2026" [ref=e411] [cursor=pointer]: "8"
+                  - gridcell "wtorek, 9 czerwca 2026" [ref=e412]:
+                    - button "wtorek, 9 czerwca 2026" [ref=e413] [cursor=pointer]: "9"
+                  - gridcell "środa, 10 czerwca 2026" [ref=e414]:
+                    - button "środa, 10 czerwca 2026" [ref=e415] [cursor=pointer]: "10"
+                  - gridcell "czwartek, 11 czerwca 2026" [ref=e416]:
+                    - button "czwartek, 11 czerwca 2026" [ref=e417] [cursor=pointer]: "11"
+                  - gridcell "piątek, 12 czerwca 2026" [ref=e418]:
+                    - button "piątek, 12 czerwca 2026" [ref=e419] [cursor=pointer]: "12"
+                  - gridcell "sobota, 13 czerwca 2026" [ref=e420]:
+                    - button "sobota, 13 czerwca 2026" [ref=e421] [cursor=pointer]: "13"
+                  - gridcell "niedziela, 14 czerwca 2026" [ref=e422]:
+                    - button "niedziela, 14 czerwca 2026" [ref=e423] [cursor=pointer]: "14"
+                - row "poniedziałek, 15 czerwca 2026 wtorek, 16 czerwca 2026 środa, 17 czerwca 2026 czwartek, 18 czerwca 2026 piątek, 19 czerwca 2026 sobota, 20 czerwca 2026 niedziela, 21 czerwca 2026" [ref=e424]:
+                  - gridcell "poniedziałek, 15 czerwca 2026" [ref=e425]:
+                    - button "poniedziałek, 15 czerwca 2026" [ref=e426] [cursor=pointer]: "15"
+                  - gridcell "wtorek, 16 czerwca 2026" [ref=e427]:
+                    - button "wtorek, 16 czerwca 2026" [ref=e428] [cursor=pointer]: "16"
+                  - gridcell "środa, 17 czerwca 2026" [ref=e429]:
+                    - button "środa, 17 czerwca 2026" [ref=e430] [cursor=pointer]: "17"
+                  - gridcell "czwartek, 18 czerwca 2026" [ref=e431]:
+                    - button "czwartek, 18 czerwca 2026" [ref=e432] [cursor=pointer]: "18"
+                  - gridcell "piątek, 19 czerwca 2026" [ref=e433]:
+                    - button "piątek, 19 czerwca 2026" [ref=e434] [cursor=pointer]: "19"
+                  - gridcell "sobota, 20 czerwca 2026" [ref=e435]:
+                    - button "sobota, 20 czerwca 2026" [ref=e436] [cursor=pointer]: "20"
+                  - gridcell "niedziela, 21 czerwca 2026" [ref=e437]:
+                    - button "niedziela, 21 czerwca 2026" [ref=e438] [cursor=pointer]: "21"
+                - row "poniedziałek, 22 czerwca 2026 wtorek, 23 czerwca 2026 środa, 24 czerwca 2026 czwartek, 25 czerwca 2026 piątek, 26 czerwca 2026 sobota, 27 czerwca 2026 niedziela, 28 czerwca 2026" [ref=e439]:
+                  - gridcell "poniedziałek, 22 czerwca 2026" [ref=e440]:
+                    - button "poniedziałek, 22 czerwca 2026" [ref=e441] [cursor=pointer]: "22"
+                  - gridcell "wtorek, 23 czerwca 2026" [ref=e442]:
+                    - button "wtorek, 23 czerwca 2026" [ref=e443] [cursor=pointer]: "23"
+                  - gridcell "środa, 24 czerwca 2026" [ref=e444]:
+                    - button "środa, 24 czerwca 2026" [ref=e445] [cursor=pointer]: "24"
+                  - gridcell "czwartek, 25 czerwca 2026" [ref=e446]:
+                    - button "czwartek, 25 czerwca 2026" [ref=e447] [cursor=pointer]: "25"
+                  - gridcell "piątek, 26 czerwca 2026" [ref=e448]:
+                    - button "piątek, 26 czerwca 2026" [ref=e449] [cursor=pointer]: "26"
+                  - gridcell "sobota, 27 czerwca 2026" [ref=e450]:
+                    - button "sobota, 27 czerwca 2026" [ref=e451] [cursor=pointer]: "27"
+                  - gridcell "niedziela, 28 czerwca 2026" [ref=e452]:
+                    - button "niedziela, 28 czerwca 2026" [ref=e453] [cursor=pointer]: "28"
+                - row "poniedziałek, 29 czerwca 2026 wtorek, 30 czerwca 2026" [ref=e454]:
+                  - gridcell "poniedziałek, 29 czerwca 2026" [ref=e455]:
+                    - button "poniedziałek, 29 czerwca 2026" [ref=e456] [cursor=pointer]: "29"
+                  - gridcell "wtorek, 30 czerwca 2026" [ref=e457]:
+                    - button "wtorek, 30 czerwca 2026" [ref=e458] [cursor=pointer]: "30"
+          - generic [ref=e459]:
+            - status [ref=e461]: lipiec 2026
+            - grid "lipiec 2026" [ref=e462]:
+              - rowgroup [ref=e463]:
+                - row [ref=e464]:
+                  - columnheader [ref=e465]: pon
+                  - columnheader [ref=e466]: wto
+                  - columnheader [ref=e467]: śro
+                  - columnheader [ref=e468]: czw
+                  - columnheader [ref=e469]: pią
+                  - columnheader [ref=e470]: sob
+                  - columnheader [ref=e471]: nie
+              - rowgroup [ref=e472]:
+                - row "środa, 1 lipca 2026 czwartek, 2 lipca 2026 piątek, 3 lipca 2026 sobota, 4 lipca 2026 niedziela, 5 lipca 2026" [ref=e473]:
+                  - gridcell "środa, 1 lipca 2026" [ref=e474]:
+                    - button "środa, 1 lipca 2026" [ref=e475] [cursor=pointer]: "1"
+                  - gridcell "czwartek, 2 lipca 2026" [ref=e476]:
+                    - button "czwartek, 2 lipca 2026" [ref=e477] [cursor=pointer]: "2"
+                  - gridcell "piątek, 3 lipca 2026" [ref=e478]:
+                    - button "piątek, 3 lipca 2026" [ref=e479] [cursor=pointer]: "3"
+                  - gridcell "sobota, 4 lipca 2026" [ref=e480]:
+                    - button "sobota, 4 lipca 2026" [ref=e481] [cursor=pointer]: "4"
+                  - gridcell "niedziela, 5 lipca 2026" [ref=e482]:
+                    - button "niedziela, 5 lipca 2026" [ref=e483] [cursor=pointer]: "5"
+                - row "poniedziałek, 6 lipca 2026 wtorek, 7 lipca 2026 środa, 8 lipca 2026 czwartek, 9 lipca 2026 piątek, 10 lipca 2026 sobota, 11 lipca 2026 niedziela, 12 lipca 2026" [ref=e484]:
+                  - gridcell "poniedziałek, 6 lipca 2026" [ref=e485]:
+                    - button "poniedziałek, 6 lipca 2026" [ref=e486] [cursor=pointer]: "6"
+                  - gridcell "wtorek, 7 lipca 2026" [ref=e487]:
+                    - button "wtorek, 7 lipca 2026" [ref=e488] [cursor=pointer]: "7"
+                  - gridcell "środa, 8 lipca 2026" [ref=e489]:
+                    - button "środa, 8 lipca 2026" [ref=e490] [cursor=pointer]: "8"
+                  - gridcell "czwartek, 9 lipca 2026" [ref=e491]:
+                    - button "czwartek, 9 lipca 2026" [ref=e492] [cursor=pointer]: "9"
+                  - gridcell "piątek, 10 lipca 2026" [ref=e493]:
+                    - button "piątek, 10 lipca 2026" [ref=e494] [cursor=pointer]: "10"
+                  - gridcell "sobota, 11 lipca 2026" [ref=e495]:
+                    - button "sobota, 11 lipca 2026" [ref=e496] [cursor=pointer]: "11"
+                  - gridcell "niedziela, 12 lipca 2026" [ref=e497]:
+                    - button "niedziela, 12 lipca 2026" [ref=e498] [cursor=pointer]: "12"
+                - row "poniedziałek, 13 lipca 2026 wtorek, 14 lipca 2026 środa, 15 lipca 2026 czwartek, 16 lipca 2026 piątek, 17 lipca 2026 sobota, 18 lipca 2026 niedziela, 19 lipca 2026" [ref=e499]:
+                  - gridcell "poniedziałek, 13 lipca 2026" [ref=e500]:
+                    - button "poniedziałek, 13 lipca 2026" [ref=e501] [cursor=pointer]: "13"
+                  - gridcell "wtorek, 14 lipca 2026" [ref=e502]:
+                    - button "wtorek, 14 lipca 2026" [ref=e503] [cursor=pointer]: "14"
+                  - gridcell "środa, 15 lipca 2026" [ref=e504]:
+                    - button "środa, 15 lipca 2026" [ref=e505] [cursor=pointer]: "15"
+                  - gridcell "czwartek, 16 lipca 2026" [ref=e506]:
+                    - button "czwartek, 16 lipca 2026" [ref=e507] [cursor=pointer]: "16"
+                  - gridcell "piątek, 17 lipca 2026" [ref=e508]:
+                    - button "piątek, 17 lipca 2026" [ref=e509] [cursor=pointer]: "17"
+                  - gridcell "sobota, 18 lipca 2026" [ref=e510]:
+                    - button "sobota, 18 lipca 2026" [ref=e511] [cursor=pointer]: "18"
+                  - gridcell "niedziela, 19 lipca 2026" [ref=e512]:
+                    - button "niedziela, 19 lipca 2026" [ref=e513] [cursor=pointer]: "19"
+                - row "poniedziałek, 20 lipca 2026 wtorek, 21 lipca 2026 środa, 22 lipca 2026 czwartek, 23 lipca 2026 piątek, 24 lipca 2026 sobota, 25 lipca 2026 niedziela, 26 lipca 2026" [ref=e514]:
+                  - gridcell "poniedziałek, 20 lipca 2026" [ref=e515]:
+                    - button "poniedziałek, 20 lipca 2026" [ref=e516] [cursor=pointer]: "20"
+                  - gridcell "wtorek, 21 lipca 2026" [ref=e517]:
+                    - button "wtorek, 21 lipca 2026" [ref=e518] [cursor=pointer]: "21"
+                  - gridcell "środa, 22 lipca 2026" [ref=e519]:
+                    - button "środa, 22 lipca 2026" [ref=e520] [cursor=pointer]: "22"
+                  - gridcell "czwartek, 23 lipca 2026" [ref=e521]:
+                    - button "czwartek, 23 lipca 2026" [ref=e522] [cursor=pointer]: "23"
+                  - gridcell "piątek, 24 lipca 2026" [ref=e523]:
+                    - button "piątek, 24 lipca 2026" [ref=e524] [cursor=pointer]: "24"
+                  - gridcell "sobota, 25 lipca 2026" [ref=e525]:
+                    - button "sobota, 25 lipca 2026" [ref=e526] [cursor=pointer]: "25"
+                  - gridcell "niedziela, 26 lipca 2026" [ref=e527]:
+                    - button "niedziela, 26 lipca 2026" [ref=e528] [cursor=pointer]: "26"
+                - row "poniedziałek, 27 lipca 2026 wtorek, 28 lipca 2026 środa, 29 lipca 2026 czwartek, 30 lipca 2026 piątek, 31 lipca 2026" [ref=e529]:
+                  - gridcell "poniedziałek, 27 lipca 2026" [ref=e530]:
+                    - button "poniedziałek, 27 lipca 2026" [ref=e531] [cursor=pointer]: "27"
+                  - gridcell "wtorek, 28 lipca 2026" [ref=e532]:
+                    - button "wtorek, 28 lipca 2026" [ref=e533] [cursor=pointer]: "28"
+                  - gridcell "środa, 29 lipca 2026" [ref=e534]:
+                    - button "środa, 29 lipca 2026" [ref=e535] [cursor=pointer]: "29"
+                  - gridcell "czwartek, 30 lipca 2026" [ref=e536]:
+                    - button "czwartek, 30 lipca 2026" [ref=e537] [cursor=pointer]: "30"
+                  - gridcell "piątek, 31 lipca 2026" [ref=e538]:
+                    - button "piątek, 31 lipca 2026" [ref=e539] [cursor=pointer]: "31"
+      - paragraph [ref=e540]:
+        - text: Masz pytania?
+        - link "kontakt@domeknaddunajem.pl" [ref=e541] [cursor=pointer]:
+          - /url: mailto:kontakt@domeknaddunajem.pl
+  - contentinfo [ref=e542]:
+    - generic [ref=e543]:
+      - generic [ref=e544]:
+        - img "Malo Stay" [ref=e545]
+        - generic [ref=e546]:
+          - generic [ref=e547]:
+            - paragraph [ref=e548]: Nawigacja
+            - list [ref=e549]:
+              - listitem [ref=e550]:
+                - link "Domki" [ref=e551] [cursor=pointer]:
+                  - /url: "#domki"
+              - listitem [ref=e552]:
+                - link "Galeria" [ref=e553] [cursor=pointer]:
+                  - /url: "#galeria"
+              - listitem [ref=e554]:
+                - link "Rezerwacja" [ref=e555] [cursor=pointer]:
+                  - /url: "#kontakt"
+          - generic [ref=e556]:
+            - paragraph [ref=e557]: Informacje
+            - list [ref=e558]:
+              - listitem [ref=e559]:
+                - link "Polityka prywatności" [ref=e560] [cursor=pointer]:
+                  - /url: /polityka-prywatnosci
+              - listitem [ref=e561]:
+                - link "Kontakt" [ref=e562] [cursor=pointer]:
+                  - /url: "#kontakt"
+      - generic [ref=e563]:
+        - paragraph [ref=e564]: © 2025 Malo Stay · Domki w Małopolsce
+        - paragraph [ref=e565]: Nad Doliną Dunajca, Małopolska
+    - paragraph [ref=e566]: MALO STAY
+  - button "Open Next.js Dev Tools" [ref=e572] [cursor=pointer]:
+    - img [ref=e573]

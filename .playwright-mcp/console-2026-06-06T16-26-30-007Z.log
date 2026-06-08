@@ -1,0 +1,2 @@
+[     582ms] [LOG] JQMIGRATE: Migrate is installed, version 1.4.1 @ https://www.peakglamp.pl/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1:1
+[     677ms] [ERROR] Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME @ moz-extension://5de57549-2b07-49e3-b065-b95ea052d5bf/icons/512.png:0

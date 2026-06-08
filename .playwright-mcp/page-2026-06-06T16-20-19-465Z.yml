@@ -1,0 +1,1305 @@
+- generic [active] [ref=e1]:
+  - link "Przejdź do głównej treści" [ref=e3] [cursor=pointer]:
+    - /url: "#basiclayout"
+    - generic [ref=e5]: Przejdź do głównej treści
+  - banner [ref=e9]:
+    - generic [ref=e10]:
+      - navigation [ref=e11]:
+        - link "Booking.com" [ref=e15] [cursor=pointer]:
+          - /url: https://www.booking.com/index.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+          - img [ref=e16]
+        - generic [ref=e18]:
+          - 'button "Waluta: Złoty polski" [ref=e20] [cursor=pointer]':
+            - generic [ref=e21]: PLN
+          - 'button "Język: Polski" [ref=e23] [cursor=pointer]'
+          - link "Wsparcie klienta" [ref=e28] [cursor=pointer]:
+            - /url: https://secure.booking.com/help.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142&source=header&src=profile_contact_cs
+            - img [ref=e31]
+          - link "Udostępnij obiekt" [ref=e33] [cursor=pointer]:
+            - /url: https://join.booking.com/?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142&lang=pl&utm_medium=frontend&utm_source=topbar
+            - generic [ref=e34]: Udostępnij obiekt
+          - link "Załóż konto" [ref=e35] [cursor=pointer]:
+            - /url: https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=pl&aid=304142&bkng_action=hotel&prompt=signin&state=UvcDpPgGet5grJLuHIszlnWihlyL8wv6jLosZKWgul_5gplas230jp4HOKLfZT64KkTQzKiTJbnOR9swiNLZf78wNj8TEi1k4km2wm4D0OQjI-LN1N8V-51pNS7l7pL1ebH1-h5WQJgd8RD7MA5FDliqJquit19eTSxzDsZkda5a-Fna0_3nmGlivzxuKgGqrHBHb2eF2Sg5slbY8jJ_UjpDBxDI6muYAa6IdRNyOT-oS1fyGGPTttbgxNKtFr6BoGSYekz0cLAv5302mEp2bsUjqqL-fGzQ4UpXZZemhU6a4TUsO4_xt4noGzG-PmaG585I77epemFxNo65mKvAiaZy7cXcpGv0qK17NNMXDnjnl2kCPenApdWzuhFOMjR3jXGhCbtrrZTocNvghTaVtcQl7864yDqM6JYRP5o_gEG4yqimjVVtJejNkpfRlqGl55UrmhxzpNQckW7jtuI-rY4zlVxDXnS0b-OCIdEaLDyxR2_GaYHFMcfp78KWgAWFuNZBLqheq0bPPoH0hy_m6ZOAOxhMHb3fHljRWfnf9GUeTQUX1KfscxFmuZY7G9bz8_zy4_N0oiWaOoYXj2dsKZ7-GEGMuCkBLGYGvhtx7VnEWDUbSPGBFYyttzeFep-ptLKVc9FvpnlO1XUsfBIwC_wb-hx7-bDDm0c%3D*eyJpZCI6InRyYXZlbGxlcl9oZWFkZXIifQ%3D%3D
+            - generic [ref=e36]: Zarejestruj się
+          - link "Zaloguj się" [ref=e38] [cursor=pointer]:
+            - /url: https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=pl&aid=304142&bkng_action=hotel&prompt=signin&state=UvcDpPgGet5grJLuHIszlnWihlyL8wv6jLosZKWgul_5gplas230jp4HOKLfZT64KkTQzKiTJbnOR9swiNLZf78wNj8TEi1k4km2wm4D0OQjI-LN1N8V-51pNS7l7pL1ebH1-h5WQJgd8RD7MA5FDliqJquit19eTSxzDsZkda5a-Fna0_3nmGlivzxuKgGqrHBHb2eF2Sg5slbY8jJ_UjpDBxDI6muYAa6IdRNyOT-oS1fyGGPTttbgxNKtFr6BoGSYekz0cLAv5302mEp2bsUjqqL-fGzQ4UpXZZemhU6a4TUsO4_xt4noGzG-PmaG585I77epemFxNo65mKvAiaZy7cXcpGv0qK17NNMXDnjnl2kCPenApdWzuhFOMjR3jXGhCbtrrZTocNvghTaVtcQl7864yDqM6JYRP5o_gEG4yqimjVVtJejNkpfRlqGl55UrmhxzpNQckW7jtuI-rY4zlVxDXnS0b-OCIdEaLDyxR2_GaYHFMcfp78KWgAWFuNZBLqheq0bPPoH0hy_m6ZOAOxhMHb3fHljRWfnf9GUeTQUX1KfscxFmuZY7G9bz8_zy4_N0oiWaOoYXj2dsKZ7-GEGMuCkBLGYGvhtx7VnEWDUbSPGBFYyttzeFep-ptLKVc9FvpnlO1XUsfBIwC_wb-hx7-bDDm0c%3D*eyJpZCI6InRyYXZlbGxlcl9oZWFkZXIifQ%3D%3D
+            - generic [ref=e39]: Zaloguj się
+      - navigation "Czego szukasz?" [ref=e40]:
+        - menubar [ref=e42]:
+          - menuitem "Pobyty" [ref=e43] [cursor=pointer]:
+            - generic [ref=e44]:
+              - img [ref=e46]
+              - generic [ref=e48]: Pobyty
+          - menuitem "Loty" [ref=e49] [cursor=pointer]:
+            - generic [ref=e50]:
+              - img [ref=e52]
+              - generic [ref=e54]: Loty
+          - menuitem "Lot + Hotel" [ref=e55] [cursor=pointer]:
+            - generic [ref=e56]:
+              - img [ref=e58]
+              - generic [ref=e60]: Lot + Hotel
+          - menuitem "Wynajem samochodu" [ref=e61] [cursor=pointer]:
+            - generic [ref=e62]:
+              - img [ref=e64]
+              - generic [ref=e66]: Wynajem samochodu
+          - menuitem "Atrakcje" [ref=e67] [cursor=pointer]:
+            - generic [ref=e68]:
+              - img [ref=e70]
+              - generic [ref=e72]: Atrakcje
+          - menuitem "Taksówki lotniskowe" [ref=e73] [cursor=pointer]:
+            - generic [ref=e74]:
+              - img [ref=e76]
+              - generic [ref=e78]: Taksówki lotniskowe
+  - region "Szukaj obiektów" [ref=e84]:
+    - generic [ref=e85]:
+      - generic [ref=e91]:
+        - img [ref=e94]
+        - combobox "Dokąd się wybierasz?" [ref=e96]: Zakliczyn
+        - button "Wyczyść" [ref=e98] [cursor=pointer]:
+          - img "Wyczyść" [ref=e99]:
+            - img [ref=e100]
+      - button "Zameldowanie — Wymeldowanie" [ref=e104] [cursor=pointer]:
+        - generic [ref=e105]:
+          - img [ref=e107]
+          - generic [ref=e109]: Zameldowanie
+          - generic [ref=e110]: —
+          - generic [ref=e111]: Wymeldowanie
+      - 'button "Liczba podróżujących i pokoi. Aktualnie wybrane: 2 dorosłych · 0 dzieci · 1 pokój" [ref=e114] [cursor=pointer]':
+        - generic [ref=e115]:
+          - img [ref=e117]
+          - text: 2 dorosłych · 0 dzieci · 1 pokój
+        - img [ref=e120]
+      - button "Szukaj" [ref=e123] [cursor=pointer]:
+        - generic [ref=e124]: Szukaj
+  - generic [ref=e126]:
+    - navigation "Breadcrumbs" [ref=e130]:
+      - list [ref=e131]:
+        - listitem [ref=e132]:
+          - link "Strona główna" [ref=e133] [cursor=pointer]:
+            - /url: https://www.booking.com/index.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=b432497fc41d609b14a797f405ebc554&aid=304142
+            - generic [ref=e134]: Strona główna
+          - img [ref=e136]
+        - listitem [ref=e138]:
+          - link "Hotele" [ref=e139] [cursor=pointer]:
+            - /url: https://www.booking.com/hotel/index.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=b432497fc41d609b14a797f405ebc554&aid=304142
+            - generic [ref=e140]: Hotele
+          - img [ref=e142]
+        - listitem [ref=e144]:
+          - link "Wszystkie apartamenty" [ref=e145] [cursor=pointer]:
+            - /url: https://www.booking.com/apartments/index.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=b432497fc41d609b14a797f405ebc554&aid=304142
+            - generic [ref=e146]: Wszystkie apartamenty
+          - img [ref=e148]
+        - listitem [ref=e150]:
+          - link "Polska" [ref=e151] [cursor=pointer]:
+            - /url: https://www.booking.com/country/pl.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=b432497fc41d609b14a797f405ebc554&aid=304142
+            - generic [ref=e152]: Polska
+          - img [ref=e154]
+        - listitem [ref=e156]:
+          - link "małopolskie" [ref=e157] [cursor=pointer]:
+            - /url: https://www.booking.com/region/pl/malopolskie.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=b432497fc41d609b14a797f405ebc554&aid=304142
+            - generic [ref=e158]: małopolskie
+          - img [ref=e160]
+        - listitem [ref=e162]:
+          - link "Zakliczyn" [ref=e163] [cursor=pointer]:
+            - /url: https://www.booking.com/city/pl/zakliczyn.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=b432497fc41d609b14a797f405ebc554&aid=304142
+            - generic [ref=e164]: Zakliczyn
+          - img [ref=e166]
+        - listitem [ref=e168]:
+          - heading "Dom w Zawadzie Lanckorońskiej 101 (Apartament), (Polska) – oferty" [level=1] [ref=e170]:
+            - generic [ref=e171]: Dom w Zawadzie Lanckorońskiej 101 (Apartament), (Polska) – oferty
+    - generic [ref=e172]:
+      - main [ref=e173]:
+        - generic [ref=e174]:
+          - generic [ref=e175]:
+            - generic [ref=e176]:
+              - navigation "Link do strony wewnętrznej" [ref=e180]:
+                - list [ref=e182]:
+                  - listitem [ref=e183]:
+                    - link "Przegląd" [ref=e184] [cursor=pointer]:
+                      - /url: "#hotelTmpl"
+                      - generic [ref=e186]: Przegląd
+                  - listitem [ref=e187]:
+                    - link "Informacje o apartamentach i ceny" [ref=e188] [cursor=pointer]:
+                      - /url: "#availability"
+                      - generic [ref=e190]: Informacje o apartamentach i ceny
+                  - listitem [ref=e191]:
+                    - link "Udogodnienia" [ref=e192] [cursor=pointer]:
+                      - /url: "#hp_facilities_box"
+                      - generic [ref=e194]: Udogodnienia
+                  - listitem [ref=e195]:
+                    - link "Zasady pobytu" [ref=e196] [cursor=pointer]:
+                      - /url: "#policies"
+                      - generic [ref=e198]: Zasady pobytu
+                  - listitem [ref=e199]:
+                    - link "Ważne informacje prawne" [ref=e200] [cursor=pointer]:
+                      - /url: "#important_info"
+                      - generic [ref=e202]: Ważne informacje prawne
+                  - listitem [ref=e203]:
+                    - link "Opinie gości (36)" [ref=e204] [cursor=pointer]:
+                      - /url: "#blockdisplay4"
+                      - generic [ref=e206]: Opinie gości (36)
+              - generic [ref=e208]:
+                - generic [ref=e209]:
+                  - button "Zapisz ten element na liście podróży" [ref=e216] [cursor=pointer]:
+                    - img [ref=e219]
+                  - button "Udostępnij ten obiekt" [ref=e227] [cursor=pointer]:
+                    - img [ref=e230]
+                  - button "Zarezerwuj pobyt w apartamencie" [ref=e232] [cursor=pointer]:
+                    - generic [ref=e233]: Zarezerwuj pobyt w apartamencie
+                  - button "Wyrównujemy ceny" [ref=e237] [cursor=pointer]:
+                    - img [ref=e240]
+                    - generic [ref=e242]: Wyrównujemy ceny
+                - generic [ref=e244]:
+                  - button "Wskaźnik jakości to 3 na 5" [ref=e249] [cursor=pointer]:
+                    - img "Wskaźnik jakości to 3 na 5" [ref=e250]:
+                      - generic [ref=e251]:
+                        - img [ref=e253]
+                        - img [ref=e256]
+                      - generic [ref=e258]:
+                        - img [ref=e260]
+                        - img [ref=e263]
+                      - generic [ref=e265]:
+                        - img [ref=e267]
+                        - img [ref=e270]
+                  - heading "Dom w Zawadzie Lanckorońskiej 101" [level=2] [ref=e273]
+                - generic [ref=e277]:
+                  - link "Dom w Zawadzie Lanckorońskiej 101, Zakliczyn - Sprawdź lokalizację" [ref=e278] [cursor=pointer]:
+                    - /url: "#map_opened-map_trigger_header_pin"
+                    - img [ref=e281]
+                  - generic [ref=e283]:
+                    - button "Zawada Lanckorońska 101, 32-840 Zakliczyn, Polska" [ref=e285] [cursor=pointer]:
+                      - generic [ref=e286]:
+                        - text: Zawada Lanckorońska 101, 32-840 Zakliczyn, Polska
+                        - generic [ref=e287]:
+                          - generic [ref=e288]:
+                            - text: Doskonała lokalizacja – oceniona na 9.5/10!
+                            - generic [ref=e289]: (ocena na podstawie 36 opinii)
+                          - generic [ref=e290]: Ocena dodana przez Gości po powrocie z obiektu Dom w Zawadzie Lanckorońskiej 101.
+                    - text: –
+                    - link "Doskonała lokalizacja – pokaż mapę" [ref=e291] [cursor=pointer]:
+                      - /url: "#map_opened-map_trigger_header"
+              - generic "Galeria zdjęć – Dom w Zawadzie Lanckorońskiej 101" [ref=e295]:
+                - region "Galeria zdjęć obiektu Dom w Zawadzie Lanckorońskiej 101" [ref=e297]:
+                  - generic [ref=e300]:
+                    - generic [ref=e301]:
+                      - button "biały dom ze stołem i krzesłami na podwórku w obiekcie Dom w Zawadzie Lanckorońskiej 101 w mieście Zakliczyn" [ref=e303] [cursor=pointer]:
+                        - img "biały dom ze stołem i krzesłami na podwórku w obiekcie Dom w Zawadzie Lanckorońskiej 101 w mieście Zakliczyn" [ref=e305]
+                      - generic [ref=e306]:
+                        - button "pokój hotelowy z dwoma łóżkami i telewizorem w obiekcie Dom w Zawadzie Lanckorońskiej 101 w mieście Zakliczyn" [ref=e308] [cursor=pointer]:
+                          - img "pokój hotelowy z dwoma łóżkami i telewizorem w obiekcie Dom w Zawadzie Lanckorońskiej 101 w mieście Zakliczyn" [ref=e310]
+                        - button "łazienka z dużą wanną i umywalką w obiekcie Dom w Zawadzie Lanckorońskiej 101 w mieście Zakliczyn" [ref=e312] [cursor=pointer]:
+                          - img "łazienka z dużą wanną i umywalką w obiekcie Dom w Zawadzie Lanckorońskiej 101 w mieście Zakliczyn" [ref=e314]
+                    - generic [ref=e315]:
+                      - button "kuchnia z drewnianymi szafkami i mikrofalówką w obiekcie Dom w Zawadzie Lanckorońskiej 101 w mieście Zakliczyn" [ref=e317] [cursor=pointer]:
+                        - img "kuchnia z drewnianymi szafkami i mikrofalówką w obiekcie Dom w Zawadzie Lanckorońskiej 101 w mieście Zakliczyn" [ref=e319]
+                      - button "dom z dużym podwórkiem przed nim w obiekcie Dom w Zawadzie Lanckorońskiej 101 w mieście Zakliczyn" [ref=e321] [cursor=pointer]:
+                        - img "dom z dużym podwórkiem przed nim w obiekcie Dom w Zawadzie Lanckorońskiej 101 w mieście Zakliczyn" [ref=e323]
+                      - button "sypialnia z łóżkiem, krzesłem i oknem w obiekcie Dom w Zawadzie Lanckorońskiej 101 w mieście Zakliczyn" [ref=e325] [cursor=pointer]:
+                        - img "sypialnia z łóżkiem, krzesłem i oknem w obiekcie Dom w Zawadzie Lanckorońskiej 101 w mieście Zakliczyn" [ref=e327]
+                      - button "łazienka z przeszkloną kabiną prysznicową i umywalką w obiekcie Dom w Zawadzie Lanckorońskiej 101 w mieście Zakliczyn" [ref=e329] [cursor=pointer]:
+                        - img "łazienka z przeszkloną kabiną prysznicową i umywalką w obiekcie Dom w Zawadzie Lanckorońskiej 101 w mieście Zakliczyn" [ref=e331]
+                      - generic [ref=e332]:
+                        - button "kuchnia z zielonymi i szarymi szafkami oraz kafelkową podłogą w obiekcie Dom w Zawadzie Lanckorońskiej 101 w mieście Zakliczyn +23 zdjęcia" [ref=e333] [cursor=pointer]:
+                          - img "kuchnia z zielonymi i szarymi szafkami oraz kafelkową podłogą w obiekcie Dom w Zawadzie Lanckorońskiej 101 w mieście Zakliczyn +23 zdjęcia" [ref=e335]
+                        - generic: +23 zdjęcia
+              - generic [ref=e337]:
+                - generic [ref=e340]:
+                  - link "Oceniony na 9.7 Oceniony jako wyjątkowy" [ref=e342] [cursor=pointer]:
+                    - /url: "#blockdisplay4"
+                    - generic [ref=e345]:
+                      - generic [ref=e346]: Oceniony na 9.7
+                      - generic [ref=e347]: 9,7
+                      - generic [ref=e348]: Oceniony jako wyjątkowy
+                      - generic [ref=e349]:
+                        - generic [ref=e350]: Wyjątkowy
+                        - generic [ref=e351]: 36 opinii
+                  - separator [ref=e352]
+                  - generic [ref=e354]:
+                    - heading "Najwyżej oceniane wrażenia gości" [level=3] [ref=e355]
+                    - generic [ref=e356]:
+                      - region "Najwyżej oceniane wrażenia gości" [ref=e357]:
+                        - group [ref=e358]:
+                          - generic [ref=e360]:
+                            - generic [ref=e363]: „Czysto, przyjemnie i bardzo skrupulatnie przygotowany apartament. Bylam drugi raz i jestem zadowolona.”
+                            - generic [ref=e369]:
+                              - text: Katarzyna
+                              - img "Polska" [ref=e370]
+                              - generic [ref=e371]: Polska
+                        - group [ref=e372]:
+                          - generic [ref=e374]:
+                            - generic [ref=e377]: „Pod każdym względem wszystko było bardzo dobrze. Czysto schludnie przestronnie, kuchnia wyposażona odpowiednio. Ogród przepiękny.”
+                            - generic [ref=e383]:
+                              - text: Joanna
+                              - img "Polska" [ref=e384]
+                              - generic [ref=e385]: Polska
+                        - group [ref=e386]:
+                          - generic [ref=e388]:
+                            - generic [ref=e391]: „Świetne miejsce, duży dom z możliwością schowania rowerów bez problemu 😅”
+                            - generic [ref=e397]:
+                              - text: Michał
+                              - img "Polska" [ref=e398]
+                              - generic [ref=e399]: Polska
+                        - group [ref=e400]:
+                          - generic [ref=e402]:
+                            - generic [ref=e405]: „Właścicielka bardzo miła i pomocna. Domek bardzo ładny czysty. Polecam 🙂”
+                            - generic [ref=e411]:
+                              - text: Anna
+                              - img "Polska" [ref=e412]
+                              - generic [ref=e413]: Polska
+                        - group [ref=e414]:
+                          - generic [ref=e416]:
+                            - generic [ref=e419]: „Standard super, właścicielka bardzo miła i pomocna, jeśli chodzi o czystość to też na piątkę. Ogólnie mamy nadzieję że do Pani Basi😃”
+                            - generic [ref=e425]:
+                              - text: Małgorzata
+                              - img "Polska" [ref=e426]
+                              - generic [ref=e427]: Polska
+                        - group [ref=e428]:
+                          - generic [ref=e430]:
+                            - generic [ref=e433]: „Domek przepiękny, bardzo czysto i pachnąco. Wspaniale wyposażony - mnóstwo sprzętów w kuchni, ręczniki, suszarka do włosów, telewizor w każdej...”
+                            - generic [ref=e439]:
+                              - text: Agnieszka
+                              - img "Polska" [ref=e440]
+                              - generic [ref=e441]: Polska
+                        - group [ref=e442]:
+                          - generic [ref=e444]:
+                            - generic [ref=e447]: „Czysto i przyjemnie. Dostępny grill z pięknym widokiem na pogórze.”
+                            - generic [ref=e453]:
+                              - text: Karolina
+                              - img "Polska" [ref=e454]
+                              - generic [ref=e455]: Polska
+                        - group [ref=e456]:
+                          - generic [ref=e458]:
+                            - generic [ref=e461]: „100% happy to be here, very good host, nice people, and wonderful garden, we want stay here one more night but already reserved. will stay here...”
+                            - generic [ref=e467]:
+                              - text: Hui
+                              - img "Chiny" [ref=e468]
+                              - generic [ref=e469]: Chiny
+                        - group [ref=e470]:
+                          - generic [ref=e472]:
+                            - generic [ref=e475]: „Дуже привітлива власниця.Чисто,приємно впомешканні.гарне розташування.Все сподобалось!!!”
+                            - generic [ref=e481]:
+                              - text: Valerii
+                              - img "Ukraina" [ref=e482]
+                              - generic [ref=e483]: Ukraina
+                        - group [ref=e484]:
+                          - generic [ref=e486]:
+                            - generic [ref=e489]: „Das Apartement hat alles was man benötigt , Sauber , stylisch , gut ausgestattet Betten sind sehr bequem . Die Besitzerin ist mega freundlich...”
+                            - generic [ref=e491]:
+                              - generic [ref=e493]: M
+                              - generic [ref=e495]:
+                                - text: Maodo
+                                - img "Niemcy" [ref=e496]
+                                - generic [ref=e497]: Niemcy
+                      - button "Dalej" [ref=e498] [cursor=pointer]:
+                        - img [ref=e501]
+                  - separator [ref=e503]
+                  - generic [ref=e504]:
+                    - paragraph [ref=e505]: Personel
+                    - generic "Oceniony na 9,8" [ref=e507]: 9,8
+                - button "Widok mapy" [ref=e511] [cursor=pointer]:
+                  - generic [ref=e513]:
+                    - generic [ref=e514]:
+                      - generic:
+                        - generic:
+                          - img
+                        - img [ref=e515]
+                    - button "Widok mapy" [ref=e517]:
+                      - generic [ref=e518]: Widok mapy
+            - list [ref=e526]:
+              - listitem [ref=e527]:
+                - img [ref=e531]
+                - generic [ref=e534]: Apartamenty
+              - listitem [ref=e535]:
+                - img [ref=e539]
+                - generic [ref=e542]: bezpłatny parking na terenie obiektu
+              - listitem [ref=e543]:
+                - img [ref=e547]
+                - generic [ref=e550]: Zwierzęta domowe są akceptowane
+              - listitem [ref=e551]:
+                - img [ref=e555]
+                - generic [ref=e558]: Bezpłatne Wi-Fi
+              - listitem [ref=e559]:
+                - img [ref=e563]
+                - generic [ref=e566]: Sprzęt do grillowania
+              - listitem [ref=e567]:
+                - img [ref=e571]
+                - generic [ref=e574]: Balkon
+              - listitem [ref=e575]:
+                - img [ref=e579]
+                - generic [ref=e582]: Prywatna łazienka
+              - listitem [ref=e583]:
+                - img [ref=e587]
+                - generic [ref=e590]: Widok
+              - listitem [ref=e591]:
+                - img [ref=e595]
+                - generic [ref=e598]: Kuchnia
+              - listitem [ref=e599]:
+                - img [ref=e603]
+                - generic [ref=e606]: Wanna
+          - generic [ref=e608]:
+            - generic [ref=e609]:
+              - generic [ref=e613]:
+                - paragraph [ref=e614]: "Obiekt Dom w Zawadzie Lanckorońskiej 101 położony jest w miejscowości Zakliczyn w regionie małopolskie i oferuje bezpłatne Wi-Fi, sprzęt do grillowania, ogród oraz bezpłatny prywatny parking. Odległość ważnych miejsc od obiektu: Zamek w Wiśniczu – 30 km. Wyposażenie kuchni obejmuje także lodówkę, mikrofalówkę, płytę kuchenną i czajnik. Na terenie obiektu Dom w Zawadzie Lanckorońskiej 101 znajduje się taras. Odległość ważnych miejsc od obiektu: Kopalnia Soli w Bochni – 39 km. Lotnisko Lotnisko Kraków-Balice znajduje się 93 km od obiektu."
+                - paragraph [ref=e615]: Parom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 10.
+                - paragraph [ref=e616]: Odległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap
+              - generic [ref=e620]:
+                - heading "Najpopularniejsze udogodnienia" [level=3] [ref=e621]:
+                  - generic [ref=e622]: Najpopularniejsze udogodnienia
+                - list [ref=e623]:
+                  - listitem [ref=e624]:
+                    - generic [ref=e625]:
+                      - img [ref=e627]
+                      - generic [ref=e632]: Bezpłatny parking
+                  - listitem [ref=e633]:
+                    - generic [ref=e634]:
+                      - img [ref=e636]
+                      - generic [ref=e641]: Bezpłatne Wi-Fi
+            - generic [ref=e645]:
+              - heading "Atuty obiektu" [level=3] [ref=e646]
+              - generic [ref=e647]:
+                - paragraph [ref=e649]:
+                  - img [ref=e651]
+                  - generic [ref=e653]: "Świetna lokalizacja: wysoko oceniana przez Gości (9,5)"
+                - paragraph [ref=e655]:
+                  - img [ref=e657]
+                  - generic [ref=e659]: bezpłatny prywatny parking dostępny na miejscu
+              - button "Zarezerwuj teraz" [ref=e661] [cursor=pointer]:
+                - generic [ref=e662]: Zarezerwuj teraz
+          - separator [ref=e663]
+          - generic [ref=e673]:
+            - generic [ref=e675]:
+              - heading "Zaloguj się i oszczędzaj" [level=3] [ref=e676]
+              - generic [ref=e677]: Zaloguj się, aby sprawdzić, czy w tym obiekcie możesz zaoszczędzić 10% lub więcej.
+              - generic [ref=e679]:
+                - link "Zaloguj się do Booking.com." [ref=e680] [cursor=pointer]:
+                  - /url: https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=pl&aid=304142&bkng_action=hotel&prompt=signin&state=UvcDpPgGet5grJLuHIszlnWihlyL8wv6jLosZKWgul_5gplas230jp4HOKLfZT64KkTQzKiTJbnOR9swiNLZf78wNj8TEi1k4km2wm4D0OQjI-LN1N8V-51pNS7l7pL1ebH1-h5WQJgd8RD7MA5FDliqJquit19eTSxzDsZkda5a-Fna0_3nmGlivzxuKgGqrHBHb2eF2Sg5slbY8jJ_UjpDBxDI6muYAa6IdRNyOT-oS1fyGGPTttbgxNKtFr6BoGSYekz0cLAv5302mEp2bsUjqqL-fGzQ4UpXZZemhU6a4TUsO4_xt4noGzG-PmaG585I77epemFxNo65mKvAiaZy7cXcpGv0qK17NNMXDnjnl2kCPenApdWzuhFOMjR3jXGhCbtrrZTocNvghTaVtcQl7864yDqM6JYRP5o_gEG4yqimjVVtJejNkpfRlqGl55UrmhxzpNQckW7jtuI-rY4zlVxDXnS0b-OCIdEaLDyxR2_GaYHFMcfp78KWgAWFuNZBLqheq0bPPoH0hy_m6ZOAOxhMHb3fHljRWfnf9GUeTQUX1KfscxFmuZY7G9bz8_zy4_N0oiWaOoYXj2dsKZ7-GEGMuCkBLGYGvhtx7VnEWDUbSPGBFYyttzeFep-ptLKVc9FvpnlO1XUsfBIwC_wb-hx7-bDDm0c%3D*eyJpZCI6Im1lcmNoX3BsYXRmb3JtX3Byb3BlcnR5X3BhZ2VfY3RhIn0%3D
+                  - generic [ref=e681]: Zaloguj się
+                - link "Utwórz konto na Booking.com." [ref=e682] [cursor=pointer]:
+                  - /url: https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=pl&aid=304142&bkng_action=hotel&prompt=signin&state=UvcDpPgGet5grJLuHIszlnWihlyL8wv6jLosZKWgul_5gplas230jp4HOKLfZT64KkTQzKiTJbnOR9swiNLZf78wNj8TEi1k4km2wm4D0OQjI-LN1N8V-51pNS7l7pL1ebH1-h5WQJgd8RD7MA5FDliqJquit19eTSxzDsZkda5a-Fna0_3nmGlivzxuKgGqrHBHb2eF2Sg5slbY8jJ_UjpDBxDI6muYAa6IdRNyOT-oS1fyGGPTttbgxNKtFr6BoGSYekz0cLAv5302mEp2bsUjqqL-fGzQ4UpXZZemhU6a4TUsO4_xt4noGzG-PmaG585I77epemFxNo65mKvAiaZy7cXcpGv0qK17NNMXDnjnl2kCPenApdWzuhFOMjR3jXGhCbtrrZTocNvghTaVtcQl7864yDqM6JYRP5o_gEG4yqimjVVtJejNkpfRlqGl55UrmhxzpNQckW7jtuI-rY4zlVxDXnS0b-OCIdEaLDyxR2_GaYHFMcfp78KWgAWFuNZBLqheq0bPPoH0hy_m6ZOAOxhMHb3fHljRWfnf9GUeTQUX1KfscxFmuZY7G9bz8_zy4_N0oiWaOoYXj2dsKZ7-GEGMuCkBLGYGvhtx7VnEWDUbSPGBFYyttzeFep-ptLKVc9FvpnlO1XUsfBIwC_wb-hx7-bDDm0c%3D*eyJpZCI6Im1lcmNoX3BsYXRmb3JtX3Byb3BlcnR5X3BhZ2VfY3RhIn0%3D
+                  - generic [ref=e683]: Utwórz konto
+            - img "Zaloguj się i oszczędzaj" [ref=e687]
+          - generic [ref=e689]:
+            - generic [ref=e690]:
+              - heading "Dostępność" [level=2] [ref=e691]
+              - button "Wyrównujemy ceny" [ref=e695] [cursor=pointer]:
+                - img [ref=e698]
+                - generic [ref=e700]: Wyrównujemy ceny
+            - region [ref=e701]:
+              - img [ref=e703]
+              - paragraph [ref=e706]: Wybierz daty, aby zobaczyć dostępność i ceny w obiekcie
+            - generic [ref=e711]:
+              - generic [ref=e712]:
+                - button "Wybierz termin" [ref=e716] [cursor=pointer]:
+                  - generic [ref=e717]:
+                    - img [ref=e719]
+                    - generic [ref=e722]: Zameldowanie - Wymeldowanie
+                - button "Wybierz liczbę gości" [ref=e726] [cursor=pointer]:
+                  - generic [ref=e727]:
+                    - img [ref=e729]
+                    - generic [ref=e732]: 2 dorosłych · 0 dzieci · 1 pokój
+              - button "Szukaj" [ref=e734] [cursor=pointer]:
+                - generic [ref=e735]: Szukaj
+            - table [ref=e743]:
+              - rowgroup [ref=e744]:
+                - row "Rodzaj zakwaterowania Liczba gości" [ref=e745]:
+                  - columnheader "Rodzaj zakwaterowania" [ref=e746]:
+                    - generic [ref=e747]: Rodzaj zakwaterowania
+                  - columnheader "Liczba gości" [ref=e748]:
+                    - generic [ref=e749]: Liczba gości
+                  - columnheader [ref=e750]
+              - rowgroup [ref=e751]:
+                - row "Apartament z 2 sypialniami Sypialnia 1 1 łóżko pojedyncze i 1 łóżko podwójne Sypialnia 2 2 łóżka pojedyncze 4 dorosłych Pokaż ceny" [ref=e752]:
+                  - rowheader "Apartament z 2 sypialniami Sypialnia 1 1 łóżko pojedyncze i 1 łóżko podwójne Sypialnia 2 2 łóżka pojedyncze" [ref=e753]:
+                    - link "Apartament z 2 sypialniami" [ref=e755] [cursor=pointer]:
+                      - /url: "#RD1182597201"
+                      - generic [ref=e757]: Apartament z 2 sypialniami
+                    - generic [ref=e758]:
+                      - generic [ref=e759]:
+                        - generic [ref=e760]: Sypialnia 1
+                        - generic [ref=e761]:
+                          - text: 1 łóżko pojedyncze
+                          - img [ref=e764]
+                        - generic [ref=e766]: i
+                        - generic [ref=e767]:
+                          - text: 1 łóżko podwójne
+                          - img [ref=e770]
+                      - generic [ref=e772]:
+                        - generic [ref=e773]: Sypialnia 2
+                        - generic [ref=e774]:
+                          - text: 2 łóżka pojedyncze
+                          - img [ref=e777]
+                  - cell "4 dorosłych" [ref=e779]:
+                    - img "4 dorosłych" [ref=e781]:
+                      - generic [ref=e782]:
+                        - img [ref=e784]
+                        - generic [ref=e786]: × 4
+                  - cell "Pokaż ceny" [ref=e787]:
+                    - button "Pokaż ceny" [ref=e789] [cursor=pointer]:
+                      - generic [ref=e790]: Pokaż ceny
+                - row "Apartament z 3 sypialniami Sypialnia 1 1 łóżko podwójne Sypialnia 2 2 łóżka pojedyncze Sypialnia 3 2 łóżka pojedyncze 6 dorosłych Pokaż ceny" [ref=e791]:
+                  - rowheader "Apartament z 3 sypialniami Sypialnia 1 1 łóżko podwójne Sypialnia 2 2 łóżka pojedyncze Sypialnia 3 2 łóżka pojedyncze" [ref=e792]:
+                    - link "Apartament z 3 sypialniami" [ref=e794] [cursor=pointer]:
+                      - /url: "#RD1182597202"
+                      - generic [ref=e796]: Apartament z 3 sypialniami
+                    - generic [ref=e797]:
+                      - generic [ref=e798]:
+                        - generic [ref=e799]: Sypialnia 1
+                        - generic [ref=e800]:
+                          - text: 1 łóżko podwójne
+                          - img [ref=e803]
+                      - generic [ref=e805]:
+                        - generic [ref=e806]: Sypialnia 2
+                        - generic [ref=e807]:
+                          - text: 2 łóżka pojedyncze
+                          - img [ref=e810]
+                      - generic [ref=e812]:
+                        - generic [ref=e813]: Sypialnia 3
+                        - generic [ref=e814]:
+                          - text: 2 łóżka pojedyncze
+                          - img [ref=e817]
+                  - cell "6 dorosłych" [ref=e819]:
+                    - img "6 dorosłych" [ref=e821]:
+                      - generic [ref=e822]:
+                        - img [ref=e824]
+                        - generic [ref=e826]: × 6
+                  - cell "Pokaż ceny" [ref=e827]:
+                    - button "Pokaż ceny" [ref=e829] [cursor=pointer]:
+                      - generic [ref=e830]: Pokaż ceny
+          - generic [ref=e833]:
+            - generic [ref=e835]:
+              - generic [ref=e836]:
+                - heading "Opinie Gości" [level=2] [ref=e838]
+                - button "Zobacz dostępność" [ref=e840] [cursor=pointer]:
+                  - generic [ref=e841]: Zobacz dostępność
+              - generic [ref=e844]:
+                - button "Oceniony na 9.7 Oceniony jako wyjątkowy" [ref=e845] [cursor=pointer]:
+                  - generic [ref=e846]:
+                    - generic [ref=e847]: Oceniony na 9.7
+                    - generic [ref=e848]: 9,7
+                    - generic [ref=e849]: Oceniony jako wyjątkowy
+                    - generic [ref=e850]:
+                      - generic [ref=e851]: Wyjątkowy
+                      - generic [ref=e852]: · 36 opinii
+                - button "Przeczytaj wszystkie opinie" [ref=e853] [cursor=pointer]:
+                  - generic [ref=e854]: Przeczytaj wszystkie opinie
+              - group "Kategorie opinii" [ref=e856]:
+                - heading "Kategorie:" [level=3] [ref=e858]
+                - generic [ref=e859]:
+                  - generic "Średnia ocena w przedziale od 1 do 10" [ref=e861]:
+                    - generic [ref=e862]:
+                      - generic [ref=e863]:
+                        - generic [ref=e866]: Gospodarz
+                        - generic [ref=e868]: 9,8
+                      - meter "Gospodarz" [ref=e869]
+                  - generic "Średnia ocena w przedziale od 1 do 10" [ref=e872]:
+                    - generic [ref=e873]:
+                      - generic [ref=e874]:
+                        - generic [ref=e877]: Udogodnienia
+                        - generic [ref=e879]: 9,8
+                      - meter "Udogodnienia" [ref=e880]
+                  - generic "Średnia ocena w przedziale od 1 do 10" [ref=e883]:
+                    - generic [ref=e884]:
+                      - generic [ref=e885]:
+                        - generic [ref=e888]: Czystość
+                        - generic [ref=e890]: 9,8
+                      - meter "Czystość" [ref=e891]
+                  - generic "Średnia ocena w przedziale od 1 do 10" [ref=e894]:
+                    - generic [ref=e895]:
+                      - generic [ref=e896]:
+                        - generic [ref=e899]: Komfort
+                        - generic [ref=e901]: 9,8
+                      - meter "Komfort" [ref=e902]
+                  - generic "Średnia ocena w przedziale od 1 do 10" [ref=e905]:
+                    - generic [ref=e906]:
+                      - generic [ref=e907]:
+                        - generic [ref=e910]: Stosunek jakości do ceny
+                        - generic [ref=e912]: 9,7
+                      - meter "Stosunek jakości do ceny" [ref=e913]
+                  - generic "Średnia ocena w przedziale od 1 do 10" [ref=e916]:
+                    - generic [ref=e917]:
+                      - generic [ref=e918]:
+                        - generic [ref=e921]: Lokalizacja
+                        - generic [ref=e923]: 9,5
+                      - meter "Lokalizacja" [ref=e924]
+              - group "Wybierz tematy, aby przeczytać opinie:" [ref=e927]:
+                - heading "Wybierz tematy, aby przeczytać opinie:" [level=3] [ref=e930]
+                - group "Wybierz tematy, aby przeczytać opinie:" [ref=e932]:
+                  - button "Łóżko" [ref=e933]:
+                    - checkbox "Łóżko" [ref=e934]
+                    - generic [ref=e935] [cursor=pointer]:
+                      - img [ref=e937]
+                      - generic [ref=e939]: Łóżko
+                  - button "Dzieci" [ref=e940]:
+                    - checkbox "Dzieci" [ref=e941]
+                    - generic [ref=e942] [cursor=pointer]:
+                      - img [ref=e944]
+                      - generic [ref=e946]: Dzieci
+                  - button "Czystość" [ref=e947]:
+                    - checkbox "Czystość" [ref=e948]
+                    - generic [ref=e949] [cursor=pointer]:
+                      - img [ref=e951]
+                      - generic [ref=e953]: Czystość
+                  - button "Rodzina" [ref=e954]:
+                    - checkbox "Rodzina" [ref=e955]
+                    - generic [ref=e956] [cursor=pointer]:
+                      - img [ref=e958]
+                      - generic [ref=e960]: Rodzina
+              - generic [ref=e962]:
+                - generic [ref=e963]:
+                  - heading "Najwyżej oceniane wrażenia gości" [level=3] [ref=e964]
+                  - generic [ref=e965]:
+                    - region "Najwyżej oceniane wrażenia gości" [ref=e966]:
+                      - group [ref=e967]:
+                        - generic [ref=e969]:
+                          - generic [ref=e971]:
+                            - generic [ref=e973]: K
+                            - generic [ref=e974]:
+                              - generic [ref=e975]: Katarzyna
+                              - generic [ref=e976]:
+                                - img "Polska" [ref=e977]
+                                - generic [ref=e978]: Polska
+                          - generic [ref=e981]: „Czysto, przyjemnie i bardzo skrupulatnie przygotowany apartament. Bylam drugi raz i jestem zadowolona.”
+                          - 'button "Przeczytaj więcej opinii użytkownika: Katarzyna" [ref=e983] [cursor=pointer]': Więcej informacji
+                      - group [ref=e984]:
+                        - generic [ref=e986]:
+                          - generic [ref=e988]:
+                            - generic [ref=e990]: J
+                            - generic [ref=e991]:
+                              - generic [ref=e992]: Joanna
+                              - generic [ref=e993]:
+                                - img "Polska" [ref=e994]
+                                - generic [ref=e995]: Polska
+                          - generic [ref=e998]: „Pod każdym względem wszystko było bardzo dobrze. Czysto schludnie przestronnie, kuchnia wyposażona odpowiednio. Ogród przepiękny.”
+                          - 'button "Przeczytaj więcej opinii użytkownika: Joanna" [ref=e1000] [cursor=pointer]': Więcej informacji
+                      - group [ref=e1001]:
+                        - generic [ref=e1003]:
+                          - generic [ref=e1008]:
+                            - generic [ref=e1009]: Michał
+                            - generic [ref=e1010]:
+                              - img "Polska" [ref=e1011]
+                              - generic [ref=e1012]: Polska
+                          - generic [ref=e1015]: „Świetne miejsce, duży dom z możliwością schowania rowerów bez problemu 😅”
+                          - 'button "Przeczytaj więcej opinii użytkownika: Michał" [ref=e1017] [cursor=pointer]': Więcej informacji
+                      - group [ref=e1018]:
+                        - generic [ref=e1020]:
+                          - generic [ref=e1022]:
+                            - generic [ref=e1024]: A
+                            - generic [ref=e1025]:
+                              - generic [ref=e1026]: Anna
+                              - generic [ref=e1027]:
+                                - img "Polska" [ref=e1028]
+                                - generic [ref=e1029]: Polska
+                          - generic [ref=e1032]: „Właścicielka bardzo miła i pomocna. Domek bardzo ładny czysty. Polecam 🙂”
+                          - 'button "Przeczytaj więcej opinii użytkownika: Anna" [ref=e1034] [cursor=pointer]': Więcej informacji
+                      - group [ref=e1035]:
+                        - generic [ref=e1037]:
+                          - generic [ref=e1039]:
+                            - generic [ref=e1041]: M
+                            - generic [ref=e1042]:
+                              - generic [ref=e1043]: Małgorzata
+                              - generic [ref=e1044]:
+                                - img "Polska" [ref=e1045]
+                                - generic [ref=e1046]: Polska
+                          - generic [ref=e1049]: „Standard super, właścicielka bardzo miła i pomocna, jeśli chodzi o czystość to też na piątkę. Ogólnie mamy nadzieję że do Pani Basi😃”
+                          - 'button "Przeczytaj więcej opinii użytkownika: Małgorzata" [ref=e1051] [cursor=pointer]': Więcej informacji
+                      - group [ref=e1052]:
+                        - generic [ref=e1054]:
+                          - generic [ref=e1059]:
+                            - generic [ref=e1060]: Agnieszka
+                            - generic [ref=e1061]:
+                              - img "Polska" [ref=e1062]
+                              - generic [ref=e1063]: Polska
+                          - generic [ref=e1066]: „Domek przepiękny, bardzo czysto i pachnąco. Wspaniale wyposażony - mnóstwo sprzętów w kuchni, ręczniki, suszarka do włosów, telewizor w każdej sypialni, duży stół wewnątrz i na zewnątrz. Bardzo wygodne łóżka! Piękne, zadbane otoczenie, bez...”
+                          - 'button "Przeczytaj więcej opinii użytkownika: Agnieszka" [ref=e1068] [cursor=pointer]': Więcej informacji
+                      - group [ref=e1069]:
+                        - generic [ref=e1071]:
+                          - generic [ref=e1073]:
+                            - generic [ref=e1075]: K
+                            - generic [ref=e1076]:
+                              - generic [ref=e1077]: Karolina
+                              - generic [ref=e1078]:
+                                - img "Polska" [ref=e1079]
+                                - generic [ref=e1080]: Polska
+                          - generic [ref=e1083]: „Czysto i przyjemnie. Dostępny grill z pięknym widokiem na pogórze.”
+                          - 'button "Przeczytaj więcej opinii użytkownika: Karolina" [ref=e1085] [cursor=pointer]': Więcej informacji
+                      - group [ref=e1086]:
+                        - generic [ref=e1088]:
+                          - generic [ref=e1093]:
+                            - generic [ref=e1094]: Hui
+                            - generic [ref=e1095]:
+                              - img "Chiny" [ref=e1096]
+                              - generic [ref=e1097]: Chiny
+                          - generic [ref=e1100]: „100% happy to be here, very good host, nice people, and wonderful garden, we want stay here one more night but already reserved. will stay here next time for sure.”
+                          - 'button "Przeczytaj więcej opinii użytkownika: Hui" [ref=e1102] [cursor=pointer]': Więcej informacji
+                          - button "Pokaż tłumaczenie" [ref=e1106] [cursor=pointer]
+                      - group [ref=e1107]:
+                        - generic [ref=e1109]:
+                          - generic [ref=e1111]:
+                            - generic [ref=e1113]: V
+                            - generic [ref=e1114]:
+                              - generic [ref=e1115]: Valerii
+                              - generic [ref=e1116]:
+                                - img "Ukraina" [ref=e1117]
+                                - generic [ref=e1118]: Ukraina
+                          - generic [ref=e1121]: „Дуже привітлива власниця.Чисто,приємно впомешканні.гарне розташування.Все сподобалось!!!”
+                          - 'button "Przeczytaj więcej opinii użytkownika: Valerii" [ref=e1123] [cursor=pointer]': Więcej informacji
+                          - button "Pokaż tłumaczenie" [ref=e1127] [cursor=pointer]
+                      - group [ref=e1128]:
+                        - generic [ref=e1130]:
+                          - generic [ref=e1132]:
+                            - generic [ref=e1134]: M
+                            - generic [ref=e1135]:
+                              - generic [ref=e1136]: Maodo
+                              - generic [ref=e1137]:
+                                - img "Niemcy" [ref=e1138]
+                                - generic [ref=e1139]: Niemcy
+                          - generic [ref=e1142]: „Das Apartement hat alles was man benötigt , Sauber , stylisch , gut ausgestattet Betten sind sehr bequem . Die Besitzerin ist mega freundlich und hilfsbereit. Meine Kindern haben sich Wohl gefühlt mit Trampolin Schaukeln usw... also Ich kann...”
+                          - 'button "Przeczytaj więcej opinii użytkownika: Maodo" [ref=e1144] [cursor=pointer]': Więcej informacji
+                          - button "Pokaż tłumaczenie" [ref=e1148] [cursor=pointer]
+                    - button "Dalej" [ref=e1149] [cursor=pointer]:
+                      - img [ref=e1152]
+                - button "Przeczytaj wszystkie opinie" [ref=e1154] [cursor=pointer]:
+                  - generic [ref=e1155]: Przeczytaj wszystkie opinie
+            - generic [ref=e1164]:
+              - heading "Ocena jakości" [level=3] [ref=e1165]:
+                - text: Ocena jakości
+                - img [ref=e1166]:
+                  - generic [ref=e1167]:
+                    - img [ref=e1169]
+                    - img [ref=e1172]
+                  - generic [ref=e1174]:
+                    - img [ref=e1176]
+                    - img [ref=e1179]
+                  - generic [ref=e1181]:
+                    - img [ref=e1183]
+                    - img [ref=e1186]
+              - generic [ref=e1188]: Booking.com ocenił jakość tego obiektu na 3/5 na podstawie takich czynników, jak udogodnienia, wielkość, lokalizacja i usługi.
+            - generic [ref=e1195]:
+              - generic [ref=e1196]:
+                - heading "Pytania podróżujących" [level=2] [ref=e1198]:
+                  - generic [ref=e1199]: Pytania podróżujących
+                - button "Zobacz dostępność" [ref=e1201] [cursor=pointer]:
+                  - generic [ref=e1202]: Zobacz dostępność
+              - generic [ref=e1205]:
+                - list [ref=e1207]:
+                  - listitem [ref=e1208]:
+                    - button "Czy na miejscu jest parking?" [ref=e1209] [cursor=pointer]:
+                      - generic [ref=e1210]:
+                        - img [ref=e1213]
+                        - generic [ref=e1215]: Czy na miejscu jest parking?
+                        - img [ref=e1218]
+                  - listitem [ref=e1220]:
+                    - button "Czy śniadanie jest serwowane?" [ref=e1221] [cursor=pointer]:
+                      - generic [ref=e1222]:
+                        - img [ref=e1225]
+                        - generic [ref=e1227]: Czy śniadanie jest serwowane?
+                        - img [ref=e1230]
+                  - listitem [ref=e1232]:
+                    - button "Czy na miejscu jest restauracja?" [ref=e1233] [cursor=pointer]:
+                      - generic [ref=e1234]:
+                        - img [ref=e1237]
+                        - generic [ref=e1239]: Czy na miejscu jest restauracja?
+                        - img [ref=e1242]
+                  - listitem [ref=e1244]:
+                    - button "Czy na miejscu jest spa?" [ref=e1245] [cursor=pointer]:
+                      - generic [ref=e1246]:
+                        - img [ref=e1249]
+                        - generic [ref=e1251]: Czy na miejscu jest spa?
+                        - img [ref=e1254]
+                  - listitem [ref=e1256]:
+                    - button "Na jakich zasadach zwierzęta mogą przebywać w obiekcie?" [ref=e1257] [cursor=pointer]:
+                      - generic [ref=e1258]:
+                        - img [ref=e1261]
+                        - generic [ref=e1263]: Na jakich zasadach zwierzęta mogą przebywać w obiekcie?
+                        - img [ref=e1266]
+                  - listitem [ref=e1268]:
+                    - button "Czy na miejscu jest basen?" [ref=e1269] [cursor=pointer]:
+                      - generic [ref=e1270]:
+                        - img [ref=e1273]
+                        - generic [ref=e1275]: Czy na miejscu jest basen?
+                        - img [ref=e1278]
+                  - listitem [ref=e1280]:
+                    - button "Na jakich zasadach można korzystać z Wi-Fi?" [ref=e1281] [cursor=pointer]:
+                      - generic [ref=e1282]:
+                        - img [ref=e1285]
+                        - generic [ref=e1287]: Na jakich zasadach można korzystać z Wi-Fi?
+                        - img [ref=e1290]
+                  - listitem [ref=e1292]:
+                    - button "Czy na miejscu są pokoje z prywatną łazienką?" [ref=e1293] [cursor=pointer]:
+                      - generic [ref=e1294]:
+                        - img [ref=e1297]
+                        - generic [ref=e1299]: Czy na miejscu są pokoje z prywatną łazienką?
+                        - img [ref=e1302]
+                  - listitem [ref=e1304]:
+                    - button "Czy na miejscu można skorzystać z transferu lotniskowego?" [ref=e1305] [cursor=pointer]:
+                      - generic [ref=e1306]:
+                        - img [ref=e1309]
+                        - generic [ref=e1311]: Czy na miejscu można skorzystać z transferu lotniskowego?
+                        - img [ref=e1314]
+                  - listitem [ref=e1316]:
+                    - button "Czy na miejscu jest siłownia?" [ref=e1317] [cursor=pointer]:
+                      - generic [ref=e1318]:
+                        - img [ref=e1321]
+                        - generic [ref=e1323]: Czy na miejscu jest siłownia?
+                        - img [ref=e1326]
+                - generic [ref=e1329]:
+                  - heading "Nadal szukasz?" [level=3] [ref=e1330]
+                  - button "Zadaj pytanie" [ref=e1331] [cursor=pointer]:
+                    - generic [ref=e1332]: Zadaj pytanie
+                  - paragraph [ref=e1333]: Na większość pytań mamy natychmiastową odpowiedź
+            - generic [ref=e1338]:
+              - generic [ref=e1339]:
+                - heading "Otoczenie obiektu" [level=2] [ref=e1341]:
+                  - generic [ref=e1342]: Otoczenie obiektu
+                - button "Zobacz dostępność" [ref=e1344] [cursor=pointer]:
+                  - generic [ref=e1345]: Zobacz dostępność
+              - generic [ref=e1346]:
+                - link "Doskonała lokalizacja – pokaż mapę" [ref=e1349] [cursor=pointer]:
+                  - /url: "#map_opened-hotel_surroundings"
+                  - generic [ref=e1350]: Doskonała lokalizacja – pokaż mapę
+                - generic [ref=e1351]:
+                  - generic [ref=e1352]:
+                    - generic [ref=e1353]:
+                      - generic [ref=e1354]:
+                        - img [ref=e1356]
+                        - heading "Co znajduje się w pobliżu" [level=3] [ref=e1358]:
+                          - generic [ref=e1359]: Co znajduje się w pobliżu
+                      - list [ref=e1360]:
+                        - listitem [ref=e1361]:
+                          - listitem [ref=e1362]:
+                            - generic [ref=e1363]:
+                              - generic [ref=e1364]: Ogród przykościelny
+                              - generic [ref=e1366]: 13 km
+                        - listitem [ref=e1367]:
+                          - listitem [ref=e1368]:
+                            - generic [ref=e1369]:
+                              - generic [ref=e1370]: Kosciol Matki Boskiej Rozancowej
+                              - generic [ref=e1372]: 19 km
+                    - generic [ref=e1373]:
+                      - generic [ref=e1374]:
+                        - img [ref=e1376]
+                        - heading "Restauracje i kawiarnie" [level=3] [ref=e1378]:
+                          - generic [ref=e1379]: Restauracje i kawiarnie
+                      - list [ref=e1380]:
+                        - listitem [ref=e1381]:
+                          - listitem [ref=e1382]:
+                            - generic [ref=e1383]:
+                              - generic [ref=e1384]: Restauracja Podzamcze Melsztyn
+                              - generic [ref=e1386]: 2,2 km
+                        - listitem [ref=e1387]:
+                          - listitem [ref=e1388]:
+                            - generic [ref=e1389]:
+                              - generic [ref=e1390]: Restauracja Restauracja Victoria
+                              - generic [ref=e1392]: 4,2 km
+                        - listitem [ref=e1393]:
+                          - listitem [ref=e1394]:
+                            - generic [ref=e1395]:
+                              - generic [ref=e1396]: Kawiarnia/bar Bar u Anetki
+                              - generic [ref=e1398]: 4,3 km
+                    - generic [ref=e1399]:
+                      - generic [ref=e1400]:
+                        - img [ref=e1402]
+                        - heading "Transport publiczny" [level=3] [ref=e1404]:
+                          - generic [ref=e1405]: Transport publiczny
+                      - list [ref=e1406]:
+                        - listitem [ref=e1407]:
+                          - listitem [ref=e1408]:
+                            - generic [ref=e1409]:
+                              - generic [ref=e1410]: Pociąg Gromnik
+                              - generic [ref=e1412]: 14 km
+                    - generic [ref=e1413]:
+                      - generic [ref=e1414]:
+                        - img [ref=e1416]
+                        - heading "Najbliższe lotniska" [level=3] [ref=e1418]:
+                          - generic [ref=e1419]: Najbliższe lotniska
+                      - list [ref=e1420]:
+                        - listitem [ref=e1421]:
+                          - listitem [ref=e1422]:
+                            - generic [ref=e1423]:
+                              - generic [ref=e1424]: Lotnisko Kraków-Balice
+                              - generic [ref=e1426]: 93 km
+                  - generic [ref=e1427]: Wyświetlane są najkrótsze szacunkowe odległości do pokonania pieszo lub samochodem, rzeczywiste odległości mogą się różnić.
+                - group [ref=e1430]:
+                  - generic [ref=e1432]: Brakuje Ci jakichś informacji?
+                  - generic [ref=e1434]:
+                    - button "Tak" [ref=e1436] [cursor=pointer]
+                    - generic [ref=e1437]:
+                      - text: /
+                      - button "Nie" [ref=e1438] [cursor=pointer]
+            - generic [ref=e1442]:
+              - generic [ref=e1443]:
+                - generic [ref=e1444]:
+                  - heading "Udogodnienia w obiekcie Dom w Zawadzie Lanckorońskiej 101" [level=2] [ref=e1445]:
+                    - generic [ref=e1446]: Udogodnienia w obiekcie Dom w Zawadzie Lanckorońskiej 101
+                  - generic [ref=e1447]: "Świetne udogodnienia! Ocena: 9,8"
+                - button "Zobacz dostępność" [ref=e1449] [cursor=pointer]:
+                  - generic [ref=e1450]: Zobacz dostępność
+              - generic [ref=e1451]:
+                - generic [ref=e1454]:
+                  - heading "Najpopularniejsze udogodnienia" [level=3] [ref=e1455]:
+                    - generic [ref=e1456]: Najpopularniejsze udogodnienia
+                  - list [ref=e1457]:
+                    - listitem [ref=e1458]:
+                      - generic [ref=e1459]:
+                        - img [ref=e1461]
+                        - generic [ref=e1466]: Bezpłatny parking
+                    - listitem [ref=e1467]:
+                      - generic [ref=e1468]:
+                        - img [ref=e1470]
+                        - generic [ref=e1475]: Bezpłatne Wi-Fi
+                - group [ref=e1478]:
+                  - generic [ref=e1480]: Brakuje Ci jakichś informacji?
+                  - generic [ref=e1482]:
+                    - button "Tak" [ref=e1484] [cursor=pointer]
+                    - generic [ref=e1485]:
+                      - text: /
+                      - button "Nie" [ref=e1486] [cursor=pointer]
+            - region "Ankieta zawiera 2 pytania" [ref=e1488]:
+              - generic [ref=e1492]:
+                - button "Zamknij ankietę" [ref=e1494] [cursor=pointer]:
+                  - img [ref=e1497]
+                - heading "Jak nam idzie?" [level=3] [ref=e1499]:
+                  - generic [ref=e1500]: Jak nam idzie?
+                - generic [ref=e1501]:
+                  - img [ref=e1503]
+                  - generic [ref=e1504]:
+                    - generic [ref=e1505]:
+                      - generic "Pytanie 1 z 2" [ref=e1506]: 1 z 2
+                      - generic [ref=e1507]: Łatwo jest wyszukać odpowiednie opcje zakwaterowania
+                    - group "Oceń, w jakim stopniu zgadzasz się z poniższym stwierdzeniem. Jest to 5-punktowa skala, gdzie 1 oznacza, że zdecydowanie się zgadzasz z tym stwierdzeniem, a 5, że zdecydowanie się z nim nie zgadzasz." [ref=e1509]:
+                      - generic [ref=e1510]:
+                        - radio "Zdecydowanie tak" [ref=e1511]
+                        - generic [ref=e1515] [cursor=pointer]: Zdecydowanie tak
+                      - generic [ref=e1516]:
+                        - radio "Tak" [ref=e1517]
+                        - generic [ref=e1521] [cursor=pointer]: Tak
+                      - generic [ref=e1522]:
+                        - radio "Nie mam zdania" [ref=e1523]
+                        - generic [ref=e1527] [cursor=pointer]: Nie mam zdania
+                      - generic [ref=e1528]:
+                        - radio "Nie" [ref=e1529]
+                        - generic [ref=e1533] [cursor=pointer]: Nie
+                      - generic [ref=e1534]:
+                        - radio "Zdecydowanie nie" [ref=e1535]
+                        - generic [ref=e1539] [cursor=pointer]: Zdecydowanie nie
+            - generic [ref=e1543]:
+              - generic [ref=e1544]:
+                - generic [ref=e1545]:
+                  - heading "Zasady pobytu" [level=2] [ref=e1546]:
+                    - generic [ref=e1547]: Zasady pobytu
+                  - generic [ref=e1548]: Obiekt Dom w Zawadzie Lanckorońskiej 101 przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!
+                - button "Zobacz dostępność" [ref=e1550] [cursor=pointer]:
+                  - generic [ref=e1551]: Zobacz dostępność
+              - generic [ref=e1553]:
+                - generic [ref=e1554]:
+                  - generic [ref=e1556]:
+                    - img [ref=e1558]
+                    - generic [ref=e1560]: Zameldowanie
+                  - generic [ref=e1561]:
+                    - generic [ref=e1562]: Od 15:00 do 21:00
+                    - generic [ref=e1563]: Musisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.
+                - separator [ref=e1564]
+                - generic [ref=e1565]:
+                  - generic [ref=e1567]:
+                    - img [ref=e1569]
+                    - generic [ref=e1571]: Wymeldowanie
+                  - generic [ref=e1573]: Od 05:00 do 11:00
+                - separator [ref=e1574]
+                - generic [ref=e1575]:
+                  - generic [ref=e1577]:
+                    - img [ref=e1579]
+                    - generic [ref=e1581]: Odwołanie rezerwacji/ przedpłata
+                  - generic [ref=e1583]:
+                    - text: Zasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania.
+                    - link "Wprowadź daty pobytu" [ref=e1584] [cursor=pointer]:
+                      - /url: "#availability_target"
+                    - text: i sprawdź warunki dotyczące wybranej opcji.
+                - separator [ref=e1585]
+                - generic [ref=e1586]:
+                  - generic [ref=e1588]:
+                    - img [ref=e1590]
+                    - generic [ref=e1592]: Zakwaterowanie dzieci
+                  - generic [ref=e1594]:
+                    - generic [ref=e1595]:
+                      - heading "Zasady dotyczące pobytu dzieci" [level=3] [ref=e1596]
+                      - paragraph [ref=e1597]: Dzieci w każdym wieku są mile widziane.
+                      - paragraph [ref=e1598]: Aby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.
+                    - heading "Zasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek" [level=3] [ref=e1599]
+                    - generic [ref=e1600]:
+                      - generic [ref=e1601]: "Wiek: 0–3"
+                      - generic [ref=e1602]:
+                        - generic [ref=e1603]:
+                          - img [ref=e1605]
+                          - text: Łóżeczko dziecięce dostępne na życzenie
+                        - generic [ref=e1608]: Bezpłatnie
+                    - generic [ref=e1609]:
+                      - paragraph [ref=e1610]: Liczba dozwolonych łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.
+                      - paragraph [ref=e1611]: Dodatkowe łóżka nie są dostępne w tym obiekcie.
+                      - paragraph [ref=e1612]: Możliwość skorzystania z łóżeczek dziecięcych zależy od dostępności.
+                - separator [ref=e1613]
+                - generic [ref=e1614]:
+                  - generic [ref=e1616]:
+                    - img [ref=e1618]
+                    - generic [ref=e1620]: Brak ograniczeń wiekowych
+                  - generic [ref=e1622]: Brak ograniczeń wiekowych przy zameldowaniu
+                - separator [ref=e1623]
+                - generic [ref=e1624]:
+                  - generic [ref=e1626]:
+                    - img [ref=e1628]
+                    - generic [ref=e1630]: Palenie tytoniu
+                  - generic [ref=e1632]: Palenie jest zabronione.
+                - separator [ref=e1633]
+                - generic [ref=e1634]:
+                  - generic [ref=e1636]:
+                    - img [ref=e1638]
+                    - generic [ref=e1640]: Imprezy
+                  - generic [ref=e1642]: Organizacja imprez i przyjęć jest zabroniona
+                - separator [ref=e1643]
+                - generic [ref=e1644]:
+                  - generic [ref=e1646]:
+                    - img [ref=e1648]
+                    - generic [ref=e1650]: Cisza nocna
+                  - generic [ref=e1652]: Goście muszą zachować ciszę w godzinach 22:00–06:00.
+                - separator [ref=e1653]
+                - generic [ref=e1654]:
+                  - generic [ref=e1656]:
+                    - img [ref=e1658]
+                    - generic [ref=e1660]: Zwierzęta
+                  - generic [ref=e1662]:
+                    - generic [ref=e1664]: Bezpłatnie!
+                    - text: Zwierzęta są akceptowane. Bez dodatkowych opłat.
+            - generic [ref=e1668]:
+              - generic [ref=e1669]:
+                - generic [ref=e1670]:
+                  - heading "Ważne informacje" [level=2] [ref=e1671]:
+                    - generic [ref=e1672]: Ważne informacje
+                  - generic [ref=e1673]: Niezbędne informacje dla gości tego obiektu
+                - button "Zobacz dostępność" [ref=e1675] [cursor=pointer]:
+                  - generic [ref=e1676]: Zobacz dostępność
+              - generic [ref=e1679]:
+                - paragraph [ref=e1680]: Prosimy o wcześniejsze poinformowanie obiektu Dom w Zawadzie Lanckorońskiej 101 o planowanej godzinie przyjazdu. Aby to zrobić, możesz wpisać treść prośby w miejscu na życzenia specjalne lub skontaktować się bezpośrednio z obiektem, korzystając z danych kontaktowych widniejących w potwierdzeniu rezerwacji.
+                - paragraph [ref=e1681]: W obiekcie obowiązuje zakaz organizowania wieczorów panieńskich, kawalerskich itp.
+                - paragraph [ref=e1682]: Cisza nocna obowiązuje w godzinach 22:00:00–06:00:00.
+                - paragraph [ref=e1683]: W przypadku pobytu w obiekcie z dziećmi należy pamiętać, że obiekt jest prawnie zobowiązany do stosowania standardów ochrony małoletnich, ustalenia tożsamości małoletnich i ich relacji z osobą dorosłą, z którą przebywają.
+            - generic [ref=e1685]:
+              - heading "Informacje prawne" [level=2] [ref=e1686]
+              - generic [ref=e1687]:
+                - text: Ten obiekt prowadzony jest przez gospodarza prywatnego (osobę fizyczną). Wynajmowanie zakwaterowania od gospodarzy prywatnych nie podlega prawu ochrony konsumentów w Unii Europejskiej.
+                - button "Dowiedz się więcej" [ref=e1688] [cursor=pointer]
+                - text: .
+              - generic [ref=e1689]:
+                - button "Podział obowiązków" [ref=e1690] [cursor=pointer]:
+                  - generic [ref=e1692]: Podział obowiązków
+                  - button [ref=e1693]:
+                    - img [ref=e1695]
+                - generic [ref=e1697]:
+                  - text: Umowa o świadczenie usług zakwaterowania zawarta za pośrednictwem Booking.com jest zawierana pomiędzy Tobą jako klientem oraz Dostawcą usług (tzn. gospodarzem prywatnym albo przedsiębiorcą). Dostawca usług, jako strona umowy, ponosi odpowiedzialność za należyte wykonanie usług. Booking.com prowadzi platformę internetową, na której osoby trzecie oferują swoje usługi (w tym usługi zakwaterowania) („Dostawcy usług”) i jedynie pośredniczy w zawarciu umowy między klientem a Dostawcą usług. Zatem Booking.com odpowiada za obowiązki związane z udostępnianiem swojej Platformy, a Dostawcy usług są odpowiedzialni za obowiązki związane z usługami zakwaterowania.
+                  - button "Przykłady obowiązków Booking.com oraz obowiązków Dostawców usług znajdują się tutaj." [ref=e1698] [cursor=pointer]
+          - generic [ref=e1701]:
+            - heading "Często zadawane pytania na temat obiektu Dom w Zawadzie Lanckorońskiej 101" [level=2] [ref=e1703]
+            - generic [ref=e1704]:
+              - generic [ref=e1706]:
+                - button "Ilu gości może zatrzymać się w obiekcie Dom w Zawadzie Lanckorońskiej 101?" [ref=e1709] [cursor=pointer]:
+                  - heading "Ilu gości może zatrzymać się w obiekcie Dom w Zawadzie Lanckorońskiej 101?" [level=3] [ref=e1711]
+                  - img [ref=e1713]
+                - separator [ref=e1715]
+                - button "Czy w obiekcie Dom w Zawadzie Lanckorońskiej 101 dostępny jest balkon?" [ref=e1718] [cursor=pointer]:
+                  - heading "Czy w obiekcie Dom w Zawadzie Lanckorońskiej 101 dostępny jest balkon?" [level=3] [ref=e1720]
+                  - img [ref=e1722]
+                - separator [ref=e1724]
+                - button "Jakie są godziny zameldowania i wymeldowania w obiekcie Dom w Zawadzie Lanckorońskiej 101?" [ref=e1727] [cursor=pointer]:
+                  - heading "Jakie są godziny zameldowania i wymeldowania w obiekcie Dom w Zawadzie Lanckorońskiej 101?" [level=3] [ref=e1729]
+                  - img [ref=e1731]
+                - separator [ref=e1733]
+                - button "Ile sypialni znajduje się w obiekcie Dom w Zawadzie Lanckorońskiej 101?" [ref=e1736] [cursor=pointer]:
+                  - heading "Ile sypialni znajduje się w obiekcie Dom w Zawadzie Lanckorońskiej 101?" [level=3] [ref=e1738]
+                  - img [ref=e1740]
+              - generic [ref=e1743]:
+                - button "Ile kosztuje pobyt w obiekcie Dom w Zawadzie Lanckorońskiej 101?" [ref=e1746] [cursor=pointer]:
+                  - heading "Ile kosztuje pobyt w obiekcie Dom w Zawadzie Lanckorońskiej 101?" [level=3] [ref=e1748]
+                  - img [ref=e1750]
+                - separator [ref=e1752]
+                - button "Jak daleko obiekt Dom w Zawadzie Lanckorońskiej 101 znajduje się od centrum miasta Zakliczyn?" [ref=e1755] [cursor=pointer]:
+                  - heading "Jak daleko obiekt Dom w Zawadzie Lanckorońskiej 101 znajduje się od centrum miasta Zakliczyn?" [level=3] [ref=e1757]
+                  - img [ref=e1759]
+                - separator [ref=e1761]
+                - button "Czy obiekt Dom w Zawadzie Lanckorońskiej 101 jest często rezerwowany przez rodziny?" [ref=e1764] [cursor=pointer]:
+                  - heading "Czy obiekt Dom w Zawadzie Lanckorońskiej 101 jest często rezerwowany przez rodziny?" [level=3] [ref=e1766]
+                  - img [ref=e1768]
+      - button "Zakliczyn – największe atrakcje Kliknij tutaj, by zobaczyć więcej hoteli i innych opcji zakwaterowania przy popularnych atrakcjach w miejscu Zakliczyn" [ref=e1773] [cursor=pointer]:
+        - generic [ref=e1775]:
+          - generic [ref=e1777]: Zakliczyn – największe atrakcje
+          - generic [ref=e1778]: Kliknij tutaj, by zobaczyć więcej hoteli i innych opcji zakwaterowania przy popularnych atrakcjach w miejscu Zakliczyn
+        - img [ref=e1780]
+  - contentinfo [ref=e1782]:
+    - contentinfo [ref=e1786]:
+      - navigation "Szybkie linki" [ref=e1789]:
+        - list [ref=e1790]:
+          - listitem [ref=e1791]:
+            - link "Kraje" [ref=e1792] [cursor=pointer]:
+              - /url: https://www.booking.com/country.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1794]: Kraje
+            - text: .
+          - listitem [ref=e1795]:
+            - link "Regiony" [ref=e1796] [cursor=pointer]:
+              - /url: https://www.booking.com/region.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1798]: Regiony
+            - text: .
+          - listitem [ref=e1799]:
+            - link "Miasta" [ref=e1800] [cursor=pointer]:
+              - /url: https://www.booking.com/city.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1802]: Miasta
+            - text: .
+          - listitem [ref=e1803]:
+            - link "Dzielnice" [ref=e1804] [cursor=pointer]:
+              - /url: https://www.booking.com/district.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1806]: Dzielnice
+            - text: .
+          - listitem [ref=e1807]:
+            - link "Lotniska" [ref=e1808] [cursor=pointer]:
+              - /url: https://www.booking.com/airport.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1810]: Lotniska
+            - text: .
+          - listitem [ref=e1811]:
+            - link "Hotele" [ref=e1812] [cursor=pointer]:
+              - /url: https://www.booking.com/hotel/index.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1814]: Hotele
+            - text: .
+          - listitem [ref=e1815]:
+            - link "Ciekawe miejsca" [ref=e1816] [cursor=pointer]:
+              - /url: https://www.booking.com/landmark.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1818]: Ciekawe miejsca
+            - text: .
+          - listitem [ref=e1819]:
+            - link "Domy wakacyjne" [ref=e1820] [cursor=pointer]:
+              - /url: https://www.booking.com/booking-home/index.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1822]: Domy wakacyjne
+            - text: .
+          - listitem [ref=e1823]:
+            - link "Apartamenty" [ref=e1824] [cursor=pointer]:
+              - /url: https://www.booking.com/apartments/index.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1826]: Apartamenty
+            - text: .
+          - listitem [ref=e1827]:
+            - link "Ośrodki wypoczynkowe" [ref=e1828] [cursor=pointer]:
+              - /url: https://www.booking.com/resorts/index.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1830]: Ośrodki wypoczynkowe
+            - text: .
+          - listitem [ref=e1831]:
+            - link "Wille" [ref=e1832] [cursor=pointer]:
+              - /url: https://www.booking.com/villas/index.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1834]: Wille
+            - text: .
+          - listitem [ref=e1835]:
+            - link "Hostele" [ref=e1836] [cursor=pointer]:
+              - /url: https://www.booking.com/hostels/index.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1838]: Hostele
+            - text: .
+          - listitem [ref=e1839]:
+            - link "Obiekty B&B" [ref=e1840] [cursor=pointer]:
+              - /url: https://www.booking.com/bed-and-breakfast/index.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1842]: Obiekty B&B
+            - text: .
+          - listitem [ref=e1843]:
+            - link "Pensjonaty" [ref=e1844] [cursor=pointer]:
+              - /url: https://www.booking.com/guest-house/index.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1846]: Pensjonaty
+            - text: .
+          - listitem [ref=e1847]:
+            - link "Wyjątkowe miejsca na pobyt" [ref=e1848] [cursor=pointer]:
+              - /url: https://www.booking.com/accommodations.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1850]: Wyjątkowe miejsca na pobyt
+            - text: .
+          - listitem [ref=e1851]:
+            - link "Odkryj miesięczne pobyty" [ref=e1852] [cursor=pointer]:
+              - /url: https://www.booking.com/extended-stays/index.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1854]: Odkryj miesięczne pobyty
+      - generic [ref=e1856]:
+        - generic [ref=e1857]:
+          - heading "Wsparcie" [level=3] [ref=e1859]
+          - list [ref=e1860]:
+            - listitem [ref=e1861]:
+              - link "Zarządzaj swoimi wyjazdami" [ref=e1863] [cursor=pointer]:
+                - /url: https://secure.booking.com/content/cs.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1864]: Zarządzaj swoimi wyjazdami
+            - listitem [ref=e1865]:
+              - link "Skontaktuj się z Obsługą klienta" [ref=e1867] [cursor=pointer]:
+                - /url: https://secure.booking.com/help.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1868]: Skontaktuj się z Obsługą klienta
+            - listitem [ref=e1869]:
+              - link "Centrum zasobów bezpieczeństwa" [ref=e1871] [cursor=pointer]:
+                - /url: https://www.booking.com/trust_and_safety.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1872]: Centrum zasobów bezpieczeństwa
+        - generic [ref=e1873]:
+          - heading "Odkryj" [level=3] [ref=e1875]
+          - list [ref=e1876]:
+            - listitem [ref=e1877]:
+              - link "Program lojalnościowy Genius" [ref=e1879] [cursor=pointer]:
+                - /url: https://www.booking.com/genius.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1880]: Program lojalnościowy Genius
+            - listitem [ref=e1881]:
+              - link "Oferty sezonowe i wakacyjne" [ref=e1883] [cursor=pointer]:
+                - /url: https://www.booking.com/deals/index.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1884]: Oferty sezonowe i wakacyjne
+            - listitem [ref=e1885]:
+              - link "Artykuły podróżnicze" [ref=e1887] [cursor=pointer]:
+                - /url: https://www.booking.com/articles.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1888]: Artykuły podróżnicze
+            - listitem [ref=e1889]:
+              - link "Booking.com for Business" [ref=e1891] [cursor=pointer]:
+                - /url: https://business.booking.com/?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1892]: Booking.com for Business
+            - listitem [ref=e1893]:
+              - link "Traveller Review Awards" [ref=e1895] [cursor=pointer]:
+                - /url: https://www.booking.com/traveller-awards/index.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1896]: Traveller Review Awards
+            - listitem [ref=e1897]:
+              - link "Wynajem samochodów" [ref=e1899] [cursor=pointer]:
+                - /url: https://www.booking.com/cars/index.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1900]: Wynajem samochodów
+            - listitem [ref=e1901]:
+              - link "Wyszukiwarka lotów" [ref=e1903] [cursor=pointer]:
+                - /url: https://booking.com/pxgo?url=https%3A%2F%2Fbooking.kayak.com%2Fin%3Fsid%3D197d1eb7600b61a4f3e6b47ddee1c0a1%26mc%3DPLN%26bdclc%3Dpl%26p%3Dfooter_link%26a%3Dbdc%252Ffooter_link&aid=304142&token=UmFuZG9tSVYkc2RlIyh9YWDUtbaQciWiGSxolLfIVpai0cxXlLaKQ-jKbDp9gpH8fDfOWoNKitBUEKRMOa0BC0FbSxtaIRr5k6Ry5Mt0GoBKHw3zcRSleKwISmDqyQkh0SXDsA_DMT3uRhVIEqQW4XOoGIep2K7xEIYb_XhvOAT2tkHDyPUJrQyZEVyH60gUIj9QQUAQUKCwuIOHghQ9wJSQ2Z3aQzaNp68nF8Id0HvphKoO1VFqKhMhQ8os4tNO8DCtHNJAcbetBvx9W8SEeJTZIgb2Lhsmi_jnPQU7KqubTDnLBbOXunl5j2a3zO0wF0-Oah6aUNAKCR921nsmlSzbbU6Bqgduo_EMFSNo4letiO3J3srqkEAay7fsoROIraz7TOuoUDSFlaHw4aZyfHVNsPTAWH1XSI4BhLUwEAfbVbTcXgyU5CO-9BdLhvRCOcdbc287_k1sp4BfFQfi5JyxeRIEu-JaBhmdTT3pXk9NeA6WAE97604C_nWqHwdM44MIrulVo9uk0T2TK9FHqMT_wxM_ZdycaPc1WjDrSNOuUdBPYjIvTJOD6SC-Td6t7KCssX_5UkAIH_XH2agwxQ&lang=pl&label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB
+                - generic [ref=e1904]: Wyszukiwarka lotów
+            - listitem [ref=e1905]:
+              - link "Rezerwacja restauracji" [ref=e1907] [cursor=pointer]:
+                - /url: https://www.opentable.com/?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=b432497fc41d609b14a797f405ebc554&aid=304142&ref=16087
+                - generic [ref=e1908]: Rezerwacja restauracji
+            - listitem [ref=e1909]:
+              - link "Booking.com dla biur podróży" [ref=e1911] [cursor=pointer]:
+                - /url: https://www.booking.com/affiliate-program/v2/index.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142&utm_campaign=booking-footer&utm_content=travel-agents-link&utm_medium=referral&utm_source=booking.com
+                - generic [ref=e1912]: Booking.com dla biur podróży
+        - generic [ref=e1913]:
+          - heading "Warunki i ustawienia" [level=3] [ref=e1915]
+          - list [ref=e1916]:
+            - listitem [ref=e1917]:
+              - link "Zarządzaj ustawieniami dotyczącymi plików cookie" [ref=e1919] [cursor=pointer]:
+                - /url: https://www.booking.com/content/privacy.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1920]: Zarządzaj ustawieniami dotyczącymi plików cookie
+            - listitem [ref=e1921]:
+              - link "Oświadczenie o ochronie prywatności" [ref=e1923] [cursor=pointer]:
+                - /url: https://www.booking.com/content/privacy.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1924]: Oświadczenie o ochronie prywatności
+            - listitem [ref=e1925]:
+              - link "Warunki świadczenia usług" [ref=e1927] [cursor=pointer]:
+                - /url: https://www.booking.com/content/terms.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1928]: Warunki świadczenia usług
+            - listitem [ref=e1929]:
+              - link "Oświadczenie o dostępności" [ref=e1931] [cursor=pointer]:
+                - /url: https://www.booking.com/content/accessibility_statement.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1932]: Oświadczenie o dostępności
+            - listitem [ref=e1933]:
+              - link "Rozstrzyganie sporów" [ref=e1935] [cursor=pointer]:
+                - /url: https://secure.booking.com/content/complaints.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1936]: Rozstrzyganie sporów
+            - listitem [ref=e1937]:
+              - link "Oświadczenie w sprawie współczesnego niewolnictwa" [ref=e1939] [cursor=pointer]:
+                - /url: https://www.bookingholdings.com/modern-slavery-statement/?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=b432497fc41d609b14a797f405ebc554&aid=304142
+                - generic [ref=e1940]: Oświadczenie w sprawie współczesnego niewolnictwa
+            - listitem [ref=e1941]:
+              - link "Oświadczenie w sprawie praw człowieka" [ref=e1943] [cursor=pointer]:
+                - /url: https://www.bookingholdings.com/about/compliance-and-ethics/human-rights/?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=b432497fc41d609b14a797f405ebc554&aid=304142
+                - generic [ref=e1944]: Oświadczenie w sprawie praw człowieka
+            - listitem [ref=e1945]:
+              - link "Zarządzaj spersonalizowanymi propozycjami" [ref=e1947] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e1948]: Zarządzaj spersonalizowanymi propozycjami
+        - generic [ref=e1949]:
+          - heading "Partnerzy" [level=3] [ref=e1951]
+          - list [ref=e1952]:
+            - listitem [ref=e1953]:
+              - link "Logowanie do Extranetu" [ref=e1955] [cursor=pointer]:
+                - /url: https://admin.booking.com/?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142&utm_campaign=login_footer_v0&utm_medium=frontend&utm_source=extranet_login_footer
+                - generic [ref=e1956]: Logowanie do Extranetu
+            - listitem [ref=e1957]:
+              - link "Centrum pomocy" [ref=e1959] [cursor=pointer]:
+                - /url: https://partner.booking.com/pl?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142&utm_campaign=footer_list&utm_medium=frontend_footer&utm_source=booking.com
+                - generic [ref=e1960]: Centrum pomocy
+            - listitem [ref=e1961]:
+              - link "Udostępnij obiekt" [ref=e1963] [cursor=pointer]:
+                - /url: https://join.booking.com/?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142&lang=pl&utm_medium=frontend&utm_source=footer_menu
+                - generic [ref=e1964]: Udostępnij obiekt
+            - listitem [ref=e1965]:
+              - link "Zostań naszym Partnerem Afiliacyjnym" [ref=e1967] [cursor=pointer]:
+                - /url: https://www.booking.com/affiliate-program/v2/index.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142&utm_campaign=booking-footer&utm_content=become-an-affiliate-link&utm_medium=referral&utm_source=booking.com
+                - generic [ref=e1968]: Zostań naszym Partnerem Afiliacyjnym
+        - generic [ref=e1969]:
+          - heading "Informacje ogólne" [level=3] [ref=e1971]
+          - list [ref=e1972]:
+            - listitem [ref=e1973]:
+              - link "O Booking.com" [ref=e1975] [cursor=pointer]:
+                - /url: https://www.booking.com/content/about.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1976]: O Booking.com
+            - listitem [ref=e1977]:
+              - link "Zasady współpracy" [ref=e1979] [cursor=pointer]:
+                - /url: https://www.booking.com/content/how_we_work.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1980]: Zasady współpracy
+            - listitem [ref=e1981]:
+              - link "Zrównoważony rozwój" [ref=e1983] [cursor=pointer]:
+                - /url: https://sustainability.booking.com/?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=b432497fc41d609b14a797f405ebc554&aid=304142
+                - generic [ref=e1984]: Zrównoważony rozwój
+            - listitem [ref=e1985]:
+              - link "Informacje prasowe" [ref=e1987] [cursor=pointer]:
+                - /url: https://globalnews.booking.com/?aid=304142&lang=pl
+                - generic [ref=e1988]: Informacje prasowe
+            - listitem [ref=e1989]:
+              - link "Oferty pracy" [ref=e1991] [cursor=pointer]:
+                - /url: https://careers.booking.com/?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=b432497fc41d609b14a797f405ebc554&aid=304142
+                - generic [ref=e1992]: Oferty pracy
+            - listitem [ref=e1993]:
+              - link "Relacje z inwestorami" [ref=e1995] [cursor=pointer]:
+                - /url: https://www.bookingholdings.com/?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=b432497fc41d609b14a797f405ebc554&aid=304142
+                - generic [ref=e1996]: Relacje z inwestorami
+            - listitem [ref=e1997]:
+              - link "Kontakt dla firm" [ref=e1999] [cursor=pointer]:
+                - /url: https://www.booking.com/content/contact-us.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e2000]: Kontakt dla firm
+            - listitem [ref=e2001]:
+              - link "Wytyczne dotyczące publikowania treści i zgłaszania nieodpowiednich treści" [ref=e2003] [cursor=pointer]:
+                - /url: https://www.booking.com/content-moderation-policy/overview-page.pl.html?label=gen173nr-10CAsotgFCIWRvbS13LXphd2FkemllLWxhbmNrb3JvbnNraWVqLTEwMUgJWARotgGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsCRkdEGwAIB0gIkNTI5YWUxOGEtMjAyOC00MDIyLWJkNzUtMjQ2MjMyMDdlYTc12AIB4AIB&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e2004]: Wytyczne dotyczące publikowania treści i zgłaszania nieodpowiednich treści
+      - generic [ref=e2006]:
+        - generic [ref=e2007]:
+          - 'button "Język: Polski" [ref=e2009] [cursor=pointer]'
+          - 'button "Waluta: Złoty polski" [ref=e2014] [cursor=pointer]':
+            - generic [ref=e2015]: PLN
+        - separator [ref=e2016]
+        - generic [ref=e2017]:
+          - generic [ref=e2019]: Booking.com jest częścią Booking Holdings Inc. – światowego lidera w internetowej branży turystycznej.
+          - generic [ref=e2020]: Prawa autorskie © 1996–2026 Booking.com™. Wszystkie prawa zastrzeżone.
+        - generic [ref=e2021]:
+          - img "Booking.com" [ref=e2022]:
+            - img [ref=e2023]
+          - img "Priceline.com" [ref=e2025]:
+            - img [ref=e2026]
+          - img "Kayak" [ref=e2029]:
+            - img [ref=e2030]
+          - img "Agoda" [ref=e2044]:
+            - img [ref=e2045]
+          - img "OpenTable" [ref=e2053]:
+            - img [ref=e2054]
+  - text: 끖 낝 끲 낝 넌
+  - generic [ref=e2057]: Ładowanie
+  - generic [ref=e2058]: Ładowanie
+  - region "Baner ciasteczkowy" [ref=e2059]:
+    - dialog "Zarządzaj ustawieniami dotyczącymi plików cookie" [ref=e2060]:
+      - generic [ref=e2062]:
+        - generic [ref=e2064]:
+          - heading "Zarządzaj ustawieniami dotyczącymi plików cookie" [level=2] [ref=e2065]
+          - generic [ref=e2066]:
+            - paragraph [ref=e2067]: "Kiedy korzystasz z platformy Booking.com, my (Booking.com i nasi partnerzy) używamy następujących kategorii plików cookie (i podobnych technologii), które wymagają Twojej zgody: analityczne pliki cookie i marketingowe pliki cookie."
+            - heading "Analityczne pliki cookie" [level=3] [ref=e2068]
+            - paragraph [ref=e2069]: My i nasi partnerzy używamy analitycznych plików cookie w celu uzyskania informacji na temat korzystania z naszej usługi, które są następnie wykorzystywane do zrozumienia, w jaki sposób użytkownicy tacy jak Ty korzystają z naszej platformy, oraz do poprawy wydajności naszej witryny i usług.
+            - heading "Marketingowe pliki cookie" [level=3] [ref=e2070]
+            - paragraph [ref=e2071]: My i nasi partnerzy używamy marketingowych plików cookie, w tym plików cookie mediów społecznościowych, aby zbierać informacje o Twoim zachowaniu na tej platformie, co pomaga nam decydować, które produkty będą Ci pokazywane na naszej platformie i poza nią, oraz wyświetlać spersonalizowane treści i reklamy na Booking.com i innych platformach. Spersonalizowane treści są oparte na Twoim zachowaniu i rezerwowanych przez Ciebie usługach. Te pliki cookie umożliwiają Ci również udostępnianie lub polubienie stron w mediach społecznościowych.
+            - paragraph [ref=e2072]: Wybierając „Akceptuj”, wyrażasz zgodę na korzystanie z analitycznych i marketingowych plików cookie oraz związane z tym przetwarzanie Twoich danych osobowych. W każdej chwili możesz zaktualizować swoją zgodę dla każdej platformy. W przypadku strony internetowej możesz to zrobić poprzez opcję „Zarządzaj ustawieniami dotyczącymi plików cookie” w stopce; w przypadku aplikacji – poprzez opcję „Moje konto / Zaloguj się” > „Ustawienia urządzenia” > „Zarządzaj ustawieniami dotyczącymi ochrony prywatności”.
+            - paragraph [ref=e2073]: Jeśli wybierzesz „Odmów”, będziesz korzystać z naszej platformy w mniej spersonalizowany sposób.
+            - paragraph [ref=e2074]:
+              - text: Więcej informacji na temat przetwarzania stosownych danych osobowych można znaleźć w
+              - link "Oświadczeniu o ochronie prywatności" [ref=e2075] [cursor=pointer]:
+                - /url: https://www.booking.com/content/privacy.html
+              - text: .
+        - generic [ref=e2077]:
+          - button "Zarządzaj ustawieniami" [ref=e2078] [cursor=pointer]
+          - button "Odrzuć" [ref=e2079] [cursor=pointer]
+          - button "Akceptuj" [ref=e2080] [cursor=pointer]

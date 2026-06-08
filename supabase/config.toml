@@ -2,7 +2,7 @@
 # https://supabase.com/docs/guides/local-development/cli/config
 # A string used to distinguish different Supabase projects on the same host. Defaults to the
 # working directory name when running `supabase init`.
-project_id = "zawada-lanckoronska"
+project_id = "domek-nad-dolina"
 
 [api]
 enabled = true
@@ -406,3 +406,27 @@ s3_secret_key = "env(S3_SECRET_KEY)"
 [functions.ical-sync]
 # Cron schedule configured in Supabase Dashboard on production:
 # Edge Functions → ical-sync → Schedule → */5 * * * *
+
+[functions.cleanup-pending-reservations]
+# Cron schedule configured in Supabase Dashboard on production:
+# Edge Functions → cleanup-pending-reservations → Schedule → */5 * * * *
+#
+# Deletes reservations stuck in 'pending' for more than 15 minutes — abandoned
+# checkouts where the guest never paid and Stripe never sent a webhook
+# (payment_intent.canceled / payment_failed) to flip them to 'cancelled'.
+# This frees up the dates so other guests can book them again.
+
+[functions.stay-emails]
+# Cron schedule configured in Supabase Dashboard on production:
+# Edge Functions → stay-emails → Schedule → 0 8 * * *  (daily at 08:00 UTC)
+#
+# Sends two reservation lifecycle emails (guarded by reservations.pre_arrival_email_sent_at /
+# review_email_sent_at so re-runs never duplicate):
+#   - "what to bring" reminder, 2 days before check-in
+#   - review request, 1 day after check-out
+#
+# Secrets required (Edge Functions → stay-emails → Secrets, or `supabase secrets set`):
+#   RESEND_API_KEY        — same key used for booking confirmation emails
+#   RESEND_FROM           — sender address, e.g. rezerwacje@stanautomation.com
+#   NEXT_PUBLIC_SITE_URL  — used for the logo image and footer link
+#   REVIEW_URL            — link to leave a review; omit to send the review email without a button

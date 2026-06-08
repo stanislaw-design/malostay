@@ -4,6 +4,7 @@ import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
 import { t, type Locale } from '@/lib/i18n/t'
+import { guestSchema } from '@/lib/booking/guest-schema'
 
 export interface GuestFormValues {
   guestName: string
@@ -22,12 +23,8 @@ interface Props {
 }
 
 export function GuestForm({ maxGuests, locale, onSubmit, onBack, loading }: Props) {
-  const schema = z.object({
-    guestName: z.string().min(2).max(200),
-    guestEmail: z.string().email(),
-    guestPhone: z.string().min(9).max(30),
+  const schema = guestSchema.extend({
     guestCount: z.number().int().min(1).max(maxGuests),
-    notes: z.string().max(1000).optional(),
   })
 
   const {

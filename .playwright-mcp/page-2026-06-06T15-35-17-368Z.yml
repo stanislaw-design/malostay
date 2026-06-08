@@ -1,0 +1,216 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Domek nad Doliną" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e5]:
+        - link "Domek" [ref=e6] [cursor=pointer]:
+          - /url: "#domek"
+        - link "Galeria" [ref=e7] [cursor=pointer]:
+          - /url: "#galeria"
+        - link "Lokalizacja" [ref=e8] [cursor=pointer]:
+          - /url: "#lokalizacja"
+        - link "Kontakt" [ref=e9] [cursor=pointer]:
+          - /url: "#kontakt"
+        - link "Zarezerwuj" [ref=e10] [cursor=pointer]:
+          - /url: "#rezerwacja"
+  - main [ref=e11]:
+    - generic [ref=e16]:
+      - paragraph [ref=e17]: Pieniny · Dolina Dunajca · Małopolska
+      - heading "Twoja dolina. Twoje tempo." [level=1] [ref=e18]:
+        - text: Twoja dolina.
+        - emphasis [ref=e19]: Twoje tempo.
+      - paragraph [ref=e20]: Drewniany domek z widokiem na Dolinę Dunajca — dla tych, którzy szukają ciszy, a nie tłumu.
+      - generic [ref=e21]:
+        - link "Sprawdź dostępność" [ref=e22] [cursor=pointer]:
+          - /url: "#rezerwacja"
+        - link "Poznaj domek ↓" [ref=e23] [cursor=pointer]:
+          - /url: "#domek"
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - img [ref=e30]
+        - generic [ref=e35]: Do 6 osób
+      - generic [ref=e36]:
+        - img [ref=e37]
+        - generic [ref=e39]: 3 sypialnie
+      - generic [ref=e40]:
+        - img [ref=e41]
+        - generic [ref=e43]: Widok na dolinę
+      - generic [ref=e44]:
+        - img [ref=e45]
+        - generic [ref=e49]: Parking gratis
+      - generic [ref=e50]:
+        - img [ref=e51]
+        - generic [ref=e53]: 4.9 · 47 opinii
+    - generic [ref=e55]:
+      - paragraph [ref=e56]: Nasz domek
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - img "Drewniany domek nad Doliną Dunajca" [ref=e60]
+          - generic [ref=e61]:
+            - img "Salon z kominkiem i widokiem na dolinę" [ref=e63]
+            - img "Przytulna sypialnia z drewnianymi belkami" [ref=e65]
+            - img "Taras z widokiem na Pieniny" [ref=e67]
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - heading "Drewniany Domek nad Doliną Dunajca" [level=2] [ref=e70]:
+              - text: Drewniany Domek
+              - emphasis [ref=e71]: nad Doliną Dunajca
+            - paragraph [ref=e72]: Domek z charakterem — pełen ciepła prawdziwego drewna, z panoramą rozciągającą się daleko w dolinę Dunajca. Budzisz się przy kawie z widokiem, który zapiera dech. Wieczorem — taras, grill i cisza przerywana jedynie wiatrem w koronach drzew.
+            - paragraph [ref=e73]: Idealny na weekend dla rodziny lub pary, na tydzień spokojnego odpoczynku z dala od miejskiego hałasu.
+          - list [ref=e74]:
+            - listitem [ref=e75]: Do 6 osób
+            - listitem [ref=e77]: 3 sypialnie (1 podwójna + 2 z łóżkami pojedynczymi)
+            - listitem [ref=e79]: Salon z kominkiem
+            - listitem [ref=e81]: Aneks kuchenny w pełni wyposażony
+            - listitem [ref=e83]: Taras z widokiem na dolinę
+            - listitem [ref=e85]: Min. 2 noce
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - generic [ref=e89]: od 350 zł
+              - generic [ref=e90]: / noc
+            - link "Zarezerwuj pobyt →" [ref=e91] [cursor=pointer]:
+              - /url: /pl/domki/domek-dunajec
+            - paragraph [ref=e92]: Płatność online · Stripe · BLIK · Karta
+    - generic [ref=e93]:
+      - generic [ref=e94]:
+        - img "Panoramiczny widok na Dolinę Dunajca przez okno salonu" [ref=e96]
+        - generic [ref=e98]:
+          - heading "Widok, który zostaje w pamięci." [level=3] [ref=e99]
+          - paragraph [ref=e100]: Panoramiczne okna w salonie wychodzą prosto na dolinę. Mgła, która rano opada między wzgórzami. Kolory jesieni odbite w tafli rzeki. Tu nie musisz szukać widoku — on sam do Ciebie przychodzi.
+      - generic [ref=e101]:
+        - img "Kryty taras domku o zmierzchu z widokiem na Pieniny" [ref=e103]
+        - generic [ref=e105]:
+          - heading "Ranek na tarasie. Wieczór przy kominku." [level=3] [ref=e106]
+          - paragraph [ref=e107]: Kryty taras z widokiem to miejsce, do którego będziesz wracać. Kawa o wschodzie słońca. Kolacja z panoramą Pienin. A kiedy zrobi się chłodniej — kominek w salonie czeka gotowy.
+    - generic [ref=e109]:
+      - paragraph [ref=e110]: Co znajdziesz
+      - heading "Wszystko, czego potrzebujesz." [level=2] [ref=e111]
+      - generic [ref=e112]:
+        - generic [ref=e113]:
+          - img [ref=e115]
+          - generic [ref=e119]: WiFi bezpłatne
+        - generic [ref=e120]:
+          - img [ref=e122]
+          - generic [ref=e124]: Kuchnia wyposażona
+        - generic [ref=e125]:
+          - img [ref=e127]
+          - generic [ref=e130]: Smart TV
+        - generic [ref=e131]:
+          - img [ref=e133]
+          - generic [ref=e135]: Kominek
+        - generic [ref=e136]:
+          - img [ref=e138]
+          - generic [ref=e144]: Taras z widokiem
+        - generic [ref=e145]:
+          - img [ref=e147]
+          - generic [ref=e149]: Grill / BBQ
+        - generic [ref=e150]:
+          - img [ref=e152]
+          - generic [ref=e155]: Parking gratis
+        - generic [ref=e156]:
+          - img [ref=e158]
+          - generic [ref=e161]: Pościel i ręczniki
+    - generic [ref=e163]:
+      - paragraph [ref=e164]: Zajrzyj do środka
+      - heading "Galeria." [level=2] [ref=e165]
+      - generic [ref=e166]:
+        - img "Domek w zimowej scenerii" [ref=e168]
+        - img "Salon z drewnianymi belkami i widokiem na dolinę" [ref=e170]
+        - img "Kryty taras z fotelem wiszącym" [ref=e172]
+        - img "Przytulna sypialnia na poddaszu" [ref=e174]
+        - img "Aneks kuchenny w stylu rustykalnym" [ref=e176]
+        - img "Panorama Doliny Dunajca o świcie" [ref=e178]
+    - generic [ref=e180]:
+      - paragraph [ref=e181]: Gdzie jesteśmy
+      - heading "Pieniny, Małopolska." [level=2] [ref=e182]
+      - generic [ref=e183]:
+        - img "Okolice Krościenka nad Dunajcem — Pieniny" [ref=e185]
+        - generic [ref=e186]:
+          - paragraph [ref=e187]: Domek usytuowany jest w cichej okolicy w pobliżu Krościenka nad Dunajcem — u wrót Pienińskiego Parku Narodowego. Idealna baza na spływy Dunajcem, piesze wędrówki po Pieninach i wycieczki do Szczawnicy.
+          - list [ref=e188]:
+            - listitem [ref=e189]:
+              - generic [ref=e190]: Centrum Krościenka nad Dunajcem
+              - generic [ref=e191]: 4 km
+            - listitem [ref=e192]:
+              - generic [ref=e193]: Spływy Dunajcem (Sromowce)
+              - generic [ref=e194]: 6 km
+            - listitem [ref=e195]:
+              - generic [ref=e196]: Szczawnica
+              - generic [ref=e197]: 9 km
+            - listitem [ref=e198]:
+              - generic [ref=e199]: Nowy Targ
+              - generic [ref=e200]: 28 km
+            - listitem [ref=e201]:
+              - generic [ref=e202]: Zakopane
+              - generic [ref=e203]: 52 km
+            - listitem [ref=e204]:
+              - generic [ref=e205]: Kraków
+              - generic [ref=e206]: 110 km
+    - generic [ref=e208]:
+      - paragraph [ref=e209]: Opinie gości
+      - heading "Co mówią goście." [level=2] [ref=e210]
+      - generic [ref=e211]:
+        - generic [ref=e212]:
+          - generic [ref=e213]:
+            - generic [ref=e214]: ★
+            - generic [ref=e215]: ★
+            - generic [ref=e216]: ★
+            - generic [ref=e217]: ★
+            - generic [ref=e218]: ★
+          - paragraph [ref=e219]: “Magiczne miejsce. Widok z okna salonu sprawia, że nie chce się wychodzić. Wrócimy na pewno — może już zimą.”
+          - generic [ref=e220]:
+            - paragraph [ref=e221]: Katarzyna M.
+            - paragraph [ref=e222]: Kraków · lipiec 2025 · Booking.com ✓
+        - generic [ref=e223]:
+          - generic [ref=e224]:
+            - generic [ref=e225]: ★
+            - generic [ref=e226]: ★
+            - generic [ref=e227]: ★
+            - generic [ref=e228]: ★
+            - generic [ref=e229]: ★
+          - paragraph [ref=e230]: “Domek w 100% taki jak na zdjęciach — czysty, dobrze wyposażony, z cudownym widokiem. Idealny reset po intensywnym roku.”
+          - generic [ref=e231]:
+            - paragraph [ref=e232]: Paweł i Ania
+            - paragraph [ref=e233]: Warszawa · grudzień 2025 · Booking.com ✓
+        - generic [ref=e234]:
+          - generic [ref=e235]:
+            - generic [ref=e236]: ★
+            - generic [ref=e237]: ★
+            - generic [ref=e238]: ★
+            - generic [ref=e239]: ★
+            - generic [ref=e240]: ★
+          - paragraph [ref=e241]: “Przyjechaliśmy z całą rodziną — 6 osób, wszyscy zachwyceni. Dzieci bawiły się na tarasie, my odpoczywaliśmy. Nic więcej nie potrzeba.”
+          - generic [ref=e242]:
+            - paragraph [ref=e243]: Rodzina Kowalskich
+            - paragraph [ref=e244]: Wrocław · sierpień 2025 · Booking.com ✓
+      - paragraph [ref=e245]:
+        - text: Średnia ocena
+        - strong [ref=e246]: 4.9 / 5
+        - text: na podstawie 47 opinii
+    - generic [ref=e249]:
+      - paragraph [ref=e250]: Zarezerwuj pobyt
+      - heading "Twój urlop zaczyna się od jednej decyzji." [level=2] [ref=e251]:
+        - text: Twój urlop zaczyna się
+        - emphasis [ref=e252]: od jednej decyzji.
+      - paragraph [ref=e253]: Sprawdź dostępne terminy i zarezerwuj bezpośrednio — bez pośredników.
+      - link "Sprawdź wolne terminy →" [ref=e254] [cursor=pointer]:
+        - /url: /pl/domki/domek-dunajec
+      - paragraph [ref=e255]:
+        - text: Masz pytania?
+        - link "kontakt@domeknaddunajem.pl" [ref=e256] [cursor=pointer]:
+          - /url: mailto:kontakt@domeknaddunajem.pl
+  - contentinfo [ref=e257]:
+    - generic [ref=e258]:
+      - paragraph [ref=e259]: © 2025 Drewniany Domek nad Doliną Dunajca · Krościenko nad Dunajcem
+      - generic [ref=e260]:
+        - link "Polityka prywatności" [ref=e261] [cursor=pointer]:
+          - /url: /polityka-prywatnosci
+        - generic [ref=e262]: ·
+        - link "PL" [ref=e263] [cursor=pointer]:
+          - /url: /pl
+        - link "EN" [ref=e264] [cursor=pointer]:
+          - /url: /en
+  - button "Open Next.js Dev Tools" [ref=e270] [cursor=pointer]:
+    - img [ref=e271]
+  - alert [ref=e274]

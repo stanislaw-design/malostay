@@ -3,7 +3,16 @@ import { createClient } from '@/lib/supabase/server'
 import { createServiceClient } from '@/lib/supabase/service'
 import { getBookedRanges } from '@/lib/availability'
 import { t, type Locale } from '@/lib/i18n/t'
+import { getCottageContent, pickText } from '@/lib/cottages-data'
+import { Nav } from '@/components/landing/Nav'
+import { Footer } from '@/components/landing/Footer'
 import { BookingWidget } from '@/components/booking/BookingWidget'
+import { CottageHero } from '@/components/cottage/CottageHero'
+import { CottageAmenities } from '@/components/cottage/CottageAmenities'
+import { CottageGallery } from '@/components/cottage/CottageGallery'
+import { CottageLocation } from '@/components/cottage/CottageLocation'
+import { CottageReviews } from '@/components/cottage/CottageReviews'
+import { CottageFinalCTA } from '@/components/cottage/CottageFinalCTA'
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>
@@ -20,11 +29,12 @@ export default async function PropertyPage({ params }: Props) {
     .eq('slug', slug)
     .eq('active', true)
     .single()
-
   if (!property) notFound()
 
-  const service = createServiceClient()
+  const content = getCottageContent(slug)
+  if (!content) notFound()
 
+  const service = createServiceClient()
   const [{ data: settings }, { data: pricingRules }, bookedRanges] = await Promise.all([
     service
       .from('property_settings')
@@ -40,8 +50,8 @@ export default async function PropertyPage({ params }: Props) {
     getBookedRanges(slug),
   ])
 
-  const name = safeLocale === 'pl' ? property.name_pl : property.name_en
-  const description = safeLocale === 'pl' ? property.description_pl : property.description_en
+  const name = pickText(safeLocale, content.tagline)
+  const description = pickText(safeLocale, content.description)
 
   const samplePrice =
     pricingRules && pricingRules.length > 0
@@ -49,64 +59,93 @@ export default async function PropertyPage({ params }: Props) {
       : null
 
   return (
-    <main className="min-h-screen bg-white">
-      <div className="max-w-5xl mx-auto px-4 py-8 md:py-12">
-        {property.cover_image && (
-          <div className="w-full aspect-video rounded-2xl overflow-hidden mb-8 bg-neutral-100">
-            <img src={property.cover_image} alt={name} className="w-full h-full object-cover" />
-          </div>
-        )}
+    <>
+      <Nav />
+      <main className="bg-fog">
+        <CottageHero cottage={content} name={name} locale={safeLocale} />
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
-          <div className="space-y-6">
-            <h1 className="text-3xl font-bold text-neutral-900">{name}</h1>
+        {/* Booking — immediately after hero, the primary action on this page */}
+        <section id="rezerwacja" className="bg-bone py-20 md:py-28">
+          <div className="max-w-6xl mx-auto px-6">
+            <div className="grid grid-cols-1 lg:grid-cols-[1fr_400px] gap-12 lg:gap-16 items-start">
+              <div className="reveal">
+                <p className="text-[10px] tracking-[0.3em] uppercase text-sage mb-6">
+                  {safeLocale === 'en' ? 'Check availability' : 'Sprawdź dostępność'}
+                </p>
+                <h2
+                  className="font-display text-charcoal leading-[0.92] mb-8"
+                  style={{ fontSize: 'clamp(2rem, 4vw, 3.2rem)' }}
+                >
+                  {name}
+                </h2>
 
-            <div className="flex flex-wrap gap-4 text-sm text-neutral-600">
-              <span>
-                {t(safeLocale, 'property.maxGuests')}: <strong>{property.max_guests}</strong>
-              </span>
-              <span>
-                {t(safeLocale, 'property.checkIn')}: <strong>{property.check_in_time}</strong>
-              </span>
-              <span>
-                {t(safeLocale, 'property.checkOut')}: <strong>{property.check_out_time}</strong>
-              </span>
-              <span>
-                {t(safeLocale, 'property.minNights')}: <strong>{property.min_nights}</strong>
-              </span>
+                <div className="flex flex-wrap gap-x-8 gap-y-3 text-sm text-charcoal/55 mb-8">
+                  <span>
+                    {t(safeLocale, 'property.maxGuests')}: <strong className="text-charcoal font-medium">{property.max_guests}</strong>
+                  </span>
+                  <span>
+                    {t(safeLocale, 'property.checkIn')}: <strong className="text-charcoal font-medium">{property.check_in_time}</strong>
+                  </span>
+                  <span>
+                    {t(safeLocale, 'property.checkOut')}: <strong className="text-charcoal font-medium">{property.check_out_time}</strong>
+                  </span>
+                  <span>
+                    {t(safeLocale, 'property.minNights')}: <strong className="text-charcoal font-medium">{property.min_nights}</strong>
+                  </span>
+                </div>
+
+                {samplePrice != null && (
+                  <p className="font-display text-charcoal mb-6" style={{ fontSize: 'clamp(1.6rem, 2.6vw, 2.2rem)' }}>
+                    {t(safeLocale, 'property.priceFrom', { price: samplePrice })}
+                  </p>
+                )}
+
+                {description && (
+                  <p className="text-charcoal/65 leading-relaxed whitespace-pre-line max-w-xl" style={{ maxWidth: '60ch' }}>
+                    {description}
+                  </p>
+                )}
+              </div>
+
+              <div className="reveal-d1">
+                <BookingWidget
+                  property={{
+                    id: property.id,
+                    slug: property.slug,
+                    minNights: property.min_nights,
+                    maxGuests: property.max_guests,
+                    checkInTime: property.check_in_time,
+                    checkOutTime: property.check_out_time,
+                  }}
+                  pricingRules={pricingRules ?? []}
+                  bookedRanges={bookedRanges}
+                  depositPercent={settings?.deposit_percent ?? null}
+                  stripeConfigured={!!process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY}
+                  locale={safeLocale}
+                />
+              </div>
             </div>
-
-            {samplePrice != null && (
-              <p className="text-2xl font-semibold text-neutral-900">
-                {t(safeLocale, 'property.priceFrom', { price: samplePrice })}
-              </p>
-            )}
-
-            {description && (
-              <p className="text-neutral-700 leading-relaxed whitespace-pre-line">{description}</p>
-            )}
           </div>
+        </section>
 
-          <div>
-            <BookingWidget
-              property={{
-                id: property.id,
-                slug: property.slug,
-                minNights: property.min_nights,
-                maxGuests: property.max_guests,
-                checkInTime: property.check_in_time,
-                checkOutTime: property.check_out_time,
-              }}
-              pricingRules={pricingRules ?? []}
-              bookedRanges={bookedRanges}
-              depositPercent={settings?.deposit_percent ?? null}
-              stripeConfigured={!!process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY}
-              locale={safeLocale}
-            />
-          </div>
-        </div>
-      </div>
-    </main>
+        <CottageAmenities amenities={content.amenities} locale={safeLocale} />
+        <CottageGallery photos={content.gallery} locale={safeLocale} />
+        <CottageLocation location={content.location} locale={safeLocale} />
+        <CottageReviews
+          reviews={content.reviews}
+          score={content.bookingScore}
+          reviewCount={content.bookingReviewCount}
+          locale={safeLocale}
+        />
+        <CottageFinalCTA
+          name={name}
+          bookedRanges={bookedRanges}
+          minNights={property.min_nights}
+          locale={safeLocale}
+        />
+      </main>
+      <Footer />
+    </>
   )
 }
 

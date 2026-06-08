@@ -3,7 +3,7 @@ import { pl, enUS } from 'date-fns/locale'
 import { createServiceClient } from '@/lib/supabase/service'
 import { getResend, FROM, ADMIN_EMAIL } from './resend'
 
-interface BookingEmailData {
+export interface BookingEmailData {
   guestName: string
   guestEmail: string
   language: string
@@ -20,7 +20,43 @@ function fmt(date: string, locale: 'pl' | 'en') {
   return format(new Date(date), 'd MMM yyyy', { locale: locale === 'pl' ? pl : enUS })
 }
 
-function guestEmailHtml(d: BookingEmailData, locale: 'pl' | 'en'): { subject: string; html: string } {
+// Defense in depth: guest-supplied strings are escaped before being interpolated
+// into HTML email markup, even though input validation already restricts them.
+function escapeHtml(value: string): string {
+  return value
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;')
+}
+
+// Brand tokens — kept in sync with app/globals.css (--color-* / --font-poppins)
+const FOREST = '#1C2320'
+const FOG = '#F4EEE4'
+const BONE = '#FDFAF5'
+const PINE = '#1E4D2B'
+const CHARCOAL = '#2E3330'
+const SAGE = '#7A8E7E'
+const MIST = '#C8CEC9'
+const FONT_STACK = "'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+const FONT_LINK = '<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">'
+const LOGO_URL = `${(process.env.NEXT_PUBLIC_SITE_URL ?? '').replace(/\/$/, '')}/logos/logo-poziome.png`
+
+function emailHeader(title: string, subtitle: string): string {
+  return `<tr><td style="background:${FOREST};padding:48px 40px 40px;text-align:center">
+          <img src="${LOGO_URL}" width="130" height="52" alt="Malo Stay" style="display:block;margin:0 auto 32px;width:130px;height:auto;border:0" />
+          <div style="width:48px;height:1px;background:rgba(253,250,245,0.25);margin:0 auto 32px;line-height:0">&nbsp;</div>
+          <h1 style="margin:0;color:${BONE};font-size:23px;font-weight:600;font-family:${FONT_STACK}">
+            ${title}
+          </h1>
+          <p style="margin:12px 0 0;color:rgba(253,250,245,0.7);font-size:15px;font-family:${FONT_STACK}">
+            ${subtitle}
+          </p>
+        </td></tr>`
+}
+
+export function guestEmailHtml(d: BookingEmailData, locale: 'pl' | 'en'): { subject: string; html: string } {
   const isPl = locale === 'pl'
   const amountPaid = d.depositAmount ?? d.totalPrice
   const isDeposit = d.depositAmount !== null
@@ -31,89 +67,86 @@ function guestEmailHtml(d: BookingEmailData, locale: 'pl' | 'en'): { subject: st
 
   const depositNote = isDeposit
     ? isPl
-      ? `<p style="color:#6b7280;font-size:14px;margin:0">Opłacono zadatek. Pozostała kwota płatna przy zameldowaniu.</p>`
-      : `<p style="color:#6b7280;font-size:14px;margin:0">Deposit paid. Remaining balance due at check-in.</p>`
+      ? `<p style="color:${SAGE};font-size:14px;margin:0;font-family:${FONT_STACK}">Opłacono zadatek. Pozostała kwota płatna przy zameldowaniu.</p>`
+      : `<p style="color:${SAGE};font-size:14px;margin:0;font-family:${FONT_STACK}">Deposit paid. Remaining balance due at check-in.</p>`
     : ''
 
   const html = `<!DOCTYPE html>
 <html lang="${locale}">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
-<body style="margin:0;padding:0;background:#f9fafb;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
-  <table width="100%" cellpadding="0" cellspacing="0" style="background:#f9fafb;padding:40px 16px">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">${FONT_LINK}</head>
+<body style="margin:0;padding:0;background:${FOG};font-family:${FONT_STACK}">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:${FOG};padding:56px 16px">
     <tr><td align="center">
-      <table width="100%" cellpadding="0" cellspacing="0" style="max-width:520px;background:#ffffff;border-radius:12px;border:1px solid #e5e7eb;overflow:hidden">
+      <table width="100%" cellpadding="0" cellspacing="0" style="max-width:520px;background:${BONE};border-radius:12px;border:1px solid ${MIST};overflow:hidden">
 
-        <tr><td style="background:#16a34a;padding:32px 32px 24px;text-align:center">
-          <div style="width:56px;height:56px;background:rgba(255,255,255,0.2);border-radius:50%;margin:0 auto 16px;display:flex;align-items:center;justify-content:center;font-size:28px;line-height:56px">✓</div>
-          <h1 style="margin:0;color:#ffffff;font-size:22px;font-weight:700">
-            ${isPl ? 'Rezerwacja potwierdzona' : 'Booking confirmed'}
-          </h1>
-          <p style="margin:8px 0 0;color:rgba(255,255,255,0.85);font-size:15px">
-            ${isPl ? `Cześć ${d.guestName}, wszystko gotowe!` : `Hi ${d.guestName}, you're all set!`}
-          </p>
-        </td></tr>
+        ${emailHeader(
+          isPl ? 'Rezerwacja potwierdzona' : 'Booking confirmed',
+          isPl
+            ? `Cześć ${escapeHtml(d.guestName)}, wszystko gotowe!`
+            : `Hi ${escapeHtml(d.guestName)}, you're all set!`
+        )}
 
-        <tr><td style="padding:28px 32px">
-          <p style="margin:0 0 20px;color:#374151;font-size:15px">
+        <tr><td style="padding:44px 40px">
+          <p style="margin:0 0 32px;color:${CHARCOAL};font-size:15px;line-height:1.7;font-family:${FONT_STACK}">
             ${isPl
               ? `Twoja rezerwacja <strong>${d.propertyName}</strong> została potwierdzona. Oto szczegóły:`
               : `Your reservation at <strong>${d.propertyName}</strong> is confirmed. Here are the details:`}
           </p>
 
-          <table width="100%" cellpadding="0" cellspacing="0" style="background:#f9fafb;border-radius:8px;border:1px solid #e5e7eb;overflow:hidden">
+          <table width="100%" cellpadding="0" cellspacing="0" style="background:${FOG};border-radius:8px;border:1px solid ${MIST};overflow:hidden">
             <tr>
-              <td style="padding:12px 16px;border-bottom:1px solid #e5e7eb;color:#6b7280;font-size:13px;width:50%">
+              <td style="padding:18px 22px;border-bottom:1px solid ${MIST};color:${SAGE};font-size:13px;width:50%;font-family:${FONT_STACK}">
                 ${isPl ? 'Nr rezerwacji' : 'Reservation ID'}
               </td>
-              <td style="padding:12px 16px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:12px;color:#374151;font-weight:600">
+              <td style="padding:18px 22px;border-bottom:1px solid ${MIST};font-family:monospace;font-size:12px;color:${CHARCOAL};font-weight:600">
                 ${d.reservationId.slice(0, 8).toUpperCase()}
               </td>
             </tr>
             <tr>
-              <td style="padding:12px 16px;border-bottom:1px solid #e5e7eb;color:#6b7280;font-size:13px">
+              <td style="padding:18px 22px;border-bottom:1px solid ${MIST};color:${SAGE};font-size:13px;font-family:${FONT_STACK}">
                 ${isPl ? 'Zameldowanie' : 'Check-in'}
               </td>
-              <td style="padding:12px 16px;border-bottom:1px solid #e5e7eb;color:#374151;font-size:14px;font-weight:500">
+              <td style="padding:18px 22px;border-bottom:1px solid ${MIST};color:${CHARCOAL};font-size:14px;font-weight:500;font-family:${FONT_STACK}">
                 ${fmt(d.checkIn, locale)}
               </td>
             </tr>
             <tr>
-              <td style="padding:12px 16px;border-bottom:1px solid #e5e7eb;color:#6b7280;font-size:13px">
+              <td style="padding:18px 22px;border-bottom:1px solid ${MIST};color:${SAGE};font-size:13px;font-family:${FONT_STACK}">
                 ${isPl ? 'Wymeldowanie' : 'Check-out'}
               </td>
-              <td style="padding:12px 16px;border-bottom:1px solid #e5e7eb;color:#374151;font-size:14px;font-weight:500">
+              <td style="padding:18px 22px;border-bottom:1px solid ${MIST};color:${CHARCOAL};font-size:14px;font-weight:500;font-family:${FONT_STACK}">
                 ${fmt(d.checkOut, locale)}
               </td>
             </tr>
             <tr>
-              <td style="padding:12px 16px;border-bottom:1px solid #e5e7eb;color:#6b7280;font-size:13px">
+              <td style="padding:18px 22px;border-bottom:1px solid ${MIST};color:${SAGE};font-size:13px;font-family:${FONT_STACK}">
                 ${isPl ? 'Liczba nocy' : 'Nights'}
               </td>
-              <td style="padding:12px 16px;border-bottom:1px solid #e5e7eb;color:#374151;font-size:14px;font-weight:500">
+              <td style="padding:18px 22px;border-bottom:1px solid ${MIST};color:${CHARCOAL};font-size:14px;font-weight:500;font-family:${FONT_STACK}">
                 ${d.totalNights}
               </td>
             </tr>
             <tr>
-              <td style="padding:12px 16px;color:#374151;font-size:14px;font-weight:700">
+              <td style="padding:18px 22px;color:${CHARCOAL};font-size:14px;font-weight:700;font-family:${FONT_STACK}">
                 ${isPl ? 'Opłacono' : 'Paid'}
               </td>
-              <td style="padding:12px 16px;color:#16a34a;font-size:14px;font-weight:700">
+              <td style="padding:18px 22px;color:${PINE};font-size:14px;font-weight:700;font-family:${FONT_STACK}">
                 ${Number(amountPaid).toLocaleString('pl-PL')} zł
               </td>
             </tr>
           </table>
 
-          ${depositNote}
+          ${depositNote ? `<div style="margin-top:24px">${depositNote}</div>` : ''}
 
-          <p style="margin:24px 0 0;color:#6b7280;font-size:13px;line-height:1.6">
+          <p style="margin:36px 0 0;color:${SAGE};font-size:13px;line-height:1.7;font-family:${FONT_STACK}">
             ${isPl
               ? 'Jeśli masz pytania, odpowiedz na tego maila lub skontaktuj się z nami bezpośrednio.'
               : 'If you have any questions, reply to this email or contact us directly.'}
           </p>
         </td></tr>
 
-        <tr><td style="padding:16px 32px 28px;text-align:center;border-top:1px solid #e5e7eb">
-          <p style="margin:0;color:#9ca3af;font-size:12px">
+        <tr><td style="padding:28px 40px;text-align:center;border-top:1px solid ${MIST}">
+          <p style="margin:0;color:${SAGE};font-size:12px;font-family:${FONT_STACK}">
             ${d.propertyName}${process.env.NEXT_PUBLIC_SITE_URL ? ` · ${process.env.NEXT_PUBLIC_SITE_URL.replace(/^https?:\/\//, '')}` : ''}
           </p>
         </td></tr>
@@ -127,7 +160,7 @@ function guestEmailHtml(d: BookingEmailData, locale: 'pl' | 'en'): { subject: st
   return { subject, html }
 }
 
-function adminEmailHtml(d: BookingEmailData): { subject: string; html: string } {
+export function adminEmailHtml(d: BookingEmailData): { subject: string; html: string } {
   const amountPaid = d.depositAmount ?? d.totalPrice
   const isDeposit = d.depositAmount !== null
 
@@ -135,56 +168,53 @@ function adminEmailHtml(d: BookingEmailData): { subject: string; html: string } 
 
   const html = `<!DOCTYPE html>
 <html lang="pl">
-<head><meta charset="UTF-8"></head>
-<body style="margin:0;padding:0;background:#f9fafb;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
-  <table width="100%" cellpadding="0" cellspacing="0" style="background:#f9fafb;padding:40px 16px">
+<head><meta charset="UTF-8">${FONT_LINK}</head>
+<body style="margin:0;padding:0;background:${FOG};font-family:${FONT_STACK}">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:${FOG};padding:56px 16px">
     <tr><td align="center">
-      <table width="100%" cellpadding="0" cellspacing="0" style="max-width:520px;background:#ffffff;border-radius:12px;border:1px solid #e5e7eb;overflow:hidden">
+      <table width="100%" cellpadding="0" cellspacing="0" style="max-width:520px;background:${BONE};border-radius:12px;border:1px solid ${MIST};overflow:hidden">
 
-        <tr><td style="background:#1e3a5f;padding:24px 32px">
-          <h1 style="margin:0;color:#ffffff;font-size:20px;font-weight:700">Nowa rezerwacja</h1>
-          <p style="margin:4px 0 0;color:rgba(255,255,255,0.7);font-size:14px">${d.propertyName}</p>
-        </td></tr>
+        ${emailHeader('Nowa rezerwacja', d.propertyName)}
 
-        <tr><td style="padding:24px 32px">
-          <table width="100%" cellpadding="0" cellspacing="0" style="background:#f9fafb;border-radius:8px;border:1px solid #e5e7eb;overflow:hidden;margin-bottom:20px">
+        <tr><td style="padding:44px 40px">
+          <table width="100%" cellpadding="0" cellspacing="0" style="background:${FOG};border-radius:8px;border:1px solid ${MIST};overflow:hidden;margin-bottom:28px">
             <tr>
-              <td style="padding:10px 16px;border-bottom:1px solid #e5e7eb;color:#6b7280;font-size:13px;width:45%">Nr rezerwacji</td>
-              <td style="padding:10px 16px;border-bottom:1px solid #e5e7eb;font-family:monospace;font-size:12px;font-weight:600;color:#374151">${d.reservationId.slice(0, 8).toUpperCase()}</td>
+              <td style="padding:16px 22px;border-bottom:1px solid ${MIST};color:${SAGE};font-size:13px;width:45%;font-family:${FONT_STACK}">Nr rezerwacji</td>
+              <td style="padding:16px 22px;border-bottom:1px solid ${MIST};font-family:monospace;font-size:12px;font-weight:600;color:${CHARCOAL}">${d.reservationId.slice(0, 8).toUpperCase()}</td>
             </tr>
             <tr>
-              <td style="padding:10px 16px;border-bottom:1px solid #e5e7eb;color:#6b7280;font-size:13px">Gość</td>
-              <td style="padding:10px 16px;border-bottom:1px solid #e5e7eb;color:#374151;font-size:14px;font-weight:500">${d.guestName}</td>
+              <td style="padding:16px 22px;border-bottom:1px solid ${MIST};color:${SAGE};font-size:13px;font-family:${FONT_STACK}">Gość</td>
+              <td style="padding:16px 22px;border-bottom:1px solid ${MIST};color:${CHARCOAL};font-size:14px;font-weight:500;font-family:${FONT_STACK}">${escapeHtml(d.guestName)}</td>
             </tr>
             <tr>
-              <td style="padding:10px 16px;border-bottom:1px solid #e5e7eb;color:#6b7280;font-size:13px">Email gościa</td>
-              <td style="padding:10px 16px;border-bottom:1px solid #e5e7eb;color:#374151;font-size:14px">
-                <a href="mailto:${d.guestEmail}" style="color:#2563eb">${d.guestEmail}</a>
+              <td style="padding:16px 22px;border-bottom:1px solid ${MIST};color:${SAGE};font-size:13px;font-family:${FONT_STACK}">Email gościa</td>
+              <td style="padding:16px 22px;border-bottom:1px solid ${MIST};color:${CHARCOAL};font-size:14px;font-family:${FONT_STACK}">
+                <a href="mailto:${escapeHtml(d.guestEmail)}" style="color:${PINE}">${escapeHtml(d.guestEmail)}</a>
               </td>
             </tr>
             <tr>
-              <td style="padding:10px 16px;border-bottom:1px solid #e5e7eb;color:#6b7280;font-size:13px">Zameldowanie</td>
-              <td style="padding:10px 16px;border-bottom:1px solid #e5e7eb;color:#374151;font-size:14px;font-weight:500">${fmt(d.checkIn, 'pl')}</td>
+              <td style="padding:16px 22px;border-bottom:1px solid ${MIST};color:${SAGE};font-size:13px;font-family:${FONT_STACK}">Zameldowanie</td>
+              <td style="padding:16px 22px;border-bottom:1px solid ${MIST};color:${CHARCOAL};font-size:14px;font-weight:500;font-family:${FONT_STACK}">${fmt(d.checkIn, 'pl')}</td>
             </tr>
             <tr>
-              <td style="padding:10px 16px;border-bottom:1px solid #e5e7eb;color:#6b7280;font-size:13px">Wymeldowanie</td>
-              <td style="padding:10px 16px;border-bottom:1px solid #e5e7eb;color:#374151;font-size:14px;font-weight:500">${fmt(d.checkOut, 'pl')}</td>
+              <td style="padding:16px 22px;border-bottom:1px solid ${MIST};color:${SAGE};font-size:13px;font-family:${FONT_STACK}">Wymeldowanie</td>
+              <td style="padding:16px 22px;border-bottom:1px solid ${MIST};color:${CHARCOAL};font-size:14px;font-weight:500;font-family:${FONT_STACK}">${fmt(d.checkOut, 'pl')}</td>
             </tr>
             <tr>
-              <td style="padding:10px 16px;border-bottom:1px solid #e5e7eb;color:#6b7280;font-size:13px">Noce</td>
-              <td style="padding:10px 16px;border-bottom:1px solid #e5e7eb;color:#374151;font-size:14px">${d.totalNights}</td>
+              <td style="padding:16px 22px;border-bottom:1px solid ${MIST};color:${SAGE};font-size:13px;font-family:${FONT_STACK}">Noce</td>
+              <td style="padding:16px 22px;border-bottom:1px solid ${MIST};color:${CHARCOAL};font-size:14px;font-family:${FONT_STACK}">${d.totalNights}</td>
             </tr>
             <tr>
-              <td style="padding:10px 16px;border-bottom:1px solid #e5e7eb;color:#6b7280;font-size:13px">Łączna cena</td>
-              <td style="padding:10px 16px;border-bottom:1px solid #e5e7eb;color:#374151;font-size:14px">${Number(d.totalPrice).toLocaleString('pl-PL')} zł</td>
+              <td style="padding:16px 22px;border-bottom:1px solid ${MIST};color:${SAGE};font-size:13px;font-family:${FONT_STACK}">Łączna cena</td>
+              <td style="padding:16px 22px;border-bottom:1px solid ${MIST};color:${CHARCOAL};font-size:14px;font-family:${FONT_STACK}">${Number(d.totalPrice).toLocaleString('pl-PL')} zł</td>
             </tr>
             <tr>
-              <td style="padding:10px 16px;color:#374151;font-size:14px;font-weight:700">${isDeposit ? 'Opłacony zadatek' : 'Opłacono'}</td>
-              <td style="padding:10px 16px;color:#16a34a;font-size:14px;font-weight:700">${Number(amountPaid).toLocaleString('pl-PL')} zł</td>
+              <td style="padding:16px 22px;color:${CHARCOAL};font-size:14px;font-weight:700;font-family:${FONT_STACK}">${isDeposit ? 'Opłacony zadatek' : 'Opłacono'}</td>
+              <td style="padding:16px 22px;color:${PINE};font-size:14px;font-weight:700;font-family:${FONT_STACK}">${Number(amountPaid).toLocaleString('pl-PL')} zł</td>
             </tr>
           </table>
 
-          ${isDeposit ? `<p style="margin:0;color:#92400e;background:#fef3c7;padding:12px 16px;border-radius:8px;font-size:13px">Zadatek — pozostała kwota <strong>${Number(d.totalPrice - amountPaid).toLocaleString('pl-PL')} zł</strong> płatna przy zameldowaniu.</p>` : ''}
+          ${isDeposit ? `<p style="margin:24px 0 0;color:${CHARCOAL};background:${FOG};border:1px solid ${MIST};padding:12px 16px;border-radius:8px;font-size:13px;font-family:${FONT_STACK}">Zadatek — pozostała kwota <strong>${Number(d.totalPrice - amountPaid).toLocaleString('pl-PL')} zł</strong> płatna przy zameldowaniu.</p>` : ''}
         </td></tr>
 
       </table>

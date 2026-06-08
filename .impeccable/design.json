@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-06-07T00:00:00.000Z",
+  "title": "Design System: Malo Stay",
+  "extensions": {
+    "colorMeta": {
+      "dunajca-dusk": {
+        "role": "primary",
+        "displayName": "Dunajca Dusk",
+        "canonical": "oklch(21% 0.012 165)",
+        "tonalRamp": ["#0D1110", "#1C2320", "#283330", "#3A4641", "#535F58", "#7A8680", "#ABB4AE", "#DCE2DD"]
+      },
+      "pieniny-pine": {
+        "role": "secondary",
+        "displayName": "Pieniny Pine",
+        "canonical": "oklch(38% 0.07 152)",
+        "tonalRamp": ["#0D2316", "#1E4D2B", "#2C6B3C", "#3D8B52", "#5BAA70", "#8AC79A", "#BCE0C5", "#E4F3E8"]
+      },
+      "river-sage": {
+        "role": "tertiary",
+        "displayName": "River Sage",
+        "canonical": "oklch(60% 0.025 150)",
+        "tonalRamp": ["#2E362F", "#4A564B", "#657468", "#7A8E7E", "#98A89A", "#B7C4B8", "#D6DED7", "#EFF2EF"]
+      },
+      "morning-fog": {
+        "role": "neutral",
+        "displayName": "Morning Fog",
+        "canonical": "oklch(94% 0.015 80)",
+        "tonalRamp": ["#6B6258", "#978D80", "#C2B8AB", "#DED5C9", "#F4EEE4", "#FAF7F1", "#FCFAF7", "#FEFDFC"]
+      },
+      "limestone-bone": {
+        "role": "neutral",
+        "displayName": "Limestone Bone",
+        "canonical": "oklch(98% 0.008 80)",
+        "tonalRamp": ["#7C7669", "#A39D8F", "#C9C4B7", "#E6E2D8", "#F6F3EC", "#FDFAF5", "#FEFDFA", "#FFFEFC"]
+      },
+      "wet-slate": {
+        "role": "neutral",
+        "displayName": "Wet Slate",
+        "canonical": "oklch(33% 0.012 155)",
+        "tonalRamp": ["#151816", "#2E3330", "#454B47", "#5F665F", "#7A8279", "#9BA29A", "#C2C7C0", "#E5E7E3"]
+      },
+      "valley-mist": {
+        "role": "neutral",
+        "displayName": "Valley Mist",
+        "canonical": "oklch(83% 0.015 145)",
+        "tonalRamp": ["#4D524E", "#6F756F", "#939992", "#B6BCB5", "#C8CEC9", "#D9DEDA", "#E9ECE8", "#F6F7F5"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero two-line headline only — upright first line, italic second line marking the emotional turn." },
+      "title": { "displayName": "Title", "purpose": "Section sub-headlines, cottage names, pull-quotes — set in italic by default." },
+      "body": { "displayName": "Body", "purpose": "Descriptive copy at reduced opacity (wet-slate/60), capped near 65–75ch." },
+      "label": { "displayName": "Label", "purpose": "Uppercase eyebrow tags and form-field captions, always at reduced opacity of the surrounding text color." }
+    },
+    "shadows": [
+      { "name": "floating-panel", "value": "0 25px 50px -12px rgb(46 51 48 / 0.1)", "purpose": "Nav 'Domki' dropdown — signals temporary layering above the page." },
+      { "name": "tilted-photograph", "value": "0 25px 50px -12px rgb(0 0 0 / 0.25)", "purpose": "Rotated parallax portraits in the Memories section — makes a clipped div read as a physical print." },
+      { "name": "lifted-header", "value": "0 1px 2px 0 rgb(0 0 0 / 0.05)", "purpose": "Scrolled nav bar once it detaches from the hero and gains a backdrop-blur surface." }
+    ],
+    "motion": [
+      { "name": "ease-reveal", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Default ease for scroll reveals, word-by-word hero entrance, and panel transitions — slow start, decisive settle." },
+      { "name": "ease-button-mask", "value": "cubic-bezier(0.4, 0, 0.2, 1)", "purpose": "Drives the signature circular hover-reveal mask on every button." },
+      { "name": "duration-mask", "value": "500ms", "purpose": "Length of the button hover-reveal clip-path animation." }
+    ],
+    "breakpoints": [
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Filled pill button with the system's signature circular hover-reveal mask. Used for every primary action (search, check availability, view cottage).",
+      "html": "<button class=\"ds-btn-primary\"><span class=\"ds-btn-primary__reveal\" aria-hidden=\"true\"></span><span class=\"ds-btn-primary__label\">Sprawdź termin</span></button>",
+      "css": ".ds-btn-primary { position: relative; display: inline-flex; align-items: center; justify-content: center; background: #1C2320; color: #FDFAF5; font-family: 'Poppins', sans-serif; font-size: 14px; letter-spacing: 0.02em; padding: 12px 32px; border-radius: 9999px; border: none; overflow: hidden; cursor: pointer; transition: transform 0.1s; } .ds-btn-primary:active { transform: scale(0.97); } .ds-btn-primary__reveal { position: absolute; inset: 0; background: #FDFAF5; clip-path: circle(0% at 50% 50%); transition: clip-path 0.5s cubic-bezier(0.4,0,0.2,1); } .ds-btn-primary:hover .ds-btn-primary__reveal { clip-path: circle(150% at 50% 50%); } .ds-btn-primary__label { position: relative; z-index: 1; transition: color 0.15s 0.15s; } .ds-btn-primary:hover .ds-btn-primary__label { color: #1C2320; } .ds-btn-primary:focus-visible { outline: 2px solid #7A8E7E; outline-offset: 2px; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Outline pill button for use over photography (hero CTA, language switcher). Shares the identical reveal mask, inverted.",
+      "html": "<a class=\"ds-btn-ghost\" href=\"#\"><span class=\"ds-btn-ghost__reveal\" aria-hidden=\"true\"></span><span class=\"ds-btn-ghost__label\">Poznaj domki ↓</span></a>",
+      "css": ".ds-btn-ghost { position: relative; display: inline-flex; align-items: center; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 500; padding: 8px 20px; border: 1px solid #FDFAF5; color: #FDFAF5; border-radius: 9999px; overflow: hidden; text-decoration: none; transition: transform 0.1s; } .ds-btn-ghost:active { transform: scale(0.97); } .ds-btn-ghost__reveal { position: absolute; inset: 0; background: #FDFAF5; clip-path: circle(0% at 50% 50%); transition: clip-path 0.5s cubic-bezier(0.4,0,0.2,1); } .ds-btn-ghost:hover .ds-btn-ghost__reveal { clip-path: circle(150% at 50% 50%); } .ds-btn-ghost__label { position: relative; z-index: 1; transition: color 0.15s 0.15s; } .ds-btn-ghost:hover .ds-btn-ghost__label { color: #1C2320; }"
+    },
+    {
+      "name": "Underline Field",
+      "kind": "input",
+      "refersTo": "input-underline",
+      "description": "Borderless date/text field used throughout the booking widget and search form — a single hairline underline, no fill, no corner radius.",
+      "html": "<div class=\"ds-field\"><label class=\"ds-field__label\">Przyjazd</label><input class=\"ds-field__input\" type=\"date\" /></div>",
+      "css": ".ds-field__label { display: block; font-family: 'Poppins', sans-serif; font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(46,51,48,0.4); margin-bottom: 6px; } .ds-field__input { width: 100%; background: transparent; border: none; border-bottom: 1px solid rgba(46,51,48,0.15); color: #2E3330; font-family: 'Poppins', sans-serif; font-size: 14px; padding: 10px 0; transition: border-color 0.2s; } .ds-field__input:focus { outline: none; border-bottom-color: rgba(46,51,48,0.4); }"
+    },
+    {
+      "name": "Photo Card",
+      "kind": "card",
+      "refersTo": "card-photo",
+      "description": "Image-led cottage/gallery card — large rounded corners, no border, no chrome. The photograph carries the card.",
+      "html": "<a class=\"ds-card-photo\" href=\"#\"><div class=\"ds-card-photo__image\" style=\"background-image:url('https://picsum.photos/seed/cottage/640/480')\"></div><div class=\"ds-card-photo__body\"><p class=\"ds-card-photo__eyebrow\">70 m² · 6 os.</p><h3 class=\"ds-card-photo__title\">Domek nad Doliną Dunajca</h3></div></a>",
+      "css": ".ds-card-photo { display: block; background: #FDFAF5; border-radius: 16px; overflow: hidden; text-decoration: none; transition: transform 0.3s cubic-bezier(0.16,1,0.3,1); } .ds-card-photo:hover { transform: translateY(-4px); } .ds-card-photo__image { aspect-ratio: 4/3; background-size: cover; background-position: center; } .ds-card-photo__body { padding: 20px; } .ds-card-photo__eyebrow { font-family: 'Poppins', sans-serif; font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase; color: #7A8E7E; margin: 0 0 8px; } .ds-card-photo__title { font-family: 'DM Serif Display', Georgia, serif; font-style: italic; font-size: 22px; line-height: 1.05; color: #2E3330; margin: 0; }"
+    },
+    {
+      "name": "Editorial Panel",
+      "kind": "card",
+      "refersTo": "panel-editorial",
+      "description": "Square-cornered functional panel for the booking widget, search form, and result tiles — a deliberate counterpoint to the rounded photo cards: this surface is 'doing work', not 'showing the place'.",
+      "html": "<div class=\"ds-panel\"><p class=\"ds-panel__eyebrow\">Twoje kryteria</p><div class=\"ds-panel__row\"><span>Przyjazd</span><span>12 lip 2026</span></div><div class=\"ds-panel__row\"><span>Wyjazd</span><span>19 lip 2026</span></div></div>",
+      "css": ".ds-panel { background: #FDFAF5; border: 1px solid rgba(46,51,48,0.1); border-radius: 0; padding: 24px; font-family: 'Poppins', sans-serif; } .ds-panel__eyebrow { font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase; color: rgba(46,51,48,0.4); margin: 0 0 20px; } .ds-panel__row { display: flex; justify-content: space-between; font-size: 14px; color: #2E3330; border-bottom: 1px solid rgba(46,51,48,0.15); padding: 10px 0; }"
+    },
+    {
+      "name": "Nav Bar",
+      "kind": "nav",
+      "refersTo": "nav-bar",
+      "description": "Scrolled-state navigation bar — backdrop-blurred warm-white surface with a soft lifted-header shadow, replacing the transparent over-hero state.",
+      "html": "<nav class=\"ds-nav\"><span class=\"ds-nav__logo\">Malo Stay</span><div class=\"ds-nav__links\"><a href=\"#\" class=\"ds-nav__link\">Domki</a><a href=\"#\" class=\"ds-nav__link\">Galeria</a><a href=\"#\" class=\"ds-nav__link\">Rezerwacja</a></div></nav>",
+      "css": ".ds-nav { display: flex; align-items: center; justify-content: space-between; padding: 16px 24px; background: rgba(253,250,245,0.95); backdrop-filter: blur(8px); box-shadow: 0 1px 2px rgba(46,51,48,0.05); font-family: 'Poppins', sans-serif; } .ds-nav__logo { font-family: 'DM Serif Display', Georgia, serif; font-size: 18px; color: #2E3330; } .ds-nav__links { display: flex; gap: 32px; } .ds-nav__link { font-size: 14px; letter-spacing: 0.02em; color: #2E3330; text-decoration: none; transition: color 0.2s; } .ds-nav__link:hover { color: #2E7D52; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Unhurried Window",
+    "overview": "Every screen is a frame onto the Dolina Dunajca, not a pitch for it. Panoramic hero photography, slow word-by-word reveals, and generous negative space all serve one idea: the visitor should feel like they are already looking out from the cottage, not scrolling through a brochure for it. Nothing here performs — type breathes at line-heights near 0.9, sections run for 30+ viewport-heights of quiet, and the one moment of color saturation (the deep greens) is rationed like a view held back until you've earned it.\n\nThe system rejects the entire vocabulary of Polish short-let marketing: no carousels, no \"BOOK NOW\" badges, no stacked trust-icons competing for attention. It also refuses the opposite trap — cold, sans-only, Airbnb-grey minimalism that reads as corporate rather than calm. Warmth comes from tinted neutrals (cream fog, bone white, slate charcoal — never true black or white), from a serif display face used in both upright and italic registers, and from photography that is allowed to simply be large. Mountain-resort ruggedness is also out of bounds: this is a valley, not an expedition — the mood is closer to a held breath than an adrenaline spike.",
+    "keyCharacteristics": [
+      "Warm, green-tinted neutrals stand in for both \"dark mode\" and \"light mode\" — there is no true black or white anywhere in the system",
+      "Display serif (DM Serif Display) carries every emotional beat; italics mark the line where feeling overtakes information",
+      "Flat-by-default surfaces, defined by hairline borders rather than shadows",
+      "One micro-interaction — a circular bone-colored mask that blooms from a button's center on hover — repeats everywhere as the system's signature gesture",
+      "Sections alternate between cream (morning-fog), warm white (limestone-bone), and near-black green (dunajca-dusk) backgrounds to set a slow rhythm of light and shade down the page"
+    ],
+    "rules": [
+      { "name": "The No-True-Neutral Rule", "body": "Every color in this system — including the ones that function as black, white, or grey — carries a green or cream tint (Dunajca Dusk instead of black, Limestone Bone instead of white, Wet Slate instead of charcoal-grey). If a value reads as a flat, untinted neutral, it does not belong here.", "section": "colors" },
+      { "name": "The Sage Whisper Rule", "body": "River Sage appears only in labels, italics, and small icon accents — never as a background fill or button color. Its rarity is what makes it register as a signal rather than decoration; the moment it fills a surface, it stops being a whisper.", "section": "colors" },
+      { "name": "The Italic-Carries-Emotion Rule", "body": "Upright display type states a fact; italic display type names a feeling. Every headline in the system follows this split deliberately — don't italicize for decoration, only at the exact word where the sentence turns from informational to felt.", "section": "typography" },
+      { "name": "The Borders-First Rule", "body": "Reach for a 1px hairline border before reaching for a shadow. Shadows are reserved for things that are actually floating — dropdowns, parallax images, a header that has detached from its hero — never for routine card or panel separation.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep every neutral tinted toward green or cream — Dunajca Dusk, Limestone Bone, Wet Slate, Morning Fog, Valley Mist. If a color could be mistaken for #000 or #fff, it's wrong for this system.",
+      "Do reserve River Sage for labels, italics, and small icon accents only — never as a fill.",
+      "Do mark the emotional turn in any headline with italic display type; keep the informational portion upright.",
+      "Do define surfaces with 1px hairline borders first; shadows are for things that are genuinely floating (dropdowns, parallax photos, the post-scroll header).",
+      "Do give every button the same circular bone-colored reveal on hover — it is the system's one repeated gesture, and repetition is what makes it feel intentional rather than accidental.",
+      "Do let sections run long and quiet — generous py-32/py-44 rhythm, short paragraphs capped near 65–75ch, large breathing room between ideas."
+    ],
+    "donts": [
+      "Don't build anything that could be mistaken for a \"generic Polish rental site template (OLX, nocleg.pl feel)\" — no stock-photo grids competing for attention, no generic countryside-cottage clichés.",
+      "Don't reach for \"WordPress holiday-park clones with carousels, badges, and 'BOOK NOW' everywhere\" — no auto-rotating carousels, no urgency badges, no shouted CTAs. One calm, well-placed booking action per section is enough.",
+      "Don't drift toward \"over-designed Airbnb-adjacent minimalism (cold white, sans-serif-only, zero warmth)\" — if a screen reads as cold or corporate, the warmth (serif display, tinted cream neutrals, photography) has been lost somewhere.",
+      "Don't introduce \"mountain resort branding (rugged, sporty, adventure-heavy)\" — no carabiner iconography, no bold expedition typography, no high-energy action photography. This is a valley to rest in, not a peak to conquer.",
+      "Don't introduce one-off hex greens outside the token palette (e.g. an ad-hoc #2E7D52 action green sitting beside dunajca-dusk-filled buttons that do the same job) — consolidate every primary action to the same token so the green never reads as two different brands.",
+      "Don't add corner radius to the editorial/functional panels (search form, calendar, result tiles) — their square corners are what separates 'the system at work' from 'the system showing you a photograph.'"
+    ]
+  }
+}

@@ -7,30 +7,10 @@ export type Json =
   | Json[]
 
 export type Database = {
-  graphql_public: {
-    Tables: {
-      [_ in never]: never
-    }
-    Views: {
-      [_ in never]: never
-    }
-    Functions: {
-      graphql: {
-        Args: {
-          extensions?: Json
-          operationName?: string
-          query?: string
-          variables?: Json
-        }
-        Returns: Json
-      }
-    }
-    Enums: {
-      [_ in never]: never
-    }
-    CompositeTypes: {
-      [_ in never]: never
-    }
+  // Allows to automatically instantiate createClient with right options
+  // instead of createClient<Database, { PostgrestVersion: 'XX' }>(URL, KEY)
+  __InternalSupabase: {
+    PostgrestVersion: "14.5"
   }
   public: {
     Tables: {
@@ -67,17 +47,17 @@ export type Database = {
         }
         Relationships: [
           {
-            foreignKeyName: "external_bookings_property_id_fkey"
-            columns: ["property_id"]
-            isOneToOne: false
-            referencedRelation: "properties"
-            referencedColumns: ["id"]
-          },
-          {
             foreignKeyName: "external_bookings_feed_id_fkey"
             columns: ["feed_id"]
             isOneToOne: false
             referencedRelation: "ical_feeds"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "external_bookings_property_id_fkey"
+            columns: ["property_id"]
+            isOneToOne: false
+            referencedRelation: "properties"
             referencedColumns: ["id"]
           },
         ]
@@ -91,7 +71,7 @@ export type Database = {
           last_synced_at: string | null
           property_id: string
           source_name: string
-          sync_status: 'ok' | 'error' | 'pending'
+          sync_status: string
           url: string
         }
         Insert: {
@@ -102,7 +82,7 @@ export type Database = {
           last_synced_at?: string | null
           property_id: string
           source_name: string
-          sync_status?: 'ok' | 'error' | 'pending'
+          sync_status?: string
           url: string
         }
         Update: {
@@ -113,7 +93,7 @@ export type Database = {
           last_synced_at?: string | null
           property_id?: string
           source_name?: string
-          sync_status?: 'ok' | 'error' | 'pending'
+          sync_status?: string
           url?: string
         }
         Relationships: [
@@ -263,7 +243,9 @@ export type Database = {
           id: string
           language: string
           notes: string | null
+          pre_arrival_email_sent_at: string | null
           property_id: string
+          review_email_sent_at: string | null
           status: string
           stripe_payment_intent_id: string | null
           total_nights: number
@@ -282,7 +264,9 @@ export type Database = {
           id?: string
           language?: string
           notes?: string | null
+          pre_arrival_email_sent_at?: string | null
           property_id: string
+          review_email_sent_at?: string | null
           status?: string
           stripe_payment_intent_id?: string | null
           total_nights: number
@@ -301,7 +285,9 @@ export type Database = {
           id?: string
           language?: string
           notes?: string | null
+          pre_arrival_email_sent_at?: string | null
           property_id?: string
+          review_email_sent_at?: string | null
           status?: string
           stripe_payment_intent_id?: string | null
           total_nights?: number
@@ -452,9 +438,6 @@ export type CompositeTypes<
     : never
 
 export const Constants = {
-  graphql_public: {
-    Enums: {},
-  },
   public: {
     Enums: {},
   },

@@ -39,9 +39,9 @@
     "notes": "Notes (optional)",
     "notesPlaceholder": "Additional information for the host",
     "submitLabel": "Proceed to payment",
-    "nameError": "Full name is required (min. 2 characters)",
+    "nameError": "Enter your full name (min. 2 characters, letters, spaces, hyphens and apostrophes only)",
     "emailError": "Please enter a valid email address",
-    "phoneError": "Phone number is required (min. 9 digits)",
+    "phoneError": "Enter a valid Polish phone number, e.g. +48 123 456 789",
     "guestCountError": "Number of guests must be between 1 and {max}"
   },
   "payment": {

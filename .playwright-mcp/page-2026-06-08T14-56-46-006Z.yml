@@ -1,0 +1,37 @@
+- table [ref=e2]:
+  - rowgroup [ref=e3]:
+    - 'row "Malo Stay Już za dwa dni! Anna Kowalska, czas zacząć się pakować Cześć Anna Kowalska! Już za dwa dni, 10 lip 2026, zaczyna się Wasz pobyt w Domek Jaworowy. Czekamy na Was — a w międzyczasie kilka rzeczy, o których warto pomyśleć przed wyjazdem: · Wygodne, ciepłe ubrania na chłodniejsze wieczory · Strój kąpielowy — na jacuzzi i saunę · Wygodne buty do spacerów w okolicy · Dobry humor i chęć na odpoczynek od pośpiechu Przypominamy też termin Waszego wyjazdu — wymeldowanie zaplanowane jest na 14 lip 2026. Jeśli macie pytania dotyczące dojazdu lub zameldowania, po prostu odpowiedzcie na tego maila — chętnie pomożemy. Domek Jaworowy" [ref=e4]':
+      - 'cell "Malo Stay Już za dwa dni! Anna Kowalska, czas zacząć się pakować Cześć Anna Kowalska! Już za dwa dni, 10 lip 2026, zaczyna się Wasz pobyt w Domek Jaworowy. Czekamy na Was — a w międzyczasie kilka rzeczy, o których warto pomyśleć przed wyjazdem: · Wygodne, ciepłe ubrania na chłodniejsze wieczory · Strój kąpielowy — na jacuzzi i saunę · Wygodne buty do spacerów w okolicy · Dobry humor i chęć na odpoczynek od pośpiechu Przypominamy też termin Waszego wyjazdu — wymeldowanie zaplanowane jest na 14 lip 2026. Jeśli macie pytania dotyczące dojazdu lub zameldowania, po prostu odpowiedzcie na tego maila — chętnie pomożemy. Domek Jaworowy" [ref=e5]':
+        - table [ref=e6]:
+          - rowgroup [ref=e7]:
+            - row "Malo Stay Już za dwa dni! Anna Kowalska, czas zacząć się pakować" [ref=e8]:
+              - cell "Malo Stay Już za dwa dni! Anna Kowalska, czas zacząć się pakować" [ref=e9]:
+                - img "Malo Stay" [ref=e10]
+                - heading "Już za dwa dni!" [level=1] [ref=e12]
+                - paragraph [ref=e13]: Anna Kowalska, czas zacząć się pakować
+            - 'row "Cześć Anna Kowalska! Już za dwa dni, 10 lip 2026, zaczyna się Wasz pobyt w Domek Jaworowy. Czekamy na Was — a w międzyczasie kilka rzeczy, o których warto pomyśleć przed wyjazdem: · Wygodne, ciepłe ubrania na chłodniejsze wieczory · Strój kąpielowy — na jacuzzi i saunę · Wygodne buty do spacerów w okolicy · Dobry humor i chęć na odpoczynek od pośpiechu Przypominamy też termin Waszego wyjazdu — wymeldowanie zaplanowane jest na 14 lip 2026. Jeśli macie pytania dotyczące dojazdu lub zameldowania, po prostu odpowiedzcie na tego maila — chętnie pomożemy." [ref=e14]':
+              - 'cell "Cześć Anna Kowalska! Już za dwa dni, 10 lip 2026, zaczyna się Wasz pobyt w Domek Jaworowy. Czekamy na Was — a w międzyczasie kilka rzeczy, o których warto pomyśleć przed wyjazdem: · Wygodne, ciepłe ubrania na chłodniejsze wieczory · Strój kąpielowy — na jacuzzi i saunę · Wygodne buty do spacerów w okolicy · Dobry humor i chęć na odpoczynek od pośpiechu Przypominamy też termin Waszego wyjazdu — wymeldowanie zaplanowane jest na 14 lip 2026. Jeśli macie pytania dotyczące dojazdu lub zameldowania, po prostu odpowiedzcie na tego maila — chętnie pomożemy." [ref=e15]':
+                - paragraph [ref=e16]:
+                  - text: Cześć Anna Kowalska! Już za dwa dni,
+                  - strong [ref=e17]: 10 lip 2026
+                  - text: ", zaczyna się Wasz pobyt w"
+                  - strong [ref=e18]: Domek Jaworowy
+                  - text: ". Czekamy na Was — a w międzyczasie kilka rzeczy, o których warto pomyśleć przed wyjazdem:"
+                - table [ref=e19]:
+                  - rowgroup [ref=e20]:
+                    - row "· Wygodne, ciepłe ubrania na chłodniejsze wieczory" [ref=e21]:
+                      - cell "· Wygodne, ciepłe ubrania na chłodniejsze wieczory" [ref=e22]
+                    - row "· Strój kąpielowy — na jacuzzi i saunę" [ref=e23]:
+                      - cell "· Strój kąpielowy — na jacuzzi i saunę" [ref=e24]
+                    - row "· Wygodne buty do spacerów w okolicy" [ref=e25]:
+                      - cell "· Wygodne buty do spacerów w okolicy" [ref=e26]
+                    - row "· Dobry humor i chęć na odpoczynek od pośpiechu" [ref=e27]:
+                      - cell "· Dobry humor i chęć na odpoczynek od pośpiechu" [ref=e28]
+                - paragraph [ref=e29]:
+                  - text: Przypominamy też termin Waszego wyjazdu — wymeldowanie zaplanowane jest na
+                  - strong [ref=e30]: 14 lip 2026
+                  - text: .
+                - paragraph [ref=e31]: Jeśli macie pytania dotyczące dojazdu lub zameldowania, po prostu odpowiedzcie na tego maila — chętnie pomożemy.
+            - row "Domek Jaworowy" [ref=e32]:
+              - cell "Domek Jaworowy" [ref=e33]:
+                - paragraph [ref=e34]: Domek Jaworowy

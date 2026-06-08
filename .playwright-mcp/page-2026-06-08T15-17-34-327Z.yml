@@ -1,0 +1,101 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Malo Stay" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Malo Stay" [ref=e5]
+      - navigation [ref=e6]:
+        - link "Domki" [ref=e8] [cursor=pointer]:
+          - /url: "#domki"
+          - text: Domki
+          - img [ref=e9]
+        - link "Galeria" [ref=e11] [cursor=pointer]:
+          - /url: "#galeria"
+        - link "Kontakt" [ref=e12] [cursor=pointer]:
+          - /url: "#kontakt"
+        - link "Zarezerwuj" [ref=e13] [cursor=pointer]:
+          - /url: "#domki"
+          - text: Zarezerwuj
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - paragraph [ref=e17]: Ostatni krok
+      - heading "Płatność" [level=1] [ref=e18]
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - paragraph [ref=e21]: Opłacasz pełną kwotę pobytu.
+          - iframe [ref=e25]:
+            
+          - generic [ref=e27]:
+            - iframe [ref=e28]:
+              
+            - status
+          - paragraph [ref=e29]: Płatność obsługiwana przez Stripe. Twoje dane są bezpieczne.
+          - generic [ref=e30]:
+            - button "Wstecz" [ref=e31]
+            - button "Zapłać 1770 zł" [ref=e32]
+        - generic [ref=e33]:
+          - heading "Podsumowanie" [level=3] [ref=e34]
+          - generic [ref=e35]:
+            - generic [ref=e36]:
+              - generic [ref=e37]: Przyjazd
+              - generic [ref=e38]: 10 cze 2026
+            - generic [ref=e39]:
+              - generic [ref=e40]: Wyjazd
+              - generic [ref=e41]: 13 cze 2026
+            - generic [ref=e42]:
+              - generic [ref=e43]: Liczba nocy
+              - generic [ref=e44]: "3"
+          - generic [ref=e45]:
+            - paragraph [ref=e46]: Szczegóły ceny
+            - generic [ref=e47]:
+              - generic [ref=e48]:
+                - generic [ref=e49]: 10 cze
+                - generic [ref=e50]: 590 zł
+              - generic [ref=e51]:
+                - generic [ref=e52]: 11 cze
+                - generic [ref=e53]: 590 zł
+              - generic [ref=e54]:
+                - generic [ref=e55]: 12 cze
+                - generic [ref=e56]: 590 zł
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - generic [ref=e59]: Łączna cena
+              - generic [ref=e60]: 1770 zł
+            - generic [ref=e61]:
+              - generic [ref=e62]: Do zapłaty
+              - generic [ref=e63]: 1770 zł
+  - contentinfo [ref=e64]:
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - img "Malo Stay" [ref=e67]
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - paragraph [ref=e70]: Nawigacja
+            - list [ref=e71]:
+              - listitem [ref=e72]:
+                - link "Domki" [ref=e73] [cursor=pointer]:
+                  - /url: "#domki"
+              - listitem [ref=e74]:
+                - link "Galeria" [ref=e75] [cursor=pointer]:
+                  - /url: "#galeria"
+              - listitem [ref=e76]:
+                - link "Rezerwacja" [ref=e77] [cursor=pointer]:
+                  - /url: "#kontakt"
+          - generic [ref=e78]:
+            - paragraph [ref=e79]: Informacje
+            - list [ref=e80]:
+              - listitem [ref=e81]:
+                - link "Polityka prywatności" [ref=e82] [cursor=pointer]:
+                  - /url: /polityka-prywatnosci
+              - listitem [ref=e83]:
+                - link "Kontakt" [ref=e84] [cursor=pointer]:
+                  - /url: "#kontakt"
+      - generic [ref=e85]:
+        - paragraph [ref=e86]: © 2025 Malo Stay · Domki w Małopolsce
+        - paragraph [ref=e87]: Nad Doliną Dunajca, Małopolska
+    - paragraph [ref=e88]: MALO STAY
+  - button "Open Next.js Dev Tools" [ref=e94] [cursor=pointer]:
+    - img [ref=e95]
+  - alert [ref=e98]
+  - iframe [ref=e99]:
+    

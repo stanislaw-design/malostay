@@ -6,6 +6,11 @@ export async function updateSession(request: NextRequest) {
     request: { headers: request.headers },
   })
 
+  // Skip Supabase entirely outside /admin while working on design without env vars configured
+  if (!request.nextUrl.pathname.startsWith('/admin')) {
+    return response
+  }
+
   const supabase = createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
     process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY!,

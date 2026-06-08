@@ -49,6 +49,7 @@ export function PropertyForm({ property }: Props) {
 
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
+  const slugValid = /^[a-z0-9-]+$/.test(values.slug)
 
   function set<K extends keyof FormValues>(key: K, value: FormValues[K]) {
     setValues((prev) => ({ ...prev, [key]: value }))
@@ -96,12 +97,12 @@ export function PropertyForm({ property }: Props) {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-8 max-w-2xl">
+    <form onSubmit={handleSubmit} className="space-y-8">
       {/* Podstawowe info */}
-      <section className="bg-white border border-neutral-200 rounded-xl px-5 py-4 space-y-4">
+      <section id="podstawowe" className="scroll-mt-16 bg-white border border-neutral-200 rounded-xl px-5 py-4 space-y-4">
         <h2 className="text-sm font-semibold text-neutral-900">Podstawowe informacje</h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <div>
             <label className="block text-xs font-medium text-neutral-700 mb-1">Nazwa (PL) *</label>
             <input
@@ -120,60 +121,77 @@ export function PropertyForm({ property }: Props) {
               className="w-full px-3 py-2 text-sm border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-neutral-900"
             />
           </div>
+          <div>
+            <label className="block text-xs font-medium text-neutral-700 mb-1">Slug (URL) *</label>
+            <input
+              value={values.slug}
+              onChange={(e) => set('slug', e.target.value.toLowerCase().replace(/\s+/g, '-'))}
+              required
+              pattern="[a-z0-9-]+"
+              title="Tylko małe litery, cyfry i myślniki"
+              className={`w-full px-3 py-2 text-sm border rounded-lg focus:outline-none focus:ring-2 font-mono ${
+                values.slug && !slugValid
+                  ? 'border-red-300 focus:ring-red-400'
+                  : 'border-neutral-300 focus:ring-neutral-900'
+              }`}
+            />
+            {values.slug && !slugValid ? (
+              <p className="text-xs text-red-600 mt-1">Tylko małe litery, cyfry i myślniki, np. <code>domek-nad-stawem</code></p>
+            ) : (
+              <p className="text-xs text-neutral-500 mt-1">
+                {values.slug ? `Adres: /domki/${values.slug}` : <>Np. <code>domek-nad-stawem</code></>}
+              </p>
+            )}
+          </div>
         </div>
 
-        <div>
-          <label className="block text-xs font-medium text-neutral-700 mb-1">Slug (URL) *</label>
-          <input
-            value={values.slug}
-            onChange={(e) => set('slug', e.target.value.toLowerCase().replace(/\s+/g, '-'))}
-            required
-            pattern="[a-z0-9-]+"
-            title="Tylko małe litery, cyfry i myślniki"
-            className="w-full px-3 py-2 text-sm border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-neutral-900 font-mono"
-          />
-          <p className="text-xs text-neutral-500 mt-1">Tylko małe litery, cyfry i myślniki. Np. <code>domek-nad-stawem</code></p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label className="block text-xs font-medium text-neutral-700 mb-1">Email kontaktowy *</label>
+            <input
+              type="email"
+              value={values.contact_email}
+              onChange={(e) => set('contact_email', e.target.value)}
+              required
+              className="w-full px-3 py-2 text-sm border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-neutral-900"
+            />
+          </div>
+          <div>
+            <label className="block text-xs font-medium text-neutral-700 mb-1">URL zdjęcia głównego</label>
+            <input
+              type="url"
+              value={values.cover_image}
+              onChange={(e) => set('cover_image', e.target.value)}
+              className="w-full px-3 py-2 text-sm border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-neutral-900"
+            />
+          </div>
         </div>
 
-        <div>
-          <label className="block text-xs font-medium text-neutral-700 mb-1">Email kontaktowy *</label>
-          <input
-            type="email"
-            value={values.contact_email}
-            onChange={(e) => set('contact_email', e.target.value)}
-            required
-            className="w-full px-3 py-2 text-sm border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-neutral-900"
-          />
-        </div>
-
-        <div>
-          <label className="block text-xs font-medium text-neutral-700 mb-1">URL zdjęcia głównego</label>
-          <input
-            type="url"
-            value={values.cover_image}
-            onChange={(e) => set('cover_image', e.target.value)}
-            className="w-full px-3 py-2 text-sm border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-neutral-900"
-          />
-        </div>
-
-        <div>
-          <label className="block text-xs font-medium text-neutral-700 mb-1">Opis (PL)</label>
-          <textarea
-            value={values.description_pl}
-            onChange={(e) => set('description_pl', e.target.value)}
-            rows={3}
-            className="w-full px-3 py-2 text-sm border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-neutral-900 resize-none"
-          />
-        </div>
-
-        <div>
-          <label className="block text-xs font-medium text-neutral-700 mb-1">Opis (EN)</label>
-          <textarea
-            value={values.description_en}
-            onChange={(e) => set('description_en', e.target.value)}
-            rows={3}
-            className="w-full px-3 py-2 text-sm border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-neutral-900 resize-none"
-          />
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div>
+            <div className="flex items-baseline justify-between mb-1">
+              <label className="block text-xs font-medium text-neutral-700">Opis (PL)</label>
+              <span className="text-xs text-neutral-400">{values.description_pl.length} znaków</span>
+            </div>
+            <textarea
+              value={values.description_pl}
+              onChange={(e) => set('description_pl', e.target.value)}
+              rows={3}
+              className="w-full px-3 py-2 text-sm border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-neutral-900 resize-none"
+            />
+          </div>
+          <div>
+            <div className="flex items-baseline justify-between mb-1">
+              <label className="block text-xs font-medium text-neutral-700">Opis (EN)</label>
+              <span className="text-xs text-neutral-400">{values.description_en.length} znaków</span>
+            </div>
+            <textarea
+              value={values.description_en}
+              onChange={(e) => set('description_en', e.target.value)}
+              rows={3}
+              className="w-full px-3 py-2 text-sm border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-neutral-900 resize-none"
+            />
+          </div>
         </div>
 
         <div className="flex items-center gap-2">
@@ -189,10 +207,10 @@ export function PropertyForm({ property }: Props) {
       </section>
 
       {/* Konfiguracja */}
-      <section className="bg-white border border-neutral-200 rounded-xl px-5 py-4 space-y-4">
+      <section id="konfiguracja" className="scroll-mt-16 bg-white border border-neutral-200 rounded-xl px-5 py-4 space-y-4">
         <h2 className="text-sm font-semibold text-neutral-900">Konfiguracja pobytu</h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-4">
           <div>
             <label className="block text-xs font-medium text-neutral-700 mb-1">Min. nocy</label>
             <input
@@ -231,27 +249,24 @@ export function PropertyForm({ property }: Props) {
               className="w-full px-3 py-2 text-sm border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-neutral-900"
             />
           </div>
+          <div>
+            <label className="block text-xs font-medium text-neutral-700 mb-1">Zadatek (%)</label>
+            <input
+              type="number"
+              min={0}
+              max={100}
+              step={1}
+              value={values.deposit_percent}
+              onChange={(e) => set('deposit_percent', e.target.value)}
+              placeholder="np. 30"
+              className="w-full px-3 py-2 text-sm border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-neutral-900"
+            />
+          </div>
         </div>
-
-        <div className="max-w-xs">
-          <label className="block text-xs font-medium text-neutral-700 mb-1">Zadatek (%)</label>
-          <input
-            type="number"
-            min={0}
-            max={100}
-            step={1}
-            value={values.deposit_percent}
-            onChange={(e) => set('deposit_percent', e.target.value)}
-            placeholder="np. 30 (puste = pełna płatność)"
-            className="w-full px-3 py-2 text-sm border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-neutral-900"
-          />
-          <p className="text-xs text-neutral-500 mt-1">Puste = pełna płatność przy rezerwacji</p>
-        </div>
+        <p className="text-xs text-neutral-500">Zadatek: puste pole = pełna płatność przy rezerwacji</p>
       </section>
 
-      {error && <p className="text-sm text-red-600">{error}</p>}
-
-      <div className="flex gap-3">
+      <div className="sticky bottom-4 z-10 flex flex-wrap items-center gap-3 bg-white/90 backdrop-blur border border-neutral-200 rounded-xl px-4 py-3 shadow-sm">
         <button
           type="submit"
           disabled={loading}
@@ -266,6 +281,7 @@ export function PropertyForm({ property }: Props) {
         >
           Anuluj
         </button>
+        {error && <p className="text-sm text-red-600">{error}</p>}
       </div>
     </form>
   )

@@ -39,9 +39,9 @@
     "notes": "Uwagi (opcjonalnie)",
     "notesPlaceholder": "Dodatkowe informacje dla właściciela",
     "submitLabel": "Przejdź do płatności",
-    "nameError": "Imię i nazwisko jest wymagane (min. 2 znaki)",
+    "nameError": "Podaj imię i nazwisko (min. 2 znaki, same litery, spacje, myślniki i apostrofy)",
     "emailError": "Podaj prawidłowy adres e-mail",
-    "phoneError": "Numer telefonu jest wymagany (min. 9 cyfr)",
+    "phoneError": "Podaj prawidłowy polski numer telefonu, np. +48 123 456 789",
     "guestCountError": "Liczba gości musi być między 1 a {max}"
   },
   "payment": {

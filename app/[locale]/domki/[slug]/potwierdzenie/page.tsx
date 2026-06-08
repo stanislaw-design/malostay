@@ -4,6 +4,8 @@ import { format } from 'date-fns'
 import { pl, enUS } from 'date-fns/locale'
 import { createServiceClient } from '@/lib/supabase/service'
 import { createStripe } from '@/lib/stripe/server'
+import { Nav } from '@/components/landing/Nav'
+import { Footer } from '@/components/landing/Footer'
 import { t, type Locale } from '@/lib/i18n/t'
 
 interface Props {
@@ -54,73 +56,89 @@ export default async function ConfirmationPage({ params, searchParams }: Props) 
 
   if (!isConfirmed) {
     return (
-      <main className="min-h-screen bg-white flex items-center justify-center px-4">
-        <div className="max-w-md w-full text-center space-y-4">
-          <div className="w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center mx-auto text-2xl">
-            ⏳
+      <>
+        <Nav />
+        <main className="bg-bone min-h-screen flex items-center justify-center px-6 pt-28 md:pt-36 pb-24">
+          <div className="max-w-md w-full text-center space-y-5">
+            <div className="w-16 h-16 rounded-full bg-sage/15 flex items-center justify-center mx-auto text-2xl">
+              ⏳
+            </div>
+            <h1 className="font-display text-charcoal leading-[0.95]" style={{ fontSize: 'clamp(1.75rem, 3.5vw, 2.5rem)' }}>
+              {safeLocale === 'pl' ? 'Oczekiwanie na płatność' : 'Awaiting payment'}
+            </h1>
+            <p className="text-charcoal/60 text-sm leading-relaxed">
+              {safeLocale === 'pl'
+                ? 'Twoja płatność jest przetwarzana. Wyślemy potwierdzenie na e-mail.'
+                : 'Your payment is being processed. We will send a confirmation to your email.'}
+            </p>
           </div>
-          <h1 className="text-2xl font-bold text-neutral-900">
-            {safeLocale === 'pl' ? 'Oczekiwanie na płatność' : 'Awaiting payment'}
-          </h1>
-          <p className="text-neutral-600">
-            {safeLocale === 'pl'
-              ? 'Twoja płatność jest przetwarzana. Wyślemy potwierdzenie na e-mail.'
-              : 'Your payment is being processed. We will send a confirmation to your email.'}
-          </p>
-        </div>
-      </main>
+        </main>
+        <Footer />
+      </>
     )
   }
 
   return (
-    <main className="min-h-screen bg-white flex items-center justify-center px-4 py-12">
-      <div className="max-w-md w-full space-y-6">
-        <div className="text-center space-y-3">
-          <div className="w-16 h-16 rounded-full bg-green-100 flex items-center justify-center mx-auto text-3xl">
-            ✓
+    <>
+      <Nav />
+      <main className="bg-bone min-h-screen">
+        <div className="max-w-2xl mx-auto px-6 pt-28 md:pt-36 pb-24">
+          <div className="text-center space-y-4 mb-10">
+            <div className="w-16 h-16 rounded-full bg-pine/10 flex items-center justify-center mx-auto text-3xl">
+              ✓
+            </div>
+            <p className="text-[10px] tracking-[0.3em] uppercase text-sage">
+              {safeLocale === 'pl' ? 'Rezerwacja' : 'Reservation'}
+            </p>
+            <h1 className="font-display text-charcoal leading-[0.95]" style={{ fontSize: 'clamp(2rem, 4vw, 3rem)' }}>
+              {t(safeLocale, 'confirmation.title')}
+            </h1>
+            <p className="text-charcoal/60 text-sm leading-relaxed max-w-sm mx-auto">
+              {t(safeLocale, 'confirmation.subtitle')}
+            </p>
           </div>
-          <h1 className="text-2xl font-bold text-neutral-900">{t(safeLocale, 'confirmation.title')}</h1>
-          <p className="text-neutral-600">{t(safeLocale, 'confirmation.subtitle')}</p>
-        </div>
 
-        <div className="rounded-xl border border-neutral-200 bg-neutral-50 p-5 space-y-3">
-          {propertyName && (
-            <p className="font-semibold text-neutral-900 text-center">{propertyName}</p>
-          )}
+          <div className="rounded-2xl border border-charcoal/10 bg-white p-6 space-y-5">
+            {propertyName && (
+              <h3 className="font-display text-xl text-charcoal text-center">{propertyName}</h3>
+            )}
 
-          <div className="space-y-2 text-sm">
-            <div className="flex justify-between">
-              <span className="text-neutral-500">{t(safeLocale, 'confirmation.reservationId')}</span>
-              <span className="font-mono text-xs text-neutral-700">{reservation.id.slice(0, 8).toUpperCase()}</span>
+            <div className="space-y-2.5 text-sm pt-3 border-t border-charcoal/10">
+              <div className="flex justify-between">
+                <span className="text-charcoal/55">{t(safeLocale, 'confirmation.reservationId')}</span>
+                <span className="font-mono text-xs text-charcoal">{reservation.id.slice(0, 8).toUpperCase()}</span>
+              </div>
+              <div className="flex justify-between">
+                <span className="text-charcoal/55">{t(safeLocale, 'confirmation.checkIn')}</span>
+                <span className="font-medium text-charcoal">{fmt(reservation.check_in)}</span>
+              </div>
+              <div className="flex justify-between">
+                <span className="text-charcoal/55">{t(safeLocale, 'confirmation.checkOut')}</span>
+                <span className="font-medium text-charcoal">{fmt(reservation.check_out)}</span>
+              </div>
+              <div className="flex justify-between">
+                <span className="text-charcoal/55">{t(safeLocale, 'confirmation.nights')}</span>
+                <span className="font-medium text-charcoal">{reservation.total_nights}</span>
+              </div>
             </div>
-            <div className="flex justify-between">
-              <span className="text-neutral-500">{t(safeLocale, 'confirmation.checkIn')}</span>
-              <span className="font-medium">{fmt(reservation.check_in)}</span>
-            </div>
-            <div className="flex justify-between">
-              <span className="text-neutral-500">{t(safeLocale, 'confirmation.checkOut')}</span>
-              <span className="font-medium">{fmt(reservation.check_out)}</span>
-            </div>
-            <div className="flex justify-between">
-              <span className="text-neutral-500">{t(safeLocale, 'confirmation.nights')}</span>
-              <span className="font-medium">{reservation.total_nights}</span>
-            </div>
-            <div className="flex justify-between border-t border-neutral-200 pt-2 font-semibold">
+
+            <div className="flex justify-between font-display text-lg text-charcoal pt-4 border-t border-charcoal/10">
               <span>{t(safeLocale, 'confirmation.paid')}</span>
               <span>{Number(amountPaid).toLocaleString('pl-PL')} zł</span>
             </div>
           </div>
-        </div>
 
-        {property && (
-          <Link
-            href={`/${safeLocale}/domki/${property.slug}`}
-            className="block w-full text-center rounded-lg border border-neutral-300 px-4 py-2.5 text-sm font-medium text-neutral-700 transition hover:bg-neutral-50"
-          >
-            {t(safeLocale, 'confirmation.backToHome')}
-          </Link>
-        )}
-      </div>
-    </main>
+          {property && (
+            <Link
+              href={`/${safeLocale}/domki/${property.slug}`}
+              className="mt-6 block w-full text-center rounded-lg border border-charcoal/15 px-4 py-2.5 text-sm font-medium text-charcoal transition hover:bg-white"
+            >
+              {t(safeLocale, 'confirmation.backToHome')}
+            </Link>
+          )}
+        </div>
+      </main>
+      <Footer />
+    </>
   )
 }

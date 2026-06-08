@@ -1,0 +1,271 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Domek nad Doliną" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e5]:
+        - link "Domki" [ref=e6] [cursor=pointer]:
+          - /url: "#domki"
+        - link "Galeria" [ref=e7] [cursor=pointer]:
+          - /url: "#galeria"
+        - link "Kontakt" [ref=e8] [cursor=pointer]:
+          - /url: "#kontakt"
+        - link "Zarezerwuj" [ref=e9] [cursor=pointer]:
+          - /url: "#rezerwacja"
+  - main [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e16]:
+        - paragraph [ref=e17]: Dolina Dunajca · Małopolska
+        - heading "Twoja dolina. Twoje tempo." [level=1] [ref=e18]:
+          - text: Twoja dolina.
+          - emphasis [ref=e19]: Twoje tempo.
+        - paragraph [ref=e20]: Pięć domków nad Doliną Dunajca — każdy z charakterem, każdy z widokiem.
+        - generic [ref=e21]:
+          - button "Sprawdź dostępność" [ref=e22] [cursor=pointer]
+          - link "Poznaj domki ↓" [ref=e23] [cursor=pointer]:
+            - /url: "#domki"
+      - generic [ref=e25]: Przewiń
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - generic [ref=e32]: 🏠
+        - generic [ref=e33]: 5 domków
+      - generic [ref=e34]:
+        - generic [ref=e35]: 👥
+        - generic [ref=e36]: do 8 osób
+      - generic [ref=e37]:
+        - generic [ref=e38]: 🌊
+        - generic [ref=e39]: Dolina Dunajca
+      - generic [ref=e40]:
+        - generic [ref=e41]: 🧖
+        - generic [ref=e42]: Sauna & Jacuzzi
+      - generic [ref=e43]:
+        - generic [ref=e44]: 🚗
+        - generic [ref=e45]: Bezpłatny parking
+      - generic [ref=e46]:
+        - generic [ref=e47]: ⭐
+        - generic [ref=e48]: 9.8 · 274 opinii
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - heading "Nasze domki" [level=2] [ref=e51]
+        - paragraph [ref=e52]: Każdy z charakterem. Każdy z widokiem.
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - img "Domek nad Doliną Dunajca" [ref=e56]
+          - generic [ref=e57]:
+            - paragraph [ref=e58]: 70 m² · 6 os. · 1 sypialnia
+            - heading "Domek nad Doliną Dunajca" [level=3] [ref=e59]
+            - generic [ref=e60]:
+              - generic [ref=e61]: Sauna & Jacuzzi
+              - generic [ref=e62]: Balkon
+              - generic [ref=e63]: Taras
+            - paragraph [ref=e64]: Panoramiczne okna wychodzą prosto na dolinę. Budzisz się z kawą i widokiem na rzekę, wieczorem — jacuzzi i cisza przerywana wiatrem.
+            - generic [ref=e65]:
+              - link "Sprawdź termin →" [ref=e66] [cursor=pointer]:
+                - /url: /pl/domki/domek-nad-dolina
+              - generic [ref=e67]:
+                - generic [ref=e68]: Booking.com
+                - generic [ref=e69]:
+                  - text: "9.8"
+                  - generic [ref=e70]: · 129 opinii
+        - generic [ref=e71]:
+          - img "Drewniany Domek nad Doliną Dunajca" [ref=e73]
+          - generic [ref=e74]:
+            - paragraph [ref=e75]: 70 m² · 6 os. · 2 sypialnie
+            - heading "Drewniany Domek nad Doliną Dunajca" [level=3] [ref=e76]
+            - generic [ref=e77]:
+              - generic [ref=e78]: Sauna & Jacuzzi
+              - generic [ref=e79]: Drewniana konstrukcja
+              - generic [ref=e80]: Kominek
+            - paragraph [ref=e81]: Ciepło prawdziwego drewna i dwie osobne sypialnie. Ten sam widok na dolinę, ten sam dostęp do SPA — z rustykalnym charakterem.
+            - generic [ref=e82]:
+              - link "Sprawdź termin →" [ref=e83] [cursor=pointer]:
+                - /url: /pl/domki/drewniany-domek
+              - generic [ref=e84]:
+                - generic [ref=e85]: Booking.com
+                - generic [ref=e86]:
+                  - text: "9.7"
+                  - generic [ref=e87]: · 78 opinii
+        - generic [ref=e88]:
+          - generic [ref=e89]:
+            - paragraph [ref=e90]: Dwa niezależne lokale · Zawada Lanckorońska
+            - heading "Dom w Zawadzie Lanckorońskiej" [level=3] [ref=e91]
+            - paragraph [ref=e92]: Przestronny dom z dwoma osobnymi lokalami — do wyboru wariant dla 4 lub 6 osób. Każdy z własnym wejściem, pełną kuchnią i pięknym ogrodem.
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - img "Dom w Zawadzie — Lokal A" [ref=e96]
+              - generic [ref=e97]:
+                - generic [ref=e98]:
+                  - paragraph [ref=e99]: Lokal A
+                  - paragraph [ref=e100]: 4 osoby · 2 sypialnie
+                - link "Sprawdź termin →" [ref=e101] [cursor=pointer]:
+                  - /url: /pl/domki/dom-w-zawadzie-a
+            - generic [ref=e102]:
+              - img "Dom w Zawadzie — Lokal B" [ref=e104]
+              - generic [ref=e105]:
+                - generic [ref=e106]:
+                  - paragraph [ref=e107]: Lokal B
+                  - paragraph [ref=e108]: 6 osoby · 3 sypialnie
+                - link "Sprawdź termin →" [ref=e109] [cursor=pointer]:
+                  - /url: /pl/domki/dom-w-zawadzie-b
+          - generic [ref=e110]:
+            - generic [ref=e111]: Booking.com
+            - generic [ref=e112]: 9.7 · 36 opinii
+        - generic [ref=e113]:
+          - img "Dom na Borówkowym Wzgórzu" [ref=e115]
+          - generic [ref=e116]:
+            - paragraph [ref=e117]: 100 m² · 8 os. · 2 sypialnie
+            - heading "Dom na Borówkowym Wzgórzu" [level=3] [ref=e118]
+            - generic [ref=e119]:
+              - generic [ref=e120]: Plac zabaw
+              - generic [ref=e121]: Ogrodzony teren
+              - generic [ref=e122]: Altana z grillem
+            - paragraph [ref=e123]: Największy z domków, schowany na wzgórzu w Paleśnicy. Całkowita cisza, przestronny ogród, altana i plac zabaw — idealny dla rodzin.
+            - generic [ref=e124]:
+              - link "Sprawdź termin →" [ref=e125] [cursor=pointer]:
+                - /url: /pl/domki/dom-na-wzgorzu
+              - generic [ref=e126]:
+                - generic [ref=e127]: Booking.com
+                - generic [ref=e128]:
+                  - text: "10.0"
+                  - generic [ref=e129]: · 31 opinii
+    - generic [ref=e130]:
+      - generic [ref=e131]:
+        - img "Panoramiczny widok na Dolinę Dunajca przez okno salonu" [ref=e133]
+        - generic [ref=e135]:
+          - paragraph [ref=e136]: Widok
+          - heading "Widok, który zostaje w pamięci." [level=3] [ref=e137]
+          - paragraph [ref=e138]: Panoramiczne okna w salonie wychodzą prosto na dolinę. Mgła, która rano opada między wzgórzami. Kolory jesieni odbite w tafli rzeki. Tu nie musisz szukać widoku — on sam do Ciebie przychodzi.
+      - generic [ref=e139]:
+        - img "Kryty taras domku o zmierzchu z widokiem na Pieniny" [ref=e141]
+        - generic [ref=e143]:
+          - paragraph [ref=e144]: Spokój
+          - heading "Ranek na tarasie. Wieczór przy kominku." [level=3] [ref=e145]
+          - paragraph [ref=e146]: Kryty taras z widokiem to miejsce, do którego będziesz wracać. Kawa o wschodzie słońca. Kolacja z panoramą Pienin. A kiedy zrobi się chłodniej — kominek w salonie czeka gotowy.
+    - generic [ref=e148]:
+      - paragraph [ref=e149]: Co znajdziesz
+      - heading "Wszystko, czego potrzebujesz." [level=2] [ref=e150]
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - generic [ref=e153]: "01"
+          - generic [ref=e154]: WiFi bezpłatne
+        - generic [ref=e155]:
+          - generic [ref=e156]: "02"
+          - generic [ref=e157]: Kuchnia wyposażona
+        - generic [ref=e158]:
+          - generic [ref=e159]: "03"
+          - generic [ref=e160]: Smart TV
+        - generic [ref=e161]:
+          - generic [ref=e162]: "04"
+          - generic [ref=e163]: Kominek
+        - generic [ref=e164]:
+          - generic [ref=e165]: "05"
+          - generic [ref=e166]: Taras z widokiem
+        - generic [ref=e167]:
+          - generic [ref=e168]: "06"
+          - generic [ref=e169]: Grill / BBQ
+        - generic [ref=e170]:
+          - generic [ref=e171]: "07"
+          - generic [ref=e172]: Parking gratis
+        - generic [ref=e173]:
+          - generic [ref=e174]: "08"
+          - generic [ref=e175]: Pościel i ręczniki
+    - generic [ref=e176]:
+      - generic [ref=e177]:
+        - paragraph [ref=e178]: Zajrzyj do środka
+        - heading "Galeria." [level=2] [ref=e179]
+      - generic [ref=e180]:
+        - img "Domek w zimowej scenerii" [ref=e182]
+        - img "Salon z drewnianymi belkami i widokiem na dolinę" [ref=e184]
+        - img "Kryty taras z fotelem wiszącym" [ref=e186]
+        - img "Przytulna sypialnia na poddaszu" [ref=e188]
+        - img "Aneks kuchenny w stylu rustykalnym" [ref=e190]
+        - img "Panorama Doliny Dunajca o świcie" [ref=e192]
+    - generic [ref=e195]:
+      - generic [ref=e196]:
+        - paragraph [ref=e197]: Gdzie jesteśmy
+        - heading "Dolina Dunajca, Małopolska." [level=2] [ref=e198]:
+          - text: Dolina Dunajca,
+          - emphasis [ref=e199]: Małopolska.
+        - paragraph [ref=e200]: Nasze domki leżą na wzgórzach nad Doliną Dunajca — między Zakliczyniem a Paleśnicą. Cisza, zieleń, widoki na rzekę. Daleko od tras turystycznych, blisko wszystkiego, co warto zobaczyć w Małopolsce.
+        - paragraph [ref=e201]: Każdy domek ma swoją lokalizację — szczegółową mapę i dojazd znajdziesz na podstronie wybranego domku.
+      - generic [ref=e202]:
+        - paragraph [ref=e203]: Odległości
+        - list [ref=e204]:
+          - listitem [ref=e205]:
+            - generic [ref=e206]: Zakliczyn
+            - generic [ref=e207]: 8 km
+          - listitem [ref=e208]:
+            - generic [ref=e209]: Zamek Wiśnicz
+            - generic [ref=e210]: 30 km
+          - listitem [ref=e211]:
+            - generic [ref=e212]: Kopalnia Soli Bochnia
+            - generic [ref=e213]: 39 km
+          - listitem [ref=e214]:
+            - generic [ref=e215]: Tarnów
+            - generic [ref=e216]: 40 km
+          - listitem [ref=e217]:
+            - generic [ref=e218]: Kraków
+            - generic [ref=e219]: 90 km
+          - listitem [ref=e220]:
+            - generic [ref=e221]: Lotnisko KRK
+            - generic [ref=e222]: 93 km
+    - generic [ref=e224]:
+      - paragraph [ref=e225]: Opinie gości
+      - blockquote [ref=e226]:
+        - generic [ref=e227]:
+          - generic [ref=e228]: ★
+          - generic [ref=e229]: ★
+          - generic [ref=e230]: ★
+          - generic [ref=e231]: ★
+          - generic [ref=e232]: ★
+        - paragraph [ref=e233]: “Magiczne miejsce. Widok z okna salonu sprawia, że nie chce się wychodzić. Wrócimy na pewno — może już zimą.”
+        - paragraph [ref=e236]: Katarzyna M. · Kraków · Booking.com ✓
+      - generic [ref=e237]:
+        - generic [ref=e238]:
+          - generic [ref=e239]:
+            - generic [ref=e240]: ★
+            - generic [ref=e241]: ★
+            - generic [ref=e242]: ★
+            - generic [ref=e243]: ★
+            - generic [ref=e244]: ★
+          - paragraph [ref=e245]: “Domek w 100% taki jak na zdjęciach — czysty, dobrze wyposażony, z cudownym widokiem. Idealny reset po intensywnym roku.”
+          - paragraph [ref=e246]: Paweł i Ania · Warszawa · grudzień 2025 · Booking.com ✓
+        - generic [ref=e247]:
+          - generic [ref=e248]:
+            - generic [ref=e249]: ★
+            - generic [ref=e250]: ★
+            - generic [ref=e251]: ★
+            - generic [ref=e252]: ★
+            - generic [ref=e253]: ★
+          - paragraph [ref=e254]: “Przyjechaliśmy z całą rodziną — 6 osób, wszyscy zachwyceni. Dzieci bawiły się na tarasie, my odpoczywaliśmy. Nic więcej nie potrzeba.”
+          - paragraph [ref=e255]: Rodzina Kowalskich · Wrocław · sierpień 2025 · Booking.com ✓
+      - paragraph [ref=e256]:
+        - text: Średnia ocena
+        - strong [ref=e257]: 4.9 / 5
+        - text: na podstawie 47 opinii
+    - generic [ref=e260]:
+      - paragraph [ref=e261]: Zarezerwuj pobyt
+      - heading "Twój urlop zaczyna się od jednej decyzji." [level=2] [ref=e262]:
+        - text: Twój urlop zaczyna się
+        - emphasis [ref=e263]: od jednej decyzji.
+      - paragraph [ref=e264]: Sprawdź dostępne terminy i zarezerwuj bezpośrednio — bez pośredników.
+      - link "Sprawdź wolne terminy →" [ref=e266] [cursor=pointer]:
+        - /url: /pl/domki/domek-dunajec
+      - paragraph [ref=e267]:
+        - text: Masz pytania?
+        - link "kontakt@domeknaddunajem.pl" [ref=e268] [cursor=pointer]:
+          - /url: mailto:kontakt@domeknaddunajem.pl
+  - contentinfo [ref=e269]:
+    - generic [ref=e270]:
+      - paragraph [ref=e271]: © 2025 Drewniany Domek nad Doliną Dunajca · Krościenko nad Dunajcem
+      - generic [ref=e272]:
+        - link "Polityka prywatności" [ref=e273] [cursor=pointer]:
+          - /url: /polityka-prywatnosci
+        - generic [ref=e274]: ·
+        - link "PL" [ref=e275] [cursor=pointer]:
+          - /url: /pl
+        - link "EN" [ref=e276] [cursor=pointer]:
+          - /url: /en
+  - button "Open Next.js Dev Tools" [ref=e282] [cursor=pointer]:
+    - img [ref=e283]
+  - alert [ref=e286]

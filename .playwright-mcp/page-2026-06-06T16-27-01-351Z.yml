@@ -1,0 +1,288 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - banner:
+      - generic [ref=e4]:
+        - generic [ref=e7]:
+          - generic [ref=e10]:
+            - generic [ref=e11]: 
+            - text: +48 694 352 526
+          - link [ref=e15] [cursor=pointer]:
+            - /url: https://www.peakglamp.pl
+          - generic "Poronin" [ref=e18]:
+            - generic [ref=e19]:
+              - generic [ref=e20]: 0 °
+              - text: Poronin
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - link "Główna" [ref=e29] [cursor=pointer]:
+              - /url: https://www.peakglamp.pl/
+          - listitem [ref=e30]:
+            - link "Kopuły" [ref=e31] [cursor=pointer]:
+              - /url: https://www.peakglamp.pl/nasze-kopuly/
+          - listitem [ref=e32]:
+            - link "Galeria" [ref=e33] [cursor=pointer]:
+              - /url: https://www.peakglamp.pl/galeria/
+          - listitem [ref=e34]:
+            - link "Apartamenty" [ref=e35] [cursor=pointer]:
+              - /url: https://apartamentysuche.pl/
+          - listitem [ref=e36]:
+            - link "Mountain Glamp" [ref=e37] [cursor=pointer]:
+              - /url: https://www.mountainglamp.pl
+          - listitem [ref=e38]:
+            - link "Kontakt" [ref=e39] [cursor=pointer]:
+              - /url: https://www.peakglamp.pl/kontakt/
+    - generic [ref=e45]:
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+        - generic [ref=e59] [cursor=pointer]: 
+        - generic [ref=e60] [cursor=pointer]: 
+      - generic [ref=e61]:
+        - iframe [ref=e72]:
+          - generic [ref=f3e4]:
+            - generic [ref=f3e8]:
+              - generic [ref=f3e10]:
+                - textbox [ref=f3e11] [cursor=pointer]
+                - generic [ref=f3e13]: data przyjazdu
+                - generic [ref=f3e15]: 
+              - generic [ref=f3e17]:
+                - textbox [ref=f3e18] [cursor=pointer]
+                - generic [ref=f3e20]: data wyjazdu
+                - generic [ref=f3e22]: 
+              - generic [ref=f3e24]:
+                - generic [ref=f3e25]: liczba gości
+                - generic [ref=f3e27]: 
+              - button "sprawdź dostępność" [ref=f3e29] [cursor=pointer]
+            - text:       
+        - generic [ref=e77]:
+          - heading " Wyjatkowe kopuły" [level=2] [ref=e80]:
+            - generic [ref=e81]: 
+            - text: Wyjatkowe kopuły
+          - generic [ref=e83]:
+            - paragraph [ref=e84]: Obiekt czynny jest cały rok. Kopuły są ogrzewane i klimatyzowane.
+            - paragraph [ref=e85]:
+              - strong [ref=e86]: Jacuzzi czynne cały rok. Temperatura wody wynosi 37°.
+            - paragraph [ref=e87]: Doba hotelowa rozpoczyna się o godzinie 15:00 i trwa do godziny 11:00 dnia następnego.
+            - paragraph [ref=e88]: Zwierzęta są mile widziane.
+        - generic [ref=e99]:
+          - heading "Kopuła 1" [level=4] [ref=e102]
+          - paragraph [ref=e105]: Przestronne wnętrze i widok na Tatry zapewnia wyjątkowy odpoczynek w luksusowych warunkach. Z dala od zgiełku miasta.
+          - link "􏽘 Kopuła 1" [ref=e107] [cursor=pointer]:
+            - /url: https://www.peakglamp.pl/rooms/kopula-4/
+            - generic [ref=e108]: 􏽘
+            - text: Kopuła 1
+        - generic [ref=e122]:
+          - heading "Kopuła 2" [level=4] [ref=e125]
+          - paragraph [ref=e128]: Ta kopuła jest idealna dla Ciebie – zawiera akcenty w Twoim ulubionym kolorze. Oczywiście stylowy wypoczynek z przepięknym widokiem na pasmo Tatr.
+          - link "􏽘 Kopuła 2" [ref=e130] [cursor=pointer]:
+            - /url: https://www.peakglamp.pl/rooms/kopula2/
+            - generic [ref=e131]: 􏽘
+            - text: Kopuła 2
+        - generic [ref=e149]:
+          - heading "Kopuła 3" [level=4] [ref=e152]
+          - paragraph [ref=e155]: Układ i wnętrze zapewnia spokojny wypoczynek a poranny widok na Tatry umili poranną pobudkę.
+          - link "􏽘 Kopuła 3" [ref=e157] [cursor=pointer]:
+            - /url: https://www.peakglamp.pl/rooms/kopula3/
+            - generic [ref=e158]: 􏽘
+            - text: Kopuła 3
+        - generic [ref=e169]:
+          - heading "Kopuła 4" [level=4] [ref=e172]
+          - paragraph [ref=e175]: Kopuła niebieska to nasz najnowszy glamp. Jest tak samo luksusowo wyposażony jak nasze pozostałe kopuły.
+          - link "􏽘 Kopuła 4" [ref=e177] [cursor=pointer]:
+            - /url: https://www.peakglamp.pl/rooms/kopula4/
+            - generic [ref=e178]: 􏽘
+            - text: Kopuła 4
+        - generic [ref=e193]:
+          - heading "Kopuła 5" [level=4] [ref=e196]
+          - paragraph [ref=e199]: Jest tak samo luksusowo wyposażony jak nasze pozostałe kopuły.
+          - link "􏽘 Kopuła 5" [ref=e201] [cursor=pointer]:
+            - /url: https://www.peakglamp.pl/rooms/kopula5/
+            - generic [ref=e202]: 􏽘
+            - text: Kopuła 5
+        - generic [ref=e213]:
+          - heading "Kopuła 6" [level=4] [ref=e216]
+          - paragraph [ref=e219]: Jest tak samo luksusowo wyposażony jak nasze pozostałe kopuły.
+          - link "􏽘 Kopuła 6" [ref=e221] [cursor=pointer]:
+            - /url: https://www.peakglamp.pl/rooms/kopula6/
+            - generic [ref=e222]: 􏽘
+            - text: Kopuła 6
+      - generic [ref=e247]:
+        - generic [ref=e250]: 
+        - heading "Kopuły blisko natury" [level=2] [ref=e253]:
+          - generic [ref=e254]: Kopuły blisko natury
+        - generic [ref=e255]:
+          - list [ref=e257]:
+            - listitem [ref=e258]:
+              - link "Nasze kopuły" [ref=e259] [cursor=pointer]:
+                - /url: https://www.peakglamp.pl/?room_type=nasze-kopuly
+          - generic [ref=e261]:
+            - generic [ref=e263]:
+              - link "GlampPeak_39" [ref=e265] [cursor=pointer]:
+                - /url: https://www.peakglamp.pl/rooms/kopula5/
+                - img "GlampPeak_39" [ref=e266]
+              - generic [ref=e267]:
+                - heading "Kopuła 5" [level=3] [ref=e269]:
+                  - link "Kopuła 5" [ref=e270] [cursor=pointer]:
+                    - /url: https://www.peakglamp.pl/rooms/kopula5/
+                - generic [ref=e271]: Luksusowa kopuła z podwójnym łóżkiem z widokiem na Tatry.
+                - generic [ref=e272]:
+                  - generic [ref=e273]:
+                    - generic [ref=e274]: 
+                    - text: "3"
+                  - generic [ref=e275]:
+                    - generic [ref=e276]: 
+                    - text: 1 duże, 1 małe
+                  - generic [ref=e277]:
+                    - generic [ref=e278]: 
+                    - text: "30"
+            - link "GlampPeak_23" [ref=e279] [cursor=pointer]:
+              - /url: https://www.peakglamp.pl/rooms/kopula3/
+              - img "GlampPeak_23" [ref=e280]
+            - link "Kopuła 3" [ref=e281] [cursor=pointer]:
+              - /url: https://www.peakglamp.pl/rooms/kopula3/
+            - link "GlampPeak_48" [ref=e282] [cursor=pointer]:
+              - /url: https://www.peakglamp.pl/rooms/kopula6/
+              - img "GlampPeak_48" [ref=e283]
+            - link "Kopuła 6" [ref=e284] [cursor=pointer]:
+              - /url: https://www.peakglamp.pl/rooms/kopula6/
+      - generic [ref=e285]:
+        - generic [ref=e293]:
+          - heading " Nasze atuty" [level=2] [ref=e296]:
+            - generic [ref=e297]: 
+            - text: Nasze atuty
+          - paragraph [ref=e300]: Przekonaj się sam, dlaczego Mountain Glamp to idealne miejsce na wypoczynek.
+        - generic [ref=e308]:
+          - generic [ref=e309]:
+            - generic [ref=e312]:
+              - generic [ref=e314]: 􏾒
+              - heading "WIFI" [level=6] [ref=e315]
+            - generic [ref=e320]:
+              - generic [ref=e322]: 􏷆
+              - heading "ANEKS KUCHENNY" [level=6] [ref=e323]
+            - generic [ref=e328]:
+              - generic [ref=e330]: 
+              - heading "PODWÓJNE ŁÓŻKO" [level=6] [ref=e331]
+            - generic [ref=e336]:
+              - generic [ref=e338]: 􏯖
+              - heading "OGRZEWANIE" [level=6] [ref=e339]
+          - generic [ref=e342]:
+            - generic [ref=e345]:
+              - generic [ref=e347]: 
+              - heading "WIDOK NA TATRY" [level=6] [ref=e348]
+            - generic [ref=e353]:
+              - generic [ref=e355]: 
+              - heading "KOPUŁA" [level=6] [ref=e356]
+            - generic [ref=e361]:
+              - generic [ref=e363]: 􏿸
+              - heading "JACUZZI" [level=6] [ref=e364]
+            - generic [ref=e369]:
+              - generic [ref=e371]: 
+              - heading "PRYSZNIC" [level=6] [ref=e372]
+      - generic [ref=e375]:
+        - heading " Galeria" [level=2] [ref=e386]:
+          - generic [ref=e387]: 
+          - text: Galeria
+        - generic [ref=e395]:
+          - generic [ref=e396]:
+            - generic [ref=e398]:
+              - img "GlampPeak_50" [ref=e402] [cursor=pointer]
+              - img "GlampPeak_8" [ref=e406] [cursor=pointer]
+              - img "GlampPeak_47" [ref=e410] [cursor=pointer]
+              - img "GlampPeak_43" [ref=e414] [cursor=pointer]
+              - img "GlampPeak_2" [ref=e418] [cursor=pointer]
+              - img "GlampPeak_13" [ref=e422] [cursor=pointer]
+              - img "GlampPeak_19" [ref=e426] [cursor=pointer]
+              - img "GlampPeak_50" [ref=e430] [cursor=pointer]
+              - img "GlampPeak_8" [ref=e434] [cursor=pointer]
+              - img "GlampPeak_47" [ref=e438] [cursor=pointer]
+              - img "GlampPeak_43" [ref=e442] [cursor=pointer]
+              - img "GlampPeak_2" [ref=e446] [cursor=pointer]
+              - img "GlampPeak_13" [ref=e450] [cursor=pointer]
+              - img "GlampPeak_19" [ref=e454] [cursor=pointer]
+              - img "GlampPeak_50" [ref=e458] [cursor=pointer]
+            - generic:
+              - button "􏷑" [ref=e459] [cursor=pointer]
+              - button "􏷑" [ref=e460] [cursor=pointer]
+          - generic [ref=e461]: 1 z 7
+      - generic [ref=e465]:
+        - generic [ref=e468]:
+          - heading "W samym centrum Tatr" [level=3] [ref=e473]
+          - generic [ref=e476]:
+            - generic [ref=e477]: 
+            - generic [ref=e478]:
+              - heading "Zakopane" [level=5] [ref=e479]
+              - heading "15 minut" [level=6] [ref=e481]:
+                - generic [ref=e482]: 15 minut
+          - generic [ref=e485]:
+            - generic [ref=e486]: 
+            - generic [ref=e487]:
+              - heading "Gubałówka" [level=5] [ref=e488]
+              - heading "25 minut" [level=6] [ref=e490]:
+                - generic [ref=e491]: 25 minut
+          - generic [ref=e494]:
+            - generic [ref=e495]: 
+            - generic [ref=e496]:
+              - heading "Termy Chochołowskie" [level=5] [ref=e497]
+              - paragraph [ref=e499]: 30 minut
+          - generic [ref=e502]:
+            - generic [ref=e503]: 
+            - generic [ref=e504]:
+              - heading "Sklep" [level=5] [ref=e505]
+              - heading "10 minut" [level=6] [ref=e507]:
+                - generic [ref=e508]: 10 minut
+        - iframe [ref=e517]
+    - contentinfo [ref=e518]:
+      - generic [ref=e520]:
+        - complementary [ref=e522]:
+          - paragraph [ref=e524]:
+            - img [ref=e525]
+            - text: Peak Glamp – zamieszkaj w wyjątkowych namiotach a szczycie góry z widokiem na Tatry. Z dala od zgiełku, blisko natury, pod samym lasem pachnącym igliwiem.
+        - complementary [ref=e527]:
+          - heading "Galeria" [level=4] [ref=e529]
+          - generic [ref=e530]:
+            - link "GlampPeak_39" [ref=e531] [cursor=pointer]:
+              - /url: https://www.peakglamp.pl/wp-content/uploads/2022/07/GlampPeak_39.jpg
+              - img "GlampPeak_39" [ref=e532]
+            - link "GlampPeak_23" [ref=e533] [cursor=pointer]:
+              - /url: https://www.peakglamp.pl/wp-content/uploads/2021/05/GlampPeak_23.jpg
+              - img "GlampPeak_23" [ref=e534]
+            - link "GlampPeak_48" [ref=e535] [cursor=pointer]:
+              - /url: https://www.peakglamp.pl/wp-content/uploads/2020/09/GlampPeak_48.jpg
+              - img "GlampPeak_48" [ref=e536]
+            - link "GlampPeak_4" [ref=e537] [cursor=pointer]:
+              - /url: https://www.peakglamp.pl/wp-content/uploads/2020/09/GlampPeak_4.jpg
+              - img "GlampPeak_4" [ref=e538]
+            - link "GlampPeak_13" [ref=e539] [cursor=pointer]:
+              - /url: https://www.peakglamp.pl/wp-content/uploads/2021/05/GlampPeak_13.jpg
+              - img "GlampPeak_13" [ref=e540]
+            - link "GlampPeak_32" [ref=e541] [cursor=pointer]:
+              - /url: https://www.peakglamp.pl/wp-content/uploads/2018/08/GlampPeak_32.jpg
+              - img "GlampPeak_32" [ref=e542]
+        - complementary [ref=e544]:
+          - heading "Kontakt" [level=4] [ref=e546]
+          - generic [ref=e547]:
+            - paragraph [ref=e548]:
+              - text: Peak Glamp
+              - text: Suche 60c
+              - text: 34-520 Poronin
+            - paragraph [ref=e549]: "Tel.: +48 694 352 526"
+            - paragraph [ref=e550]:
+              - link "apartamenty@dw-jedrol.pl" [ref=e551] [cursor=pointer]:
+                - /url: mailto:apartamenty@dw-jedrol.pl
+            - generic [ref=e556]:
+              - generic:
+                - paragraph
+                - paragraph
+        - generic [ref=e557]:
+          - complementary [ref=e558]:
+            - heading "Social Media" [level=4] [ref=e560]
+          - complementary [ref=e561]:
+            - link "" [ref=e563] [cursor=pointer]:
+              - /url: "\nhttps://www.instagram.com/peak_glamp/"
+              - generic [ref=e564]: 
+  - text: 

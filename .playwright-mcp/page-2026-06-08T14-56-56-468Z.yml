@@ -1,0 +1,22 @@
+- table [ref=e2]:
+  - rowgroup [ref=e3]:
+    - row "Malo Stay Dziękujemy za pobyt Anna Kowalska, jak Wam się podobało? Cześć Anna Kowalska! Mamy nadzieję, że pobyt w Domek Jaworowy (10 lip 2026 – 14 lip 2026) był dokładnie tym, czego szukaliście. Kilka słów od Was zajmie chwilę, a nam i przyszłym gościom naprawdę pomoże — chętnie poznamy Wasze wrażenia. Dziękujemy, że byliście z nami — mamy nadzieję, że jeszcze się spotkamy. Domek Jaworowy" [ref=e4]:
+      - cell "Malo Stay Dziękujemy za pobyt Anna Kowalska, jak Wam się podobało? Cześć Anna Kowalska! Mamy nadzieję, że pobyt w Domek Jaworowy (10 lip 2026 – 14 lip 2026) był dokładnie tym, czego szukaliście. Kilka słów od Was zajmie chwilę, a nam i przyszłym gościom naprawdę pomoże — chętnie poznamy Wasze wrażenia. Dziękujemy, że byliście z nami — mamy nadzieję, że jeszcze się spotkamy. Domek Jaworowy" [ref=e5]:
+        - table [ref=e6]:
+          - rowgroup [ref=e7]:
+            - row "Malo Stay Dziękujemy za pobyt Anna Kowalska, jak Wam się podobało?" [ref=e8]:
+              - cell "Malo Stay Dziękujemy za pobyt Anna Kowalska, jak Wam się podobało?" [ref=e9]:
+                - img "Malo Stay" [ref=e10]
+                - heading "Dziękujemy za pobyt" [level=1] [ref=e12]
+                - paragraph [ref=e13]: Anna Kowalska, jak Wam się podobało?
+            - row "Cześć Anna Kowalska! Mamy nadzieję, że pobyt w Domek Jaworowy (10 lip 2026 – 14 lip 2026) był dokładnie tym, czego szukaliście. Kilka słów od Was zajmie chwilę, a nam i przyszłym gościom naprawdę pomoże — chętnie poznamy Wasze wrażenia. Dziękujemy, że byliście z nami — mamy nadzieję, że jeszcze się spotkamy." [ref=e14]:
+              - cell "Cześć Anna Kowalska! Mamy nadzieję, że pobyt w Domek Jaworowy (10 lip 2026 – 14 lip 2026) był dokładnie tym, czego szukaliście. Kilka słów od Was zajmie chwilę, a nam i przyszłym gościom naprawdę pomoże — chętnie poznamy Wasze wrażenia. Dziękujemy, że byliście z nami — mamy nadzieję, że jeszcze się spotkamy." [ref=e15]:
+                - paragraph [ref=e16]:
+                  - text: Cześć Anna Kowalska! Mamy nadzieję, że pobyt w
+                  - strong [ref=e17]: Domek Jaworowy
+                  - text: (10 lip 2026 – 14 lip 2026) był dokładnie tym, czego szukaliście.
+                - paragraph [ref=e18]: Kilka słów od Was zajmie chwilę, a nam i przyszłym gościom naprawdę pomoże — chętnie poznamy Wasze wrażenia.
+                - paragraph [ref=e19]: Dziękujemy, że byliście z nami — mamy nadzieję, że jeszcze się spotkamy.
+            - row "Domek Jaworowy" [ref=e20]:
+              - cell "Domek Jaworowy" [ref=e21]:
+                - paragraph [ref=e22]: Domek Jaworowy

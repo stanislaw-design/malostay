@@ -1,0 +1,1300 @@
+- generic [active] [ref=e1]:
+  - link "Przejdź do głównej treści" [ref=e3] [cursor=pointer]:
+    - /url: "#basiclayout"
+    - generic [ref=e5]: Przejdź do głównej treści
+  - banner [ref=e9]:
+    - generic [ref=e10]:
+      - navigation [ref=e11]:
+        - link "Booking.com" [ref=e15] [cursor=pointer]:
+          - /url: https://www.booking.com/index.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+          - img [ref=e16]
+        - generic [ref=e18]:
+          - 'button "Waluta: Złoty polski" [ref=e20] [cursor=pointer]':
+            - generic [ref=e21]: PLN
+          - 'button "Język: Polski" [ref=e23] [cursor=pointer]'
+          - link "Wsparcie klienta" [ref=e28] [cursor=pointer]:
+            - /url: https://secure.booking.com/help.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142&source=header&src=profile_contact_cs
+            - img [ref=e31]
+          - link "Udostępnij obiekt" [ref=e33] [cursor=pointer]:
+            - /url: https://join.booking.com/?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142&lang=pl&utm_medium=frontend&utm_source=topbar
+            - generic [ref=e34]: Udostępnij obiekt
+          - link "Załóż konto" [ref=e35] [cursor=pointer]:
+            - /url: https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=pl&aid=304142&bkng_action=hotel&prompt=signin&state=UvoDpPgGet5grJKY0dRbvQgQPCFNACNnExiFOgdXbGZbtUHtRJiV8k8R1ZCoEqnpzn5CbP9c5caNZ4lAbeCBu2ezOdXPOOzcSk1oKRVC-7Sn2SRHpSNlZzCU6CsglfdHx2TJM-r-SXf9DgKvZoxEy2lxfkcK_XhBKeydWHkbxas-X3V9g3_iNSWa3p9awmc99k_yUaHP5h6QIWt9ZowkS5oiCuYPk8dxmh_-Mp9jk6OGF-FClsLMntJ1HK_5NHzHjwrFLUZpeLPOZn38yuUtAypaCEYwcc_dN1BKeFIcgkJ3w8bY_w6TZ2NVjPasyAZ_wAlzhm1kjgTncPYEbqR7HpIqhjQKTPDwOAABqolOPS4mquiQrUQFbmliifIs4e-jXMVKuk6sNNhXsa1ENO2u5MgEW9UczUSlyWZbhzBiSB_X0JED3KhI6VanIwpaLRRf1EjLD-YqLSgMwJMk3hvgEDqUWFy19lkW_E9CDTnA3Tt7CRPZuLmGP3UnGKe-wlW0wdLz8-JtMuFi2RUZGprXme45R4I5YiFygzmlgvxJl-sMBjA8ENHKb10AC_baTm9R8saNXnEU9bU2PfIFkVuAv9hSoltlsco4Ejn8Wd2SNZiNMDaOXKpq2a1la4FhNxeRMh1jdI_G7pOiFz8pH6JYYp4wGzJO-YT6BMUmt1M%3D*eyJpZCI6InRyYXZlbGxlcl9oZWFkZXIifQ%3D%3D
+            - generic [ref=e36]: Zarejestruj się
+          - link "Zaloguj się" [ref=e38] [cursor=pointer]:
+            - /url: https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=pl&aid=304142&bkng_action=hotel&prompt=signin&state=UvoDpPgGet5grJKY0dRbvQgQPCFNACNnExiFOgdXbGZbtUHtRJiV8k8R1ZCoEqnpzn5CbP9c5caNZ4lAbeCBu2ezOdXPOOzcSk1oKRVC-7Sn2SRHpSNlZzCU6CsglfdHx2TJM-r-SXf9DgKvZoxEy2lxfkcK_XhBKeydWHkbxas-X3V9g3_iNSWa3p9awmc99k_yUaHP5h6QIWt9ZowkS5oiCuYPk8dxmh_-Mp9jk6OGF-FClsLMntJ1HK_5NHzHjwrFLUZpeLPOZn38yuUtAypaCEYwcc_dN1BKeFIcgkJ3w8bY_w6TZ2NVjPasyAZ_wAlzhm1kjgTncPYEbqR7HpIqhjQKTPDwOAABqolOPS4mquiQrUQFbmliifIs4e-jXMVKuk6sNNhXsa1ENO2u5MgEW9UczUSlyWZbhzBiSB_X0JED3KhI6VanIwpaLRRf1EjLD-YqLSgMwJMk3hvgEDqUWFy19lkW_E9CDTnA3Tt7CRPZuLmGP3UnGKe-wlW0wdLz8-JtMuFi2RUZGprXme45R4I5YiFygzmlgvxJl-sMBjA8ENHKb10AC_baTm9R8saNXnEU9bU2PfIFkVuAv9hSoltlsco4Ejn8Wd2SNZiNMDaOXKpq2a1la4FhNxeRMh1jdI_G7pOiFz8pH6JYYp4wGzJO-YT6BMUmt1M%3D*eyJpZCI6InRyYXZlbGxlcl9oZWFkZXIifQ%3D%3D
+            - generic [ref=e39]: Zaloguj się
+      - navigation "Czego szukasz?" [ref=e40]:
+        - menubar [ref=e42]:
+          - menuitem "Pobyty" [ref=e43] [cursor=pointer]:
+            - generic [ref=e44]:
+              - img [ref=e46]
+              - generic [ref=e48]: Pobyty
+          - menuitem "Loty" [ref=e49] [cursor=pointer]:
+            - generic [ref=e50]:
+              - img [ref=e52]
+              - generic [ref=e54]: Loty
+          - menuitem "Lot + Hotel" [ref=e55] [cursor=pointer]:
+            - generic [ref=e56]:
+              - img [ref=e58]
+              - generic [ref=e60]: Lot + Hotel
+          - menuitem "Wynajem samochodu" [ref=e61] [cursor=pointer]:
+            - generic [ref=e62]:
+              - img [ref=e64]
+              - generic [ref=e66]: Wynajem samochodu
+          - menuitem "Atrakcje" [ref=e67] [cursor=pointer]:
+            - generic [ref=e68]:
+              - img [ref=e70]
+              - generic [ref=e72]: Atrakcje
+          - menuitem "Taksówki lotniskowe" [ref=e73] [cursor=pointer]:
+            - generic [ref=e74]:
+              - img [ref=e76]
+              - generic [ref=e78]: Taksówki lotniskowe
+  - region "Szukaj obiektów" [ref=e84]:
+    - generic [ref=e85]:
+      - generic [ref=e91]:
+        - img [ref=e94]
+        - combobox "Dokąd się wybierasz?" [ref=e96]: Zakliczyn
+        - button "Wyczyść" [ref=e98] [cursor=pointer]:
+          - img "Wyczyść" [ref=e99]:
+            - img [ref=e100]
+      - button "Zameldowanie — Wymeldowanie" [ref=e104] [cursor=pointer]:
+        - generic [ref=e105]:
+          - img [ref=e107]
+          - generic [ref=e109]: Zameldowanie
+          - generic [ref=e110]: —
+          - generic [ref=e111]: Wymeldowanie
+      - 'button "Liczba podróżujących i pokoi. Aktualnie wybrane: 2 dorosłych · 0 dzieci · 1 pokój" [ref=e114] [cursor=pointer]':
+        - generic [ref=e115]:
+          - img [ref=e117]
+          - text: 2 dorosłych · 0 dzieci · 1 pokój
+        - img [ref=e120]
+      - button "Szukaj" [ref=e123] [cursor=pointer]:
+        - generic [ref=e124]: Szukaj
+  - generic [ref=e126]:
+    - navigation "Breadcrumbs" [ref=e130]:
+      - list [ref=e131]:
+        - listitem [ref=e132]:
+          - link "Strona główna" [ref=e133] [cursor=pointer]:
+            - /url: https://www.booking.com/index.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=b432497fc41d609b14a797f405ebc554&aid=304142
+            - generic [ref=e134]: Strona główna
+          - img [ref=e136]
+        - listitem [ref=e138]:
+          - link "Hotele" [ref=e139] [cursor=pointer]:
+            - /url: https://www.booking.com/hotel/index.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=b432497fc41d609b14a797f405ebc554&aid=304142
+            - generic [ref=e140]: Hotele
+          - img [ref=e142]
+        - listitem [ref=e144]:
+          - link "Wszystkie apartamenty" [ref=e145] [cursor=pointer]:
+            - /url: https://www.booking.com/apartments/index.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=b432497fc41d609b14a797f405ebc554&aid=304142
+            - generic [ref=e146]: Wszystkie apartamenty
+          - img [ref=e148]
+        - listitem [ref=e150]:
+          - link "Polska" [ref=e151] [cursor=pointer]:
+            - /url: https://www.booking.com/country/pl.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=b432497fc41d609b14a797f405ebc554&aid=304142
+            - generic [ref=e152]: Polska
+          - img [ref=e154]
+        - listitem [ref=e156]:
+          - link "małopolskie" [ref=e157] [cursor=pointer]:
+            - /url: https://www.booking.com/region/pl/malopolskie.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=b432497fc41d609b14a797f405ebc554&aid=304142
+            - generic [ref=e158]: małopolskie
+          - img [ref=e160]
+        - listitem [ref=e162]:
+          - link "Zakliczyn" [ref=e163] [cursor=pointer]:
+            - /url: https://www.booking.com/city/pl/zakliczyn.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=b432497fc41d609b14a797f405ebc554&aid=304142
+            - generic [ref=e164]: Zakliczyn
+          - img [ref=e166]
+        - listitem [ref=e168]:
+          - heading "Drewniany Domek nad Doliną Dunajca (Apartament), (Polska) – oferty" [level=1] [ref=e170]:
+            - generic [ref=e171]: Drewniany Domek nad Doliną Dunajca (Apartament), (Polska) – oferty
+    - generic [ref=e172]:
+      - main [ref=e173]:
+        - generic [ref=e174]:
+          - generic [ref=e175]:
+            - generic [ref=e176]:
+              - navigation "Link do strony wewnętrznej" [ref=e180]:
+                - list [ref=e182]:
+                  - listitem [ref=e183]:
+                    - link "Przegląd" [ref=e184] [cursor=pointer]:
+                      - /url: "#hotelTmpl"
+                      - generic [ref=e186]: Przegląd
+                  - listitem [ref=e187]:
+                    - link "Informacje o apartamentach i ceny" [ref=e188] [cursor=pointer]:
+                      - /url: "#availability"
+                      - generic [ref=e190]: Informacje o apartamentach i ceny
+                  - listitem [ref=e191]:
+                    - link "Udogodnienia" [ref=e192] [cursor=pointer]:
+                      - /url: "#hp_facilities_box"
+                      - generic [ref=e194]: Udogodnienia
+                  - listitem [ref=e195]:
+                    - link "Zasady pobytu" [ref=e196] [cursor=pointer]:
+                      - /url: "#policies"
+                      - generic [ref=e198]: Zasady pobytu
+                  - listitem [ref=e199]:
+                    - link "Ważne informacje prawne" [ref=e200] [cursor=pointer]:
+                      - /url: "#important_info"
+                      - generic [ref=e202]: Ważne informacje prawne
+                  - listitem [ref=e203]:
+                    - link "Opinie gości (78)" [ref=e204] [cursor=pointer]:
+                      - /url: "#blockdisplay4"
+                      - generic [ref=e206]: Opinie gości (78)
+              - generic [ref=e208]:
+                - generic [ref=e209]:
+                  - button "Zapisz ten element na liście podróży" [ref=e216] [cursor=pointer]:
+                    - img [ref=e219]
+                  - button "Udostępnij ten obiekt" [ref=e227] [cursor=pointer]:
+                    - img [ref=e230]
+                  - button "Zarezerwuj pobyt w apartamencie" [ref=e232] [cursor=pointer]:
+                    - generic [ref=e233]: Zarezerwuj pobyt w apartamencie
+                  - button "Wyrównujemy ceny" [ref=e237] [cursor=pointer]:
+                    - img [ref=e240]
+                    - generic [ref=e242]: Wyrównujemy ceny
+                - generic [ref=e244]:
+                  - button "Wskaźnik jakości to 3 na 5" [ref=e249] [cursor=pointer]:
+                    - img "Wskaźnik jakości to 3 na 5" [ref=e250]:
+                      - generic [ref=e251]:
+                        - img [ref=e253]
+                        - img [ref=e256]
+                      - generic [ref=e258]:
+                        - img [ref=e260]
+                        - img [ref=e263]
+                      - generic [ref=e265]:
+                        - img [ref=e267]
+                        - img [ref=e270]
+                  - heading "Drewniany Domek nad Doliną Dunajca" [level=2] [ref=e273]
+                - generic [ref=e277]:
+                  - link "Drewniany Domek nad Doliną Dunajca, Zakliczyn - Sprawdź lokalizację" [ref=e278] [cursor=pointer]:
+                    - /url: "#map_opened-map_trigger_header_pin"
+                    - img [ref=e281]
+                  - generic [ref=e283]:
+                    - button "Zawada Lanckorońska 118, 32-840 Zakliczyn, Polska" [ref=e285] [cursor=pointer]:
+                      - generic [ref=e286]:
+                        - text: Zawada Lanckorońska 118, 32-840 Zakliczyn, Polska
+                        - generic [ref=e287]:
+                          - generic [ref=e288]:
+                            - text: Doskonała lokalizacja – oceniona na 9.6/10!
+                            - generic [ref=e289]: (ocena na podstawie 76 opinii)
+                          - generic [ref=e290]: Ocena dodana przez Gości po powrocie z obiektu Drewniany Domek nad Doliną Dunajca.
+                    - text: –
+                    - link "Doskonała lokalizacja – pokaż mapę" [ref=e291] [cursor=pointer]:
+                      - /url: "#map_opened-map_trigger_header"
+              - generic "Galeria zdjęć – Drewniany Domek nad Doliną Dunajca" [ref=e295]:
+                - region "Galeria zdjęć obiektu Drewniany Domek nad Doliną Dunajca" [ref=e297]:
+                  - generic [ref=e300]:
+                    - generic [ref=e301]:
+                      - button "chata z bali z tarasem na podwórku w obiekcie Drewniany Domek nad Doliną Dunajca w mieście Zakliczyn" [ref=e303] [cursor=pointer]:
+                        - img "chata z bali z tarasem na podwórku w obiekcie Drewniany Domek nad Doliną Dunajca w mieście Zakliczyn" [ref=e305]
+                      - generic [ref=e306]:
+                        - button "pokój na poddaszu z łóżkiem i oknem w obiekcie Drewniany Domek nad Doliną Dunajca w mieście Zakliczyn" [ref=e308] [cursor=pointer]:
+                          - img "pokój na poddaszu z łóżkiem i oknem w obiekcie Drewniany Domek nad Doliną Dunajca w mieście Zakliczyn" [ref=e310]
+                        - button "łazienka z umywalką i prysznicem w obiekcie Drewniany Domek nad Doliną Dunajca w mieście Zakliczyn" [ref=e312] [cursor=pointer]:
+                          - img "łazienka z umywalką i prysznicem w obiekcie Drewniany Domek nad Doliną Dunajca w mieście Zakliczyn" [ref=e314]
+                    - generic [ref=e315]:
+                      - button "kuchnia ze stołem, krzesłami i zlewem w obiekcie Drewniany Domek nad Doliną Dunajca w mieście Zakliczyn" [ref=e317] [cursor=pointer]:
+                        - img "kuchnia ze stołem, krzesłami i zlewem w obiekcie Drewniany Domek nad Doliną Dunajca w mieście Zakliczyn" [ref=e319]
+                      - button "salon z niebieską kanapą i telewizorem w obiekcie Drewniany Domek nad Doliną Dunajca w mieście Zakliczyn" [ref=e321] [cursor=pointer]:
+                        - img "salon z niebieską kanapą i telewizorem w obiekcie Drewniany Domek nad Doliną Dunajca w mieście Zakliczyn" [ref=e323]
+                      - button "dom z gankiem i podwórkiem z trawą w obiekcie Drewniany Domek nad Doliną Dunajca w mieście Zakliczyn" [ref=e325] [cursor=pointer]:
+                        - img "dom z gankiem i podwórkiem z trawą w obiekcie Drewniany Domek nad Doliną Dunajca w mieście Zakliczyn" [ref=e327]
+                      - button "dwa łóżka w drewnianym pokoju z oknem w obiekcie Drewniany Domek nad Doliną Dunajca w mieście Zakliczyn" [ref=e329] [cursor=pointer]:
+                        - img "dwa łóżka w drewnianym pokoju z oknem w obiekcie Drewniany Domek nad Doliną Dunajca w mieście Zakliczyn" [ref=e331]
+                      - generic [ref=e332]:
+                        - button "łazienka z prysznicem, toaletą i umywalką w obiekcie Drewniany Domek nad Doliną Dunajca w mieście Zakliczyn +34 zdjęcia" [ref=e333] [cursor=pointer]:
+                          - img "łazienka z prysznicem, toaletą i umywalką w obiekcie Drewniany Domek nad Doliną Dunajca w mieście Zakliczyn +34 zdjęcia" [ref=e335]
+                        - generic: +34 zdjęcia
+              - generic [ref=e337]:
+                - generic [ref=e340]:
+                  - link "Oceniony na 9.7 Oceniony jako wyjątkowy" [ref=e342] [cursor=pointer]:
+                    - /url: "#blockdisplay4"
+                    - generic [ref=e345]:
+                      - generic [ref=e346]: Oceniony na 9.7
+                      - generic [ref=e347]: 9,7
+                      - generic [ref=e348]: Oceniony jako wyjątkowy
+                      - generic [ref=e349]:
+                        - generic [ref=e350]: Wyjątkowy
+                        - generic [ref=e351]: 78 opinii
+                  - separator [ref=e352]
+                  - generic [ref=e354]:
+                    - heading "Najwyżej oceniane wrażenia gości" [level=3] [ref=e355]
+                    - generic [ref=e356]:
+                      - region "Najwyżej oceniane wrażenia gości" [ref=e357]:
+                        - group [ref=e358]:
+                          - generic [ref=e360]:
+                            - generic [ref=e363]: „Bardzo ładny teren, prywatność, spokój, czystość na każdym kroku. Bardzo miła Pani, brak wad”
+                            - generic [ref=e365]:
+                              - generic [ref=e367]: M
+                              - generic [ref=e369]:
+                                - text: Martyna
+                                - img "Polska" [ref=e370]
+                                - generic [ref=e371]: Polska
+                        - group [ref=e372]:
+                          - generic [ref=e374]:
+                            - generic [ref=e377]: „Pobyt oceniam bardzo pozytywnie ☺️ Gospodarz bardzo szybko odpowiadał na wszelkie pytania. Na miejscu było czysto, a sam domek jest komfortowy i...”
+                            - generic [ref=e383]:
+                              - text: Wiktoria
+                              - img "Polska" [ref=e384]
+                              - generic [ref=e385]: Polska
+                        - group [ref=e386]:
+                          - generic [ref=e388]:
+                            - generic [ref=e391]: „To naprawdę piękny domek, fantastycznie wyposażony. Nie brakowało nam niczego, łącznie z łóżeczkiem turystycznym dla syna, w którym spał z...”
+                            - generic [ref=e397]:
+                              - text: Anetaxk
+                              - img "Polska" [ref=e398]
+                              - generic [ref=e399]: Polska
+                        - group [ref=e400]:
+                          - generic [ref=e402]:
+                            - generic [ref=e405]: „bardzo czysto, przyjemnie, możliwość korzystania z jacuzzi na duży plus. Piękne widoki, kominek, są wszystkie potrzebne naczynia i przybory...”
+                            - generic [ref=e411]:
+                              - text: Yana
+                              - img "Polska" [ref=e412]
+                              - generic [ref=e413]: Polska
+                        - group [ref=e414]:
+                          - generic [ref=e416]:
+                            - generic [ref=e419]: „Pani Właścicielka była bardzo responsywna i uprzejma. W domku było wszystko czego można potrzebować. Dodatkowo strefa SPA na wyłączność w wolnych...”
+                            - generic [ref=e425]:
+                              - text: Dominik
+                              - img "Polska" [ref=e426]
+                              - generic [ref=e427]: Polska
+                        - group [ref=e428]:
+                          - generic [ref=e430]:
+                            - generic [ref=e433]: „Ładny, funkcjonalny domek. Miejsce parkingowe tuż obok. Prywatność.”
+                            - generic [ref=e439]:
+                              - text: Barbara
+                              - img "Polska" [ref=e440]
+                              - generic [ref=e441]: Polska
+                        - group [ref=e442]:
+                          - generic [ref=e444]:
+                            - generic [ref=e447]: „Piękny nowoczesny domek w pięknym otoczeniu. Myślę, że każdy znajdzie w nim wszystko co potrzebuje i spędzi świetny czas. Dostęp do sauny i jacuzzi...”
+                            - generic [ref=e453]:
+                              - text: Grzegorz
+                              - img "Polska" [ref=e454]
+                              - generic [ref=e455]: Polska
+                        - group [ref=e456]:
+                          - generic [ref=e458]:
+                            - generic [ref=e461]: „Przepiękny domek, wyposażony we wszystko co potrzeba.. Sauna i jacuzzi - rewelacja. Przemiła właścicielka..”
+                            - generic [ref=e467]:
+                              - text: Patrycja
+                              - img "Polska" [ref=e468]
+                              - generic [ref=e469]: Polska
+                        - group [ref=e470]:
+                          - generic [ref=e472]:
+                            - generic [ref=e475]: „Znakomity domek, super udogodnienia. Wspaniałe rozwiązanie z sauną i wanna z masażem. Spędziliśmy bardzo relaksujący weekend. Po prostu dziękuję”
+                            - generic [ref=e481]:
+                              - text: Patrycja
+                              - img "Polska" [ref=e482]
+                              - generic [ref=e483]: Polska
+                        - group [ref=e484]:
+                          - generic [ref=e486]:
+                            - generic [ref=e489]: „Nocleg przewyższył nasze oczekiwania, bardzo mila wlascicielka , super wypoczynek i wszystkie udogodnienia😊”
+                            - generic [ref=e495]:
+                              - text: Dorota
+                              - img "Polska" [ref=e496]
+                              - generic [ref=e497]: Polska
+                      - button "Dalej" [ref=e498] [cursor=pointer]:
+                        - img [ref=e501]
+                  - separator [ref=e503]
+                  - generic [ref=e504]:
+                    - paragraph [ref=e505]: Bezpłatne WiFi
+                    - generic "Oceniony na 10" [ref=e507]: "10"
+                - button "Widok mapy" [ref=e511] [cursor=pointer]:
+                  - generic [ref=e513]:
+                    - generic [ref=e514]:
+                      - generic:
+                        - generic:
+                          - img
+                        - img [ref=e515]
+                    - button "Widok mapy" [ref=e517]:
+                      - generic [ref=e518]: Widok mapy
+            - list [ref=e526]:
+              - listitem [ref=e527]:
+                - img [ref=e531]
+                - generic [ref=e534]: Cały obiekt dla Ciebie
+              - listitem [ref=e535]:
+                - img [ref=e539]
+                - generic [ref=e542]: 70 m² powierzchnia
+              - listitem [ref=e543]:
+                - img [ref=e547]
+                - generic [ref=e550]: bezpłatny parking na terenie obiektu
+              - listitem [ref=e551]:
+                - img [ref=e555]
+                - generic [ref=e558]: Bezpłatne Wi-Fi
+              - listitem [ref=e559]:
+                - img [ref=e563]
+                - generic [ref=e566]: Sprzęt do grillowania
+              - listitem [ref=e567]:
+                - img [ref=e571]
+                - generic [ref=e574]: Balkon
+              - listitem [ref=e575]:
+                - img [ref=e579]
+                - generic [ref=e582]: Taras
+              - listitem [ref=e583]:
+                - img [ref=e587]
+                - generic [ref=e590]: Widok
+              - listitem [ref=e591]:
+                - img [ref=e595]
+                - generic [ref=e598]: Kuchnia
+              - listitem [ref=e599]:
+                - img [ref=e603]
+                - generic [ref=e606]: Prysznic
+          - generic [ref=e608]:
+            - generic [ref=e609]:
+              - generic [ref=e613]:
+                - paragraph [ref=e614]: "Obiekt Drewniany Domek nad Doliną Dunajca, położony w miejscowości Zakliczyn, zapewnia ogród, bezpłatne Wi-Fi, wspólną kuchnię i wspólny salon. Odległość ważnych miejsc od obiektu: Zamek w Wiśniczu – 30 km. Oferta apartamentu obejmuje bezpłatny prywatny parking oraz całodobową recepcję. W apartamencie do dyspozycji gości przygotowano taras, kilka sypialni (2), salon oraz kuchnię z doskonałym wyposażeniem, w tym lodówką i piekarnikiem. W apartamencie zapewniono ręczniki i pościel. Zaplecze odnowy biologicznej obiektu Drewniany Domek nad Doliną Dunajca obejmuje saunę i wannę z hydromasażem. Na terenie obiektu Drewniany Domek nad Doliną Dunajca znajduje się sprzęt do grillowania. Odległość ważnych miejsc od obiektu: Kopalnia Soli w Bochni – 39 km. Lotnisko Lotnisko Kraków-Balice znajduje się 93 km od obiektu."
+                - paragraph [ref=e615]: Parom bardzo się podoba ta lokalizacja – za pobyt dla 2 osób oceniają ją na 9,6.
+                - paragraph [ref=e616]: Odległości w opisie obiektu wyliczane są przy użyciu © OpenStreetMap
+              - generic [ref=e620]:
+                - heading "Najpopularniejsze udogodnienia" [level=3] [ref=e621]:
+                  - generic [ref=e622]: Najpopularniejsze udogodnienia
+                - list [ref=e623]:
+                  - listitem [ref=e624]:
+                    - generic [ref=e625]:
+                      - img [ref=e627]
+                      - generic [ref=e632]: Bezpłatny parking
+                  - listitem [ref=e633]:
+                    - generic [ref=e634]:
+                      - img [ref=e636]
+                      - generic [ref=e641]: Bezpłatne Wi-Fi
+            - generic [ref=e645]:
+              - heading "Atuty obiektu" [level=3] [ref=e646]
+              - generic [ref=e647]:
+                - paragraph [ref=e649]:
+                  - img [ref=e651]
+                  - generic [ref=e653]: "Świetna lokalizacja: wysoko oceniana przez Gości (9,6)"
+                - paragraph [ref=e655]:
+                  - img [ref=e657]
+                  - generic [ref=e659]: bezpłatny prywatny parking dostępny na miejscu
+              - button "Zarezerwuj teraz" [ref=e661] [cursor=pointer]:
+                - generic [ref=e662]: Zarezerwuj teraz
+          - separator [ref=e663]
+          - generic [ref=e673]:
+            - generic [ref=e675]:
+              - heading "Zaloguj się i oszczędzaj" [level=3] [ref=e676]
+              - generic [ref=e677]: Zaloguj się, aby sprawdzić, czy w tym obiekcie możesz zaoszczędzić 10% lub więcej.
+              - generic [ref=e679]:
+                - link "Zaloguj się do Booking.com." [ref=e680] [cursor=pointer]:
+                  - /url: https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=pl&aid=304142&bkng_action=hotel&prompt=signin&state=UvoDpPgGet5grJKY0dRbvQgQPCFNACNnExiFOgdXbGZbtUHtRJiV8k8R1ZCoEqnpzn5CbP9c5caNZ4lAbeCBu2ezOdXPOOzcSk1oKRVC-7Sn2SRHpSNlZzCU6CsglfdHx2TJM-r-SXf9DgKvZoxEy2lxfkcK_XhBKeydWHkbxas-X3V9g3_iNSWa3p9awmc99k_yUaHP5h6QIWt9ZowkS5oiCuYPk8dxmh_-Mp9jk6OGF-FClsLMntJ1HK_5NHzHjwrFLUZpeLPOZn38yuUtAypaCEYwcc_dN1BKeFIcgkJ3w8bY_w6TZ2NVjPasyAZ_wAlzhm1kjgTncPYEbqR7HpIqhjQKTPDwOAABqolOPS4mquiQrUQFbmliifIs4e-jXMVKuk6sNNhXsa1ENO2u5MgEW9UczUSlyWZbhzBiSB_X0JED3KhI6VanIwpaLRRf1EjLD-YqLSgMwJMk3hvgEDqUWFy19lkW_E9CDTnA3Tt7CRPZuLmGP3UnGKe-wlW0wdLz8-JtMuFi2RUZGprXme45R4I5YiFygzmlgvxJl-sMBjA8ENHKb10AC_baTm9R8saNXnEU9bU2PfIFkVuAv9hSoltlsco4Ejn8Wd2SNZiNMDaOXKpq2a1la4FhNxeRMh1jdI_G7pOiFz8pH6JYYp4wGzJO-YT6BMUmt1M%3D*eyJpZCI6Im1lcmNoX3BsYXRmb3JtX3Byb3BlcnR5X3BhZ2VfY3RhIn0%3D
+                  - generic [ref=e681]: Zaloguj się
+                - link "Utwórz konto na Booking.com." [ref=e682] [cursor=pointer]:
+                  - /url: https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=pl&aid=304142&bkng_action=hotel&prompt=signin&state=UvoDpPgGet5grJKY0dRbvQgQPCFNACNnExiFOgdXbGZbtUHtRJiV8k8R1ZCoEqnpzn5CbP9c5caNZ4lAbeCBu2ezOdXPOOzcSk1oKRVC-7Sn2SRHpSNlZzCU6CsglfdHx2TJM-r-SXf9DgKvZoxEy2lxfkcK_XhBKeydWHkbxas-X3V9g3_iNSWa3p9awmc99k_yUaHP5h6QIWt9ZowkS5oiCuYPk8dxmh_-Mp9jk6OGF-FClsLMntJ1HK_5NHzHjwrFLUZpeLPOZn38yuUtAypaCEYwcc_dN1BKeFIcgkJ3w8bY_w6TZ2NVjPasyAZ_wAlzhm1kjgTncPYEbqR7HpIqhjQKTPDwOAABqolOPS4mquiQrUQFbmliifIs4e-jXMVKuk6sNNhXsa1ENO2u5MgEW9UczUSlyWZbhzBiSB_X0JED3KhI6VanIwpaLRRf1EjLD-YqLSgMwJMk3hvgEDqUWFy19lkW_E9CDTnA3Tt7CRPZuLmGP3UnGKe-wlW0wdLz8-JtMuFi2RUZGprXme45R4I5YiFygzmlgvxJl-sMBjA8ENHKb10AC_baTm9R8saNXnEU9bU2PfIFkVuAv9hSoltlsco4Ejn8Wd2SNZiNMDaOXKpq2a1la4FhNxeRMh1jdI_G7pOiFz8pH6JYYp4wGzJO-YT6BMUmt1M%3D*eyJpZCI6Im1lcmNoX3BsYXRmb3JtX3Byb3BlcnR5X3BhZ2VfY3RhIn0%3D
+                  - generic [ref=e683]: Utwórz konto
+            - img "Zaloguj się i oszczędzaj" [ref=e687]
+          - generic [ref=e689]:
+            - generic [ref=e690]:
+              - heading "Dostępność" [level=2] [ref=e691]
+              - button "Wyrównujemy ceny" [ref=e695] [cursor=pointer]:
+                - img [ref=e698]
+                - generic [ref=e700]: Wyrównujemy ceny
+            - region [ref=e701]:
+              - img [ref=e703]
+              - paragraph [ref=e706]: Wybierz daty, aby zobaczyć dostępność i ceny w obiekcie
+            - generic [ref=e711]:
+              - generic [ref=e712]:
+                - button "Wybierz termin" [ref=e716] [cursor=pointer]:
+                  - generic [ref=e717]:
+                    - img [ref=e719]
+                    - generic [ref=e722]: Zameldowanie - Wymeldowanie
+                - button "Wybierz liczbę gości" [ref=e726] [cursor=pointer]:
+                  - generic [ref=e727]:
+                    - img [ref=e729]
+                    - generic [ref=e732]: 2 dorosłych · 0 dzieci · 1 pokój
+              - button "Szukaj" [ref=e734] [cursor=pointer]:
+                - generic [ref=e735]: Szukaj
+            - table [ref=e743]:
+              - rowgroup [ref=e744]:
+                - row "Rodzaj zakwaterowania Liczba gości" [ref=e745]:
+                  - columnheader "Rodzaj zakwaterowania" [ref=e746]:
+                    - generic [ref=e747]: Rodzaj zakwaterowania
+                  - columnheader "Liczba gości" [ref=e748]:
+                    - generic [ref=e749]: Liczba gości
+                  - columnheader [ref=e750]
+              - rowgroup [ref=e751]:
+                - row "Apartament z 2 sypialniami Sypialnia 1 1 łóżko podwójne Sypialnia 2 2 łóżka pojedyncze Salon 1 rozkładana sofa 6 dorosłych Pokaż ceny" [ref=e752]:
+                  - rowheader "Apartament z 2 sypialniami Sypialnia 1 1 łóżko podwójne Sypialnia 2 2 łóżka pojedyncze Salon 1 rozkładana sofa" [ref=e753]:
+                    - link "Apartament z 2 sypialniami" [ref=e755] [cursor=pointer]:
+                      - /url: "#RD996486201"
+                      - generic [ref=e757]: Apartament z 2 sypialniami
+                    - generic [ref=e758]:
+                      - generic [ref=e759]:
+                        - generic [ref=e760]: Sypialnia 1
+                        - generic [ref=e761]:
+                          - text: 1 łóżko podwójne
+                          - img [ref=e764]
+                      - generic [ref=e766]:
+                        - generic [ref=e767]: Sypialnia 2
+                        - generic [ref=e768]:
+                          - text: 2 łóżka pojedyncze
+                          - img [ref=e771]
+                      - generic [ref=e773]:
+                        - generic [ref=e774]: Salon
+                        - generic [ref=e775]:
+                          - text: 1 rozkładana sofa
+                          - img [ref=e778]
+                  - cell "6 dorosłych" [ref=e780]:
+                    - img "6 dorosłych" [ref=e782]:
+                      - generic [ref=e783]:
+                        - img [ref=e785]
+                        - generic [ref=e787]: × 6
+                  - cell "Pokaż ceny" [ref=e788]:
+                    - button "Pokaż ceny" [ref=e790] [cursor=pointer]:
+                      - generic [ref=e791]: Pokaż ceny
+          - generic [ref=e794]:
+            - generic [ref=e796]:
+              - generic [ref=e797]:
+                - heading "Opinie Gości" [level=2] [ref=e799]
+                - button "Zobacz dostępność" [ref=e801] [cursor=pointer]:
+                  - generic [ref=e802]: Zobacz dostępność
+              - generic [ref=e805]:
+                - button "Oceniony na 9.7 Oceniony jako wyjątkowy" [ref=e806] [cursor=pointer]:
+                  - generic [ref=e807]:
+                    - generic [ref=e808]: Oceniony na 9.7
+                    - generic [ref=e809]: 9,7
+                    - generic [ref=e810]: Oceniony jako wyjątkowy
+                    - generic [ref=e811]:
+                      - generic [ref=e812]: Wyjątkowy
+                      - generic [ref=e813]: · 78 opinii
+                - button "Przeczytaj wszystkie opinie" [ref=e814] [cursor=pointer]:
+                  - generic [ref=e815]: Przeczytaj wszystkie opinie
+              - group "Kategorie opinii" [ref=e817]:
+                - heading "Kategorie:" [level=3] [ref=e819]
+                - generic [ref=e820]:
+                  - generic "Średnia ocena w przedziale od 1 do 10" [ref=e822]:
+                    - generic [ref=e823]:
+                      - generic [ref=e824]:
+                        - generic [ref=e827]: Gospodarz
+                        - generic [ref=e829]: 9,8
+                      - meter "Gospodarz" [ref=e830]
+                  - generic "Średnia ocena w przedziale od 1 do 10" [ref=e833]:
+                    - generic [ref=e834]:
+                      - generic [ref=e835]:
+                        - generic [ref=e838]: Udogodnienia
+                        - generic [ref=e840]: 9,9
+                      - meter "Udogodnienia" [ref=e841]
+                  - generic "Średnia ocena w przedziale od 1 do 10" [ref=e844]:
+                    - generic [ref=e845]:
+                      - generic [ref=e846]:
+                        - generic [ref=e849]: Czystość
+                        - generic [ref=e851]: 9,8
+                      - meter "Czystość" [ref=e852]
+                  - generic "Średnia ocena w przedziale od 1 do 10" [ref=e855]:
+                    - generic [ref=e856]:
+                      - generic [ref=e857]:
+                        - generic [ref=e860]: Komfort
+                        - generic [ref=e862]: 9,8
+                      - meter "Komfort" [ref=e863]
+                  - generic "Średnia ocena w przedziale od 1 do 10" [ref=e866]:
+                    - generic [ref=e867]:
+                      - generic [ref=e868]:
+                        - generic [ref=e871]: Stosunek jakości do ceny
+                        - generic [ref=e873]: 9,6
+                      - meter "Stosunek jakości do ceny" [ref=e874]
+                  - generic "Średnia ocena w przedziale od 1 do 10" [ref=e877]:
+                    - generic [ref=e878]:
+                      - generic [ref=e879]:
+                        - generic [ref=e882]: Lokalizacja
+                        - generic [ref=e884]: 9,6
+                      - meter "Lokalizacja" [ref=e885]
+                  - generic "Średnia ocena w przedziale od 1 do 10" [ref=e888]:
+                    - generic [ref=e889]:
+                      - generic [ref=e890]:
+                        - generic [ref=e893]: Bezpłatne WiFi
+                        - generic [ref=e895]: "10"
+                      - meter "Bezpłatne WiFi" [ref=e896]
+              - group "Wybierz tematy, aby przeczytać opinie:" [ref=e899]:
+                - heading "Wybierz tematy, aby przeczytać opinie:" [level=3] [ref=e902]
+                - group "Wybierz tematy, aby przeczytać opinie:" [ref=e904]:
+                  - button "Lokalizacja" [ref=e905]:
+                    - checkbox "Lokalizacja" [ref=e906]
+                    - generic [ref=e907] [cursor=pointer]:
+                      - img [ref=e909]
+                      - generic [ref=e911]: Lokalizacja
+                  - button "Spa" [ref=e912]:
+                    - checkbox "Spa" [ref=e913]
+                    - generic [ref=e914] [cursor=pointer]:
+                      - img [ref=e916]
+                      - generic [ref=e918]: Spa
+                  - button "Cisza" [ref=e919]:
+                    - checkbox "Cisza" [ref=e920]
+                    - generic [ref=e921] [cursor=pointer]:
+                      - img [ref=e923]
+                      - generic [ref=e925]: Cisza
+                  - button "Czystość" [ref=e926]:
+                    - checkbox "Czystość" [ref=e927]
+                    - generic [ref=e928] [cursor=pointer]:
+                      - img [ref=e930]
+                      - generic [ref=e932]: Czystość
+                  - button "Fitness" [ref=e933]:
+                    - checkbox "Fitness" [ref=e934]
+                    - generic [ref=e935] [cursor=pointer]:
+                      - img [ref=e937]
+                      - generic [ref=e939]: Fitness
+              - generic [ref=e941]:
+                - generic [ref=e942]:
+                  - heading "Najwyżej oceniane wrażenia gości" [level=3] [ref=e943]
+                  - generic [ref=e944]:
+                    - region "Najwyżej oceniane wrażenia gości" [ref=e945]:
+                      - group [ref=e946]:
+                        - generic [ref=e948]:
+                          - generic [ref=e953]:
+                            - generic [ref=e954]: Martyna
+                            - generic [ref=e955]:
+                              - img "Polska" [ref=e956]
+                              - generic [ref=e957]: Polska
+                          - generic [ref=e960]: „Bardzo ładny teren, prywatność, spokój, czystość na każdym kroku. Bardzo miła Pani, brak wad”
+                          - 'button "Przeczytaj więcej opinii użytkownika: Martyna" [ref=e962] [cursor=pointer]': Więcej informacji
+                      - group [ref=e963]:
+                        - generic [ref=e965]:
+                          - generic [ref=e970]:
+                            - generic [ref=e971]: Wiktoria
+                            - generic [ref=e972]:
+                              - img "Polska" [ref=e973]
+                              - generic [ref=e974]: Polska
+                          - generic [ref=e977]: „Pobyt oceniam bardzo pozytywnie ☺️ Gospodarz bardzo szybko odpowiadał na wszelkie pytania. Na miejscu było czysto, a sam domek jest komfortowy i oferuje wiele udogodnień, takich jak jacuzzi oraz telewizor z funkcją Smart TV. Obiekt był również...”
+                          - 'button "Przeczytaj więcej opinii użytkownika: Wiktoria" [ref=e979] [cursor=pointer]': Więcej informacji
+                      - group [ref=e980]:
+                        - generic [ref=e982]:
+                          - generic [ref=e987]:
+                            - generic [ref=e988]: Anetaxk
+                            - generic [ref=e989]:
+                              - img "Polska" [ref=e990]
+                              - generic [ref=e991]: Polska
+                          - generic [ref=e994]: „To naprawdę piękny domek, fantastycznie wyposażony. Nie brakowało nam niczego, łącznie z łóżeczkiem turystycznym dla syna, w którym spał z uśmiechem na twarzy. Mieliśmy bardzo dobry kontakt z właścicielem. Możliwość skorzystania z jacuzzi - na...”
+                          - 'button "Przeczytaj więcej opinii użytkownika: Anetaxk" [ref=e996] [cursor=pointer]': Więcej informacji
+                      - group [ref=e997]:
+                        - generic [ref=e999]:
+                          - generic [ref=e1004]:
+                            - generic [ref=e1005]: Yana
+                            - generic [ref=e1006]:
+                              - img "Polska" [ref=e1007]
+                              - generic [ref=e1008]: Polska
+                          - generic [ref=e1011]: „bardzo czysto, przyjemnie, możliwość korzystania z jacuzzi na duży plus. Piękne widoki, kominek, są wszystkie potrzebne naczynia i przybory kuchenne dla przygotowania jedzenia.”
+                          - 'button "Przeczytaj więcej opinii użytkownika: Yana" [ref=e1013] [cursor=pointer]': Więcej informacji
+                      - group [ref=e1014]:
+                        - generic [ref=e1016]:
+                          - generic [ref=e1018]:
+                            - generic [ref=e1020]: D
+                            - generic [ref=e1021]:
+                              - generic [ref=e1022]: Dominik
+                              - generic [ref=e1023]:
+                                - img "Polska" [ref=e1024]
+                                - generic [ref=e1025]: Polska
+                          - generic [ref=e1028]: „Pani Właścicielka była bardzo responsywna i uprzejma. W domku było wszystko czego można potrzebować. Dodatkowo strefa SPA na wyłączność w wolnych oknach godzinowych jest największym atutem.”
+                          - 'button "Przeczytaj więcej opinii użytkownika: Dominik" [ref=e1030] [cursor=pointer]': Więcej informacji
+                      - group [ref=e1031]:
+                        - generic [ref=e1033]:
+                          - generic [ref=e1035]:
+                            - generic [ref=e1037]: B
+                            - generic [ref=e1038]:
+                              - generic [ref=e1039]: Barbara
+                              - generic [ref=e1040]:
+                                - img "Polska" [ref=e1041]
+                                - generic [ref=e1042]: Polska
+                          - generic [ref=e1045]: „Ładny, funkcjonalny domek. Miejsce parkingowe tuż obok. Prywatność.”
+                          - 'button "Przeczytaj więcej opinii użytkownika: Barbara" [ref=e1047] [cursor=pointer]': Więcej informacji
+                      - group [ref=e1048]:
+                        - generic [ref=e1050]:
+                          - generic [ref=e1052]:
+                            - generic [ref=e1054]: G
+                            - generic [ref=e1055]:
+                              - generic [ref=e1056]: Grzegorz
+                              - generic [ref=e1057]:
+                                - img "Polska" [ref=e1058]
+                                - generic [ref=e1059]: Polska
+                          - generic [ref=e1062]: „Piękny nowoczesny domek w pięknym otoczeniu. Myślę, że każdy znajdzie w nim wszystko co potrzebuje i spędzi świetny czas. Dostęp do sauny i jacuzzi to bajka.”
+                          - 'button "Przeczytaj więcej opinii użytkownika: Grzegorz" [ref=e1064] [cursor=pointer]': Więcej informacji
+                      - group [ref=e1065]:
+                        - generic [ref=e1067]:
+                          - generic [ref=e1072]:
+                            - generic [ref=e1073]: Patrycja
+                            - generic [ref=e1074]:
+                              - img "Polska" [ref=e1075]
+                              - generic [ref=e1076]: Polska
+                          - generic [ref=e1079]: „Przepiękny domek, wyposażony we wszystko co potrzeba.. Sauna i jacuzzi - rewelacja. Przemiła właścicielka..”
+                          - 'button "Przeczytaj więcej opinii użytkownika: Patrycja" [ref=e1081] [cursor=pointer]': Więcej informacji
+                      - group [ref=e1082]:
+                        - generic [ref=e1084]:
+                          - generic [ref=e1089]:
+                            - generic [ref=e1090]: Patrycja
+                            - generic [ref=e1091]:
+                              - img "Polska" [ref=e1092]
+                              - generic [ref=e1093]: Polska
+                          - generic [ref=e1096]: „Znakomity domek, super udogodnienia. Wspaniałe rozwiązanie z sauną i wanna z masażem. Spędziliśmy bardzo relaksujący weekend. Po prostu dziękuję”
+                          - 'button "Przeczytaj więcej opinii użytkownika: Patrycja" [ref=e1098] [cursor=pointer]': Więcej informacji
+                      - group [ref=e1099]:
+                        - generic [ref=e1101]:
+                          - generic [ref=e1106]:
+                            - generic [ref=e1107]: Dorota
+                            - generic [ref=e1108]:
+                              - img "Polska" [ref=e1109]
+                              - generic [ref=e1110]: Polska
+                          - generic [ref=e1113]: „Nocleg przewyższył nasze oczekiwania, bardzo mila wlascicielka , super wypoczynek i wszystkie udogodnienia😊”
+                          - 'button "Przeczytaj więcej opinii użytkownika: Dorota" [ref=e1115] [cursor=pointer]': Więcej informacji
+                    - button "Dalej" [ref=e1116] [cursor=pointer]:
+                      - img [ref=e1119]
+                - button "Przeczytaj wszystkie opinie" [ref=e1121] [cursor=pointer]:
+                  - generic [ref=e1122]: Przeczytaj wszystkie opinie
+            - generic [ref=e1131]:
+              - heading "Ocena jakości" [level=3] [ref=e1132]:
+                - text: Ocena jakości
+                - img [ref=e1133]:
+                  - generic [ref=e1134]:
+                    - img [ref=e1136]
+                    - img [ref=e1139]
+                  - generic [ref=e1141]:
+                    - img [ref=e1143]
+                    - img [ref=e1146]
+                  - generic [ref=e1148]:
+                    - img [ref=e1150]
+                    - img [ref=e1153]
+              - generic [ref=e1155]: Booking.com ocenił jakość tego obiektu na 3/5 na podstawie takich czynników, jak udogodnienia, wielkość, lokalizacja i usługi.
+            - generic [ref=e1162]:
+              - generic [ref=e1163]:
+                - heading "Pytania podróżujących" [level=2] [ref=e1165]:
+                  - generic [ref=e1166]: Pytania podróżujących
+                - button "Zobacz dostępność" [ref=e1168] [cursor=pointer]:
+                  - generic [ref=e1169]: Zobacz dostępność
+              - generic [ref=e1171]:
+                - generic [ref=e1172]:
+                  - list [ref=e1174]:
+                    - listitem [ref=e1175]:
+                      - button "Czy na miejscu jest parking?" [ref=e1176] [cursor=pointer]:
+                        - generic [ref=e1177]:
+                          - img [ref=e1180]
+                          - generic [ref=e1182]: Czy na miejscu jest parking?
+                          - img [ref=e1185]
+                    - listitem [ref=e1187]:
+                      - button "Czy śniadanie jest serwowane?" [ref=e1188] [cursor=pointer]:
+                        - generic [ref=e1189]:
+                          - img [ref=e1192]
+                          - generic [ref=e1194]: Czy śniadanie jest serwowane?
+                          - img [ref=e1197]
+                    - listitem [ref=e1199]:
+                      - button "Czy na miejscu jest restauracja?" [ref=e1200] [cursor=pointer]:
+                        - generic [ref=e1201]:
+                          - img [ref=e1204]
+                          - generic [ref=e1206]: Czy na miejscu jest restauracja?
+                          - img [ref=e1209]
+                    - listitem [ref=e1211]:
+                      - button "Czy na miejscu jest spa?" [ref=e1212] [cursor=pointer]:
+                        - generic [ref=e1213]:
+                          - img [ref=e1216]
+                          - generic [ref=e1218]: Czy na miejscu jest spa?
+                          - img [ref=e1221]
+                    - listitem [ref=e1223]:
+                      - button "Czy mogę przyjechać ze zwierzęciem?" [ref=e1224] [cursor=pointer]:
+                        - generic [ref=e1225]:
+                          - img [ref=e1228]
+                          - generic [ref=e1230]: Czy mogę przyjechać ze zwierzęciem?
+                          - img [ref=e1233]
+                    - listitem [ref=e1235]:
+                      - button "Czy na miejscu jest basen?" [ref=e1236] [cursor=pointer]:
+                        - generic [ref=e1237]:
+                          - img [ref=e1240]
+                          - generic [ref=e1242]: Czy na miejscu jest basen?
+                          - img [ref=e1245]
+                    - listitem [ref=e1247]:
+                      - button "Na jakich zasadach można korzystać z Wi-Fi?" [ref=e1248] [cursor=pointer]:
+                        - generic [ref=e1249]:
+                          - img [ref=e1252]
+                          - generic [ref=e1254]: Na jakich zasadach można korzystać z Wi-Fi?
+                          - img [ref=e1257]
+                    - listitem [ref=e1259]:
+                      - button "Czy na miejscu są pokoje z prywatną łazienką?" [ref=e1260] [cursor=pointer]:
+                        - generic [ref=e1261]:
+                          - img [ref=e1264]
+                          - generic [ref=e1266]: Czy na miejscu są pokoje z prywatną łazienką?
+                          - img [ref=e1269]
+                    - listitem [ref=e1271]:
+                      - button "Czy na miejscu można skorzystać z transferu lotniskowego?" [ref=e1272] [cursor=pointer]:
+                        - generic [ref=e1273]:
+                          - img [ref=e1276]
+                          - generic [ref=e1278]: Czy na miejscu można skorzystać z transferu lotniskowego?
+                          - img [ref=e1281]
+                    - listitem [ref=e1283]:
+                      - button "Czy na miejscu jest siłownia?" [ref=e1284] [cursor=pointer]:
+                        - generic [ref=e1285]:
+                          - img [ref=e1288]
+                          - generic [ref=e1290]: Czy na miejscu jest siłownia?
+                          - img [ref=e1293]
+                  - generic [ref=e1296]:
+                    - heading "Nadal szukasz?" [level=3] [ref=e1297]
+                    - button "Zadaj pytanie" [ref=e1298] [cursor=pointer]:
+                      - generic [ref=e1299]: Zadaj pytanie
+                    - paragraph [ref=e1300]: Na większość pytań mamy natychmiastową odpowiedź
+                - button "Zobacz inne pytania (1)" [ref=e1303] [cursor=pointer]:
+                  - generic [ref=e1304]: Zobacz inne pytania (1)
+            - generic [ref=e1306]:
+              - generic [ref=e1307]:
+                - img [ref=e1312]
+                - generic [ref=e1314]:
+                  - heading "Informacje o gospodarzu" [level=2] [ref=e1315]:
+                    - generic [ref=e1316]: Informacje o gospodarzu
+                  - generic [ref=e1317]:
+                    - text: "Ocena firmy: 9,8"
+                    - generic [ref=e1318]: Na podstawie 368 opinii z 8 obiektów
+                  - generic [ref=e1319]:
+                    - img [ref=e1321]
+                    - text: 8 zarządzanych obiektów
+                  - separator [ref=e1323]
+              - generic [ref=e1325]:
+                - paragraph [ref=e1326]: Informacje o okolicy
+                - generic [ref=e1327]: Domek usytuowany na wzgórzu z którego rozpościera się wspaniały widok na rzekę Dunajec. Idealne miejsce do spacerów w pobliskim lesie lub wędkowania.
+                - generic [ref=e1328]:
+                  - paragraph [ref=e1329]: "Języki:"
+                  - generic [ref=e1330]: polski
+            - generic [ref=e1335]:
+              - generic [ref=e1336]:
+                - heading "Otoczenie obiektu" [level=2] [ref=e1338]:
+                  - generic [ref=e1339]: Otoczenie obiektu
+                - button "Zobacz dostępność" [ref=e1341] [cursor=pointer]:
+                  - generic [ref=e1342]: Zobacz dostępność
+              - generic [ref=e1343]:
+                - link "Doskonała lokalizacja – pokaż mapę" [ref=e1346] [cursor=pointer]:
+                  - /url: "#map_opened-hotel_surroundings"
+                  - generic [ref=e1347]: Doskonała lokalizacja – pokaż mapę
+                - generic [ref=e1348]:
+                  - generic [ref=e1349]:
+                    - generic [ref=e1350]:
+                      - generic [ref=e1351]:
+                        - img [ref=e1353]
+                        - heading "Co znajduje się w pobliżu" [level=3] [ref=e1355]:
+                          - generic [ref=e1356]: Co znajduje się w pobliżu
+                      - list [ref=e1357]:
+                        - listitem [ref=e1358]:
+                          - listitem [ref=e1359]:
+                            - generic [ref=e1360]:
+                              - generic [ref=e1361]: Ogród przykościelny
+                              - generic [ref=e1363]: 13 km
+                        - listitem [ref=e1364]:
+                          - listitem [ref=e1365]:
+                            - generic [ref=e1366]:
+                              - generic [ref=e1367]: Kosciol Matki Boskiej Rozancowej
+                              - generic [ref=e1369]: 19 km
+                    - generic [ref=e1370]:
+                      - generic [ref=e1371]:
+                        - img [ref=e1373]
+                        - heading "Restauracje i kawiarnie" [level=3] [ref=e1375]:
+                          - generic [ref=e1376]: Restauracje i kawiarnie
+                      - list [ref=e1377]:
+                        - listitem [ref=e1378]:
+                          - listitem [ref=e1379]:
+                            - generic [ref=e1380]:
+                              - generic [ref=e1381]: Restauracja Podzamcze Melsztyn
+                              - generic [ref=e1383]: 2,3 km
+                        - listitem [ref=e1384]:
+                          - listitem [ref=e1385]:
+                            - generic [ref=e1386]:
+                              - generic [ref=e1387]: Restauracja Restauracja Victoria
+                              - generic [ref=e1389]: 4,3 km
+                        - listitem [ref=e1390]:
+                          - listitem [ref=e1391]:
+                            - generic [ref=e1392]:
+                              - generic [ref=e1393]: Kawiarnia/bar Bar u Anetki
+                              - generic [ref=e1395]: 4,4 km
+                    - generic [ref=e1396]:
+                      - generic [ref=e1397]:
+                        - img [ref=e1399]
+                        - heading "Transport publiczny" [level=3] [ref=e1401]:
+                          - generic [ref=e1402]: Transport publiczny
+                      - list [ref=e1403]:
+                        - listitem [ref=e1404]:
+                          - listitem [ref=e1405]:
+                            - generic [ref=e1406]:
+                              - generic [ref=e1407]: Pociąg Gromnik
+                              - generic [ref=e1409]: 14 km
+                    - generic [ref=e1410]:
+                      - generic [ref=e1411]:
+                        - img [ref=e1413]
+                        - heading "Najbliższe lotniska" [level=3] [ref=e1415]:
+                          - generic [ref=e1416]: Najbliższe lotniska
+                      - list [ref=e1417]:
+                        - listitem [ref=e1418]:
+                          - listitem [ref=e1419]:
+                            - generic [ref=e1420]:
+                              - generic [ref=e1421]: Lotnisko Kraków-Balice
+                              - generic [ref=e1423]: 93 km
+                  - generic [ref=e1424]: Wyświetlane są najkrótsze szacunkowe odległości do pokonania pieszo lub samochodem, rzeczywiste odległości mogą się różnić.
+            - generic [ref=e1428]:
+              - generic [ref=e1429]:
+                - generic [ref=e1430]:
+                  - heading "Udogodnienia w obiekcie Drewniany Domek nad Doliną Dunajca" [level=2] [ref=e1431]:
+                    - generic [ref=e1432]: Udogodnienia w obiekcie Drewniany Domek nad Doliną Dunajca
+                  - generic [ref=e1433]: "Świetne udogodnienia! Ocena: 9,9"
+                - button "Zobacz dostępność" [ref=e1435] [cursor=pointer]:
+                  - generic [ref=e1436]: Zobacz dostępność
+              - generic [ref=e1437]:
+                - generic [ref=e1440]:
+                  - heading "Najpopularniejsze udogodnienia" [level=3] [ref=e1441]:
+                    - generic [ref=e1442]: Najpopularniejsze udogodnienia
+                  - list [ref=e1443]:
+                    - listitem [ref=e1444]:
+                      - generic [ref=e1445]:
+                        - img [ref=e1447]
+                        - generic [ref=e1452]: Bezpłatny parking
+                    - listitem [ref=e1453]:
+                      - generic [ref=e1454]:
+                        - img [ref=e1456]
+                        - generic [ref=e1461]: Bezpłatne Wi-Fi
+                - group [ref=e1464]:
+                  - generic [ref=e1466]: Brakuje Ci jakichś informacji?
+                  - generic [ref=e1468]:
+                    - button "Tak" [ref=e1470] [cursor=pointer]
+                    - generic [ref=e1471]:
+                      - text: /
+                      - button "Nie" [ref=e1472] [cursor=pointer]
+            - region "Ankieta zawiera 2 pytania" [ref=e1474]:
+              - generic [ref=e1478]:
+                - button "Zamknij ankietę" [ref=e1480] [cursor=pointer]:
+                  - img [ref=e1483]
+                - heading "Jak nam idzie?" [level=3] [ref=e1485]:
+                  - generic [ref=e1486]: Jak nam idzie?
+                - generic [ref=e1489]:
+                  - generic [ref=e1490]:
+                    - generic "Pytanie 1 z 2" [ref=e1491]: 1 z 2
+                    - generic [ref=e1492]: Łatwo jest wyszukać odpowiednie opcje zakwaterowania
+                  - group "Oceń, w jakim stopniu zgadzasz się z poniższym stwierdzeniem. Jest to 5-punktowa skala, gdzie 1 oznacza, że zdecydowanie się zgadzasz z tym stwierdzeniem, a 5, że zdecydowanie się z nim nie zgadzasz." [ref=e1494]:
+                    - generic [ref=e1495]:
+                      - radio "Zdecydowanie tak" [ref=e1496]
+                      - generic [ref=e1500] [cursor=pointer]: Zdecydowanie tak
+                    - generic [ref=e1501]:
+                      - radio "Tak" [ref=e1502]
+                      - generic [ref=e1506] [cursor=pointer]: Tak
+                    - generic [ref=e1507]:
+                      - radio "Nie mam zdania" [ref=e1508]
+                      - generic [ref=e1512] [cursor=pointer]: Nie mam zdania
+                    - generic [ref=e1513]:
+                      - radio "Nie" [ref=e1514]
+                      - generic [ref=e1518] [cursor=pointer]: Nie
+                    - generic [ref=e1519]:
+                      - radio "Zdecydowanie nie" [ref=e1520]
+                      - generic [ref=e1524] [cursor=pointer]: Zdecydowanie nie
+            - generic [ref=e1528]:
+              - generic [ref=e1529]:
+                - generic [ref=e1530]:
+                  - heading "Zasady pobytu" [level=2] [ref=e1531]:
+                    - generic [ref=e1532]: Zasady pobytu
+                  - generic [ref=e1533]: Obiekt Drewniany Domek nad Doliną Dunajca przyjmuje życzenia specjalne – możesz je dodać w kolejnym kroku rezerwacji!
+                - button "Zobacz dostępność" [ref=e1535] [cursor=pointer]:
+                  - generic [ref=e1536]: Zobacz dostępność
+              - generic [ref=e1538]:
+                - generic [ref=e1539]:
+                  - generic [ref=e1541]:
+                    - img [ref=e1543]
+                    - generic [ref=e1545]: Zameldowanie
+                  - generic [ref=e1546]:
+                    - generic [ref=e1547]: Od 15:00 do 21:00
+                    - generic [ref=e1548]: Musisz poinformować obiekt z wyprzedzeniem, kiedy przybędziesz.
+                - separator [ref=e1549]
+                - generic [ref=e1550]:
+                  - generic [ref=e1552]:
+                    - img [ref=e1554]
+                    - generic [ref=e1556]: Wymeldowanie
+                  - generic [ref=e1558]: Od 05:00 do 11:00
+                - separator [ref=e1559]
+                - generic [ref=e1560]:
+                  - generic [ref=e1562]:
+                    - img [ref=e1564]
+                    - generic [ref=e1566]: Odwołanie rezerwacji/ przedpłata
+                  - generic [ref=e1568]:
+                    - text: Zasady dotyczące przedpłaty i odwoływania rezerwacji różnią się w zależności od rodzaju zakwaterowania.
+                    - link "Wprowadź daty pobytu" [ref=e1569] [cursor=pointer]:
+                      - /url: "#availability_target"
+                    - text: i sprawdź warunki dotyczące wybranej opcji.
+                - separator [ref=e1570]
+                - generic [ref=e1571]:
+                  - generic [ref=e1573]:
+                    - img [ref=e1575]
+                    - generic [ref=e1577]: Zakwaterowanie dzieci
+                  - generic [ref=e1579]:
+                    - generic [ref=e1580]:
+                      - heading "Zasady dotyczące pobytu dzieci" [level=3] [ref=e1581]
+                      - paragraph [ref=e1582]: Dzieci w każdym wieku są mile widziane.
+                      - paragraph [ref=e1583]: Aby zobaczyć dokładne ceny oraz informacje o liczbie Gości, dodaj do wyszukiwania liczbę oraz wiek dzieci, z którymi podróżujesz.
+                    - heading "Zasady dotyczące łóżeczek dziecięcych i dodatkowych łóżek" [level=3] [ref=e1584]
+                    - generic [ref=e1585]:
+                      - generic [ref=e1586]: "Wiek: 0–2"
+                      - generic [ref=e1587]:
+                        - generic [ref=e1588]:
+                          - img [ref=e1590]
+                          - text: Łóżeczko dziecięce dostępne na życzenie
+                        - generic [ref=e1593]: Bezpłatnie
+                    - generic [ref=e1594]:
+                      - paragraph [ref=e1595]: Liczba dozwolonych łóżeczek dziecięcych zależy od wybranej opcji. Sprawdź szczegóły wybranej opcji, aby uzyskać więcej informacji.
+                      - paragraph [ref=e1596]: Dodatkowe łóżka nie są dostępne w tym obiekcie.
+                      - paragraph [ref=e1597]: Możliwość skorzystania z łóżeczek dziecięcych zależy od dostępności.
+                - separator [ref=e1598]
+                - generic [ref=e1599]:
+                  - generic [ref=e1601]:
+                    - img [ref=e1603]
+                    - generic [ref=e1605]: Brak ograniczeń wiekowych
+                  - generic [ref=e1607]: Brak ograniczeń wiekowych przy zameldowaniu
+                - separator [ref=e1608]
+                - generic [ref=e1609]:
+                  - generic [ref=e1611]:
+                    - img [ref=e1613]
+                    - generic [ref=e1615]: Palenie tytoniu
+                  - generic [ref=e1617]: Palenie jest zabronione.
+                - separator [ref=e1618]
+                - generic [ref=e1619]:
+                  - generic [ref=e1621]:
+                    - img [ref=e1623]
+                    - generic [ref=e1625]: Imprezy
+                  - generic [ref=e1627]: Organizacja imprez i przyjęć jest zabroniona
+                - separator [ref=e1628]
+                - generic [ref=e1629]:
+                  - generic [ref=e1631]:
+                    - img [ref=e1633]
+                    - generic [ref=e1635]: Cisza nocna
+                  - generic [ref=e1637]: Goście muszą zachować ciszę w godzinach 22:00–06:00.
+                - separator [ref=e1638]
+                - generic [ref=e1639]:
+                  - generic [ref=e1641]:
+                    - img [ref=e1643]
+                    - generic [ref=e1645]: Zwierzęta
+                  - generic [ref=e1647]: Zwierzęta nie są akceptowane.
+            - generic [ref=e1651]:
+              - generic [ref=e1652]:
+                - generic [ref=e1653]:
+                  - heading "Ważne informacje" [level=2] [ref=e1654]:
+                    - generic [ref=e1655]: Ważne informacje
+                  - generic [ref=e1656]: Niezbędne informacje dla gości tego obiektu
+                - button "Zobacz dostępność" [ref=e1658] [cursor=pointer]:
+                  - generic [ref=e1659]: Zobacz dostępność
+              - generic [ref=e1662]:
+                - paragraph [ref=e1663]: Prosimy o wcześniejsze poinformowanie obiektu Drewniany Domek nad Doliną Dunajca o planowanej godzinie przyjazdu. Aby to zrobić, możesz wpisać treść prośby w miejscu na życzenia specjalne lub skontaktować się bezpośrednio z obiektem, korzystając z danych kontaktowych widniejących w potwierdzeniu rezerwacji.
+                - paragraph [ref=e1664]: W obiekcie obowiązuje zakaz organizowania wieczorów panieńskich, kawalerskich itp.
+                - paragraph [ref=e1665]: Cisza nocna obowiązuje w godzinach 22:00:00–06:00:00.
+                - paragraph [ref=e1666]: W przypadku pobytu w obiekcie z dziećmi należy pamiętać, że obiekt jest prawnie zobowiązany do stosowania standardów ochrony małoletnich, ustalenia tożsamości małoletnich i ich relacji z osobą dorosłą, z którą przebywają.
+            - generic [ref=e1668]:
+              - heading "Informacje prawne" [level=2] [ref=e1669]
+              - generic [ref=e1670]:
+                - text: Ten obiekt prowadzony jest przez gospodarza prywatnego (osobę fizyczną). Wynajmowanie zakwaterowania od gospodarzy prywatnych nie podlega prawu ochrony konsumentów w Unii Europejskiej.
+                - button "Dowiedz się więcej" [ref=e1671] [cursor=pointer]
+                - text: .
+              - generic [ref=e1672]:
+                - button "Podział obowiązków" [ref=e1673] [cursor=pointer]:
+                  - generic [ref=e1675]: Podział obowiązków
+                  - button [ref=e1676]:
+                    - img [ref=e1678]
+                - generic [ref=e1680]:
+                  - text: Umowa o świadczenie usług zakwaterowania zawarta za pośrednictwem Booking.com jest zawierana pomiędzy Tobą jako klientem oraz Dostawcą usług (tzn. gospodarzem prywatnym albo przedsiębiorcą). Dostawca usług, jako strona umowy, ponosi odpowiedzialność za należyte wykonanie usług. Booking.com prowadzi platformę internetową, na której osoby trzecie oferują swoje usługi (w tym usługi zakwaterowania) („Dostawcy usług”) i jedynie pośredniczy w zawarciu umowy między klientem a Dostawcą usług. Zatem Booking.com odpowiada za obowiązki związane z udostępnianiem swojej Platformy, a Dostawcy usług są odpowiedzialni za obowiązki związane z usługami zakwaterowania.
+                  - button "Przykłady obowiązków Booking.com oraz obowiązków Dostawców usług znajdują się tutaj." [ref=e1681] [cursor=pointer]
+          - generic [ref=e1684]:
+            - heading "Często zadawane pytania na temat obiektu Drewniany Domek nad Doliną Dunajca" [level=2] [ref=e1686]
+            - generic [ref=e1687]:
+              - generic [ref=e1689]:
+                - button "Ilu gości może zatrzymać się w obiekcie Drewniany Domek nad Doliną Dunajca?" [ref=e1692] [cursor=pointer]:
+                  - heading "Ilu gości może zatrzymać się w obiekcie Drewniany Domek nad Doliną Dunajca?" [level=3] [ref=e1694]
+                  - img [ref=e1696]
+                - separator [ref=e1698]
+                - button "Czy w obiekcie Drewniany Domek nad Doliną Dunajca dostępny jest balkon?" [ref=e1701] [cursor=pointer]:
+                  - heading "Czy w obiekcie Drewniany Domek nad Doliną Dunajca dostępny jest balkon?" [level=3] [ref=e1703]
+                  - img [ref=e1705]
+                - separator [ref=e1707]
+                - button "Czy w obiekcie Drewniany Domek nad Doliną Dunajca dostępny jest taras?" [ref=e1710] [cursor=pointer]:
+                  - heading "Czy w obiekcie Drewniany Domek nad Doliną Dunajca dostępny jest taras?" [level=3] [ref=e1712]
+                  - img [ref=e1714]
+                - separator [ref=e1716]
+                - button "Jakie są godziny zameldowania i wymeldowania w obiekcie Drewniany Domek nad Doliną Dunajca?" [ref=e1719] [cursor=pointer]:
+                  - heading "Jakie są godziny zameldowania i wymeldowania w obiekcie Drewniany Domek nad Doliną Dunajca?" [level=3] [ref=e1721]
+                  - img [ref=e1723]
+                - separator [ref=e1725]
+                - button "Ile sypialni znajduje się w obiekcie Drewniany Domek nad Doliną Dunajca?" [ref=e1728] [cursor=pointer]:
+                  - heading "Ile sypialni znajduje się w obiekcie Drewniany Domek nad Doliną Dunajca?" [level=3] [ref=e1730]
+                  - img [ref=e1732]
+              - generic [ref=e1735]:
+                - button "Ile kosztuje pobyt w obiekcie Drewniany Domek nad Doliną Dunajca?" [ref=e1738] [cursor=pointer]:
+                  - heading "Ile kosztuje pobyt w obiekcie Drewniany Domek nad Doliną Dunajca?" [level=3] [ref=e1740]
+                  - img [ref=e1742]
+                - separator [ref=e1744]
+                - button "Czy Drewniany Domek nad Doliną Dunajca zapewnia jakieś atrakcje?" [ref=e1747] [cursor=pointer]:
+                  - heading "Czy Drewniany Domek nad Doliną Dunajca zapewnia jakieś atrakcje?" [level=3] [ref=e1749]
+                  - img [ref=e1751]
+                - separator [ref=e1753]
+                - button "Jak daleko obiekt Drewniany Domek nad Doliną Dunajca znajduje się od centrum miasta Zakliczyn?" [ref=e1756] [cursor=pointer]:
+                  - heading "Jak daleko obiekt Drewniany Domek nad Doliną Dunajca znajduje się od centrum miasta Zakliczyn?" [level=3] [ref=e1758]
+                  - img [ref=e1760]
+                - separator [ref=e1762]
+                - button "Czy obiekt Drewniany Domek nad Doliną Dunajca udostępnia swoim gościom wannę z hydromasażem?" [ref=e1765] [cursor=pointer]:
+                  - heading "Czy obiekt Drewniany Domek nad Doliną Dunajca udostępnia swoim gościom wannę z hydromasażem?" [level=3] [ref=e1767]
+                  - img [ref=e1769]
+                - separator [ref=e1771]
+                - button "Czy obiekt Drewniany Domek nad Doliną Dunajca jest często rezerwowany przez rodziny?" [ref=e1774] [cursor=pointer]:
+                  - heading "Czy obiekt Drewniany Domek nad Doliną Dunajca jest często rezerwowany przez rodziny?" [level=3] [ref=e1776]
+                  - img [ref=e1778]
+      - button "Zakliczyn – największe atrakcje Kliknij tutaj, by zobaczyć więcej hoteli i innych opcji zakwaterowania przy popularnych atrakcjach w miejscu Zakliczyn" [ref=e1783] [cursor=pointer]:
+        - generic [ref=e1785]:
+          - generic [ref=e1787]: Zakliczyn – największe atrakcje
+          - generic [ref=e1788]: Kliknij tutaj, by zobaczyć więcej hoteli i innych opcji zakwaterowania przy popularnych atrakcjach w miejscu Zakliczyn
+        - img [ref=e1790]
+  - contentinfo [ref=e1792]:
+    - contentinfo [ref=e1796]:
+      - navigation "Szybkie linki" [ref=e1799]:
+        - list [ref=e1800]:
+          - listitem [ref=e1801]:
+            - link "Kraje" [ref=e1802] [cursor=pointer]:
+              - /url: https://www.booking.com/country.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1804]: Kraje
+            - text: .
+          - listitem [ref=e1805]:
+            - link "Regiony" [ref=e1806] [cursor=pointer]:
+              - /url: https://www.booking.com/region.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1808]: Regiony
+            - text: .
+          - listitem [ref=e1809]:
+            - link "Miasta" [ref=e1810] [cursor=pointer]:
+              - /url: https://www.booking.com/city.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1812]: Miasta
+            - text: .
+          - listitem [ref=e1813]:
+            - link "Dzielnice" [ref=e1814] [cursor=pointer]:
+              - /url: https://www.booking.com/district.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1816]: Dzielnice
+            - text: .
+          - listitem [ref=e1817]:
+            - link "Lotniska" [ref=e1818] [cursor=pointer]:
+              - /url: https://www.booking.com/airport.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1820]: Lotniska
+            - text: .
+          - listitem [ref=e1821]:
+            - link "Hotele" [ref=e1822] [cursor=pointer]:
+              - /url: https://www.booking.com/hotel/index.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1824]: Hotele
+            - text: .
+          - listitem [ref=e1825]:
+            - link "Ciekawe miejsca" [ref=e1826] [cursor=pointer]:
+              - /url: https://www.booking.com/landmark.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1828]: Ciekawe miejsca
+            - text: .
+          - listitem [ref=e1829]:
+            - link "Domy wakacyjne" [ref=e1830] [cursor=pointer]:
+              - /url: https://www.booking.com/booking-home/index.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1832]: Domy wakacyjne
+            - text: .
+          - listitem [ref=e1833]:
+            - link "Apartamenty" [ref=e1834] [cursor=pointer]:
+              - /url: https://www.booking.com/apartments/index.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1836]: Apartamenty
+            - text: .
+          - listitem [ref=e1837]:
+            - link "Ośrodki wypoczynkowe" [ref=e1838] [cursor=pointer]:
+              - /url: https://www.booking.com/resorts/index.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1840]: Ośrodki wypoczynkowe
+            - text: .
+          - listitem [ref=e1841]:
+            - link "Wille" [ref=e1842] [cursor=pointer]:
+              - /url: https://www.booking.com/villas/index.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1844]: Wille
+            - text: .
+          - listitem [ref=e1845]:
+            - link "Hostele" [ref=e1846] [cursor=pointer]:
+              - /url: https://www.booking.com/hostels/index.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1848]: Hostele
+            - text: .
+          - listitem [ref=e1849]:
+            - link "Obiekty B&B" [ref=e1850] [cursor=pointer]:
+              - /url: https://www.booking.com/bed-and-breakfast/index.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1852]: Obiekty B&B
+            - text: .
+          - listitem [ref=e1853]:
+            - link "Pensjonaty" [ref=e1854] [cursor=pointer]:
+              - /url: https://www.booking.com/guest-house/index.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1856]: Pensjonaty
+            - text: .
+          - listitem [ref=e1857]:
+            - link "Wyjątkowe miejsca na pobyt" [ref=e1858] [cursor=pointer]:
+              - /url: https://www.booking.com/accommodations.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1860]: Wyjątkowe miejsca na pobyt
+            - text: .
+          - listitem [ref=e1861]:
+            - link "Odkryj miesięczne pobyty" [ref=e1862] [cursor=pointer]:
+              - /url: https://www.booking.com/extended-stays/index.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+              - generic [ref=e1864]: Odkryj miesięczne pobyty
+      - generic [ref=e1866]:
+        - generic [ref=e1867]:
+          - heading "Wsparcie" [level=3] [ref=e1869]
+          - list [ref=e1870]:
+            - listitem [ref=e1871]:
+              - link "Zarządzaj swoimi wyjazdami" [ref=e1873] [cursor=pointer]:
+                - /url: https://secure.booking.com/content/cs.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1874]: Zarządzaj swoimi wyjazdami
+            - listitem [ref=e1875]:
+              - link "Skontaktuj się z Obsługą klienta" [ref=e1877] [cursor=pointer]:
+                - /url: https://secure.booking.com/help.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1878]: Skontaktuj się z Obsługą klienta
+            - listitem [ref=e1879]:
+              - link "Centrum zasobów bezpieczeństwa" [ref=e1881] [cursor=pointer]:
+                - /url: https://www.booking.com/trust_and_safety.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1882]: Centrum zasobów bezpieczeństwa
+        - generic [ref=e1883]:
+          - heading "Odkryj" [level=3] [ref=e1885]
+          - list [ref=e1886]:
+            - listitem [ref=e1887]:
+              - link "Program lojalnościowy Genius" [ref=e1889] [cursor=pointer]:
+                - /url: https://www.booking.com/genius.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1890]: Program lojalnościowy Genius
+            - listitem [ref=e1891]:
+              - link "Oferty sezonowe i wakacyjne" [ref=e1893] [cursor=pointer]:
+                - /url: https://www.booking.com/deals/index.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1894]: Oferty sezonowe i wakacyjne
+            - listitem [ref=e1895]:
+              - link "Artykuły podróżnicze" [ref=e1897] [cursor=pointer]:
+                - /url: https://www.booking.com/articles.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1898]: Artykuły podróżnicze
+            - listitem [ref=e1899]:
+              - link "Booking.com for Business" [ref=e1901] [cursor=pointer]:
+                - /url: https://business.booking.com/?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1902]: Booking.com for Business
+            - listitem [ref=e1903]:
+              - link "Traveller Review Awards" [ref=e1905] [cursor=pointer]:
+                - /url: https://www.booking.com/traveller-awards/index.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1906]: Traveller Review Awards
+            - listitem [ref=e1907]:
+              - link "Wynajem samochodów" [ref=e1909] [cursor=pointer]:
+                - /url: https://www.booking.com/cars/index.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1910]: Wynajem samochodów
+            - listitem [ref=e1911]:
+              - link "Wyszukiwarka lotów" [ref=e1913] [cursor=pointer]:
+                - /url: https://booking.com/pxgo?aid=304142&label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&lang=pl&token=UmFuZG9tSVYkc2RlIyh9YY_oTPIGnIwxsTOANoogQKGLxlNamPyYJMjgjd_hmbGP-rqBQqA7YRNQCmmSHbfLSUG1ceojUwqHF6WIulCOGsnkb7pw3FGZlHx-TiBRwCrZwSsKi6GwzuNs7g3hcUTs5P1XHrFfKJuouButdc9GVx6t2zdx7s8rzPB8SyeH9ZJAEXMsAQ5Ot_g4zoy42Ih9L1kYe39ZJIS-g-E0nIyV56yhjgVHNutMX6nTLh17LjQl5q0rqM97GIwIH_KCvr6pAFeJci-0hlaSQyZUqbEmnv3AdWpC_yHjm_hYIc__m-YcE7hZW7Pr7m2TxJzevPJfxdMEPYPegaVV6G-HCQkTwv8kMTM6YqNwWL3qrFSA30YFUrpkP9LQW1rD_vn6UHPsp_-IoaVZGWk8ge2QpDIm33RM2GJCRtRHggp09a9CBn_WMK7DgQrNPuXs09nKqRMT_Sx67H7vGzk0HUxkWVFRky9oy6hY835aS3k4tP0TIu11uLdJ87nF8b-tq9_m4HdaZH_5gXyv2SYre9nygzmSyMwDWb2pLY2EIViSzh6tTYavlUOvW2GIejdQUDvR3KUhAg&url=https%3A%2F%2Fbooking.kayak.com%2Fin%3Fsid%3D197d1eb7600b61a4f3e6b47ddee1c0a1%26mc%3DPLN%26bdclc%3Dpl%26p%3Dfooter_link%26a%3Dbdc%252Ffooter_link
+                - generic [ref=e1914]: Wyszukiwarka lotów
+            - listitem [ref=e1915]:
+              - link "Rezerwacja restauracji" [ref=e1917] [cursor=pointer]:
+                - /url: https://www.opentable.com/?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=b432497fc41d609b14a797f405ebc554&aid=304142&ref=16087
+                - generic [ref=e1918]: Rezerwacja restauracji
+            - listitem [ref=e1919]:
+              - link "Booking.com dla biur podróży" [ref=e1921] [cursor=pointer]:
+                - /url: https://www.booking.com/affiliate-program/v2/index.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142&utm_campaign=booking-footer&utm_content=travel-agents-link&utm_medium=referral&utm_source=booking.com
+                - generic [ref=e1922]: Booking.com dla biur podróży
+        - generic [ref=e1923]:
+          - heading "Warunki i ustawienia" [level=3] [ref=e1925]
+          - list [ref=e1926]:
+            - listitem [ref=e1927]:
+              - link "Zarządzaj ustawieniami dotyczącymi plików cookie" [ref=e1929] [cursor=pointer]:
+                - /url: https://www.booking.com/content/privacy.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1930]: Zarządzaj ustawieniami dotyczącymi plików cookie
+            - listitem [ref=e1931]:
+              - link "Oświadczenie o ochronie prywatności" [ref=e1933] [cursor=pointer]:
+                - /url: https://www.booking.com/content/privacy.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1934]: Oświadczenie o ochronie prywatności
+            - listitem [ref=e1935]:
+              - link "Warunki świadczenia usług" [ref=e1937] [cursor=pointer]:
+                - /url: https://www.booking.com/content/terms.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1938]: Warunki świadczenia usług
+            - listitem [ref=e1939]:
+              - link "Oświadczenie o dostępności" [ref=e1941] [cursor=pointer]:
+                - /url: https://www.booking.com/content/accessibility_statement.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1942]: Oświadczenie o dostępności
+            - listitem [ref=e1943]:
+              - link "Rozstrzyganie sporów" [ref=e1945] [cursor=pointer]:
+                - /url: https://secure.booking.com/content/complaints.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1946]: Rozstrzyganie sporów
+            - listitem [ref=e1947]:
+              - link "Oświadczenie w sprawie współczesnego niewolnictwa" [ref=e1949] [cursor=pointer]:
+                - /url: https://www.bookingholdings.com/modern-slavery-statement/?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=b432497fc41d609b14a797f405ebc554&aid=304142
+                - generic [ref=e1950]: Oświadczenie w sprawie współczesnego niewolnictwa
+            - listitem [ref=e1951]:
+              - link "Oświadczenie w sprawie praw człowieka" [ref=e1953] [cursor=pointer]:
+                - /url: https://www.bookingholdings.com/about/compliance-and-ethics/human-rights/?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=b432497fc41d609b14a797f405ebc554&aid=304142
+                - generic [ref=e1954]: Oświadczenie w sprawie praw człowieka
+            - listitem [ref=e1955]:
+              - link "Zarządzaj spersonalizowanymi propozycjami" [ref=e1957] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e1958]: Zarządzaj spersonalizowanymi propozycjami
+        - generic [ref=e1959]:
+          - heading "Partnerzy" [level=3] [ref=e1961]
+          - list [ref=e1962]:
+            - listitem [ref=e1963]:
+              - link "Logowanie do Extranetu" [ref=e1965] [cursor=pointer]:
+                - /url: https://admin.booking.com/?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142&utm_campaign=login_footer_v0&utm_medium=frontend&utm_source=extranet_login_footer
+                - generic [ref=e1966]: Logowanie do Extranetu
+            - listitem [ref=e1967]:
+              - link "Centrum pomocy" [ref=e1969] [cursor=pointer]:
+                - /url: https://partner.booking.com/pl?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142&utm_campaign=footer_list&utm_medium=frontend_footer&utm_source=booking.com
+                - generic [ref=e1970]: Centrum pomocy
+            - listitem [ref=e1971]:
+              - link "Udostępnij obiekt" [ref=e1973] [cursor=pointer]:
+                - /url: https://join.booking.com/?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142&lang=pl&utm_medium=frontend&utm_source=footer_menu
+                - generic [ref=e1974]: Udostępnij obiekt
+            - listitem [ref=e1975]:
+              - link "Zostań naszym Partnerem Afiliacyjnym" [ref=e1977] [cursor=pointer]:
+                - /url: https://www.booking.com/affiliate-program/v2/index.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142&utm_campaign=booking-footer&utm_content=become-an-affiliate-link&utm_medium=referral&utm_source=booking.com
+                - generic [ref=e1978]: Zostań naszym Partnerem Afiliacyjnym
+        - generic [ref=e1979]:
+          - heading "Informacje ogólne" [level=3] [ref=e1981]
+          - list [ref=e1982]:
+            - listitem [ref=e1983]:
+              - link "O Booking.com" [ref=e1985] [cursor=pointer]:
+                - /url: https://www.booking.com/content/about.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1986]: O Booking.com
+            - listitem [ref=e1987]:
+              - link "Zasady współpracy" [ref=e1989] [cursor=pointer]:
+                - /url: https://www.booking.com/content/how_we_work.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e1990]: Zasady współpracy
+            - listitem [ref=e1991]:
+              - link "Zrównoważony rozwój" [ref=e1993] [cursor=pointer]:
+                - /url: https://sustainability.booking.com/?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=b432497fc41d609b14a797f405ebc554&aid=304142
+                - generic [ref=e1994]: Zrównoważony rozwój
+            - listitem [ref=e1995]:
+              - link "Informacje prasowe" [ref=e1997] [cursor=pointer]:
+                - /url: https://globalnews.booking.com/?aid=304142&lang=pl
+                - generic [ref=e1998]: Informacje prasowe
+            - listitem [ref=e1999]:
+              - link "Oferty pracy" [ref=e2001] [cursor=pointer]:
+                - /url: https://careers.booking.com/?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=b432497fc41d609b14a797f405ebc554&aid=304142
+                - generic [ref=e2002]: Oferty pracy
+            - listitem [ref=e2003]:
+              - link "Relacje z inwestorami" [ref=e2005] [cursor=pointer]:
+                - /url: https://www.bookingholdings.com/?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=b432497fc41d609b14a797f405ebc554&aid=304142
+                - generic [ref=e2006]: Relacje z inwestorami
+            - listitem [ref=e2007]:
+              - link "Kontakt dla firm" [ref=e2009] [cursor=pointer]:
+                - /url: https://www.booking.com/content/contact-us.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e2010]: Kontakt dla firm
+            - listitem [ref=e2011]:
+              - link "Wytyczne dotyczące publikowania treści i zgłaszania nieodpowiednich treści" [ref=e2013] [cursor=pointer]:
+                - /url: https://www.booking.com/content-moderation-policy/overview-page.pl.html?label=gen173nr-10CAsotgFCImRyZXduaWFueS1kb21lay1uYWQtZG9saW5hLWR1bmFqY2FICVgEaLYBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK1kZHRBsACAdICJGY3ZTI4NGExLTE0N2UtNGJmNS05ZGVjLTBhYTYyMmU2NTdhZdgCAeACAQ&sid=197d1eb7600b61a4f3e6b47ddee1c0a1&aid=304142
+                - generic [ref=e2014]: Wytyczne dotyczące publikowania treści i zgłaszania nieodpowiednich treści
+      - generic [ref=e2016]:
+        - generic [ref=e2017]:
+          - 'button "Język: Polski" [ref=e2019] [cursor=pointer]'
+          - 'button "Waluta: Złoty polski" [ref=e2024] [cursor=pointer]':
+            - generic [ref=e2025]: PLN
+        - separator [ref=e2026]
+        - generic [ref=e2027]:
+          - generic [ref=e2029]: Booking.com jest częścią Booking Holdings Inc. – światowego lidera w internetowej branży turystycznej.
+          - generic [ref=e2030]: Prawa autorskie © 1996–2026 Booking.com™. Wszystkie prawa zastrzeżone.
+        - generic [ref=e2031]:
+          - img "Booking.com" [ref=e2032]:
+            - img [ref=e2033]
+          - img "Priceline.com" [ref=e2035]:
+            - img [ref=e2036]
+          - img "Kayak" [ref=e2039]:
+            - img [ref=e2040]
+          - img "Agoda" [ref=e2054]:
+            - img [ref=e2055]
+          - img "OpenTable" [ref=e2063]:
+            - img [ref=e2064]
+  - text: 끖 낝 끲 낝 넌
+  - generic [ref=e2067]: Ładowanie
+  - generic [ref=e2068]: Ładowanie
+  - region "Baner ciasteczkowy" [ref=e2069]:
+    - dialog "Zarządzaj ustawieniami dotyczącymi plików cookie" [ref=e2070]:
+      - generic [ref=e2072]:
+        - generic [ref=e2074]:
+          - heading "Zarządzaj ustawieniami dotyczącymi plików cookie" [level=2] [ref=e2075]
+          - generic [ref=e2076]:
+            - paragraph [ref=e2077]: "Kiedy korzystasz z platformy Booking.com, my (Booking.com i nasi partnerzy) używamy następujących kategorii plików cookie (i podobnych technologii), które wymagają Twojej zgody: analityczne pliki cookie i marketingowe pliki cookie."
+            - heading "Analityczne pliki cookie" [level=3] [ref=e2078]
+            - paragraph [ref=e2079]: My i nasi partnerzy używamy analitycznych plików cookie w celu uzyskania informacji na temat korzystania z naszej usługi, które są następnie wykorzystywane do zrozumienia, w jaki sposób użytkownicy tacy jak Ty korzystają z naszej platformy, oraz do poprawy wydajności naszej witryny i usług.
+            - heading "Marketingowe pliki cookie" [level=3] [ref=e2080]
+            - paragraph [ref=e2081]: My i nasi partnerzy używamy marketingowych plików cookie, w tym plików cookie mediów społecznościowych, aby zbierać informacje o Twoim zachowaniu na tej platformie, co pomaga nam decydować, które produkty będą Ci pokazywane na naszej platformie i poza nią, oraz wyświetlać spersonalizowane treści i reklamy na Booking.com i innych platformach. Spersonalizowane treści są oparte na Twoim zachowaniu i rezerwowanych przez Ciebie usługach. Te pliki cookie umożliwiają Ci również udostępnianie lub polubienie stron w mediach społecznościowych.
+            - paragraph [ref=e2082]: Wybierając „Akceptuj”, wyrażasz zgodę na korzystanie z analitycznych i marketingowych plików cookie oraz związane z tym przetwarzanie Twoich danych osobowych. W każdej chwili możesz zaktualizować swoją zgodę dla każdej platformy. W przypadku strony internetowej możesz to zrobić poprzez opcję „Zarządzaj ustawieniami dotyczącymi plików cookie” w stopce; w przypadku aplikacji – poprzez opcję „Moje konto / Zaloguj się” > „Ustawienia urządzenia” > „Zarządzaj ustawieniami dotyczącymi ochrony prywatności”.
+            - paragraph [ref=e2083]: Jeśli wybierzesz „Odmów”, będziesz korzystać z naszej platformy w mniej spersonalizowany sposób.
+            - paragraph [ref=e2084]:
+              - text: Więcej informacji na temat przetwarzania stosownych danych osobowych można znaleźć w
+              - link "Oświadczeniu o ochronie prywatności" [ref=e2085] [cursor=pointer]:
+                - /url: https://www.booking.com/content/privacy.html
+              - text: .
+        - generic [ref=e2087]:
+          - button "Zarządzaj ustawieniami" [ref=e2088] [cursor=pointer]
+          - button "Odrzuć" [ref=e2089] [cursor=pointer]
+          - button "Akceptuj" [ref=e2090] [cursor=pointer]

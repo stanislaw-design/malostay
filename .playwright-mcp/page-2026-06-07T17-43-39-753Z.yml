@@ -1,0 +1,39 @@
+- table [ref=e2]:
+  - rowgroup [ref=e3]:
+    - 'row "Malo Stay Rezerwacja potwierdzona Cześć Anna Kowalska, wszystko gotowe! Twoja rezerwacja Domek Jaworowy została potwierdzona. Oto szczegóły: Nr rezerwacji A1B2C3D4 Zameldowanie 10 lip 2026 Wymeldowanie 14 lip 2026 Liczba nocy 4 Opłacono 540 zł Opłacono zadatek. Pozostała kwota płatna przy zameldowaniu. Jeśli masz pytania, odpowiedz na tego maila lub skontaktuj się z nami bezpośrednio. Domek Jaworowy" [ref=e4]':
+      - 'cell "Malo Stay Rezerwacja potwierdzona Cześć Anna Kowalska, wszystko gotowe! Twoja rezerwacja Domek Jaworowy została potwierdzona. Oto szczegóły: Nr rezerwacji A1B2C3D4 Zameldowanie 10 lip 2026 Wymeldowanie 14 lip 2026 Liczba nocy 4 Opłacono 540 zł Opłacono zadatek. Pozostała kwota płatna przy zameldowaniu. Jeśli masz pytania, odpowiedz na tego maila lub skontaktuj się z nami bezpośrednio. Domek Jaworowy" [ref=e5]':
+        - table [ref=e6]:
+          - rowgroup [ref=e7]:
+            - row "Malo Stay Rezerwacja potwierdzona Cześć Anna Kowalska, wszystko gotowe!" [ref=e8]:
+              - cell "Malo Stay Rezerwacja potwierdzona Cześć Anna Kowalska, wszystko gotowe!" [ref=e9]:
+                - img "Malo Stay" [ref=e10]
+                - heading "Rezerwacja potwierdzona" [level=1] [ref=e12]
+                - paragraph [ref=e13]: Cześć Anna Kowalska, wszystko gotowe!
+            - 'row "Twoja rezerwacja Domek Jaworowy została potwierdzona. Oto szczegóły: Nr rezerwacji A1B2C3D4 Zameldowanie 10 lip 2026 Wymeldowanie 14 lip 2026 Liczba nocy 4 Opłacono 540 zł Opłacono zadatek. Pozostała kwota płatna przy zameldowaniu. Jeśli masz pytania, odpowiedz na tego maila lub skontaktuj się z nami bezpośrednio." [ref=e14]':
+              - 'cell "Twoja rezerwacja Domek Jaworowy została potwierdzona. Oto szczegóły: Nr rezerwacji A1B2C3D4 Zameldowanie 10 lip 2026 Wymeldowanie 14 lip 2026 Liczba nocy 4 Opłacono 540 zł Opłacono zadatek. Pozostała kwota płatna przy zameldowaniu. Jeśli masz pytania, odpowiedz na tego maila lub skontaktuj się z nami bezpośrednio." [ref=e15]':
+                - paragraph [ref=e16]:
+                  - text: Twoja rezerwacja
+                  - strong [ref=e17]: Domek Jaworowy
+                  - text: "została potwierdzona. Oto szczegóły:"
+                - table [ref=e18]:
+                  - rowgroup [ref=e19]:
+                    - row "Nr rezerwacji A1B2C3D4" [ref=e20]:
+                      - cell "Nr rezerwacji" [ref=e21]
+                      - cell "A1B2C3D4" [ref=e22]
+                    - row "Zameldowanie 10 lip 2026" [ref=e23]:
+                      - cell "Zameldowanie" [ref=e24]
+                      - cell "10 lip 2026" [ref=e25]
+                    - row "Wymeldowanie 14 lip 2026" [ref=e26]:
+                      - cell "Wymeldowanie" [ref=e27]
+                      - cell "14 lip 2026" [ref=e28]
+                    - row "Liczba nocy 4" [ref=e29]:
+                      - cell "Liczba nocy" [ref=e30]
+                      - cell "4" [ref=e31]
+                    - row "Opłacono 540 zł" [ref=e32]:
+                      - cell "Opłacono" [ref=e33]
+                      - cell "540 zł" [ref=e34]
+                - paragraph [ref=e35]: Opłacono zadatek. Pozostała kwota płatna przy zameldowaniu.
+                - paragraph [ref=e36]: Jeśli masz pytania, odpowiedz na tego maila lub skontaktuj się z nami bezpośrednio.
+            - row "Domek Jaworowy" [ref=e37]:
+              - cell "Domek Jaworowy" [ref=e38]:
+                - paragraph [ref=e39]: Domek Jaworowy

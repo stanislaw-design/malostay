@@ -4,6 +4,8 @@ import { createServiceClient } from '@/lib/supabase/service'
 import { PropertyForm } from '@/components/admin/PropertyForm'
 import { PricingRulesManager } from '@/components/admin/PricingRulesManager'
 import { ICalFeedsManager } from '@/components/admin/ICalFeedsManager'
+import { PropertyPreviewSidebar } from '@/components/admin/PropertyPreviewSidebar'
+import { PropertySectionNav } from '@/components/admin/PropertySectionNav'
 import type { Tables } from '@/types/database'
 
 interface Props {
@@ -13,11 +15,13 @@ interface Props {
 export default async function EditPropertyPage({ params }: Props) {
   const { id } = await params
   const supabase = createServiceClient()
+  const today = new Date().toISOString().slice(0, 10)
 
   const [
     { data: property, error },
     { data: pricingRules },
     { data: icalFeeds },
+    { data: upcomingReservations },
   ] = await Promise.all([
     supabase
       .from('properties')
@@ -34,6 +38,14 @@ export default async function EditPropertyPage({ params }: Props) {
       .select('*')
       .eq('property_id', id)
       .order('created_at'),
+    supabase
+      .from('reservations')
+      .select('id, guest_name, check_in, check_out, status')
+      .eq('property_id', id)
+      .eq('status', 'confirmed')
+      .gte('check_in', today)
+      .order('check_in')
+      .limit(5),
   ])
 
   if (error || !property) notFound()
@@ -41,7 +53,7 @@ export default async function EditPropertyPage({ params }: Props) {
   const settings = property.property_settings as Tables<'property_settings'> | null
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-6">
       <div className="flex items-center gap-3">
         <Link href="/admin/domki" className="text-sm text-neutral-500 hover:text-neutral-900">
           ← Domki
@@ -58,30 +70,38 @@ export default async function EditPropertyPage({ params }: Props) {
         </span>
       </div>
 
-      {/* Property edit form */}
-      <PropertyForm
-        property={{ ...property, property_settings: settings }}
-      />
+      <div className="lg:grid lg:grid-cols-[1fr_320px] lg:items-start lg:gap-8">
+        <div className="space-y-8 min-w-0">
+          <PropertySectionNav />
 
-      <hr className="border-neutral-200" />
+          <PropertyForm
+            property={{ ...property, property_settings: settings }}
+          />
 
-      {/* Pricing rules */}
-      <div className="bg-white border border-neutral-200 rounded-xl px-5 py-5">
-        <PricingRulesManager
-          propertyId={id}
-          initialRules={pricingRules ?? []}
-        />
-      </div>
+          {/* Pricing rules */}
+          <div id="cennik" className="scroll-mt-16 bg-white border border-neutral-200 rounded-xl px-5 py-5">
+            <PricingRulesManager
+              propertyId={id}
+              initialRules={pricingRules ?? []}
+            />
+          </div>
 
-      <hr className="border-neutral-200" />
+          {/* iCal feeds */}
+          <div id="ical" className="scroll-mt-16 bg-white border border-neutral-200 rounded-xl px-5 py-5">
+            <ICalFeedsManager
+              propertyId={id}
+              propertySlug={property.slug}
+              initialFeeds={icalFeeds ?? []}
+            />
+          </div>
+        </div>
 
-      {/* iCal feeds */}
-      <div className="bg-white border border-neutral-200 rounded-xl px-5 py-5">
-        <ICalFeedsManager
-          propertyId={id}
-          propertySlug={property.slug}
-          initialFeeds={icalFeeds ?? []}
-        />
+        <div className="mt-8 lg:mt-0">
+          <PropertyPreviewSidebar
+            property={property}
+            upcomingReservations={upcomingReservations ?? []}
+          />
+        </div>
       </div>
     </div>
   )

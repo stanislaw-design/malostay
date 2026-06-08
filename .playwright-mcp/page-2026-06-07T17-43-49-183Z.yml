@@ -1,0 +1,45 @@
+- table [ref=e2]:
+  - rowgroup [ref=e3]:
+    - row "Malo Stay Nowa rezerwacja Domek Jaworowy Nr rezerwacji A1B2C3D4 Gość Anna Kowalska Email gościa anna.kowalska@example.com Zameldowanie 10 lip 2026 Wymeldowanie 14 lip 2026 Noce 4 Łączna cena 1800 zł Opłacony zadatek 540 zł Zadatek — pozostała kwota 1260 zł płatna przy zameldowaniu." [ref=e4]:
+      - cell "Malo Stay Nowa rezerwacja Domek Jaworowy Nr rezerwacji A1B2C3D4 Gość Anna Kowalska Email gościa anna.kowalska@example.com Zameldowanie 10 lip 2026 Wymeldowanie 14 lip 2026 Noce 4 Łączna cena 1800 zł Opłacony zadatek 540 zł Zadatek — pozostała kwota 1260 zł płatna przy zameldowaniu." [ref=e5]:
+        - table [ref=e6]:
+          - rowgroup [ref=e7]:
+            - row "Malo Stay Nowa rezerwacja Domek Jaworowy" [ref=e8]:
+              - cell "Malo Stay Nowa rezerwacja Domek Jaworowy" [ref=e9]:
+                - img "Malo Stay" [ref=e10]
+                - heading "Nowa rezerwacja" [level=1] [ref=e12]
+                - paragraph [ref=e13]: Domek Jaworowy
+            - row "Nr rezerwacji A1B2C3D4 Gość Anna Kowalska Email gościa anna.kowalska@example.com Zameldowanie 10 lip 2026 Wymeldowanie 14 lip 2026 Noce 4 Łączna cena 1800 zł Opłacony zadatek 540 zł Zadatek — pozostała kwota 1260 zł płatna przy zameldowaniu." [ref=e14]:
+              - cell "Nr rezerwacji A1B2C3D4 Gość Anna Kowalska Email gościa anna.kowalska@example.com Zameldowanie 10 lip 2026 Wymeldowanie 14 lip 2026 Noce 4 Łączna cena 1800 zł Opłacony zadatek 540 zł Zadatek — pozostała kwota 1260 zł płatna przy zameldowaniu." [ref=e15]:
+                - table [ref=e16]:
+                  - rowgroup [ref=e17]:
+                    - row "Nr rezerwacji A1B2C3D4" [ref=e18]:
+                      - cell "Nr rezerwacji" [ref=e19]
+                      - cell "A1B2C3D4" [ref=e20]
+                    - row "Gość Anna Kowalska" [ref=e21]:
+                      - cell "Gość" [ref=e22]
+                      - cell "Anna Kowalska" [ref=e23]
+                    - row "Email gościa anna.kowalska@example.com" [ref=e24]:
+                      - cell "Email gościa" [ref=e25]
+                      - cell "anna.kowalska@example.com" [ref=e26]:
+                        - link "anna.kowalska@example.com" [ref=e27] [cursor=pointer]:
+                          - /url: mailto:anna.kowalska@example.com
+                    - row "Zameldowanie 10 lip 2026" [ref=e28]:
+                      - cell "Zameldowanie" [ref=e29]
+                      - cell "10 lip 2026" [ref=e30]
+                    - row "Wymeldowanie 14 lip 2026" [ref=e31]:
+                      - cell "Wymeldowanie" [ref=e32]
+                      - cell "14 lip 2026" [ref=e33]
+                    - row "Noce 4" [ref=e34]:
+                      - cell "Noce" [ref=e35]
+                      - cell "4" [ref=e36]
+                    - row "Łączna cena 1800 zł" [ref=e37]:
+                      - cell "Łączna cena" [ref=e38]
+                      - cell "1800 zł" [ref=e39]
+                    - row "Opłacony zadatek 540 zł" [ref=e40]:
+                      - cell "Opłacony zadatek" [ref=e41]
+                      - cell "540 zł" [ref=e42]
+                - paragraph [ref=e43]:
+                  - text: Zadatek — pozostała kwota
+                  - strong [ref=e44]: 1260 zł
+                  - text: płatna przy zameldowaniu.

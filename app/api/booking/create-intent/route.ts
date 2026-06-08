@@ -3,17 +3,14 @@ import { z } from 'zod'
 import { createServiceClient } from '@/lib/supabase/service'
 import { createStripe } from '@/lib/stripe/server'
 import { calculatePrice } from '@/lib/pricing'
+import { guestSchema } from '@/lib/booking/guest-schema'
 import type { Tables } from '@/types/database'
 
-const bodySchema = z.object({
+const bodySchema = guestSchema.extend({
   propertyId: z.string().regex(/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i),
   checkIn: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   checkOut: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
-  guestName: z.string().min(2).max(200),
-  guestEmail: z.string().email(),
-  guestPhone: z.string().min(9).max(30),
   guestCount: z.number().int().min(1).max(50),
-  notes: z.string().max(1000).optional(),
   locale: z.enum(['pl', 'en']),
 })
 
@@ -118,7 +115,9 @@ export async function POST(request: NextRequest) {
   const paymentIntent = await stripe.paymentIntents.create({
     amount: Math.round(amountToPay * 100),
     currency: 'pln',
-    automatic_payment_methods: { enabled: true },
+    // Explicit list (instead of automatic_payment_methods) so we control which
+    // methods appear — card carries Apple Pay / Google Pay wallets automatically.
+    payment_method_types: ['card', 'blik'],
     metadata: {
       reservation_id: reservation.id,
       property_id: propertyId,
