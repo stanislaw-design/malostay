@@ -24,6 +24,9 @@
 .DS_Store
 *.pem
 
+# raw photos awaiting optimization (see scripts/optimize-images.mjs)
+/raw-images
+
 # debug
 npm-debug.log*
 yarn-debug.log*

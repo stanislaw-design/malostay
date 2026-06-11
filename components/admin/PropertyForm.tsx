@@ -157,9 +157,9 @@ export function PropertyForm({ property }: Props) {
             />
           </div>
           <div>
-            <label className="block text-xs font-medium text-neutral-700 mb-1">URL zdjęcia głównego</label>
+            <label className="block text-xs font-medium text-neutral-700 mb-1">Zdjęcie główne</label>
             <input
-              type="url"
+              type="text"
               value={values.cover_image}
               onChange={(e) => set('cover_image', e.target.value)}
               className="w-full px-3 py-2 text-sm border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-neutral-900"

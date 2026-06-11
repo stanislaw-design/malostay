@@ -38,16 +38,16 @@ const allCottages: CottageItem[] = [
   {
     slug: 'drewniany-domek',
     name: 'Drewniany Domek nad Doliną Dunajca',
-    area: '70 m²',
-    guests: 6,
-    bedrooms: 2,
-    tags: ['Sauna & Jacuzzi', 'Drewniana konstrukcja', 'Kominek w salonie'],
+    area: '170 m²',
+    guests: 8,
+    bedrooms: 4,
+    tags: ['Sauna & Jacuzzi', 'Drewniana konstrukcja', 'Cztery sypialnie'],
     description:
-      'Ciepło prawdziwego drewna i dwie osobne sypialnie. Ten sam widok na dolinę, ten sam dostęp do SPA — z rustykalnym charakterem.',
+      'Ciepło prawdziwego drewna i cztery osobne sypialnie dla 8 osób. Ten sam widok na dolinę, ten sam dostęp do SPA — z rustykalnym charakterem.',
     score: '9.7',
     reviews: 78,
     address: 'Dolina Dunajca, Małopolska',
-    imgSrc: '/drewniany-nad-dolina-dunajca/domek.webp',
+    imgSrc: '/drewniany-nad-dolina-dunajca/domek-front-dzien.webp',
   },
   {
     slug: 'dom-w-zawadzie-a',
@@ -83,15 +83,15 @@ const allCottages: CottageItem[] = [
     slug: 'dom-na-wzgorzu',
     name: 'Dom na Borówkowym Wzgórzu',
     area: '100 m²',
-    guests: 8,
+    guests: 6,
     bedrooms: 2,
-    tags: ['Plac zabaw dla dzieci', 'Ogrodzony teren', 'Altana z grillem'],
+    tags: ['Cały dom na wyłączność', 'Balia ogrodowa', 'Balkon z widokiem na ogród'],
     description:
-      'Największy z domków, schowany na wzgórzu w Paleśnicy. Całkowita cisza, przestronny ogród, altana i plac zabaw — idealny dla rodzin.',
+      'Cały dom tylko dla Was, schowany na wzgórzu w Paleśnicy. Całkowita cisza, przestronny ogród i balia na zewnątrz — idealny dla rodzin i grup do 6 osób.',
     score: '10.0',
     reviews: 31,
     address: 'Paleśnica, Małopolska',
-    imgSrc: '/domek4/dom-zewnatrz.webp',
+    imgSrc: '/domek-borowkowe-wzgorze/domek-front-dzien.webp',
   },
 ]
 

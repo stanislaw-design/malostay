@@ -1,0 +1,577 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Malo Stay" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Malo Stay" [ref=e5]
+      - navigation [ref=e6]:
+        - link "Domki" [ref=e8] [cursor=pointer]:
+          - /url: "#domki"
+          - text: Domki
+          - img [ref=e9]
+        - link "Galeria" [ref=e11] [cursor=pointer]:
+          - /url: "#galeria"
+        - link "Kontakt" [ref=e12] [cursor=pointer]:
+          - /url: "#kontakt"
+        - link "Zarezerwuj" [ref=e13] [cursor=pointer]:
+          - /url: "#domki"
+          - text: Zarezerwuj
+  - main [ref=e15]:
+    - generic [ref=e21]:
+      - paragraph [ref=e22]: Dolina Dunajca · Małopolska
+      - heading "Ciepło drewna, miejsce dla całej grupy." [level=1] [ref=e23]
+      - paragraph [ref=e24]: Ciepło drewna, miejsce dla całej grupy.
+      - generic [ref=e25]:
+        - link "Sprawdź dostępność ↓" [ref=e26] [cursor=pointer]:
+          - /url: "#rezerwacja"
+          - generic [ref=e28]: Sprawdź dostępność ↓
+        - generic [ref=e29]:
+          - generic [ref=e30]: ★
+          - generic [ref=e31]:
+            - strong [ref=e32]: "9.7"
+            - generic [ref=e33]: · 78 opinii · Booking.com
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - paragraph [ref=e38]: Sprawdź dostępność
+        - heading "Ciepło drewna, miejsce dla całej grupy." [level=2] [ref=e39]
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - text: "Maks. gości:"
+            - strong [ref=e42]: "8"
+          - generic [ref=e43]:
+            - text: "Zameldowanie:"
+            - strong [ref=e44]: 15:00
+          - generic [ref=e45]:
+            - text: "Wymeldowanie:"
+            - strong [ref=e46]: 11:00
+          - generic [ref=e47]:
+            - text: "Min. noc:"
+            - strong [ref=e48]: "2"
+        - paragraph [ref=e49]: od 450 zł / noc
+        - paragraph [ref=e50]: "Cały drewniany dom (170 m²) jest do wyłącznej dyspozycji gości. Cztery sypialnie — dwie z dużym łóżkiem podwójnym i dwie z dwoma pojedynczymi łóżkami — oraz dwie łazienki dają wygodne miejsce dla 8 osób. Na zewnątrz: taras i altana z widokiem na ogród i rzekę, a w cenie pobytu 2–3 godziny w jacuzzi i saunie, rezerwowane w prywatnych godzinach tylko dla Was. W środku w pełni wyposażona kuchnia ze zmywarką, szafy w sypialniach i bezpłatne Wi-Fi w całym domu. To dobry wybór dla rodziny z dziećmi, czterech par albo grupy przyjaciół, którzy chcą mieć dom tylko dla siebie, z dala od zgiełku — pod adresem Zawada Lanckorońska 101, 8 km od Zakliczynia."
+      - generic [ref=e53]:
+        - heading "Wybierz daty pobytu" [level=2] [ref=e54]
+        - generic [ref=e57]:
+          - navigation "Navigation bar" [ref=e58]:
+            - button "Go to the Previous Month" [disabled] [ref=e59]:
+              - img [ref=e60]
+            - button "Go to the Next Month" [ref=e62] [cursor=pointer]:
+              - img [ref=e63]
+          - generic [ref=e65]:
+            - status [ref=e67]: czerwiec 2026
+            - grid "czerwiec 2026" [ref=e68]:
+              - rowgroup [ref=e69]:
+                - row [ref=e70]:
+                  - columnheader [ref=e71]: pon
+                  - columnheader [ref=e72]: wto
+                  - columnheader [ref=e73]: śro
+                  - columnheader [ref=e74]: czw
+                  - columnheader [ref=e75]: pią
+                  - columnheader [ref=e76]: sob
+                  - columnheader [ref=e77]: nie
+              - rowgroup [ref=e78]:
+                - row "poniedziałek, 1 czerwca 2026 wtorek, 2 czerwca 2026 środa, 3 czerwca 2026 czwartek, 4 czerwca 2026 piątek, 5 czerwca 2026 sobota, 6 czerwca 2026 niedziela, 7 czerwca 2026" [ref=e79]:
+                  - gridcell "poniedziałek, 1 czerwca 2026" [ref=e80]:
+                    - button "poniedziałek, 1 czerwca 2026" [disabled] [ref=e81]: "1"
+                  - gridcell "wtorek, 2 czerwca 2026" [ref=e82]:
+                    - button "wtorek, 2 czerwca 2026" [disabled] [ref=e83]: "2"
+                  - gridcell "środa, 3 czerwca 2026" [ref=e84]:
+                    - button "środa, 3 czerwca 2026" [disabled] [ref=e85]: "3"
+                  - gridcell "czwartek, 4 czerwca 2026" [ref=e86]:
+                    - button "czwartek, 4 czerwca 2026" [disabled] [ref=e87]: "4"
+                  - gridcell "piątek, 5 czerwca 2026" [ref=e88]:
+                    - button "piątek, 5 czerwca 2026" [disabled] [ref=e89]: "5"
+                  - gridcell "sobota, 6 czerwca 2026" [ref=e90]:
+                    - button "sobota, 6 czerwca 2026" [disabled] [ref=e91]: "6"
+                  - gridcell "niedziela, 7 czerwca 2026" [ref=e92]:
+                    - button "niedziela, 7 czerwca 2026" [disabled] [ref=e93]: "7"
+                - row "poniedziałek, 8 czerwca 2026 wtorek, 9 czerwca 2026 środa, 10 czerwca 2026 Today, czwartek, 11 czerwca 2026 piątek, 12 czerwca 2026 sobota, 13 czerwca 2026 niedziela, 14 czerwca 2026" [ref=e94]:
+                  - gridcell "poniedziałek, 8 czerwca 2026" [ref=e95]:
+                    - button "poniedziałek, 8 czerwca 2026" [disabled] [ref=e96]: "8"
+                  - gridcell "wtorek, 9 czerwca 2026" [ref=e97]:
+                    - button "wtorek, 9 czerwca 2026" [disabled] [ref=e98]: "9"
+                  - gridcell "środa, 10 czerwca 2026" [ref=e99]:
+                    - button "środa, 10 czerwca 2026" [disabled] [ref=e100]: "10"
+                  - gridcell "Today, czwartek, 11 czerwca 2026" [ref=e101]:
+                    - button "Today, czwartek, 11 czerwca 2026" [ref=e102] [cursor=pointer]: "11"
+                  - gridcell "piątek, 12 czerwca 2026" [ref=e103]:
+                    - button "piątek, 12 czerwca 2026" [disabled] [ref=e104]: "12"
+                  - gridcell "sobota, 13 czerwca 2026" [ref=e105]:
+                    - button "sobota, 13 czerwca 2026" [ref=e106] [cursor=pointer]: "13"
+                  - gridcell "niedziela, 14 czerwca 2026" [ref=e107]:
+                    - button "niedziela, 14 czerwca 2026" [ref=e108] [cursor=pointer]: "14"
+                - row "poniedziałek, 15 czerwca 2026 wtorek, 16 czerwca 2026 środa, 17 czerwca 2026 czwartek, 18 czerwca 2026 piątek, 19 czerwca 2026 sobota, 20 czerwca 2026 niedziela, 21 czerwca 2026" [ref=e109]:
+                  - gridcell "poniedziałek, 15 czerwca 2026" [ref=e110]:
+                    - button "poniedziałek, 15 czerwca 2026" [ref=e111] [cursor=pointer]: "15"
+                  - gridcell "wtorek, 16 czerwca 2026" [ref=e112]:
+                    - button "wtorek, 16 czerwca 2026" [ref=e113] [cursor=pointer]: "16"
+                  - gridcell "środa, 17 czerwca 2026" [ref=e114]:
+                    - button "środa, 17 czerwca 2026" [disabled] [ref=e115]: "17"
+                  - gridcell "czwartek, 18 czerwca 2026" [ref=e116]:
+                    - button "czwartek, 18 czerwca 2026" [disabled] [ref=e117]: "18"
+                  - gridcell "piątek, 19 czerwca 2026" [ref=e118]:
+                    - button "piątek, 19 czerwca 2026" [ref=e119] [cursor=pointer]: "19"
+                  - gridcell "sobota, 20 czerwca 2026" [ref=e120]:
+                    - button "sobota, 20 czerwca 2026" [ref=e121] [cursor=pointer]: "20"
+                  - gridcell "niedziela, 21 czerwca 2026" [ref=e122]:
+                    - button "niedziela, 21 czerwca 2026" [ref=e123] [cursor=pointer]: "21"
+                - row "poniedziałek, 22 czerwca 2026 wtorek, 23 czerwca 2026 środa, 24 czerwca 2026 czwartek, 25 czerwca 2026 piątek, 26 czerwca 2026 sobota, 27 czerwca 2026 niedziela, 28 czerwca 2026" [ref=e124]:
+                  - gridcell "poniedziałek, 22 czerwca 2026" [ref=e125]:
+                    - button "poniedziałek, 22 czerwca 2026" [ref=e126] [cursor=pointer]: "22"
+                  - gridcell "wtorek, 23 czerwca 2026" [ref=e127]:
+                    - button "wtorek, 23 czerwca 2026" [ref=e128] [cursor=pointer]: "23"
+                  - gridcell "środa, 24 czerwca 2026" [ref=e129]:
+                    - button "środa, 24 czerwca 2026" [ref=e130] [cursor=pointer]: "24"
+                  - gridcell "czwartek, 25 czerwca 2026" [ref=e131]:
+                    - button "czwartek, 25 czerwca 2026" [ref=e132] [cursor=pointer]: "25"
+                  - gridcell "piątek, 26 czerwca 2026" [ref=e133]:
+                    - button "piątek, 26 czerwca 2026" [ref=e134] [cursor=pointer]: "26"
+                  - gridcell "sobota, 27 czerwca 2026" [ref=e135]:
+                    - button "sobota, 27 czerwca 2026" [ref=e136] [cursor=pointer]: "27"
+                  - gridcell "niedziela, 28 czerwca 2026" [ref=e137]:
+                    - button "niedziela, 28 czerwca 2026" [ref=e138] [cursor=pointer]: "28"
+                - row "poniedziałek, 29 czerwca 2026 wtorek, 30 czerwca 2026" [ref=e139]:
+                  - gridcell "poniedziałek, 29 czerwca 2026" [ref=e140]:
+                    - button "poniedziałek, 29 czerwca 2026" [ref=e141] [cursor=pointer]: "29"
+                  - gridcell "wtorek, 30 czerwca 2026" [ref=e142]:
+                    - button "wtorek, 30 czerwca 2026" [ref=e143] [cursor=pointer]: "30"
+          - generic [ref=e144]:
+            - status [ref=e146]: lipiec 2026
+            - grid "lipiec 2026" [ref=e147]:
+              - rowgroup [ref=e148]:
+                - row [ref=e149]:
+                  - columnheader [ref=e150]: pon
+                  - columnheader [ref=e151]: wto
+                  - columnheader [ref=e152]: śro
+                  - columnheader [ref=e153]: czw
+                  - columnheader [ref=e154]: pią
+                  - columnheader [ref=e155]: sob
+                  - columnheader [ref=e156]: nie
+              - rowgroup [ref=e157]:
+                - row "środa, 1 lipca 2026 czwartek, 2 lipca 2026 piątek, 3 lipca 2026 sobota, 4 lipca 2026 niedziela, 5 lipca 2026" [ref=e158]:
+                  - gridcell "środa, 1 lipca 2026" [ref=e159]:
+                    - button "środa, 1 lipca 2026" [disabled] [ref=e160]: "1"
+                  - gridcell "czwartek, 2 lipca 2026" [ref=e161]:
+                    - button "czwartek, 2 lipca 2026" [disabled] [ref=e162]: "2"
+                  - gridcell "piątek, 3 lipca 2026" [ref=e163]:
+                    - button "piątek, 3 lipca 2026" [disabled] [ref=e164]: "3"
+                  - gridcell "sobota, 4 lipca 2026" [ref=e165]:
+                    - button "sobota, 4 lipca 2026" [ref=e166] [cursor=pointer]: "4"
+                  - gridcell "niedziela, 5 lipca 2026" [ref=e167]:
+                    - button "niedziela, 5 lipca 2026" [ref=e168] [cursor=pointer]: "5"
+                - row "poniedziałek, 6 lipca 2026 wtorek, 7 lipca 2026 środa, 8 lipca 2026 czwartek, 9 lipca 2026 piątek, 10 lipca 2026 sobota, 11 lipca 2026 niedziela, 12 lipca 2026" [ref=e169]:
+                  - gridcell "poniedziałek, 6 lipca 2026" [ref=e170]:
+                    - button "poniedziałek, 6 lipca 2026" [ref=e171] [cursor=pointer]: "6"
+                  - gridcell "wtorek, 7 lipca 2026" [ref=e172]:
+                    - button "wtorek, 7 lipca 2026" [ref=e173] [cursor=pointer]: "7"
+                  - gridcell "środa, 8 lipca 2026" [ref=e174]:
+                    - button "środa, 8 lipca 2026" [ref=e175] [cursor=pointer]: "8"
+                  - gridcell "czwartek, 9 lipca 2026" [ref=e176]:
+                    - button "czwartek, 9 lipca 2026" [ref=e177] [cursor=pointer]: "9"
+                  - gridcell "piątek, 10 lipca 2026" [ref=e178]:
+                    - button "piątek, 10 lipca 2026" [ref=e179] [cursor=pointer]: "10"
+                  - gridcell "sobota, 11 lipca 2026" [ref=e180]:
+                    - button "sobota, 11 lipca 2026" [ref=e181] [cursor=pointer]: "11"
+                  - gridcell "niedziela, 12 lipca 2026" [ref=e182]:
+                    - button "niedziela, 12 lipca 2026" [ref=e183] [cursor=pointer]: "12"
+                - row "poniedziałek, 13 lipca 2026 wtorek, 14 lipca 2026 środa, 15 lipca 2026 czwartek, 16 lipca 2026 piątek, 17 lipca 2026 sobota, 18 lipca 2026 niedziela, 19 lipca 2026" [ref=e184]:
+                  - gridcell "poniedziałek, 13 lipca 2026" [ref=e185]:
+                    - button "poniedziałek, 13 lipca 2026" [ref=e186] [cursor=pointer]: "13"
+                  - gridcell "wtorek, 14 lipca 2026" [ref=e187]:
+                    - button "wtorek, 14 lipca 2026" [ref=e188] [cursor=pointer]: "14"
+                  - gridcell "środa, 15 lipca 2026" [ref=e189]:
+                    - button "środa, 15 lipca 2026" [ref=e190] [cursor=pointer]: "15"
+                  - gridcell "czwartek, 16 lipca 2026" [ref=e191]:
+                    - button "czwartek, 16 lipca 2026" [ref=e192] [cursor=pointer]: "16"
+                  - gridcell "piątek, 17 lipca 2026" [ref=e193]:
+                    - button "piątek, 17 lipca 2026" [ref=e194] [cursor=pointer]: "17"
+                  - gridcell "sobota, 18 lipca 2026" [ref=e195]:
+                    - button "sobota, 18 lipca 2026" [ref=e196] [cursor=pointer]: "18"
+                  - gridcell "niedziela, 19 lipca 2026" [ref=e197]:
+                    - button "niedziela, 19 lipca 2026" [ref=e198] [cursor=pointer]: "19"
+                - row "poniedziałek, 20 lipca 2026 wtorek, 21 lipca 2026 środa, 22 lipca 2026 czwartek, 23 lipca 2026 piątek, 24 lipca 2026 sobota, 25 lipca 2026 niedziela, 26 lipca 2026" [ref=e199]:
+                  - gridcell "poniedziałek, 20 lipca 2026" [ref=e200]:
+                    - button "poniedziałek, 20 lipca 2026" [ref=e201] [cursor=pointer]: "20"
+                  - gridcell "wtorek, 21 lipca 2026" [ref=e202]:
+                    - button "wtorek, 21 lipca 2026" [ref=e203] [cursor=pointer]: "21"
+                  - gridcell "środa, 22 lipca 2026" [ref=e204]:
+                    - button "środa, 22 lipca 2026" [ref=e205] [cursor=pointer]: "22"
+                  - gridcell "czwartek, 23 lipca 2026" [ref=e206]:
+                    - button "czwartek, 23 lipca 2026" [ref=e207] [cursor=pointer]: "23"
+                  - gridcell "piątek, 24 lipca 2026" [ref=e208]:
+                    - button "piątek, 24 lipca 2026" [ref=e209] [cursor=pointer]: "24"
+                  - gridcell "sobota, 25 lipca 2026" [ref=e210]:
+                    - button "sobota, 25 lipca 2026" [ref=e211] [cursor=pointer]: "25"
+                  - gridcell "niedziela, 26 lipca 2026" [ref=e212]:
+                    - button "niedziela, 26 lipca 2026" [ref=e213] [cursor=pointer]: "26"
+                - row "poniedziałek, 27 lipca 2026 wtorek, 28 lipca 2026 środa, 29 lipca 2026 czwartek, 30 lipca 2026 piątek, 31 lipca 2026" [ref=e214]:
+                  - gridcell "poniedziałek, 27 lipca 2026" [ref=e215]:
+                    - button "poniedziałek, 27 lipca 2026" [ref=e216] [cursor=pointer]: "27"
+                  - gridcell "wtorek, 28 lipca 2026" [ref=e217]:
+                    - button "wtorek, 28 lipca 2026" [ref=e218] [cursor=pointer]: "28"
+                  - gridcell "środa, 29 lipca 2026" [ref=e219]:
+                    - button "środa, 29 lipca 2026" [ref=e220] [cursor=pointer]: "29"
+                  - gridcell "czwartek, 30 lipca 2026" [ref=e221]:
+                    - button "czwartek, 30 lipca 2026" [ref=e222] [cursor=pointer]: "30"
+                  - gridcell "piątek, 31 lipca 2026" [ref=e223]:
+                    - button "piątek, 31 lipca 2026" [ref=e224] [cursor=pointer]: "31"
+    - generic [ref=e226]:
+      - paragraph [ref=e227]: Czego inni szukają tygodniami
+      - heading "Tu już na to trafiłeś." [level=2] [ref=e228]
+      - paragraph [ref=e229]: To, co goście wymieniają najczęściej w pierwszej wiadomości po przyjeździe — i to, co po prostu jest, gdy tylko przekroczysz próg.
+      - generic [ref=e230]:
+        - generic [ref=e231]:
+          - generic [ref=e232]: "01"
+          - generic [ref=e233]: Cały dom (170 m²) do wyłącznej dyspozycji
+        - generic [ref=e234]:
+          - generic [ref=e235]: "02"
+          - generic [ref=e236]: 4 sypialnie i 2 łazienki dla 8 osób
+        - generic [ref=e237]:
+          - generic [ref=e238]: "03"
+          - generic [ref=e239]: Jacuzzi i sauna (2–3 godz. w prywatnych godzinach)
+      - paragraph [ref=e240]: — rzadkość w promieniu kilkudziesięciu kilometrów
+      - generic [ref=e241]:
+        - paragraph [ref=e242]: i jeszcze 5 rzeczy, o które nie musisz się martwić
+        - generic [ref=e243]:
+          - generic [ref=e244]:
+            - generic [ref=e245]: ✓
+            - generic [ref=e246]: W pełni wyposażona kuchnia ze zmywarką
+          - generic [ref=e247]:
+            - generic [ref=e248]: ✓
+            - generic [ref=e249]: Widok na ogród i rzekę
+          - generic [ref=e250]:
+            - generic [ref=e251]: ✓
+            - generic [ref=e252]: Szafy w sypialniach
+          - generic [ref=e253]:
+            - generic [ref=e254]: ✓
+            - generic [ref=e255]: Bezpłatne Wi-Fi
+          - generic [ref=e256]:
+            - generic [ref=e257]: ✓
+            - generic [ref=e258]: Bezpłatny prywatny parking
+    - generic [ref=e259]:
+      - generic [ref=e260]:
+        - paragraph [ref=e261]: Zajrzyj do środka
+        - heading "Galeria." [level=2] [ref=e262]
+      - generic [ref=e263]:
+        - 'button "Otwórz zdjęcie: Dom od frontu w ciągu dnia" [ref=e264]':
+          - img "Dom od frontu w ciągu dnia" [ref=e265]
+        - 'button "Otwórz zdjęcie: Dom z ukosa w ciągu dnia" [ref=e266]':
+          - img "Dom z ukosa w ciągu dnia" [ref=e267]
+        - 'button "Otwórz zdjęcie: Dom z boku w ciągu dnia" [ref=e268]':
+          - img "Dom z boku w ciągu dnia" [ref=e269]
+        - 'button "Otwórz zdjęcie: Dom z daleka, na tle wzgórz" [ref=e270]':
+          - img "Dom z daleka, na tle wzgórz" [ref=e271]
+        - 'button "Otwórz zdjęcie: Dom wśród zieleni i ogrodu" [ref=e272]':
+          - img "Dom wśród zieleni i ogrodu" [ref=e273]
+        - 'button "Otwórz zdjęcie: Taras z widokiem na dolinę" [ref=e274]':
+          - img "Taras z widokiem na dolinę" [ref=e275]
+        - 'button "Otwórz zdjęcie: Taras z kwiatami w ciągu dnia" [ref=e276]':
+          - img "Taras z kwiatami w ciągu dnia" [ref=e277]
+        - 'button "Otwórz zdjęcie: Zadaszona altana z grillem" [ref=e278]':
+          - img "Zadaszona altana z grillem" [ref=e279]
+        - 'button "Otwórz zdjęcie: Jacuzzi z telewizorem" [ref=e280]':
+          - img "Jacuzzi z telewizorem" [ref=e281]
+        - 'button "Otwórz zdjęcie: Jacuzzi, inne ujęcie" [ref=e282]':
+          - img "Jacuzzi, inne ujęcie" [ref=e283]
+        - 'button "Otwórz zdjęcie: Salon z drewnianymi schodami i kominkiem" [ref=e284]':
+          - img "Salon z drewnianymi schodami i kominkiem" [ref=e285]
+        - 'button "Otwórz zdjęcie: Salon, inne ujęcie" [ref=e286]':
+          - img "Salon, inne ujęcie" [ref=e287]
+        - 'button "Otwórz zdjęcie: Salon, widok z innej strony" [ref=e288]':
+          - img "Salon, widok z innej strony" [ref=e289]
+        - 'button "Otwórz zdjęcie: Salon ze schodami na piętro" [ref=e290]':
+          - img "Salon ze schodami na piętro" [ref=e291]
+        - 'button "Otwórz zdjęcie: W pełni wyposażona kuchnia" [ref=e292]':
+          - img "W pełni wyposażona kuchnia" [ref=e293]
+        - 'button "Otwórz zdjęcie: Kuchnia, inne ujęcie" [ref=e294]':
+          - img "Kuchnia, inne ujęcie" [ref=e295]
+        - 'button "Otwórz zdjęcie: Sypialnia z łóżkiem podwójnym" [ref=e296]':
+          - img "Sypialnia z łóżkiem podwójnym" [ref=e297]
+        - 'button "Otwórz zdjęcie: Sypialnia z łóżkiem podwójnym" [ref=e298]':
+          - img "Sypialnia z łóżkiem podwójnym" [ref=e299]
+        - 'button "Otwórz zdjęcie: Sypialnia z dwoma łóżkami pojedynczymi" [ref=e300]':
+          - img "Sypialnia z dwoma łóżkami pojedynczymi" [ref=e301]
+        - 'button "Otwórz zdjęcie: Sypialnia z dwoma łóżkami pojedynczymi" [ref=e302]':
+          - img "Sypialnia z dwoma łóżkami pojedynczymi" [ref=e303]
+        - 'button "Otwórz zdjęcie: Taras wieczorem" [ref=e304]':
+          - img "Taras wieczorem" [ref=e305]
+        - 'button "Otwórz zdjęcie: Jacuzzi wieczorem" [ref=e306]':
+          - img "Jacuzzi wieczorem" [ref=e307]
+        - 'button "Otwórz zdjęcie: Jacuzzi wieczorem, inne ujęcie" [ref=e308]':
+          - img "Jacuzzi wieczorem, inne ujęcie" [ref=e309]
+        - 'button "Otwórz zdjęcie: Dom od frontu nocą" [ref=e310]':
+          - img "Dom od frontu nocą" [ref=e311]
+        - 'button "Otwórz zdjęcie: Dom z boku nocą" [ref=e312]':
+          - img "Dom z boku nocą" [ref=e313]
+        - 'button "Otwórz zdjęcie: Dom z ukosa nocą" [ref=e314]':
+          - img "Dom z ukosa nocą" [ref=e315]
+        - 'button "Otwórz zdjęcie: Dom wiosną" [ref=e316]':
+          - img "Dom wiosną" [ref=e317]
+        - 'button "Otwórz zdjęcie: Dom z boku zimą" [ref=e318]':
+          - img "Dom z boku zimą" [ref=e319]
+        - 'button "Otwórz zdjęcie: Dom z ukosa zimą" [ref=e320]':
+          - img "Dom z ukosa zimą" [ref=e321]
+        - 'button "Otwórz zdjęcie: Dom zimą, widok z daleka" [ref=e322]':
+          - img "Dom zimą, widok z daleka" [ref=e323]
+    - generic [ref=e325]:
+      - generic [ref=e326]:
+        - generic [ref=e327]:
+          - paragraph [ref=e328]: Gdzie jesteś
+          - heading "Dolina Dunajca, Małopolska." [level=2] [ref=e329]:
+            - text: Dolina Dunajca,
+            - emphasis [ref=e330]: Małopolska.
+          - paragraph [ref=e331]: Dom stoi na wzgórzu nad Doliną Dunajca, pod adresem Zawada Lanckorońska 101, 32-840 Zakliczyn — kilka minut od Zakliczynia. Cisza, zieleń i widok na rzekę, a mimo to blisko wszystkiego, co warto zobaczyć w Małopolsce.
+        - link "Wyznacz trasę w Google Maps" [ref=e334] [cursor=pointer]:
+          - /url: https://www.google.com/maps/dir/?api=1&destination=49.8636,20.5205
+          - text: Wyznacz trasę w Google Maps
+          - img [ref=e335]
+      - generic [ref=e337]:
+        - paragraph [ref=e338]: Odległości
+        - list [ref=e339]:
+          - listitem [ref=e340]:
+            - generic [ref=e341]: Zakliczyn
+            - generic [ref=e342]: 8 km
+          - listitem [ref=e343]:
+            - generic [ref=e344]: Zamek Wiśnicz
+            - generic [ref=e345]: 30 km
+          - listitem [ref=e346]:
+            - generic [ref=e347]: Kopalnia Soli Bochnia
+            - generic [ref=e348]: 39 km
+          - listitem [ref=e349]:
+            - generic [ref=e350]: Tarnów
+            - generic [ref=e351]: 40 km
+          - listitem [ref=e352]:
+            - generic [ref=e353]: Kraków
+            - generic [ref=e354]: 90 km
+          - listitem [ref=e355]:
+            - generic [ref=e356]: Lotnisko KRK
+            - generic [ref=e357]: 93 km
+    - generic [ref=e359]:
+      - paragraph [ref=e360]: Opinie gości
+      - paragraph [ref=e361]:
+        - strong [ref=e362]: "9.7"
+        - text: · 78 opinii na Booking.com
+      - blockquote [ref=e363]:
+        - generic [ref=e364]:
+          - generic [ref=e365]: ★
+          - generic [ref=e366]: ★
+          - generic [ref=e367]: ★
+          - generic [ref=e368]: ★
+          - generic [ref=e369]: ★
+        - paragraph [ref=e370]: “Domek pachnie świeżym drewnem, a kominek robi robotę każdego wieczoru. Sauna po całym dniu na szlaku to było coś.”
+        - paragraph [ref=e373]: Tomek W. · Poznań · Booking.com ✓
+      - generic [ref=e374]:
+        - generic [ref=e375]:
+          - paragraph [ref=e376]: “Cztery sypialnie to był strzał w dziesiątkę dla naszych dwóch rodzin. Każdy miał swoją przestrzeń, a wieczorami spotykaliśmy się przy ognisku.”
+          - paragraph [ref=e377]: Rodzina Nowaków · Gdańsk · sierpień 2025
+        - generic [ref=e378]:
+          - paragraph [ref=e379]: “Wszystko dokładnie umówione, klucze, wskazówki, kontakt — zero stresu. A widok z jacuzzi wynagradza każdą długą podróż.”
+          - paragraph [ref=e380]: Joanna i Marcin · Łódź · czerwiec 2025
+    - generic [ref=e382]:
+      - paragraph [ref=e383]: Zarezerwuj pobyt
+      - heading "Znajdź swój termin." [level=2] [ref=e384]:
+        - text: Znajdź swój
+        - emphasis [ref=e385]: termin.
+      - generic [ref=e386]:
+        - generic [ref=e390]:
+          - navigation "Navigation bar" [ref=e391]:
+            - button "Go to the Previous Month" [disabled] [ref=e392]:
+              - img [ref=e393]
+            - button "Go to the Next Month" [ref=e395] [cursor=pointer]:
+              - img [ref=e396]
+          - generic [ref=e398]:
+            - status [ref=e400]: czerwiec 2026
+            - grid "czerwiec 2026" [ref=e401]:
+              - rowgroup [ref=e402]:
+                - row [ref=e403]:
+                  - columnheader [ref=e404]: pon
+                  - columnheader [ref=e405]: wto
+                  - columnheader [ref=e406]: śro
+                  - columnheader [ref=e407]: czw
+                  - columnheader [ref=e408]: pią
+                  - columnheader [ref=e409]: sob
+                  - columnheader [ref=e410]: nie
+              - rowgroup [ref=e411]:
+                - row "poniedziałek, 1 czerwca 2026 wtorek, 2 czerwca 2026 środa, 3 czerwca 2026 czwartek, 4 czerwca 2026 piątek, 5 czerwca 2026 sobota, 6 czerwca 2026 niedziela, 7 czerwca 2026" [ref=e412]:
+                  - gridcell "poniedziałek, 1 czerwca 2026" [ref=e413]:
+                    - button "poniedziałek, 1 czerwca 2026" [disabled] [ref=e414]: "1"
+                  - gridcell "wtorek, 2 czerwca 2026" [ref=e415]:
+                    - button "wtorek, 2 czerwca 2026" [disabled] [ref=e416]: "2"
+                  - gridcell "środa, 3 czerwca 2026" [ref=e417]:
+                    - button "środa, 3 czerwca 2026" [disabled] [ref=e418]: "3"
+                  - gridcell "czwartek, 4 czerwca 2026" [ref=e419]:
+                    - button "czwartek, 4 czerwca 2026" [disabled] [ref=e420]: "4"
+                  - gridcell "piątek, 5 czerwca 2026" [ref=e421]:
+                    - button "piątek, 5 czerwca 2026" [disabled] [ref=e422]: "5"
+                  - gridcell "sobota, 6 czerwca 2026" [ref=e423]:
+                    - button "sobota, 6 czerwca 2026" [disabled] [ref=e424]: "6"
+                  - gridcell "niedziela, 7 czerwca 2026" [ref=e425]:
+                    - button "niedziela, 7 czerwca 2026" [disabled] [ref=e426]: "7"
+                - row "poniedziałek, 8 czerwca 2026 wtorek, 9 czerwca 2026 środa, 10 czerwca 2026 Today, czwartek, 11 czerwca 2026 piątek, 12 czerwca 2026 sobota, 13 czerwca 2026 niedziela, 14 czerwca 2026" [ref=e427]:
+                  - gridcell "poniedziałek, 8 czerwca 2026" [ref=e428]:
+                    - button "poniedziałek, 8 czerwca 2026" [disabled] [ref=e429]: "8"
+                  - gridcell "wtorek, 9 czerwca 2026" [ref=e430]:
+                    - button "wtorek, 9 czerwca 2026" [disabled] [ref=e431]: "9"
+                  - gridcell "środa, 10 czerwca 2026" [ref=e432]:
+                    - button "środa, 10 czerwca 2026" [disabled] [ref=e433]: "10"
+                  - gridcell "Today, czwartek, 11 czerwca 2026" [ref=e434]:
+                    - button "Today, czwartek, 11 czerwca 2026" [ref=e435] [cursor=pointer]: "11"
+                  - gridcell "piątek, 12 czerwca 2026" [ref=e436]:
+                    - button "piątek, 12 czerwca 2026" [disabled] [ref=e437]: "12"
+                  - gridcell "sobota, 13 czerwca 2026" [ref=e438]:
+                    - button "sobota, 13 czerwca 2026" [ref=e439] [cursor=pointer]: "13"
+                  - gridcell "niedziela, 14 czerwca 2026" [ref=e440]:
+                    - button "niedziela, 14 czerwca 2026" [ref=e441] [cursor=pointer]: "14"
+                - row "poniedziałek, 15 czerwca 2026 wtorek, 16 czerwca 2026 środa, 17 czerwca 2026 czwartek, 18 czerwca 2026 piątek, 19 czerwca 2026 sobota, 20 czerwca 2026 niedziela, 21 czerwca 2026" [ref=e442]:
+                  - gridcell "poniedziałek, 15 czerwca 2026" [ref=e443]:
+                    - button "poniedziałek, 15 czerwca 2026" [ref=e444] [cursor=pointer]: "15"
+                  - gridcell "wtorek, 16 czerwca 2026" [ref=e445]:
+                    - button "wtorek, 16 czerwca 2026" [ref=e446] [cursor=pointer]: "16"
+                  - gridcell "środa, 17 czerwca 2026" [ref=e447]:
+                    - button "środa, 17 czerwca 2026" [disabled] [ref=e448]: "17"
+                  - gridcell "czwartek, 18 czerwca 2026" [ref=e449]:
+                    - button "czwartek, 18 czerwca 2026" [disabled] [ref=e450]: "18"
+                  - gridcell "piątek, 19 czerwca 2026" [ref=e451]:
+                    - button "piątek, 19 czerwca 2026" [ref=e452] [cursor=pointer]: "19"
+                  - gridcell "sobota, 20 czerwca 2026" [ref=e453]:
+                    - button "sobota, 20 czerwca 2026" [ref=e454] [cursor=pointer]: "20"
+                  - gridcell "niedziela, 21 czerwca 2026" [ref=e455]:
+                    - button "niedziela, 21 czerwca 2026" [ref=e456] [cursor=pointer]: "21"
+                - row "poniedziałek, 22 czerwca 2026 wtorek, 23 czerwca 2026 środa, 24 czerwca 2026 czwartek, 25 czerwca 2026 piątek, 26 czerwca 2026 sobota, 27 czerwca 2026 niedziela, 28 czerwca 2026" [ref=e457]:
+                  - gridcell "poniedziałek, 22 czerwca 2026" [ref=e458]:
+                    - button "poniedziałek, 22 czerwca 2026" [ref=e459] [cursor=pointer]: "22"
+                  - gridcell "wtorek, 23 czerwca 2026" [ref=e460]:
+                    - button "wtorek, 23 czerwca 2026" [ref=e461] [cursor=pointer]: "23"
+                  - gridcell "środa, 24 czerwca 2026" [ref=e462]:
+                    - button "środa, 24 czerwca 2026" [ref=e463] [cursor=pointer]: "24"
+                  - gridcell "czwartek, 25 czerwca 2026" [ref=e464]:
+                    - button "czwartek, 25 czerwca 2026" [ref=e465] [cursor=pointer]: "25"
+                  - gridcell "piątek, 26 czerwca 2026" [ref=e466]:
+                    - button "piątek, 26 czerwca 2026" [ref=e467] [cursor=pointer]: "26"
+                  - gridcell "sobota, 27 czerwca 2026" [ref=e468]:
+                    - button "sobota, 27 czerwca 2026" [ref=e469] [cursor=pointer]: "27"
+                  - gridcell "niedziela, 28 czerwca 2026" [ref=e470]:
+                    - button "niedziela, 28 czerwca 2026" [ref=e471] [cursor=pointer]: "28"
+                - row "poniedziałek, 29 czerwca 2026 wtorek, 30 czerwca 2026" [ref=e472]:
+                  - gridcell "poniedziałek, 29 czerwca 2026" [ref=e473]:
+                    - button "poniedziałek, 29 czerwca 2026" [ref=e474] [cursor=pointer]: "29"
+                  - gridcell "wtorek, 30 czerwca 2026" [ref=e475]:
+                    - button "wtorek, 30 czerwca 2026" [ref=e476] [cursor=pointer]: "30"
+          - generic [ref=e477]:
+            - status [ref=e479]: lipiec 2026
+            - grid "lipiec 2026" [ref=e480]:
+              - rowgroup [ref=e481]:
+                - row [ref=e482]:
+                  - columnheader [ref=e483]: pon
+                  - columnheader [ref=e484]: wto
+                  - columnheader [ref=e485]: śro
+                  - columnheader [ref=e486]: czw
+                  - columnheader [ref=e487]: pią
+                  - columnheader [ref=e488]: sob
+                  - columnheader [ref=e489]: nie
+              - rowgroup [ref=e490]:
+                - row "środa, 1 lipca 2026 czwartek, 2 lipca 2026 piątek, 3 lipca 2026 sobota, 4 lipca 2026 niedziela, 5 lipca 2026" [ref=e491]:
+                  - gridcell "środa, 1 lipca 2026" [ref=e492]:
+                    - button "środa, 1 lipca 2026" [disabled] [ref=e493]: "1"
+                  - gridcell "czwartek, 2 lipca 2026" [ref=e494]:
+                    - button "czwartek, 2 lipca 2026" [disabled] [ref=e495]: "2"
+                  - gridcell "piątek, 3 lipca 2026" [ref=e496]:
+                    - button "piątek, 3 lipca 2026" [disabled] [ref=e497]: "3"
+                  - gridcell "sobota, 4 lipca 2026" [ref=e498]:
+                    - button "sobota, 4 lipca 2026" [ref=e499] [cursor=pointer]: "4"
+                  - gridcell "niedziela, 5 lipca 2026" [ref=e500]:
+                    - button "niedziela, 5 lipca 2026" [ref=e501] [cursor=pointer]: "5"
+                - row "poniedziałek, 6 lipca 2026 wtorek, 7 lipca 2026 środa, 8 lipca 2026 czwartek, 9 lipca 2026 piątek, 10 lipca 2026 sobota, 11 lipca 2026 niedziela, 12 lipca 2026" [ref=e502]:
+                  - gridcell "poniedziałek, 6 lipca 2026" [ref=e503]:
+                    - button "poniedziałek, 6 lipca 2026" [ref=e504] [cursor=pointer]: "6"
+                  - gridcell "wtorek, 7 lipca 2026" [ref=e505]:
+                    - button "wtorek, 7 lipca 2026" [ref=e506] [cursor=pointer]: "7"
+                  - gridcell "środa, 8 lipca 2026" [ref=e507]:
+                    - button "środa, 8 lipca 2026" [ref=e508] [cursor=pointer]: "8"
+                  - gridcell "czwartek, 9 lipca 2026" [ref=e509]:
+                    - button "czwartek, 9 lipca 2026" [ref=e510] [cursor=pointer]: "9"
+                  - gridcell "piątek, 10 lipca 2026" [ref=e511]:
+                    - button "piątek, 10 lipca 2026" [ref=e512] [cursor=pointer]: "10"
+                  - gridcell "sobota, 11 lipca 2026" [ref=e513]:
+                    - button "sobota, 11 lipca 2026" [ref=e514] [cursor=pointer]: "11"
+                  - gridcell "niedziela, 12 lipca 2026" [ref=e515]:
+                    - button "niedziela, 12 lipca 2026" [ref=e516] [cursor=pointer]: "12"
+                - row "poniedziałek, 13 lipca 2026 wtorek, 14 lipca 2026 środa, 15 lipca 2026 czwartek, 16 lipca 2026 piątek, 17 lipca 2026 sobota, 18 lipca 2026 niedziela, 19 lipca 2026" [ref=e517]:
+                  - gridcell "poniedziałek, 13 lipca 2026" [ref=e518]:
+                    - button "poniedziałek, 13 lipca 2026" [ref=e519] [cursor=pointer]: "13"
+                  - gridcell "wtorek, 14 lipca 2026" [ref=e520]:
+                    - button "wtorek, 14 lipca 2026" [ref=e521] [cursor=pointer]: "14"
+                  - gridcell "środa, 15 lipca 2026" [ref=e522]:
+                    - button "środa, 15 lipca 2026" [ref=e523] [cursor=pointer]: "15"
+                  - gridcell "czwartek, 16 lipca 2026" [ref=e524]:
+                    - button "czwartek, 16 lipca 2026" [ref=e525] [cursor=pointer]: "16"
+                  - gridcell "piątek, 17 lipca 2026" [ref=e526]:
+                    - button "piątek, 17 lipca 2026" [ref=e527] [cursor=pointer]: "17"
+                  - gridcell "sobota, 18 lipca 2026" [ref=e528]:
+                    - button "sobota, 18 lipca 2026" [ref=e529] [cursor=pointer]: "18"
+                  - gridcell "niedziela, 19 lipca 2026" [ref=e530]:
+                    - button "niedziela, 19 lipca 2026" [ref=e531] [cursor=pointer]: "19"
+                - row "poniedziałek, 20 lipca 2026 wtorek, 21 lipca 2026 środa, 22 lipca 2026 czwartek, 23 lipca 2026 piątek, 24 lipca 2026 sobota, 25 lipca 2026 niedziela, 26 lipca 2026" [ref=e532]:
+                  - gridcell "poniedziałek, 20 lipca 2026" [ref=e533]:
+                    - button "poniedziałek, 20 lipca 2026" [ref=e534] [cursor=pointer]: "20"
+                  - gridcell "wtorek, 21 lipca 2026" [ref=e535]:
+                    - button "wtorek, 21 lipca 2026" [ref=e536] [cursor=pointer]: "21"
+                  - gridcell "środa, 22 lipca 2026" [ref=e537]:
+                    - button "środa, 22 lipca 2026" [ref=e538] [cursor=pointer]: "22"
+                  - gridcell "czwartek, 23 lipca 2026" [ref=e539]:
+                    - button "czwartek, 23 lipca 2026" [ref=e540] [cursor=pointer]: "23"
+                  - gridcell "piątek, 24 lipca 2026" [ref=e541]:
+                    - button "piątek, 24 lipca 2026" [ref=e542] [cursor=pointer]: "24"
+                  - gridcell "sobota, 25 lipca 2026" [ref=e543]:
+                    - button "sobota, 25 lipca 2026" [ref=e544] [cursor=pointer]: "25"
+                  - gridcell "niedziela, 26 lipca 2026" [ref=e545]:
+                    - button "niedziela, 26 lipca 2026" [ref=e546] [cursor=pointer]: "26"
+                - row "poniedziałek, 27 lipca 2026 wtorek, 28 lipca 2026 środa, 29 lipca 2026 czwartek, 30 lipca 2026 piątek, 31 lipca 2026" [ref=e547]:
+                  - gridcell "poniedziałek, 27 lipca 2026" [ref=e548]:
+                    - button "poniedziałek, 27 lipca 2026" [ref=e549] [cursor=pointer]: "27"
+                  - gridcell "wtorek, 28 lipca 2026" [ref=e550]:
+                    - button "wtorek, 28 lipca 2026" [ref=e551] [cursor=pointer]: "28"
+                  - gridcell "środa, 29 lipca 2026" [ref=e552]:
+                    - button "środa, 29 lipca 2026" [ref=e553] [cursor=pointer]: "29"
+                  - gridcell "czwartek, 30 lipca 2026" [ref=e554]:
+                    - button "czwartek, 30 lipca 2026" [ref=e555] [cursor=pointer]: "30"
+                  - gridcell "piątek, 31 lipca 2026" [ref=e556]:
+                    - button "piątek, 31 lipca 2026" [ref=e557] [cursor=pointer]: "31"
+        - generic [ref=e558]:
+          - paragraph [ref=e559]: Ciepło drewna, miejsce dla całej grupy.
+          - paragraph [ref=e560]: Wybierz daty w kalendarzu, aby przejść dalej.
+          - button "Zarezerwuj ten domek" [ref=e561] [cursor=pointer]: Zarezerwuj ten domek
+      - paragraph [ref=e563]:
+        - text: Masz pytania?
+        - link "kontakt@domeknaddunajem.pl" [ref=e564] [cursor=pointer]:
+          - /url: mailto:kontakt@domeknaddunajem.pl
+  - contentinfo [ref=e565]:
+    - generic [ref=e566]:
+      - generic [ref=e567]:
+        - img "Malo Stay" [ref=e568]
+        - generic [ref=e569]:
+          - generic [ref=e570]:
+            - paragraph [ref=e571]: Nawigacja
+            - list [ref=e572]:
+              - listitem [ref=e573]:
+                - link "Domki" [ref=e574] [cursor=pointer]:
+                  - /url: "#domki"
+              - listitem [ref=e575]:
+                - link "Galeria" [ref=e576] [cursor=pointer]:
+                  - /url: "#galeria"
+              - listitem [ref=e577]:
+                - link "Rezerwacja" [ref=e578] [cursor=pointer]:
+                  - /url: "#kontakt"
+          - generic [ref=e579]:
+            - paragraph [ref=e580]: Informacje
+            - list [ref=e581]:
+              - listitem [ref=e582]:
+                - link "Polityka prywatności" [ref=e583] [cursor=pointer]:
+                  - /url: /polityka-prywatnosci
+              - listitem [ref=e584]:
+                - link "Kontakt" [ref=e585] [cursor=pointer]:
+                  - /url: "#kontakt"
+      - generic [ref=e586]:
+        - paragraph [ref=e587]: © 2025 Malo Stay · Domki w Małopolsce
+        - paragraph [ref=e588]: Nad Doliną Dunajca, Małopolska
+    - paragraph [ref=e589]: MALO STAY

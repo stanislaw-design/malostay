@@ -79,7 +79,10 @@
       "Bash(rm __tmp_query.mjs)",
       "Bash(ls __tmp_query.mjs)",
       "Bash(cd \"c:/Users/stani/Desktop/projects/domek-nad-dolina\" && rm -f platnosc-test*.png)",
-      "mcp__playwright__browser_resize"
+      "mcp__playwright__browser_resize",
+      "Skill(claude-api)",
+      "Skill(claude-api:*)",
+      "Bash(npm uninstall *)"
     ],
     "additionalDirectories": [
       "C:\\Users\\stani\\Desktop\\projects\\domek-nad-dolina"

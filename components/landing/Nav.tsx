@@ -14,7 +14,7 @@ const domkiList = [
   {
     slug: 'drewniany-domek',
     name: 'Drewniany Domek nad Doliną Dunajca',
-    imgSrc: '/drewniany-nad-dolina-dunajca/domek.webp',
+    imgSrc: '/drewniany-nad-dolina-dunajca/domek-front-dzien.webp',
   },
   {
     slug: 'dom-w-zawadzie-a',
@@ -31,7 +31,7 @@ const domkiList = [
   {
     slug: 'dom-na-wzgorzu',
     name: 'Dom na Borówkowym Wzgórzu',
-    imgSrc: '/domek4/dom-zewnatrz.webp',
+    imgSrc: '/domek-borowkowe-wzgorze/domek-front-dzien.webp',
   },
 ]
 
